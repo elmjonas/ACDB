@@ -1,4 +1,4 @@
-# The-Atmospheric-Cluster-Database(ACDB)
+# The Atmospheric Cluster Database(ACDB)
 
 The purpose of this database is to compile all existing atmospheric cluster structures and thermochemical data under one common methodology. 
 
