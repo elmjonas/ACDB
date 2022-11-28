@@ -1,6 +1,11 @@
 files:
+
 database.pkl = contains 3 lowest Gibbs free energy structures
+
+ACDC_NPF_rates.csv = ACDC simulation outputs
+
 properties.txt = contains standard binding properties of global minima
+
                  structure_name | dG(298.15K) | dH(298.15K) | dS(298.15K) 
 
 methods:
