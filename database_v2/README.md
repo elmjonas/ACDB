@@ -1,6 +1,6 @@
 files:
 
-database.pkl = contains 3 lowest Gibbs free energy structures
+database.pkl = contains 3 lowest (DFT) Gibbs free energy structures
 
 ACDC_NPF_rates.csv = ACDC simulation outputs
 
@@ -16,6 +16,15 @@ optimized geometry: wB97X-D/6-31++G(d,p) (Gaussian 16)
                     (wB97X-D 6-31++G(d,p) opt freq)
 SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ (ORCA 5)
                     (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) TightSCF RI-JK aug-cc-pVTZ/JK) 
+anharmonicity correction: 0.996
+low-vibrational freq. cutoff in QHA: 100 1/cm
+
+DLPNO_vtw16 
+-----------
+optimized geometry: wB97X-D/6-31++G(d,p) (Gaussian 16)
+                    (wB97X-D 6-31++G(d,p) opt freq)
+SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ (ORCA 4)
+                    (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) GRID4 nofinalgrid TightPNO TightSCF) 
 anharmonicity correction: 0.996
 low-vibrational freq. cutoff in QHA: 100 1/cm
 
