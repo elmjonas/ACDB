@@ -1,0 +1,10 @@
+COMMAND: JKQC database.pkl -extract SA2W2 -t
+COMMAND: JKQC database.pkl -extract sa2w2 -t
+COMMAND: JKQC database.pkl -extract sa2w2 -ct
+COMMAND: JKQC database.pkl -extract 2sa2w -ct
+COMMAND: JKQC database.pkl -extract 2sa2w -t
+COMMAND: JKQC database.pkl -extract 2sa2w -t -help
+COMMAND: JKQC database.pkl -extract 2sa2w -t
+COMMAND: JKQC database.pkl -extract 2sa2w -t
+COMMAND: JKQC database.pkl -extract 1w -t
+COMMAND: JKQC database.pkl -extract 2w -t

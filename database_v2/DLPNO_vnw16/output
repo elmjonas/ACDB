@@ -1,1 +1,13 @@
 COMMAND: JKQC Fomete23/database.pkl Kubecka23/database.pkl Kubecka23_SI-Xie/database.pkl KubeckaYYcs/database.pkl monomers/database.pkl -noexample -out database.pkl
+COMMAND: JKQC database.pkl -extract 4sa4dma -b -el -g
+COMMAND: JKQC database.pkl -extract 4sa4dma -b -el -g - sort el
+COMMAND: JKQC database.pkl -extract 4sa4dma -b -el -g -sort el
+COMMAND: JKQC database.pkl -extract 2sa2dma -b -el -g -sort el
+COMMAND: JKQC database.pkl -extract 2sa2dma -b -el -g -sort el -select 1
+COMMAND: JKQC database.pkl -extract 3sa3dma -b -el -g -sort el -select 1
+COMMAND: JKQC database.pkl -extract 4sa4dma -b -el -g -sort el -select 1
+COMMAND: JKQC database.pkl -extract 3sa3dma -b -el -g -sort g -select 1
+COMMAND: JKQC database.pkl -extract 3sa3dma -b -el -g -sort g -select 1 -lf
+COMMAND: JKQC database.pkl -extract 4sa4dma -b -el -g -sort g -select 1
+COMMAND: JKQC database.pkl -extract 4sa4dma -b -el -g -sort g -select 1 -lf
+COMMAND: JKQC database.pkl -extract 4sa4dma -b -el -g -sort g -select 1 -lf -pXYZ
