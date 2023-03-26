@@ -1,0 +1,23 @@
+COMMAND: JKQC -noexample -fc 100 -v 0.996 -sort gout -select 1 -out database.pkl
+COMMAND: JKQC 1na1am1ma-1.log 1na1am1ma-2.log 1na1am1ma-3.log 1na1am1ma-4.log 1na1am1ma-5.log 1na1am1ma-6.log 1na1am1ma-7.log 1na1am1ma-8.log -noexample -out database.pkl
+COMMAND: JKQC database.pkl -ct -gout
+COMMAND: JKQC 1nta1am1ma-1.log 1nta1am1ma-2.log 1nta1am1ma-3.log 1nta1am1ma-4.log 1nta1am1ma-5.log 1nta1am1ma-6.log 1nta1am1ma-7.log 1nta1am1ma-8.log -reacted -noexample -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/1nta1am1ma
+COMMAND: JKQC 1nta1am1ma-1.log 1nta1am1ma-2.log 1nta1am1ma-3.log 1nta1am1ma-4.log 1nta1am1ma-5.log 1nta1am1ma-6.log 1nta1am1ma-7.log 1nta1am1ma-8.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 8
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/1nta1am1ma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/1nta1am1ma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/1nta1am1ma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/1nta1am1ma
+COMMAND: JKQC 1nta1am1ma-1.log 1nta1am1ma-2.log 1nta1am1ma-3.log 1nta1am1ma-4.log 1nta1am1ma-5.log 1nta1am1ma-6.log 1nta1am1ma-7.log 1nta1am1ma-8.log -reacted -noexample -out database.pkl
+Number of files: 8
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/1nta1am1ma
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/1nta1am1ma
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/1nta1am1ma

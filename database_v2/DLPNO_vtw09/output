@@ -1,0 +1,9 @@
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/KubeckaPersonal
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/monomers
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/Myllys19r
+COMMAND: JKQC ACDB/database1DLPNO.pkl KubeckaPersonal/database1DLPNO.pkl monomers/database1DLPNO.pkl Myllys19r/database1DLPNO.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09

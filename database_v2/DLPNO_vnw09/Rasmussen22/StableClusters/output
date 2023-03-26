@@ -1,1 +1,21 @@
 COMMAND: JKQC 1sa1msa1dma.log 1sa1msa2dma.log 1sa1msa3dma.log 1sa2msa1dma.log 1sa2msa2dma.log 1sa2msa3dma.log 1sa3msa1dma.log 1sa3msa2dma.log 1sa3msa3dma.log 1sa3msa4dma.log 2sa1msa1dma.log 2sa1msa2dma.log 2sa1msa3dma.log 2sa2msa1dma.log 2sa2msa2dma.log 2sa2msa3dma.log 2sa2msa4dma.log 3sa1msa1dma.log 3sa1msa2dma.log 3sa1msa3dma.log 3sa1msa4dma.log -noexample -out database.pkl
+COMMAND: JKQC 1sa1msa1dma.log 1sa1msa2dma.log 1sa1msa3dma.log 1sa2msa1dma.log 1sa2msa2dma.log 1sa2msa3dma.log 1sa3msa1dma.log 1sa3msa2dma.log 1sa3msa3dma.log 1sa3msa4dma.log 2sa1msa1dma.log 2sa1msa2dma.log 2sa1msa3dma.log 2sa2msa1dma.log 2sa2msa2dma.log 2sa2msa3dma.log 2sa2msa4dma.log 3sa1msa1dma.log 3sa1msa2dma.log 3sa1msa3dma.log 3sa1msa4dma.log -reacted -noexample -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/StableClusters
+COMMAND: JKQC 1sa1msa1dma.log 1sa1msa2dma.log 1sa1msa3dma.log 1sa2msa1dma.log 1sa2msa2dma.log 1sa2msa3dma.log 1sa3msa1dma.log 1sa3msa2dma.log 1sa3msa3dma.log 1sa3msa4dma.log 2sa1msa1dma.log 2sa1msa2dma.log 2sa1msa3dma.log 2sa2msa1dma.log 2sa2msa2dma.log 2sa2msa3dma.log 2sa2msa4dma.log 3sa1msa1dma.log 3sa1msa2dma.log 3sa1msa3dma.log 3sa1msa4dma.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 21
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/StableClusters
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/StableClusters
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/StableClusters
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/StableClusters
+COMMAND: JKQC 1sa1msa1dma.log 1sa1msa2dma.log 1sa1msa3dma.log 1sa2msa1dma.log 1sa2msa2dma.log 1sa2msa3dma.log 1sa3msa1dma.log 1sa3msa2dma.log 1sa3msa3dma.log 1sa3msa4dma.log 2sa1msa1dma.log 2sa1msa2dma.log 2sa1msa3dma.log 2sa2msa1dma.log 2sa2msa2dma.log 2sa2msa3dma.log 2sa2msa4dma.log 3sa1msa1dma.log 3sa1msa2dma.log 3sa1msa3dma.log 3sa1msa4dma.log -reacted -noexample -out database.pkl
+Number of files: 21
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/StableClusters
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/StableClusters
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/StableClusters

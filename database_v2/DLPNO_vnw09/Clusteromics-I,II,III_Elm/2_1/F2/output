@@ -1,0 +1,21 @@
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/2_1/F2
+COMMAND: JKQC 2sa1ma-01.log 2sa1ma-02.log 2sa1ma-03.log 2sa1ma-04.log 2sa1ma-05.log 2sa1ma-06.log 2sa1ma-07.log 2sa1ma-08.log 2sa1ma-09.log 2sa1ma-10.log 2sa1ma-11.log 2sa1ma-12.log 2sa1ma-13.log 2sa1ma-14.log 2sa1ma-15.log 2sa1ma-16.log 2sa1ma-17.log 2sa1ma-18.log 2sa1ma-19.log 2sa1ma-20.log 2sa1ma-21.log 2sa1ma-22.log 2sa1ma-23.log 2sa1ma-24.log 2sa1ma-25.log 2sa1ma-26.log 2sa1ma-27.log 2sa1ma-28.log 2sa1ma-29.log 2sa1ma-30.log 2sa1ma-31.log 2sa1ma-32.log 2sa1ma-33.log 2sa1ma-34.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 34
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/2_1/F2
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/2_1/F2
+COMMAND: JKQC 2sa1ma-01.log 2sa1ma-02.log 2sa1ma-03.log 2sa1ma-04.log 2sa1ma-05.log 2sa1ma-06.log 2sa1ma-07.log 2sa1ma-08.log 2sa1ma-09.log 2sa1ma-10.log 2sa1ma-11.log 2sa1ma-12.log 2sa1ma-13.log 2sa1ma-14.log 2sa1ma-15.log 2sa1ma-16.log 2sa1ma-17.log 2sa1ma-18.log 2sa1ma-19.log 2sa1ma-20.log 2sa1ma-21.log 2sa1ma-22.log 2sa1ma-23.log 2sa1ma-24.log 2sa1ma-25.log 2sa1ma-26.log 2sa1ma-27.log 2sa1ma-28.log 2sa1ma-29.log 2sa1ma-30.log 2sa1ma-31.log 2sa1ma-32.log 2sa1ma-33.log 2sa1ma-34.log -reacted -noexample -out database3DFT.pkl
+Number of files: 34
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/2_1/F2
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/2_1/F2
+COMMAND: JKQC 2sa1ma-01.log 2sa1ma-02.log 2sa1ma-03.log 2sa1ma-04.log 2sa1ma-05.log 2sa1ma-06.log 2sa1ma-07.log 2sa1ma-08.log 2sa1ma-09.log 2sa1ma-10.log 2sa1ma-11.log 2sa1ma-12.log 2sa1ma-13.log 2sa1ma-14.log 2sa1ma-15.log 2sa1ma-16.log 2sa1ma-17.log 2sa1ma-18.log 2sa1ma-19.log 2sa1ma-20.log 2sa1ma-21.log 2sa1ma-22.log 2sa1ma-23.log 2sa1ma-24.log 2sa1ma-25.log 2sa1ma-26.log 2sa1ma-27.log 2sa1ma-28.log 2sa1ma-29.log 2sa1ma-30.log 2sa1ma-31.log 2sa1ma-32.log 2sa1ma-33.log 2sa1ma-34.log -reacted -noexample -out database.pkl
+Number of files: 34
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/2_1/F2
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/2_1/F2
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/2_1/F2

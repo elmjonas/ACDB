@@ -1,0 +1,5 @@
+COMMAND: JKQC F10/database3DFT.pkl F11/database3DFT.pkl F12/database3DFT.pkl F1/database3DFT.pkl F2/database3DFT.pkl F3/database3DFT.pkl F4/database3DFT.pkl F5/database3DFT.pkl F6/database3DFT.pkl F7/database3DFT.pkl F8/database3DFT.pkl F9/database3DFT.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+COMMAND: JKQC F10/database1DLPNO.pkl F11/database1DLPNO.pkl F12/database1DLPNO.pkl F1/database1DLPNO.pkl F2/database1DLPNO.pkl F3/database1DLPNO.pkl F4/database1DLPNO.pkl F5/database1DLPNO.pkl F6/database1DLPNO.pkl F7/database1DLPNO.pkl F8/database1DLPNO.pkl F9/database1DLPNO.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+COMMAND: JKQC F10/database1DLPNO.pkl F11/database1DLPNO.pkl F12/database1DLPNO.pkl F1/database1DLPNO.pkl F2/database1DLPNO.pkl F3/database1DLPNO.pkl F4/database1DLPNO.pkl F5/database1DLPNO.pkl F6/database1DLPNO.pkl F7/database1DLPNO.pkl F8/database1DLPNO.pkl F9/database1DLPNO.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout

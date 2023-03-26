@@ -1,0 +1,21 @@
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/2nta1tma
+COMMAND: JKQC 2nta1tma-1.log 2nta1tma-2.log 2nta1tma-3.log 2nta1tma-4.log 2nta1tma-5.log 2nta1tma-6.log 2nta1tma-7.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 7
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/2nta1tma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/2nta1tma
+COMMAND: JKQC 2nta1tma-1.log 2nta1tma-2.log 2nta1tma-3.log 2nta1tma-4.log 2nta1tma-5.log 2nta1tma-6.log 2nta1tma-7.log -reacted -noexample -out database3DFT.pkl
+Number of files: 7
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/2nta1tma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/2nta1tma
+COMMAND: JKQC 2nta1tma-1.log 2nta1tma-2.log 2nta1tma-3.log 2nta1tma-4.log 2nta1tma-5.log 2nta1tma-6.log 2nta1tma-7.log -reacted -noexample -out database.pkl
+Number of files: 7
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/2nta1tma
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/2nta1tma
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-IV_Knattrup22/2nta1tma

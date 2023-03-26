@@ -1,0 +1,20 @@
+COMMAND: JKQC 1dma1sa1p.log 1dma2sa1p.log 2dma1p.log 2dma1sa1p.log 2dma2sa1p.log 3dma1p.log 3dma1sa1p.log 3dma2sa1p.log 3dma3sa1p.log 3dma4sa1p.log 4dma2sa1p.log 4dma3sa1p.log 4dma4sa1p.log 5dma4sa1p.log -reacted -noexample -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-p
+COMMAND: JKQC 1dma1sa1p.log 1dma2sa1p.log 2dma1p.log 2dma1sa1p.log 2dma2sa1p.log 3dma1p.log 3dma1sa1p.log 3dma2sa1p.log 3dma3sa1p.log 3dma4sa1p.log 4dma2sa1p.log 4dma3sa1p.log 4dma4sa1p.log 5dma4sa1p.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 14
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-p
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-p
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-p
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-p
+COMMAND: JKQC 1dma1sa1p.log 1dma2sa1p.log 2dma1p.log 2dma1sa1p.log 2dma2sa1p.log 3dma1p.log 3dma1sa1p.log 3dma2sa1p.log 3dma3sa1p.log 3dma4sa1p.log 4dma2sa1p.log 4dma3sa1p.log 4dma4sa1p.log 5dma4sa1p.log -reacted -noexample -out database.pkl
+Number of files: 14
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-p
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-p
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-p

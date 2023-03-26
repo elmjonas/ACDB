@@ -1,0 +1,20 @@
+COMMAND: JKQC 1fa1eda1am-10.log 1fa1eda1am-11.log 1fa1eda1am-12.log 1fa1eda1am-13.log 1fa1eda1am-14.log 1fa1eda1am-15.log 1fa1eda1am-16.log 1fa1eda1am-17.log 1fa1eda1am-18.log 1fa1eda1am-19.log 1fa1eda1am-1.log 1fa1eda1am-20.log 1fa1eda1am-21.log 1fa1eda1am-22.log 1fa1eda1am-23.log 1fa1eda1am-24.log 1fa1eda1am-25.log 1fa1eda1am-26.log 1fa1eda1am-27.log 1fa1eda1am-28.log 1fa1eda1am-29.log 1fa1eda1am-2.log 1fa1eda1am-30.log 1fa1eda1am-31.log 1fa1eda1am-32.log 1fa1eda1am-33.log 1fa1eda1am-34.log 1fa1eda1am-3.log 1fa1eda1am-4.log 1fa1eda1am-5.log 1fa1eda1am-6.log 1fa1eda1am-7.log 1fa1eda1am-8.log 1fa1eda1am-9.log -reacted -noexample -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-V_AyoubiXX/1fa1eda1am
+COMMAND: JKQC 1fa1eda1am-10.log 1fa1eda1am-11.log 1fa1eda1am-12.log 1fa1eda1am-13.log 1fa1eda1am-14.log 1fa1eda1am-15.log 1fa1eda1am-16.log 1fa1eda1am-17.log 1fa1eda1am-18.log 1fa1eda1am-19.log 1fa1eda1am-1.log 1fa1eda1am-20.log 1fa1eda1am-21.log 1fa1eda1am-22.log 1fa1eda1am-23.log 1fa1eda1am-24.log 1fa1eda1am-25.log 1fa1eda1am-26.log 1fa1eda1am-27.log 1fa1eda1am-28.log 1fa1eda1am-29.log 1fa1eda1am-2.log 1fa1eda1am-30.log 1fa1eda1am-31.log 1fa1eda1am-32.log 1fa1eda1am-33.log 1fa1eda1am-34.log 1fa1eda1am-3.log 1fa1eda1am-4.log 1fa1eda1am-5.log 1fa1eda1am-6.log 1fa1eda1am-7.log 1fa1eda1am-8.log 1fa1eda1am-9.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 34
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-V_AyoubiXX/1fa1eda1am
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-V_AyoubiXX/1fa1eda1am
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-V_AyoubiXX/1fa1eda1am
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-V_AyoubiXX/1fa1eda1am
+COMMAND: JKQC 1fa1eda1am-10.log 1fa1eda1am-11.log 1fa1eda1am-12.log 1fa1eda1am-13.log 1fa1eda1am-14.log 1fa1eda1am-15.log 1fa1eda1am-16.log 1fa1eda1am-17.log 1fa1eda1am-18.log 1fa1eda1am-19.log 1fa1eda1am-1.log 1fa1eda1am-20.log 1fa1eda1am-21.log 1fa1eda1am-22.log 1fa1eda1am-23.log 1fa1eda1am-24.log 1fa1eda1am-25.log 1fa1eda1am-26.log 1fa1eda1am-27.log 1fa1eda1am-28.log 1fa1eda1am-29.log 1fa1eda1am-2.log 1fa1eda1am-30.log 1fa1eda1am-31.log 1fa1eda1am-32.log 1fa1eda1am-33.log 1fa1eda1am-34.log 1fa1eda1am-3.log 1fa1eda1am-4.log 1fa1eda1am-5.log 1fa1eda1am-6.log 1fa1eda1am-7.log 1fa1eda1am-8.log 1fa1eda1am-9.log -reacted -noexample -out database.pkl
+Number of files: 34
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-V_AyoubiXX/1fa1eda1am
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-V_AyoubiXX/1fa1eda1am
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-V_AyoubiXX/1fa1eda1am

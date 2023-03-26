@@ -1,1 +1,114 @@
 COMMAND: JKQC 1sa1msa1dma/database.pkl 1sa1msa2dma/database.pkl 1sa1msa3dma/database.pkl 1sa2msa1dma/database.pkl 1sa2msa2dma/database.pkl 1sa2msa3dma/database.pkl 1sa3msa1dma/database.pkl 1sa3msa2dma/database.pkl 1sa3msa3dma/database.pkl 1sa3msa4dma/database.pkl 2sa1msa1dma/database.pkl 2sa1msa2dma/database.pkl 2sa1msa3dma/database.pkl 2sa2msa1dma/database.pkl 2sa2msa2dma/database.pkl 2sa2msa3dma/database.pkl 2sa2msa4dma/database.pkl 3sa1msa1dma/database.pkl 3sa1msa2dma/database.pkl 3sa1msa3dma/database.pkl 3sa1msa4dma/database.pkl 4dma/database.pkl Nmsa/database.pkl Optimer_kp/database.pkl StableClusters/database.pkl -noexample -out database.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa1msa1dma
+sh: ../../collect1DLPNO.sh: No such file or directory
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa1msa2dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa1msa3dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa2msa1dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa2msa2dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa2msa3dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa1dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa2dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa3dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa4dma
+Number of files: 7
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa1msa1dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa1msa2dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa1msa3dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa1dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa2dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa3dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa4dma
+Number of files: 7
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa1dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa2dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa3dma
+Number of files: 5
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa4dma
+Number of files: 6
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/4dma
+Number of files: 1
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/Nmsa
+Number of files: 3
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/Optimer_kp
+Number of files: 21
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/StableClusters
+Number of files: 21
+COMMAND: JKQC 1sa1msa1dma/database3DFT.pkl 1sa1msa2dma/database3DFT.pkl 1sa1msa3dma/database3DFT.pkl 1sa2msa1dma/database3DFT.pkl 1sa2msa2dma/database3DFT.pkl 1sa2msa3dma/database3DFT.pkl 1sa3msa1dma/database3DFT.pkl 1sa3msa2dma/database3DFT.pkl 1sa3msa3dma/database3DFT.pkl 1sa3msa4dma/database3DFT.pkl 2sa1msa1dma/database3DFT.pkl 2sa1msa2dma/database3DFT.pkl 2sa1msa3dma/database3DFT.pkl 2sa2msa1dma/database3DFT.pkl 2sa2msa2dma/database3DFT.pkl 2sa2msa3dma/database3DFT.pkl 2sa2msa4dma/database3DFT.pkl 3sa1msa1dma/database3DFT.pkl 3sa1msa2dma/database3DFT.pkl 3sa1msa3dma/database3DFT.pkl 3sa1msa4dma/database3DFT.pkl 4dma/database3DFT.pkl Nmsa/database3DFT.pkl Optimer_kp/database3DFT.pkl StableClusters/database3DFT.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa1msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa1msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa1msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa2msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa2msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa2msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa4dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa1msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa1msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa1msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa4dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa4dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/4dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/Nmsa
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/Optimer_kp
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/StableClusters
+COMMAND: JKQC 1sa1msa1dma/database3DFT.pkl 1sa1msa2dma/database3DFT.pkl 1sa1msa3dma/database3DFT.pkl 1sa2msa1dma/database3DFT.pkl 1sa2msa2dma/database3DFT.pkl 1sa2msa3dma/database3DFT.pkl 1sa3msa1dma/database3DFT.pkl 1sa3msa2dma/database3DFT.pkl 1sa3msa3dma/database3DFT.pkl 1sa3msa4dma/database3DFT.pkl 2sa1msa1dma/database3DFT.pkl 2sa1msa2dma/database3DFT.pkl 2sa1msa3dma/database3DFT.pkl 2sa2msa1dma/database3DFT.pkl 2sa2msa2dma/database3DFT.pkl 2sa2msa3dma/database3DFT.pkl 2sa2msa4dma/database3DFT.pkl 3sa1msa1dma/database3DFT.pkl 3sa1msa2dma/database3DFT.pkl 3sa1msa3dma/database3DFT.pkl 3sa1msa4dma/database3DFT.pkl 4dma/database3DFT.pkl Nmsa/database3DFT.pkl Optimer_kp/database3DFT.pkl StableClusters/database3DFT.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa1msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa1msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa1msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa2msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa2msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa2msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/1sa3msa4dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa1msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa1msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa1msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/2sa2msa4dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa1dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa2dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa3dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/3sa1msa4dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/4dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/Nmsa
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/Optimer_kp
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22/StableClusters
+COMMAND: JKQC 1sa1msa1dma/database1DLPNO.pkl 1sa1msa2dma/database1DLPNO.pkl 1sa1msa3dma/database1DLPNO.pkl 1sa2msa1dma/database1DLPNO.pkl 1sa2msa2dma/database1DLPNO.pkl 1sa2msa3dma/database1DLPNO.pkl 1sa3msa1dma/database1DLPNO.pkl 1sa3msa2dma/database1DLPNO.pkl 1sa3msa3dma/database1DLPNO.pkl 1sa3msa4dma/database1DLPNO.pkl 2sa1msa1dma/database1DLPNO.pkl 2sa1msa2dma/database1DLPNO.pkl 2sa1msa3dma/database1DLPNO.pkl 2sa2msa1dma/database1DLPNO.pkl 2sa2msa2dma/database1DLPNO.pkl 2sa2msa3dma/database1DLPNO.pkl 2sa2msa4dma/database1DLPNO.pkl 3sa1msa1dma/database1DLPNO.pkl 3sa1msa2dma/database1DLPNO.pkl 3sa1msa3dma/database1DLPNO.pkl 3sa1msa4dma/database1DLPNO.pkl 4dma/database1DLPNO.pkl Nmsa/database1DLPNO.pkl Optimer_kp/database1DLPNO.pkl StableClusters/database1DLPNO.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rasmussen22
+COMMAND: JKQC 1sa1msa1dma/database1DLPNO.pkl 1sa1msa2dma/database1DLPNO.pkl 1sa1msa3dma/database1DLPNO.pkl 1sa2msa1dma/database1DLPNO.pkl 1sa2msa2dma/database1DLPNO.pkl 1sa2msa3dma/database1DLPNO.pkl 1sa3msa1dma/database1DLPNO.pkl 1sa3msa2dma/database1DLPNO.pkl 1sa3msa3dma/database1DLPNO.pkl 1sa3msa4dma/database1DLPNO.pkl 2sa1msa1dma/database1DLPNO.pkl 2sa1msa2dma/database1DLPNO.pkl 2sa1msa3dma/database1DLPNO.pkl 2sa2msa1dma/database1DLPNO.pkl 2sa2msa2dma/database1DLPNO.pkl 2sa2msa3dma/database1DLPNO.pkl 2sa2msa4dma/database1DLPNO.pkl 3sa1msa1dma/database1DLPNO.pkl 3sa1msa2dma/database1DLPNO.pkl 3sa1msa3dma/database1DLPNO.pkl 3sa1msa4dma/database1DLPNO.pkl 4dma/database1DLPNO.pkl Nmsa/database1DLPNO.pkl Optimer_kp/database1DLPNO.pkl StableClusters/database1DLPNO.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout

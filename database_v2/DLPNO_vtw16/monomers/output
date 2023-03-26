@@ -1,0 +1,28 @@
+COMMAND: JKQC 1am1p.log 1am.log 1bda.log 1b.log 1diAAmda.log 1diABmda.log 1dma1p.log 1dma.log 1eda.log 1fa.log 1fd.log 1gd.log 1homJ.log 1ma.log 1mda.log 1ml.log 1msa.log 1nta.log 1pda.log 1put.log 1pxfa.log 1pxml.log 1sa.log 1teAABBmda.log 1tma.log 1triAABmda.log 1w.log -reacted -noexample -out database.pkl
+COMMAND: JKQC database.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers
+COMMAND: JKQC 1am1p.log 1am.log 1bda.log 1b.log 1diAAmda.log 1diABmda.log 1dma1p.log 1dma.log 1eda.log 1fa.log 1fd.log 1gd.log 1homJ.log 1ma.log 1mda.log 1ml.log 1msa.log 1nta.log 1pda.log 1put.log 1pxfa.log 1pxml.log 1sa.log 1teAABBmda.log 1tma.log 1triAABmda.log 1w.log -reacted -noexample -out database3DFT.pkl
+sh: ../../collect1DLPNO.sh: No such file or directory
+Number of files: 27
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers
+COMMAND: JKQC 1am1p.log 1am.log 1bda.log 1b.log 1diAAmda.log 1diABmda.log 1dma1p.log 1dma.log 1eda.log 1fa.log 1fd.log 1gd.log 1homJ.log 1ma.log 1mda.log 1ml.log 1msa.log 1nta.log 1pda.log 1put.log 1pxfa.log 1pxml.log 1sa.log 1teAABBmda.log 1tma.log 1triAABmda.log 1w.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 27
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers
+COMMAND: JKQC 1am1p.log 1am.log 1bda.log 1b.log 1diAAmda.log 1diABmda.log 1dma1p.log 1dma.log 1eda.log 1fa.log 1fd.log 1gd.log 1homJ.log 1ma.log 1mda.log 1ml.log 1msa.log 1nta.log 1pda.log 1put.log 1pxfa.log 1pxml.log 1sa.log 1teAABBmda.log 1tma.log 1triAABmda.log 1w.log -reacted -noexample -out database.pkl
+Number of files: 27
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers
+COMMAND: JKQC 1am1p.log 1am.log 1bda.log 1b.log 1diAAmda.log 1diABmda.log 1dma1p.log 1dma.log 1eda.log 1fa.log 1fd.log 1gd.log 1homJ.log 1ma.log 1mda.log 1ml.log 1msa.log 1nta.log 1pda.log 1put.log 1pxfa.log 1pxml.log 1sa.log 1teAABBmda.log 1tma.log 1triAABmda.log 1w.log -reacted -noexample -out database.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw16/monomers

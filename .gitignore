@@ -1,4 +1,5 @@
 database_v2/OTHERS
+database_v2/OTHERS.tar.gz
 database_v2/*/*.log
 database_v2/*/*/*.log
 database_v2/*/*/*/*.log
@@ -16,4 +17,4 @@ database_v2/*/*/.*
 database_v2/*/*/*/.*
 database_v2/*/*/*/*/.*
 database_v2/test.sh
-database_v2/collect.sh
+database_v2/collect*.sh

@@ -1,0 +1,20 @@
+COMMAND: JKQC 1sa2ma-01.log 1sa2ma-02.log 1sa2ma-03.log 1sa2ma-04.log 1sa2ma-05.log 1sa2ma-06.log 1sa2ma-07.log 1sa2ma-08.log 1sa2ma-09.log 1sa2ma-10.log 1sa2ma-11.log 1sa2ma-12.log 1sa2ma-13.log 1sa2ma-14.log 1sa2ma-15.log 1sa2ma-16.log 1sa2ma-17.log 1sa2ma-18.log 1sa2ma-19.log 1sa2ma-20.log 1sa2ma-21.log -reacted -noexample -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/1_2/F2
+COMMAND: JKQC 1sa2ma-01.log 1sa2ma-02.log 1sa2ma-03.log 1sa2ma-04.log 1sa2ma-05.log 1sa2ma-06.log 1sa2ma-07.log 1sa2ma-08.log 1sa2ma-09.log 1sa2ma-10.log 1sa2ma-11.log 1sa2ma-12.log 1sa2ma-13.log 1sa2ma-14.log 1sa2ma-15.log 1sa2ma-16.log 1sa2ma-17.log 1sa2ma-18.log 1sa2ma-19.log 1sa2ma-20.log 1sa2ma-21.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 21
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/1_2/F2
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/1_2/F2
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/1_2/F2
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/1_2/F2
+COMMAND: JKQC 1sa2ma-01.log 1sa2ma-02.log 1sa2ma-03.log 1sa2ma-04.log 1sa2ma-05.log 1sa2ma-06.log 1sa2ma-07.log 1sa2ma-08.log 1sa2ma-09.log 1sa2ma-10.log 1sa2ma-11.log 1sa2ma-12.log 1sa2ma-13.log 1sa2ma-14.log 1sa2ma-15.log 1sa2ma-16.log 1sa2ma-17.log 1sa2ma-18.log 1sa2ma-19.log 1sa2ma-20.log 1sa2ma-21.log -reacted -noexample -out database.pkl
+Number of files: 21
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/1_2/F2
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/1_2/F2
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/1_2/F2

@@ -1,0 +1,43 @@
+COMMAND: JKQC ../database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/database1DLPNO.pkl -extract 0-3sa0-3am0-3ma0-3dma0-3tma0-3eda,1sa,1am,1ma,1dma,1tma,1eda -out ClusteromicsII-eq-1best-DLPNOCCSD-T0_aug-ccPVDZ-wb97XD-G09_6-31+G-d,p.pkl
+Number of files in ../database_v2/DLPNO_vnw09/Clusteromics-I,II,III_Elm/database1DLPNO.pkl: 128
+Extracting: 128 --> 55
+Example output:
+info  cluster_type                                                            2eda
+      component_ratio                                                          [2]
+      components                                                             [eda]
+      file_basename                                                        2eda-01
+      folder_path                /home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Cl...
+                                                       ...                        
+out   time                                                              152.305333
+      vibrational_frequencies                                                  NaN
+      zero_point_correction                                                    NaN
+      zero_point_energy                                                        NaN
+xyz   structure                  (Atom('H', [-0.883197, 0.382279, 1.241588], in...
+Name: 107, Length: 61, dtype: object
+Number of files in ClusteromicsII-eq-1best-DLPNOCCSD-T0_aug-ccPVDZ-wb97XD-G09_6-31+G-d,p.pkl: 55
+COMMAND: JKQC /home/yk0721/speciale/standardized_ml/md_11/cluster_i/cluster_I_full_with_md_r2.pkl -extract 0-3sa0-3am0-3ma0-3dma0-3tma0-3eda,1sa,1am,1ma,1dma,1tma,1eda -rename na nta -rename a am -out ClusteromicsII-eq+MD-r2SCAN.pkl
+COMMAND: JKQC /home/yk0721/speciale/standardized_ml/md_11/cluster_i/cluster_I_full_with_md_gfn.pkl -extract 0-3sa0-3am0-3ma0-3dma0-3tma0-3eda,1sa,1am,1ma,1dma,1tma,1eda -rename na nta -rename a am -out ClusteromicsII-eq+MD-gfn.pkl
+Number of files in /home/yk0721/speciale/standardized_ml/md_11/cluster_i/cluster_I_full_with_md_r2.pkl: 31603
+Extracting: 31603 --> 31174
+Example output:
+info  cluster_type                                                      1eda
+      component_ratio                                                    [1]
+      components                                                       [eda]
+      file_basename                                                  1eda-10
+      folder_path          /home/yk0721/speciale/cluster_I/md_gfn1/split_SP/
+log   electronic_energy                                           -190.45142
+xyz   structure            (Atom('H', [-2.6395, -3.61005, -2.76917], inde...
+Name: 198, dtype: object
+Number of files in ClusteromicsII-eq+MD-r2SCAN.pkl: 31174
+Number of files in /home/yk0721/speciale/standardized_ml/md_11/cluster_i/cluster_I_full_with_md_gfn.pkl: 31603
+Extracting: 31603 --> 31174
+Example output:
+info  cluster_type                                                      1eda
+      component_ratio                                                    [1]
+      components                                                       [eda]
+      file_basename                                                  1eda-10
+      folder_path          /home/yk0721/speciale/cluster_I/md_gfn1/split_...
+log   electronic_energy                                           -14.940394
+xyz   structure            (Atom('H', [-2.6395, -3.61005, -2.76917], inde...
+Name: 198, dtype: object
+Number of files in ClusteromicsII-eq+MD-gfn.pkl: 31174

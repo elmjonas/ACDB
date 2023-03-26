@@ -1,1 +1,31 @@
 COMMAND: JKQC 1msa1sa-1.log 1msa1sa-2.log 1msa1sa.log 1msa2sa-1.log 1msa2sa-2.log 1msa2sa.log 1msa3sa-1.log 1msa3sa-2.log 1msa3sa.log 2msa1sa-1.log 2msa1sa-2.log 2msa1sa.log 2msa2sa-1.log 2msa2sa-2.log 2msa2sa.log 2msa3sa-1.log 2msa3sa-2.log 2msa3sa.log 3msa1sa-1.log 3msa1sa-2.log 3msa1sa.log 3msa2sa-1.log 3msa2sa-2.log 3msa2sa.log 3msa3sa-1.log 3msa3sa-2.log 3msa3sa.log -noexample -out database.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+COMMAND: JKQC 1msa1sa-1.log 1msa1sa-2.log 1msa1sa.log 1msa2sa-1.log 1msa2sa-2.log 1msa2sa.log 1msa3sa-1.log 1msa3sa-2.log 1msa3sa.log 2msa1sa-1.log 2msa1sa-2.log 2msa1sa.log 2msa2sa-1.log 2msa2sa-2.log 2msa2sa.log 2msa3sa-1.log 2msa3sa-2.log 2msa3sa.log 3msa1sa-1.log 3msa1sa-2.log 3msa1sa.log 3msa2sa-1.log 3msa2sa-2.log 3msa2sa.log 3msa3sa-1.log 3msa3sa-2.log 3msa3sa.log -reacted -noexample -out database3DFT.pkl
+sh: ../../collect1DLPNO.sh: No such file or directory
+Number of files: 27
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+slurmstepd: error: *** JOB 2640125 ON s95n53 CANCELLED AT 2023-03-08T13:48:21 ***
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+COMMAND: JKQC 1msa1sa-1.log 1msa1sa-2.log 1msa1sa.log 1msa2sa-1.log 1msa2sa-2.log 1msa2sa.log 1msa3sa-1.log 1msa3sa-2.log 1msa3sa.log 2msa1sa-1.log 2msa1sa-2.log 2msa1sa.log 2msa2sa-1.log 2msa2sa-2.log 2msa2sa.log 2msa3sa-1.log 2msa3sa-2.log 2msa3sa.log 3msa1sa-1.log 3msa1sa-2.log 3msa1sa.log 3msa2sa-1.log 3msa2sa-2.log 3msa2sa.log 3msa3sa-1.log 3msa3sa-2.log 3msa3sa.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 27
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+COMMAND: JKQC 1msa1sa-1.log 1msa1sa-2.log 1msa1sa.log 1msa2sa-1.log 1msa2sa-2.log 1msa2sa.log 1msa3sa-1.log 1msa3sa-2.log 1msa3sa.log 2msa1sa-1.log 2msa1sa-2.log 2msa1sa.log 2msa2sa-1.log 2msa2sa-2.log 2msa2sa.log 2msa3sa-1.log 2msa3sa-2.log 2msa3sa.log 3msa1sa-1.log 3msa1sa-2.log 3msa1sa.log 3msa2sa-1.log 3msa2sa-2.log 3msa2sa.log 3msa3sa-1.log 3msa3sa-2.log 3msa3sa.log -reacted -noexample -out database.pkl
+Number of files: 27
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Rosati21

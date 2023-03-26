@@ -1,0 +1,20 @@
+COMMAND: JKQC 1dma1w.log 1sa1dma1w.log 1sa1dma2w.log 1sa1dma3w.log 1sa1dma4w.log 1sa1dma5w.log 2sa1dma1w.log 2sa1dma2w.log 2sa1dma3w.log 2sa1dma4w.log 2sa1dma5w.log 2sa2dma1w.log 2sa2dma2w.log 2sa2dma3w.log 2sa2dma4w.log 2sa2dma5w.log 3sa1dma1w.log 3sa1dma2w.log 3sa1dma3w.log 3sa1dma4w.log 3sa1dma5w.log 3sa2dma1w.log 3sa2dma2w.log 3sa2dma3w.log 3sa2dma4w.log 3sa2dma5w.log 3sa3dma1w.log 3sa3dma2w.log 3sa3dma3w.log 3sa3dma4w.log -reacted -noexample -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-w
+COMMAND: JKQC 1dma1w.log 1sa1dma1w.log 1sa1dma2w.log 1sa1dma3w.log 1sa1dma4w.log 1sa1dma5w.log 2sa1dma1w.log 2sa1dma2w.log 2sa1dma3w.log 2sa1dma4w.log 2sa1dma5w.log 2sa2dma1w.log 2sa2dma2w.log 2sa2dma3w.log 2sa2dma4w.log 2sa2dma5w.log 3sa1dma1w.log 3sa1dma2w.log 3sa1dma3w.log 3sa1dma4w.log 3sa1dma5w.log 3sa2dma1w.log 3sa2dma2w.log 3sa2dma3w.log 3sa2dma4w.log 3sa2dma5w.log 3sa3dma1w.log 3sa3dma2w.log 3sa3dma3w.log 3sa3dma4w.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 30
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-w
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-w
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-w
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-w
+COMMAND: JKQC 1dma1w.log 1sa1dma1w.log 1sa1dma2w.log 1sa1dma3w.log 1sa1dma4w.log 1sa1dma5w.log 2sa1dma1w.log 2sa1dma2w.log 2sa1dma3w.log 2sa1dma4w.log 2sa1dma5w.log 2sa2dma1w.log 2sa2dma2w.log 2sa2dma3w.log 2sa2dma4w.log 2sa2dma5w.log 3sa1dma1w.log 3sa1dma2w.log 3sa1dma3w.log 3sa1dma4w.log 3sa1dma5w.log 3sa2dma1w.log 3sa2dma2w.log 3sa2dma3w.log 3sa2dma4w.log 3sa2dma5w.log 3sa3dma1w.log 3sa3dma2w.log 3sa3dma3w.log 3sa3dma4w.log -reacted -noexample -out database.pkl
+Number of files: 30
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-w
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-w
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-dma-w

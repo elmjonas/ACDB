@@ -1,0 +1,20 @@
+COMMAND: JKQC 1msa1dma.log 1sa1dma.log 1sa1msa1dma.log 1sa1msa2dma.log 1sa1msa.log 1sa2msa1dma.log 1sa2msa2dma.log 1sa2msa.log 2msa1dma.log 2msa2dma.log 2msa.log 2sa1dma.log 2sa1msa1dma.log 2sa1msa2dma.log 2sa1msa3dma.log 2sa1msa.log 2sa2dma.log 2sa.log 3msa1dma.log 3msa2dma.log 3msa.log 3sa1dma.log 3sa2dma.log 3sa.log -reacted -noexample -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-msa-dma
+COMMAND: JKQC 1msa1dma.log 1sa1dma.log 1sa1msa1dma.log 1sa1msa2dma.log 1sa1msa.log 1sa2msa1dma.log 1sa2msa2dma.log 1sa2msa.log 2msa1dma.log 2msa2dma.log 2msa.log 2sa1dma.log 2sa1msa1dma.log 2sa1msa2dma.log 2sa1msa3dma.log 2sa1msa.log 2sa2dma.log 2sa.log 3msa1dma.log 3msa2dma.log 3msa.log 3sa1dma.log 3sa2dma.log 3sa.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 24
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-msa-dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-msa-dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-msa-dma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-msa-dma
+COMMAND: JKQC 1msa1dma.log 1sa1dma.log 1sa1msa1dma.log 1sa1msa2dma.log 1sa1msa.log 1sa2msa1dma.log 1sa2msa2dma.log 1sa2msa.log 2msa1dma.log 2msa2dma.log 2msa.log 2sa1dma.log 2sa1msa1dma.log 2sa1msa2dma.log 2sa1msa3dma.log 2sa1msa.log 2sa2dma.log 2sa.log 3msa1dma.log 3msa2dma.log 3msa.log 3sa1dma.log 3sa2dma.log 3sa.log -reacted -noexample -out database.pkl
+Number of files: 24
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-msa-dma
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-msa-dma
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-msa-dma

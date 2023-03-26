@@ -1,0 +1,20 @@
+COMMAND: JKQC 1am1sa.log 1am2sa.log 1am3sa.log 1am4sa.log 1am5sa.log 2am1sa.log 2am2sa.log 2am3sa.log 2am4sa.log 2am5sa.log 2am.log 2sa.log 3am1sa.log 3am2sa.log 3am3sa.log 3am4sa.log 3am5sa.log 3am.log 3sa.log 4am1sa.log 4am2sa.log 4am3sa.log 4am4sa.log 4am5sa.log 4am.log 4sa.log 5am4sa.log 5am5sa.log -reacted -noexample -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-am
+COMMAND: JKQC 1am1sa.log 1am2sa.log 1am3sa.log 1am4sa.log 1am5sa.log 2am1sa.log 2am2sa.log 2am3sa.log 2am4sa.log 2am5sa.log 2am.log 2sa.log 3am1sa.log 3am2sa.log 3am3sa.log 3am4sa.log 3am5sa.log 3am.log 3sa.log 4am1sa.log 4am2sa.log 4am3sa.log 4am4sa.log 4am5sa.log 4am.log 4sa.log 5am4sa.log 5am5sa.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 28
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-am
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-am
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-am
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-am
+COMMAND: JKQC 1am1sa.log 1am2sa.log 1am3sa.log 1am4sa.log 1am5sa.log 2am1sa.log 2am2sa.log 2am3sa.log 2am4sa.log 2am5sa.log 2am.log 2sa.log 3am1sa.log 3am2sa.log 3am3sa.log 3am4sa.log 3am5sa.log 3am.log 3sa.log 4am1sa.log 4am2sa.log 4am3sa.log 4am4sa.log 4am5sa.log 4am.log 4sa.log 5am4sa.log 5am5sa.log -reacted -noexample -out database.pkl
+Number of files: 28
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-am
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-am
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-am

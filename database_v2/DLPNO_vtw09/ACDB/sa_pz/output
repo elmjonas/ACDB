@@ -1,0 +1,28 @@
+COMMAND: JKQC 1pz1sa.log 1pz2sa.log 1pz3sa.log 1pz4sa.log 2pz1sa.log 2pz2sa.log 2pz3sa.log 2pz4sa.log 2pz.log 2sa.log 3pz1sa.log 3pz2sa.log 3pz3sa.log 3pz4sa.log 3pz.log 3sa.log 4pz1sa.log 4pz2sa.log 4pz3sa.log 4pz4sa.log 4pz.log 4sa.log -reacted -noexample -out database.pkl
+COMMAND: JKQC database.pkl -ct -gout
+COMMAND: JKQC 1pz1sa.log 1pz2sa.log 1pz3sa.log 1pz4sa.log 2pz1sa.log 2pz2sa.log 2pz3sa.log 2pz4sa.log 2pz.log 2sa.log 3pz1sa.log 3pz2sa.log 3pz3sa.log 3pz4sa.log 3pz.log 3sa.log 4pz1sa.log 4pz2sa.log 4pz3sa.log 4pz4sa.log 4pz.log 4sa.log -reacted -noexample -out database3DFT.pkl
+COMMAND: JKQC 1pz1sa.log 1pz2sa.log 1pz3sa.log 1pz4sa.log 2pz1sa.log 2pz2sa.log 2pz3sa.log 2pz4sa.log 2pz.log 2sa.log 3pz1sa.log 3pz2sa.log 3pz3sa.log 3pz4sa.log 3pz.log 3sa.log 4pz1sa.log 4pz2sa.log 4pz3sa.log 4pz4sa.log 4pz.log 4sa.log -reacted -noexample -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
+COMMAND: JKQC 1pz1sa.log 1pz2sa.log 1pz3sa.log 1pz4sa.log 2pz1sa.log 2pz2sa.log 2pz3sa.log 2pz4sa.log 2pz.log 2sa.log 3pz1sa.log 3pz2sa.log 3pz3sa.log 3pz4sa.log 3pz.log 3sa.log 4pz1sa.log 4pz2sa.log 4pz3sa.log 4pz4sa.log 4pz.log 4sa.log -reacted -noexample -out database1DLPNO.pkl
+slurmstepd: error: *** JOB 2639767 ON s81n23 CANCELLED AT 2023-03-08T13:48:21 ***
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
+COMMAND: JKQC 1pz1sa.log 1pz2sa.log 1pz3sa.log 1pz4sa.log 2pz1sa.log 2pz2sa.log 2pz3sa.log 2pz4sa.log 2pz.log 2sa.log 3pz1sa.log 3pz2sa.log 3pz3sa.log 3pz4sa.log 3pz.log 3sa.log 4pz1sa.log 4pz2sa.log 4pz3sa.log 4pz4sa.log 4pz.log 4sa.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 22
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
+COMMAND: JKQC 1pz1sa.log 1pz2sa.log 1pz3sa.log 1pz4sa.log 2pz1sa.log 2pz2sa.log 2pz3sa.log 2pz4sa.log 2pz.log 2sa.log 3pz1sa.log 3pz2sa.log 3pz3sa.log 3pz4sa.log 3pz.log 3sa.log 4pz1sa.log 4pz2sa.log 4pz3sa.log 4pz4sa.log 4pz.log 4sa.log -reacted -noexample -out database.pkl
+Number of files: 22
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
+COMMAND: JKQC 1pz1sa.log 1pz2sa.log 1pz3sa.log 1pz4sa.log 2pz1sa.log 2pz2sa.log 2pz3sa.log 2pz4sa.log 2pz.log 2sa.log 3pz1sa.log 3pz2sa.log 3pz3sa.log 3pz4sa.log 3pz.log 3sa.log 4pz1sa.log 4pz2sa.log 4pz3sa.log 4pz4sa.log 4pz.log 4sa.log -reacted -noexample -out database.pkl
+COMMAND: JKQC 1pz1sa.log 1pz2sa.log 1pz3sa.log 1pz4sa.log 2pz1sa.log 2pz2sa.log 2pz3sa.log 2pz4sa.log 2pz.log 2sa.log 3pz1sa.log 3pz2sa.log 3pz3sa.log 3pz4sa.log 3pz.log 3sa.log 4pz1sa.log 4pz2sa.log 4pz3sa.log 4pz4sa.log 4pz.log 4sa.log -reacted -noexample -out database.pkl
+COMMAND: JKQC 1pz1sa.log 1pz2sa.log 1pz3sa.log 1pz4sa.log 2pz1sa.log 2pz2sa.log 2pz3sa.log 2pz4sa.log 2pz.log 2sa.log 3pz1sa.log 3pz2sa.log 3pz3sa.log 3pz4sa.log 3pz.log 3sa.log 4pz1sa.log 4pz2sa.log 4pz3sa.log 4pz4sa.log 4pz.log 4sa.log -reacted -noexample -out database.pkl
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz

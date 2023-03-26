@@ -1,1 +1,53 @@
-COMMAND: JKQC 3sa1am2tma-310020_10_144.log 3sa1am2tma-310020_10_201.log 3sa1am2tma-310020_10_203.log 3sa1am2tma-310020_11_23.log 3sa1am2tma-310020_11_28.log 3sa1am2tma-310020_14_205.log 3sa1am2tma-310020_15_216.log 3sa1am2tma-310020_16_103.log 3sa1am2tma-310020_17_12.log 3sa1am2tma-310020_17_125.log 3sa1am2tma-310020_17_168.log 3sa1am2tma-310020_17_182.log 3sa1am2tma-310020_17_52.log 3sa1am2tma-310020_17_82.log 3sa1am2tma-310020_1_141.log 3sa1am2tma-310020_22_173.log 3sa1am2tma-310020_23_113.log 3sa1am2tma-310020_2_102.log 3sa1am2tma-310020_2_170.log 3sa1am2tma-310020_2_69.log 3sa1am2tma-310020_2_72.log 3sa1am2tma-310020_2_73.log 3sa1am2tma-310020_3_95.log 3sa1am2tma-310020_4_168.log 3sa1am2tma-310020_6_199.log 3sa1am2tma-310020_7_29.log 3sa1am2tma-310020_7_32.log 3sa1am2tma-310020_7_42.log 3sa1am2tma-310020_7_86.log 3sa1am2tma-310020_8_0.log 3sa1am2tma-310020_8_191.log 3sa1am2tma-310020_8_26.log 3sa1am2tma-310020_9_126.log 3sa1am2tma-310020_9_127.log 3sa1am2tma-310020_9_134.log 3sa1am2tma-310020_9_145.log 3sa1am2tma-310020_9_148.log 3sa1am2tma-310020_9_182.log 3sa1am2tma-310020_9_19.log 3sa1am2tma-310020_9_202.log 3sa1am2tma-310020_9_48.log 3sa1am2tma-310020_9_49.log 3sa1am2tma-310020_9_52.log -noexample -out database.pkl
+COMMAND: JKQC 3sa1am2tma-310020_10_144.log 3sa1am2tma-310020_10_201.log 3sa1am2tma-310020_10_203.log 3sa1am2tma-310020_11_23.log 3sa1am2tma-310020_11_28.log 3sa1am2tma-310020_1_141.log 3sa1am2tma-310020_14_205.log 3sa1am2tma-310020_15_216.log 3sa1am2tma-310020_16_103.log 3sa1am2tma-310020_17_125.log 3sa1am2tma-310020_17_12.log 3sa1am2tma-310020_17_168.log 3sa1am2tma-310020_17_182.log 3sa1am2tma-310020_17_52.log 3sa1am2tma-310020_17_82.log 3sa1am2tma-310020_2_102.log 3sa1am2tma-310020_2_170.log 3sa1am2tma-310020_22_173.log 3sa1am2tma-310020_23_113.log 3sa1am2tma-310020_2_69.log 3sa1am2tma-310020_2_72.log 3sa1am2tma-310020_2_73.log 3sa1am2tma-310020_3_95.log 3sa1am2tma-310020_4_168.log 3sa1am2tma-310020_6_199.log 3sa1am2tma-310020_7_29.log 3sa1am2tma-310020_7_32.log 3sa1am2tma-310020_7_42.log 3sa1am2tma-310020_7_86.log 3sa1am2tma-310020_8_0.log 3sa1am2tma-310020_8_191.log 3sa1am2tma-310020_8_26.log 3sa1am2tma-310020_9_126.log 3sa1am2tma-310020_9_127.log 3sa1am2tma-310020_9_134.log 3sa1am2tma-310020_9_145.log 3sa1am2tma-310020_9_148.log 3sa1am2tma-310020_9_182.log 3sa1am2tma-310020_9_19.log 3sa1am2tma-310020_9_202.log 3sa1am2tma-310020_9_48.log 3sa1am2tma-310020_9_49.log 3sa1am2tma-310020_9_52.log -reacted -noexample -out database.pkl
+COMMAND: JKQC database.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw16/Kubecka23-DFT/SYS_3sa_1am_2tma
+COMMAND: JKQC 3sa1am2tma-310020_10_144.log 3sa1am2tma-310020_10_201.log 3sa1am2tma-310020_10_203.log 3sa1am2tma-310020_11_23.log 3sa1am2tma-310020_11_28.log 3sa1am2tma-310020_1_141.log 3sa1am2tma-310020_14_205.log 3sa1am2tma-310020_15_216.log 3sa1am2tma-310020_16_103.log 3sa1am2tma-310020_17_125.log 3sa1am2tma-310020_17_12.log 3sa1am2tma-310020_17_168.log 3sa1am2tma-310020_17_182.log 3sa1am2tma-310020_17_52.log 3sa1am2tma-310020_17_82.log 3sa1am2tma-310020_2_102.log 3sa1am2tma-310020_2_170.log 3sa1am2tma-310020_22_173.log 3sa1am2tma-310020_23_113.log 3sa1am2tma-310020_2_69.log 3sa1am2tma-310020_2_72.log 3sa1am2tma-310020_2_73.log 3sa1am2tma-310020_3_95.log 3sa1am2tma-310020_4_168.log 3sa1am2tma-310020_6_199.log 3sa1am2tma-310020_7_29.log 3sa1am2tma-310020_7_32.log 3sa1am2tma-310020_7_42.log 3sa1am2tma-310020_7_86.log 3sa1am2tma-310020_8_0.log 3sa1am2tma-310020_8_191.log 3sa1am2tma-310020_8_26.log 3sa1am2tma-310020_9_126.log 3sa1am2tma-310020_9_127.log 3sa1am2tma-310020_9_134.log 3sa1am2tma-310020_9_145.log 3sa1am2tma-310020_9_148.log 3sa1am2tma-310020_9_182.log 3sa1am2tma-310020_9_19.log 3sa1am2tma-310020_9_202.log 3sa1am2tma-310020_9_48.log 3sa1am2tma-310020_9_49.log 3sa1am2tma-310020_9_52.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 43
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw16/Kubecka23-DFT/SYS_3sa_1am_2tma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw16/Kubecka23-DFT/SYS_3sa_1am_2tma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw16/Kubecka23-DFT/SYS_3sa_1am_2tma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw16/Kubecka23-DFT/SYS_3sa_1am_2tma
+COMMAND: JKQC 3sa1am2tma-310020_10_144.log 3sa1am2tma-310020_10_201.log 3sa1am2tma-310020_10_203.log 3sa1am2tma-310020_11_23.log 3sa1am2tma-310020_11_28.log 3sa1am2tma-310020_1_141.log 3sa1am2tma-310020_14_205.log 3sa1am2tma-310020_15_216.log 3sa1am2tma-310020_16_103.log 3sa1am2tma-310020_17_125.log 3sa1am2tma-310020_17_12.log 3sa1am2tma-310020_17_168.log 3sa1am2tma-310020_17_182.log 3sa1am2tma-310020_17_52.log 3sa1am2tma-310020_17_82.log 3sa1am2tma-310020_2_102.log 3sa1am2tma-310020_2_170.log 3sa1am2tma-310020_22_173.log 3sa1am2tma-310020_23_113.log 3sa1am2tma-310020_2_69.log 3sa1am2tma-310020_2_72.log 3sa1am2tma-310020_2_73.log 3sa1am2tma-310020_3_95.log 3sa1am2tma-310020_4_168.log 3sa1am2tma-310020_6_199.log 3sa1am2tma-310020_7_29.log 3sa1am2tma-310020_7_32.log 3sa1am2tma-310020_7_42.log 3sa1am2tma-310020_7_86.log 3sa1am2tma-310020_8_0.log 3sa1am2tma-310020_8_191.log 3sa1am2tma-310020_8_26.log 3sa1am2tma-310020_9_126.log 3sa1am2tma-310020_9_127.log 3sa1am2tma-310020_9_134.log 3sa1am2tma-310020_9_145.log 3sa1am2tma-310020_9_148.log 3sa1am2tma-310020_9_182.log 3sa1am2tma-310020_9_19.log 3sa1am2tma-310020_9_202.log 3sa1am2tma-310020_9_48.log 3sa1am2tma-310020_9_49.log 3sa1am2tma-310020_9_52.log -reacted -noexample -out database3DFT.pkl
+Number of files: 43
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw16/Kubecka23-DFT/SYS_3sa_1am_2tma
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw16/Kubecka23-DFT/SYS_3sa_1am_2tma
+COMMAND: JKQC 3sa1am2tma-310020_10_144.log 3sa1am2tma-310020_10_201.log 3sa1am2tma-310020_10_203.log 3sa1am2tma-310020_11_23.log 3sa1am2tma-310020_11_28.log 3sa1am2tma-310020_1_141.log 3sa1am2tma-310020_14_205.log 3sa1am2tma-310020_15_216.log 3sa1am2tma-310020_16_103.log 3sa1am2tma-310020_17_125.log 3sa1am2tma-310020_17_12.log 3sa1am2tma-310020_17_168.log 3sa1am2tma-310020_17_182.log 3sa1am2tma-310020_17_52.log 3sa1am2tma-310020_17_82.log 3sa1am2tma-310020_2_102.log 3sa1am2tma-310020_2_170.log 3sa1am2tma-310020_22_173.log 3sa1am2tma-310020_23_113.log 3sa1am2tma-310020_2_69.log 3sa1am2tma-310020_2_72.log 3sa1am2tma-310020_2_73.log 3sa1am2tma-310020_3_95.log 3sa1am2tma-310020_4_168.log 3sa1am2tma-310020_6_199.log 3sa1am2tma-310020_7_29.log 3sa1am2tma-310020_7_32.log 3sa1am2tma-310020_7_42.log 3sa1am2tma-310020_7_86.log 3sa1am2tma-310020_8_0.log 3sa1am2tma-310020_8_191.log 3sa1am2tma-310020_8_26.log 3sa1am2tma-310020_9_126.log 3sa1am2tma-310020_9_127.log 3sa1am2tma-310020_9_134.log 3sa1am2tma-310020_9_145.log 3sa1am2tma-310020_9_148.log 3sa1am2tma-310020_9_182.log 3sa1am2tma-310020_9_19.log 3sa1am2tma-310020_9_202.log 3sa1am2tma-310020_9_48.log 3sa1am2tma-310020_9_49.log 3sa1am2tma-310020_9_52.log -reacted -noexample -out database.pkl
+Number of files: 43
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw16/Kubecka23-DFT/SYS_3sa_1am_2tma
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw16/Kubecka23-DFT/SYS_3sa_1am_2tma
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+Traceback (most recent call last):
+  File "/home/kubeckaj/Applications/JKCS2.1/JKQC/JKCS/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'out'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kubeckaj/Applications/JKCS2.1/JKQC/JKQCpickle.py", line 2042, in <module>
+    sorted_indices = (clusters_df["log"]["gibbs_free_energy"]-clusters_df["log"]["electronic_energy"]+clusters_df["out"]["electronic_energy"]).sort_values().index
+  File "/home/kubeckaj/Applications/JKCS2.1/JKQC/JKCS/lib/python3.9/site-packages/pandas/core/frame.py", line 3457, in __getitem__
+    return self._getitem_multilevel(key)
+  File "/home/kubeckaj/Applications/JKCS2.1/JKQC/JKCS/lib/python3.9/site-packages/pandas/core/frame.py", line 3508, in _getitem_multilevel
+    loc = self.columns.get_loc(key)
+  File "/home/kubeckaj/Applications/JKCS2.1/JKQC/JKCS/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 2922, in get_loc
+    loc = self._get_level_indexer(key, level=0)
+  File "/home/kubeckaj/Applications/JKCS2.1/JKQC/JKCS/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 3204, in _get_level_indexer
+    idx = self._get_loc_single_level_index(level_index, key)
+  File "/home/kubeckaj/Applications/JKCS2.1/JKQC/JKCS/lib/python3.9/site-packages/pandas/core/indexes/multi.py", line 2855, in _get_loc_single_level_index
+    return level_index.get_loc(key)
+  File "/home/kubeckaj/Applications/JKCS2.1/JKQC/JKCS/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 'out'
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw16/Kubecka23-DFT/SYS_3sa_1am_2tma
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout

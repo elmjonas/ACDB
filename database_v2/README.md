@@ -111,6 +111,7 @@ Anorganic acids:
  - msa=methanesulfonic acid
  - hcl=hydrogenchloride
  - cl=chloride (-)
+ - nta=nitric acid
 
 Organics:
  - gly=glycine

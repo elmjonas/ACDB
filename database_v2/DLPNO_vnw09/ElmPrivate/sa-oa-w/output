@@ -1,0 +1,20 @@
+COMMAND: JKQC 1sa1oa-1.log 1sa1oa1w.log 1sa1oa-2.log 1sa1oa2w.log 1sa1oa3w.log 1sa1oa4w.log 1sa1oa5w.log 1sa1oa6w.log 1sa1oa.log -reacted -noexample -out database3DFT.pkl
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-oa-w
+COMMAND: JKQC 1sa1oa-1.log 1sa1oa1w.log 1sa1oa-2.log 1sa1oa2w.log 1sa1oa3w.log 1sa1oa4w.log 1sa1oa5w.log 1sa1oa6w.log 1sa1oa.log -reacted -noexample -out database1DLPNO.pkl
+Number of files: 9
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-oa-w
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-oa-w
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-oa-w
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-oa-w
+COMMAND: JKQC 1sa1oa-1.log 1sa1oa1w.log 1sa1oa-2.log 1sa1oa2w.log 1sa1oa3w.log 1sa1oa4w.log 1sa1oa5w.log 1sa1oa6w.log 1sa1oa.log -reacted -noexample -out database.pkl
+Number of files: 9
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-oa-w
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
+sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-oa-w
+COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
+COMMAND: JKQC database1DLPNO.pkl -ct -gout
+/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/ElmPrivate/sa-oa-w
