@@ -111,6 +111,8 @@ Anorganic acids:
  - msa=methanesulfonic acid
  - hcl=hydrogenchloride
  - cl=chloride (-)
+ - cla=chloric acid
+ - pcla=perchloric acid
  - nta=nitric acid
 
 Organics:
