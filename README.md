@@ -1,7 +1,7 @@
 # The Atmospheric Cluster Database (ACDB)
 
- - <span style="color:red"> *the new ACDB2.0 database can be found under the database_v2 folder*</span>
- - <span style="color:red"> *see the documentation under database_v2 how to work with pickles*</span>
+ - <span style="color:red"> **the new ACDB2.0 database can be found under the database_v2 folder**</span>
+ - <span style="color:red"> **see the documentation under database_v2 how to work with pickles**</span>
 
 The purpose of this database is to compile existing atmospheric cluster structures and thermochemical data under one common methodology. 
 
