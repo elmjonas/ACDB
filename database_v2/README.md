@@ -1,20 +1,6 @@
--------
-ACDB2.0
--------
+# ACDB2.0
 
-Files
------
-
-database.pkl = contains 3 lowest (DFT) Gibbs free energy structures, i.e. if you seek for el. energy corrected energies at DLPNO level of theory, you must recollect the data.
-
-ACDC_NPF_rates.csv = ACDC simulation outputs
-
-properties.txt = contains standard binding properties of global minima
-
-                 structure_name | dG(298.15K) | dH(298.15K) | dS(298.15K) 
-
-Subfolders
-----------
+## Subfolders
 
 - DLPNO_vnw16 
   - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (Gaussian 16)
@@ -25,8 +11,28 @@ Subfolders
   - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with TightPNO (ORCA 4)
       - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) GRID4 nofinalgrid TightPNO TightSCF)
 
-anharmonicity correction: 0.996
-low-vibrational freq. cutoff in QHA: 100 1/cm
+## Files
+
+- databases:
+  - database.pkl
+    - all data collected from the given folder  
+  - database3DFT.pkl  
+    - 3 lowest (DFT) Gibbs free energy structures from database.pkl and all database3DFT.pkl in subfolders
+    - QHA: anharmonicity correction: 0.996; low-vibrational freq. cutoff: 100 1/cm
+  - database1DLPNO.pkl
+    - 1 lowest (DLPNO) Gibbs free energy structure from database.pkl and all database1DLPNO.pkl in subfolders
+    - QHA: anharmonicity correction: 0.996; low-vibrational freq. cutoff: 100 1/cm
+- structures:
+  - structures3DFT.xyz and structures1DLPNO.xyz
+    - structures from database3DFT.pkl and structures1DLPNO.pkl, respectively
+- properties:
+  - properties3DFT.txt and properties1DLPNO.txt
+    - properties from database3DFT.pkl and structures1DLPNO.pkl, respectively
+    - these are in the following format:
+             structure_name | dG(298.15K) | dH(298.15K) | dS(298.15K)
+- ACDC results:
+  - ACDC_NPF_rates.csv
+    - ACDC simulation outputs (relevant only for specific articles) 
 
 ## USAGE OF PICKLED FILES
 
