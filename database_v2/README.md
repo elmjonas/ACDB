@@ -20,7 +20,7 @@
     - 3 lowest (DFT) Gibbs free energy structures from database.pkl and all database3DFT.pkl in subfolders
     - QHA: anharmonicity correction: 0.996; low-vibrational freq. cutoff: 100 1/cm
   - database1DLPNO.pkl
-    - 1 lowest (DLPNO) Gibbs free energy structure from database.pkl and all database1DLPNO.pkl in subfolders
+    - 1 lowest (DLPNO//DFT) Gibbs free energy structure from database.pkl and all database1DLPNO.pkl in subfolders
     - QHA: anharmonicity correction: 0.996; low-vibrational freq. cutoff: 100 1/cm
 - structures:
   - structures3DFT.xyz and structures1DLPNO.xyz
@@ -30,6 +30,10 @@
     - properties from database3DFT.pkl and structures1DLPNO.pkl, respectively
     - these are in the following format:
              structure_name | dG(298.15K) | dH(298.15K) | dS(298.15K)
+- binding properties:
+  - located only in the most outside folder
+  - binding_properties3DFT.txt and binding_properties1DLPNO.txt
+    - 1 lowest (DFT or DLPNO//DFT) Gibbs free energies of formation from database3DFT.pkl and database1DLPNO.pkl, respectively
 - ACDC results:
   - ACDC_NPF_rates.csv
     - ACDC simulation outputs (relevant only for specific articles) 
@@ -37,12 +41,10 @@
 ## USAGE OF PICKLED FILES
 
 In order to use any database, you can:
-* use JKQC (see https://jkcspy.readthedocs.io/en/latest/JKQC.html), or
-* use JKQCpickle.py (see below), or
+* use JKQC (see https://jkcspy.readthedocs.io/en/latest/JKQC.html) or below
 * use your own python script (see below)
 
-** USING JKQCpickle.py **
--------------------------
+### USING JKQC
 
 First, setup your python environment:
 1) Modify the python version (>3.8.0 and <4.0.0) you use in the following file:
