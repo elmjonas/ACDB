@@ -7,19 +7,23 @@ This manual contains descriptions of:
 
 ## Subfolders
 
+- **DLPNO_vnw09**
+  - *(67170 structures of 1027 different clusters)*
+  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 09**)
+  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **NormalPNO** (ORCA 5)
+      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) TightSCF RI-JK aug-cc-pVTZ/JK)
 - **DLPNO_vnw16** 
+  - *(23158 structures of 340 different clusters)*
   - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
   - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **NormalPNO** (ORCA 5)
       - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) TightSCF RI-JK aug-cc-pVTZ/JK) 
 - **DLPNO_vtw16** 
+  - *(4939 structures of 399 different clusters)*
   - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
   - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **TightPNO** (ORCA 4)
       - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) GRID4 nofinalgrid TightPNO TightSCF)
-- **DLPNO_vnw09**
-  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 09**)
-  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **NormalPNO** (ORCA 5)
-      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) TightSCF RI-JK aug-cc-pVTZ/JK)
-- **DLPNO_vtw09**
+- **DLPNO_vtw09** 
+  - *(89 structures of 77 different clusters)*
   - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
   - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **TightPNO** (ORCA 4)
       - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) GRID4 nofinalgrid TightPNO TightSCF)   
