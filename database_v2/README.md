@@ -79,10 +79,6 @@ First, donwload JKCS:
   
   > JKQC DATABASE.PKL -b -el
  
-for purpose of the paper where we used these databases, you need only the function that prints out the cluster (base-)names and their electronic energies:
-  > JKQC DATABASE.PKL -b -el
-
-or generate all xyz files:
   > JKQC DATABASE.PKL -xyz
 
 (see other functionalities: https://jkcspy.readthedocs.io/en/latest/JKQC.html)
