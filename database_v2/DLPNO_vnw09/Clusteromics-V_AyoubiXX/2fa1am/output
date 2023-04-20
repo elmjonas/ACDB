@@ -19,3 +19,9 @@ COMMAND: JKQC database1DLPNO.pkl -ct -gout
 COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
 COMMAND: JKQC database1DLPNO.pkl -ct -gout
 /home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Clusteromics-V_AyoubiXX/2fa1am
+COMMAND: JKQC database1DLPNO.pkl -ct -gout -hout -s -fc 100 -v 0.996
+COMMAND: JKQC database1DLPNO.pkl -movie
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie

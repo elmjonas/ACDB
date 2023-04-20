@@ -1,23 +1,4 @@
-COMMAND: JKQC sa_pz/database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database.pkl
-COMMAND: JKQC database.pkl -ct -gout
-COMMAND: JKQC sa_pz/database3DFT.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
-/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB
-/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
-sh: ../../collect1DLPNO.sh: No such file or directory
-Number of files: 22
-COMMAND: JKQC sa_pz/database3DFT.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
-/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB
-COMMAND: JKQC sa_pz/database1DLPNO.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
-COMMAND: JKQC database1DLPNO.pkl -ct -gout
-/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB
-/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
-Number of files: 22
-/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB
-/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB
-/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB/sa_pz
-COMMAND: JKQC sa_pz/database3DFT.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
-/home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/ACDB
-COMMAND: JKQC sa_pz/database1DLPNO.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
-COMMAND: JKQC database1DLPNO.pkl -ct -gout
-COMMAND: JKQC sa_pz/database1DLPNO.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
-COMMAND: JKQC database1DLPNO.pkl -ct -gout
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie

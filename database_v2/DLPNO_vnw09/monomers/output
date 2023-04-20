@@ -1,33 +1,4 @@
-COMMAND: JKQC 1sa.log -gout
-COMMAND: JKQC 1sa.log -gout -fc 100
-COMMAND: JKQC 1sa.log -gout -fc 100 -lf
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-COMMAND: JKQC 1am1p.log 1am.log 1bda.log 1b.log 1ca.log 1diAAmda.log 1diABmda.log 1dma1p.log 1dma.log 1eda.log 1fa.log 1homF.log 1ma.log 1mbtca.log 1mda.log 1mea.log 1msa.log 1nta.log 1oa.log 1pa.log 1pda.log 1pha.log 1put.log 1pz.log 1sa.log 1sua.log 1teAABBmda.log 1triAABmda.log 1w.log -reacted -noexample -out database3DFT.pkl
-sh: ../../collect1DLPNO.sh: No such file or directory
-Number of files: 29
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-slurmstepd: error: *** JOB 2640124 ON s95n53 CANCELLED AT 2023-03-08T13:48:21 ***
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-COMMAND: JKQC 1am1p.log 1am.log 1bda.log 1b.log 1ca.log 1diAAmda.log 1diABmda.log 1dma1p.log 1dma.log 1eda.log 1fa.log 1homF.log 1ma.log 1mbtca.log 1mda.log 1mea.log 1msa.log 1nta.log 1oa.log 1pa.log 1pda.log 1pha.log 1put.log 1pz.log 1sa.log 1sua.log 1teAABBmda.log 1triAABmda.log 1w.log -reacted -noexample -out database1DLPNO.pkl
-Number of files: 29
-COMMAND: JKQC database1DLPNO.pkl -ct -gout
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-COMMAND: JKQC 1am1p.log 1am.log 1bda.log 1b.log 1ca.log 1diAAmda.log 1diABmda.log 1dma1p.log 1dma.log 1eda.log 1fa.log 1homF.log 1ma.log 1mbtca.log 1mda.log 1mea.log 1msa.log 1nta.log 1oa.log 1pa.log 1pda.log 1pha.log 1put.log 1pz.log 1sa.log 1sua.log 1teAABBmda.log 1triAABmda.log 1w.log -reacted -noexample -out database.pkl
-Number of files: 29
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
-COMMAND: JKQC database1DLPNO.pkl -ct -gout
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
-COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
-COMMAND: JKQC database1DLPNO.pkl -ct -gout
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/monomers
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie

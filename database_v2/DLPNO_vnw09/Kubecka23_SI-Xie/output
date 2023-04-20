@@ -1,29 +1,4 @@
-COMMAND: JKQC 1am.log 1ma.log 1sa.log 1sa1tma1am.log 1sa1tma1ma.log 1tma.log 2sa1tma1am.log 2sa1tma1ma.log 2sa1tma2am.log 2sa1tma2ma.log 2sa2tma1ma.log 3sa1tma1am.log 3sa1tma1ma.log 3sa1tma2am.log 3sa1tma2ma.log 3sa1tma3am.log 3sa2tma1am.log 3sa2tma1ma.log 3sa2tma2am.log 3sa2tma2ma.log 3sa3tma1am.log 3sa3tma1ma.log 4sa1tma2am.log 4sa1tma2ma.log 4sa1tma3am.log 4sa2tma1am.log 4sa2tma1ma.log 4sa2tma2am.log 4sa2tma2ma.log 4sa3tma1am.log 4sa3tma1ma.log -noexample -out database.pkl
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-COMMAND: JKQC 1am.log 1ma.log 1sa1tma1am.log 1sa1tma1ma.log 1sa.log 1tma.log 2sa1tma1am.log 2sa1tma1ma.log 2sa1tma2am.log 2sa1tma2ma.log 2sa2tma1ma.log 3sa1tma1am.log 3sa1tma1ma.log 3sa1tma2am.log 3sa1tma2ma.log 3sa1tma3am.log 3sa2tma1am.log 3sa2tma1ma.log 3sa2tma2am.log 3sa2tma2ma.log 3sa3tma1am.log 3sa3tma1ma.log 4sa1tma2am.log 4sa1tma2ma.log 4sa1tma3am.log 4sa2tma1am.log 4sa2tma1ma.log 4sa2tma2am.log 4sa2tma2ma.log 4sa3tma1am.log 4sa3tma1ma.log -reacted -noexample -out database3DFT.pkl
-sh: ../../collect1DLPNO.sh: No such file or directory
-Number of files: 31
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-COMMAND: JKQC 1am.log 1ma.log 1sa1tma1am.log 1sa1tma1ma.log 1sa.log 1tma.log 2sa1tma1am.log 2sa1tma1ma.log 2sa1tma2am.log 2sa1tma2ma.log 2sa2tma1ma.log 3sa1tma1am.log 3sa1tma1ma.log 3sa1tma2am.log 3sa1tma2ma.log 3sa1tma3am.log 3sa2tma1am.log 3sa2tma1ma.log 3sa2tma2am.log 3sa2tma2ma.log 3sa3tma1am.log 3sa3tma1ma.log 4sa1tma2am.log 4sa1tma2ma.log 4sa1tma3am.log 4sa2tma1am.log 4sa2tma1ma.log 4sa2tma2am.log 4sa2tma2ma.log 4sa3tma1am.log 4sa3tma1ma.log -reacted -noexample -out database1DLPNO.pkl
-Number of files: 31
-COMMAND: JKQC database1DLPNO.pkl -ct -gout
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-COMMAND: JKQC 1am.log 1ma.log 1sa1tma1am.log 1sa1tma1ma.log 1sa.log 1tma.log 2sa1tma1am.log 2sa1tma1ma.log 2sa1tma2am.log 2sa1tma2ma.log 2sa2tma1ma.log 3sa1tma1am.log 3sa1tma1ma.log 3sa1tma2am.log 3sa1tma2ma.log 3sa1tma3am.log 3sa2tma1am.log 3sa2tma1ma.log 3sa2tma2am.log 3sa2tma2ma.log 3sa3tma1am.log 3sa3tma1ma.log 4sa1tma2am.log 4sa1tma2ma.log 4sa1tma3am.log 4sa2tma1am.log 4sa2tma1ma.log 4sa2tma2am.log 4sa2tma2ma.log 4sa3tma1am.log 4sa3tma1ma.log -reacted -noexample -out database.pkl
-Number of files: 31
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort g -select 3 -reacted -unique rg,el,g -out database3DFT.pkl
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-sh: /home/kubeckaj/ACDB/database_v2/collect1DLPNO.sh.sh: No such file or directory
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -globout -reacted -out database1DLPNO.pkl
-COMMAND: JKQC database1DLPNO.pkl -ct -gout
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
-COMMAND: JKQC database.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
-COMMAND: JKQC database1DLPNO.pkl -ct -gout
-/home/kubeckaj/ACDB/database_v2/DLPNO_vnw09/Kubecka23_SI-Xie
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie

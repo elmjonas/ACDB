@@ -3,3 +3,9 @@ COMMAND: JKQC F10/database1DLPNO.pkl F11/database1DLPNO.pkl F12/database1DLPNO.p
 COMMAND: JKQC database1DLPNO.pkl -ct -gout
 COMMAND: JKQC F10/database1DLPNO.pkl F11/database1DLPNO.pkl F12/database1DLPNO.pkl F1/database1DLPNO.pkl F2/database1DLPNO.pkl F3/database1DLPNO.pkl F4/database1DLPNO.pkl F5/database1DLPNO.pkl F6/database1DLPNO.pkl F7/database1DLPNO.pkl F8/database1DLPNO.pkl F9/database1DLPNO.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
 COMMAND: JKQC database1DLPNO.pkl -ct -gout
+COMMAND: JKQC database1DLPNO.pkl -ct -gout -hout -s -fc 100 -v 0.996
+COMMAND: JKQC database1DLPNO.pkl -movie
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie

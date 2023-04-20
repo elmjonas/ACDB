@@ -4,6 +4,11 @@
 /home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/KubeckaPersonal
 /home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/monomers
 /home/kubeckaj/ACDB/database_v2/DLPNO_vtw09/Myllys19r
-COMMAND: JKQC ACDB/database1DLPNO.pkl KubeckaPersonal/database1DLPNO.pkl monomers/database1DLPNO.pkl Myllys19r/database1DLPNO.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
-COMMAND: JKQC database1DLPNO.pkl -ct -gout
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database1DLPNO.pkl -movie
+COMMAND: JKQC database3DFT.pkl -movie
 /home/kubeckaj/ACDB/database_v2/DLPNO_vtw09
+COMMAND: JKQC database1DLPNO.pkl -ct -gout -hout -s -fc 100 -v 0.996 -formation -unit -noex
+COMMAND: JKQC ./monomers/database.pkl ./ACDB/sa_pz/database.pkl ./KubeckaPersonal/database.pkl ./Myllys19r/database.pkl -out FULLdatabase.pkl
+COMMAND: JKQC FULLdatabase.pkl -ct -glob
+COMMAND: JKQC FULLdatabase.pkl -ct -glob

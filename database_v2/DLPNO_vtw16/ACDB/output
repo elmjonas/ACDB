@@ -35,3 +35,9 @@ COMMAND: JKQC sa_am/database1DLPNO.pkl sa_am_dma/database1DLPNO.pkl sa_diamines/
 COMMAND: JKQC database1DLPNO.pkl -ct -gout
 COMMAND: JKQC sa_am/database1DLPNO.pkl sa_am_dma/database1DLPNO.pkl sa_diamines/database1DLPNO.pkl sa_dma/database1DLPNO.pkl sa_ma/database1DLPNO.pkl sa_put/database1DLPNO.pkl sa_tma/database1DLPNO.pkl -noexample -fc 100 -v 0.996 -sort gout -select 1 -reacted -out database1DLPNO.pkl
 COMMAND: JKQC database1DLPNO.pkl -ct -gout
+COMMAND: JKQC database1DLPNO.pkl -ct -gout -hout -s -fc 100 -v 0.996
+COMMAND: JKQC database1DLPNO.pkl -movie
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie
+COMMAND: JKQC database1DLPNO.pkl -ct -glob -g -h -s -fc 100 -v 0.996
+COMMAND: JKQC database3DFT.pkl -movie
