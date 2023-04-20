@@ -2,14 +2,22 @@
 
 ## Subfolders
 
-- DLPNO_vnw16 
-  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (Gaussian 16)
-  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with NormalPNO (ORCA 5)
+- **DLPNO_vnw16** 
+  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
+  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **NormalPNO** (ORCA 5)
       - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) TightSCF RI-JK aug-cc-pVTZ/JK) 
-- DLPNO_vtw16 
-  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (Gaussian 16)
-  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with TightPNO (ORCA 4)
+- **DLPNO_vtw16** 
+  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
+  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **TightPNO** (ORCA 4)
       - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) GRID4 nofinalgrid TightPNO TightSCF)
+- **DLPNO_vnw09**
+  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 09**)
+  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **NormalPNO** (ORCA 5)
+      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) TightSCF RI-JK aug-cc-pVTZ/JK)
+- **DLPNO_vtw09**
+  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
+  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **TightPNO** (ORCA 4)
+      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) GRID4 nofinalgrid TightPNO TightSCF)   
 
 ## Files
 
@@ -41,35 +49,38 @@
 ## USAGE OF PICKLED FILES
 
 In order to use any database, you can:
-* use JKQC (see https://jkcspy.readthedocs.io/en/latest/JKQC.html) or below
+* use JKQC (see https://jkcspy.readthedocs.io/en/latest/JKQC.html) or see below
 * use your own python script (see below)
 
 ### USING JKQC
 
-First, setup your python environment:
-1) Modify the python version (>3.8.0 and <4.0.0) you use in the following file:
-  > vim install.sh
-2) setup the environment:
-  > sh install.sh
+First, donwload JKCS:
+  > cd \<App_dir\>
+  > git clone https://github.com/kubeckaj/JKCS2.1.git
+  
+1) Then, setup JKCS and python environment for JKQC with correct python (see the online manual):
+  > sh setup.sh -help
+  
+  > sh setup.sh -python python3.9 -module "module load python3.9" -r 
 3) It will add one line to your ~/.bashrc file, therefore source it
   > source ~/.bashrc
-4) and activate the environment:
-  > JKpython
-5) now you should be able to use the JKQCpickle.py file
-  > python JKQCpickle.py -help
-
-for purpose of the paper where we used these databases, you need only the function that prints out the cluster names and their energies:
-  > python JKQCpickle.py DATABASE.PKL -b -el
+4) Now you should be able to use JKQC, e.g.:
+  > JKQC -help
+  
+  > JKQC DATABASE.PKL -b -el
+ 
+for purpose of the paper where we used these databases, you need only the function that prints out the cluster (base-)names and their electronic energies:
+  > JKQC DATABASE.PKL -b -el
 
 or generate all xyz files:
-  > python JKQCpickle.py DATABASE.PKL -xyz
+  > JKQC DATABASE.PKL -xyz
 
 (see other functionalities: https://jkcspy.readthedocs.io/en/latest/JKQC.html)
 
-** USING YOUR OWN PYTHON SCRIPT **
------------------------------
+### USING YOUR OWN PYTHON SCRIPT 
 
-First, setup your python environment (step 1-4 above).
+First, setup your python environment (step 1-3 above). Then run:
+  > JKpython
 
 After activating the correct python environment (e.g., with JKpython), use python to analyse/use the data:
    > $USER/: python
@@ -79,8 +90,7 @@ After activating the correct python environment (e.g., with JKpython), use pytho
    > clusters_dataframe = pd.read_pickle("DATABASE.PKL")
    
    
-** NAMES **
------------
+### STUCTURES NAMES
 
 Water:
  - w=water
