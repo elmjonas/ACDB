@@ -60,7 +60,7 @@ This manual contains descriptions of:
 ## USING THE PICKLED FILES
 
 In order to use any database, you can:
-* use JKQC (see jkcs.readthedocs.io/en/latest/) or see below
+* use JKQC (see https://jkcs.readthedocs.io/en/latest/) or see below
 * use your own python script (see below)
 
 ### USING JKQC
@@ -83,7 +83,7 @@ First, donwload JKCS:
  
   > JKQC DATABASE.PKL -xyz
 
-(see other functionalities: jkcs.readthedocs.io/en/latest/)
+(see other functionalities: https://jkcs.readthedocs.io/en/latest/)
 
 ### USING YOUR OWN PYTHON SCRIPT 
 
