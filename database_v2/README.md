@@ -1,72 +1,94 @@
 # ACDB2.0
----------
 
-files:
+This manual contains descriptions of:
+ - Subfolders (i.e. methods that were used to obtain the clusters)
+ - Files (i.e. what is saved in each file)
+ - Using the pickles files (i.e. how to utilize JKQC or manipulate with the databases)
 
-database.pkl = contains 3 lowest (DFT) Gibbs free energy structures, i.e. if you seek for el. energy corrected energies at DLPNO level of theory, you must recollect the data.
+## Subfolders
 
-ACDC_NPF_rates.csv = ACDC simulation outputs
+- **DLPNO_vnw09**
+  - *(67170 structures of 1027 different clusters)*
+  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 09**)
+  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **NormalPNO** (ORCA 5)
+      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) TightSCF RI-JK aug-cc-pVTZ/JK)
+- **DLPNO_vnw16** 
+  - *(23158 structures of 340 different clusters)*
+  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
+  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **NormalPNO** (ORCA 5)
+      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) TightSCF RI-JK aug-cc-pVTZ/JK) 
+- **DLPNO_vtw16** 
+  - *(4939 structures of 399 different clusters)*
+  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
+  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **TightPNO** (ORCA 4)
+      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) GRID4 nofinalgrid TightPNO TightSCF)
+- **DLPNO_vtw09** 
+  - *(89 structures of 77 different clusters)*
+  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
+  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **TightPNO** (ORCA 4)
+      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) GRID4 nofinalgrid TightPNO TightSCF)   
 
-properties.txt = contains standard binding properties of global minima
+## Files
 
-                 structure_name | dG(298.15K) | dH(298.15K) | dS(298.15K) 
+- databases:
+  - database.pkl
+    - all data collected from the given folder  
+  - database3DFT.pkl  
+    - 3 lowest (DFT) Gibbs free energy structures from database.pkl and all database3DFT.pkl in subfolders
+    - QHA: anharmonicity correction: 0.996; low-vibrational freq. cutoff: 100 1/cm
+  - database1DLPNO.pkl
+    - 1 lowest (DLPNO//DFT) Gibbs free energy structure from database.pkl and all database1DLPNO.pkl in subfolders
+    - QHA: anharmonicity correction: 0.996; low-vibrational freq. cutoff: 100 1/cm
+- structures:
+  - structures3DFT.xyz and structures1DLPNO.xyz
+    - structures from database3DFT.pkl and structures1DLPNO.pkl, respectively
+- properties:
+  - properties3DFT.txt and properties1DLPNO.txt
+    - properties from database3DFT.pkl and structures1DLPNO.pkl, respectively
+    - these are in the following format:
+             structure_name | dG(298.15K) | dH(298.15K) | dS(298.15K)
+- binding properties:
+  - located only in the most outside folder
+  - binding_properties3DFT.txt and binding_properties1DLPNO.txt
+    - 1 lowest (DFT or DLPNO//DFT) Gibbs free energies of formation from database3DFT.pkl and database1DLPNO.pkl, respectively
+- ACDC results:
+  - ACDC_NPF_rates.csv
+    - ACDC simulation outputs (relevant only for specific articles)
 
-methods:
-
-DLPNO_vnw16 
------------
-optimized geometry: wB97X-D/6-31++G(d,p) (Gaussian 16)
-                    (wB97X-D 6-31++G(d,p) opt freq)
-SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ (ORCA 5)
-                    (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) TightSCF RI-JK aug-cc-pVTZ/JK) 
-anharmonicity correction: 0.996
-low-vibrational freq. cutoff in QHA: 100 1/cm
-
-DLPNO_vtw16 
------------
-optimized geometry: wB97X-D/6-31++G(d,p) (Gaussian 16)
-                    (wB97X-D 6-31++G(d,p) opt freq)
-SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ (ORCA 4)
-                    (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) GRID4 nofinalgrid TightPNO TightSCF) 
-anharmonicity correction: 0.996
-low-vibrational freq. cutoff in QHA: 100 1/cm
-
-## USAGE OF PICKLED FILES
+## USING THE PICKLED FILES
 
 In order to use any database, you can:
-* use JKQC (see https://jkcspy.readthedocs.io/en/latest/JKQC.html), or
-* use JKQCpickle.py (see below), or
+* use JKQC (see https://jkcspy.readthedocs.io/en/latest/JKQC.html) or see below
 * use your own python script (see below)
 
-** USING JKQCpickle.py **
--------------------------
+### USING JKQC
 
-First, setup your python environment:
-1) Modify the python version (>3.8.0 and <4.0.0) you use in the following file:
-  > vim install.sh
-2) setup the environment:
-  > sh install.sh
+First, donwload JKCS:
+  > cd \<App_dir\>
+  
+  > git clone https://github.com/kubeckaj/JKCS2.1.git
+  
+1) Then, setup JKCS and python environment for JKQC with correct python (see the online manual):
+  > sh setup.sh -help
+  
+  > sh setup.sh -python python3.9 -module "module load python3.9" -r 
 3) It will add one line to your ~/.bashrc file, therefore source it
   > source ~/.bashrc
-4) and activate the environment:
-  > JKpython
-5) now you should be able to use the JKQCpickle.py file
-  > python JKQCpickle.py -help
-
-for purpose of the paper where we used these databases, you need only the function that prints out the cluster names and their energies:
-  > python JKQCpickle.py DATABASE.PKL -b -el
-
-or generate all xyz files:
-  > python JKQCpickle.py DATABASE.PKL -xyz
+4) Now you should be able to use JKQC, e.g.:
+  > JKQC -help
+  
+  > JKQC DATABASE.PKL -b -el
+ 
+  > JKQC DATABASE.PKL -xyz
 
 (see other functionalities: https://jkcspy.readthedocs.io/en/latest/JKQC.html)
 
-** USING YOUR OWN PYTHON SCRIPT **
------------------------------
+### USING YOUR OWN PYTHON SCRIPT 
 
-First, setup your python environment (step 1-4 above).
+Theoretically, you can use only your own python but I really recommend to setup your python environment via JKCS (step 1-3 above). Then run:
+  > JKpython
 
-After activating the correct python environment (e.g., with JKpython), use python to analyse/use the data:
+After activating the correct python environment, use python to analyse/use the data:
    > $USER/: python
    
    > import pandas as pd
@@ -74,8 +96,7 @@ After activating the correct python environment (e.g., with JKpython), use pytho
    > clusters_dataframe = pd.read_pickle("DATABASE.PKL")
    
    
-** NAMES **
------------
+### STUCTURES NAMES
 
 Water:
  - w=water
@@ -111,6 +132,8 @@ Anorganic acids:
  - msa=methanesulfonic acid
  - hcl=hydrogenchloride
  - cl=chloride (-)
+ - cla=chloric acid
+ - pcla=perchloric acid
  - nta=nitric acid
 
 Organics:
