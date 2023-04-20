@@ -1,5 +1,10 @@
 # ACDB2.0
 
+This manual contains descriptions of:
+ - Subfolders (i.e. methods that were used to obtain the clusters)
+ - Files (i.e. what is saved in each file)
+ - Using the pickles files (i.e. how to utilize JKQC or manipulate with the databases)
+
 ## Subfolders
 
 - **DLPNO_vnw16** 
@@ -44,9 +49,9 @@
     - 1 lowest (DFT or DLPNO//DFT) Gibbs free energies of formation from database3DFT.pkl and database1DLPNO.pkl, respectively
 - ACDC results:
   - ACDC_NPF_rates.csv
-    - ACDC simulation outputs (relevant only for specific articles) 
+    - ACDC simulation outputs (relevant only for specific articles)
 
-## USAGE OF PICKLED FILES
+## USING THE PICKLED FILES
 
 In order to use any database, you can:
 * use JKQC (see https://jkcspy.readthedocs.io/en/latest/JKQC.html) or see below
@@ -56,6 +61,7 @@ In order to use any database, you can:
 
 First, donwload JKCS:
   > cd \<App_dir\>
+  
   > git clone https://github.com/kubeckaj/JKCS2.1.git
   
 1) Then, setup JKCS and python environment for JKQC with correct python (see the online manual):
@@ -79,10 +85,10 @@ or generate all xyz files:
 
 ### USING YOUR OWN PYTHON SCRIPT 
 
-First, setup your python environment (step 1-3 above). Then run:
+Theoretically, you can use only your own python but I really recommend to setup your python environment via JKCS (step 1-3 above). Then run:
   > JKpython
 
-After activating the correct python environment (e.g., with JKpython), use python to analyse/use the data:
+After activating the correct python environment, use python to analyse/use the data:
    > $USER/: python
    
    > import pandas as pd
