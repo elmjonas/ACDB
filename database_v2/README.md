@@ -1,9 +1,11 @@
 # ACDB2.0
 
+This folder contains new version of ACDB where the structures are stored in pickled files. 
+
 This manual contains descriptions of:
  - Subfolders (i.e. methods that were used to obtain the clusters)
  - Files (i.e. what is saved in each file)
- - Using the pickles files (i.e. how to utilize JKQC or manipulate with the databases)
+ - Using the pickles files (i.e. how to utilize JKQC or manipulate with databases)
 
 ## Subfolders
 
@@ -35,10 +37,10 @@ This manual contains descriptions of:
     - all data collected from the given folder  
   - database3DFT.pkl  
     - 3 lowest (DFT) Gibbs free energy structures from database.pkl and all database3DFT.pkl in subfolders
-    - QHA: anharmonicity correction: 0.996; low-vibrational freq. cutoff: 100 1/cm
+    - QHA: vibrational frequency scaling factor: 0.996; low-vibrational freq. cutoff: 100 1/cm
   - database1DLPNO.pkl
     - 1 lowest (DLPNO//DFT) Gibbs free energy structure from database.pkl and all database1DLPNO.pkl in subfolders
-    - QHA: anharmonicity correction: 0.996; low-vibrational freq. cutoff: 100 1/cm
+    - QHA: vibrational frequency scaling factor: 0.996; low-vibrational freq. cutoff: 100 1/cm
 - structures:
   - structures3DFT.xyz and structures1DLPNO.xyz
     - structures from database3DFT.pkl and structures1DLPNO.pkl, respectively
@@ -58,7 +60,7 @@ This manual contains descriptions of:
 ## USING THE PICKLED FILES
 
 In order to use any database, you can:
-* use JKQC (see https://jkcspy.readthedocs.io/en/latest/JKQC.html) or see below
+* use JKQC (see https://jkcs.readthedocs.io/en/latest/JKQC.html) or see below
 * use your own python script (see below)
 
 ### USING JKQC
@@ -81,7 +83,7 @@ First, donwload JKCS:
  
   > JKQC DATABASE.PKL -xyz
 
-(see other functionalities: https://jkcspy.readthedocs.io/en/latest/JKQC.html)
+(see other functionalities: https://jkcs.readthedocs.io/en/latest/JKQC.html)
 
 ### USING YOUR OWN PYTHON SCRIPT 
 
