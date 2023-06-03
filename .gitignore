@@ -4,9 +4,8 @@ database_v2/output
 database_v2/**/output
 database_v2/**/*.log
 database_v2/**/*.out
-database_v2/**/**.xyz
-database_v2/**/*.*
-database_v2/**/*.*
+database_v2/**/*.xyz
+database_v2/**/QC_output.tar.gz
 database_v2/test.sh
 database_v2/collect*.sh
 git.sh
