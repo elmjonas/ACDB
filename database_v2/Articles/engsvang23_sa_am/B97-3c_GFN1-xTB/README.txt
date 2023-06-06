@@ -5,7 +5,7 @@ clusters from SA-AM to 30SA-30AM. For all .pkl files there are also a
 equilibrium: This contains the full set of equilibrium structures,
 both 1:1 ratio and off-ratio. They are gathered in 3 folders:
 B97-3c: Contains 17079 single-point calculations at the B97-3c level 
-for the GFN1-xTB structures divided into two .pkl files.
+for the GFN1-xTB structures, divided into two .pkl files.
 GFN1-xTB: 21667 -hess calculations at GFN1-xTB level for structures
 optimized at the GFN1-xTB level.
 B97-3c_GFN1-xTB: Combination of the two folders above, all the files are
