@@ -9,6 +9,15 @@ This manual contains descriptions of:
 
 ## Subfolders
 
+### SP_energies
+
+- **B97-3c**
+  - 
+
+### Equilibrium_TMD
+
+Yet to be done
+
 - **DLPNO_vnw09**
   - *(67170 structures of 1027 different clusters)*
   - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 09**)
