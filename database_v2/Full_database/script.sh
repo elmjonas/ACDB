@@ -10,4 +10,3 @@ JKQC `cat all_databases.txt | xargs` -out full_database.pkl
 length=`JKQC full_database.pkl -b | wc -l`
 splits=`echo "($length-$length%10000)/10000+1" | bc`
 JKQC full_database.pkl -split $splits -out full_database.pkl
-

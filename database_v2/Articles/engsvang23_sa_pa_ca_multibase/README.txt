@@ -3,30 +3,48 @@ Data for the chlorine containing clusters from the study:
 of systems which can be written (acid)_{0-2}(base)_{0-2}
 where acid: chloric acid, perchloric acid, and sulfuric acid
 and base: ammonia, methylamine, dimethylamine, and trimethylamine.
+The calculations are carried out assuming 298.15K and 1 atm, unless otherwise stated.
+
 In this folder the following is present:
 
-chlorine.pkl:
-pickle file containing the information from the freq and single-point calculations.
-Currently the 1ca1am and 1ca1am1dma files are duplicated i.e. there are two instances
-of each file present in the pickle, we apologise for the inconvenience.
-There are therefore 517 structures present in the pickle vs. the 510 in the rest of the folders.
+DLPNO:
+Folder containing single-point energy calculations at the DLPNO-CCSD(T_0)/aug-cc-pVTZ
+level of theory. They were run using ORCA 5.0.4 with normal PNO settings.
+The files are stored in a .tar.gz file and the results can also be found in a pickle
+There are 510 files.
 
-optimization:
-Folder containing log files from geometry optimization at the wB97X-D/6-31++G(d,p) level of theory.
-There are 510 files. The optimization of the 1pa1dma structures were done with opt freq, 
-which means that the opt and freq files for these are identical.
-They were run using Gaussian 16
+DLPNO-DFT:
+Folder containing the combined calculations at the DLPNO-CCSD(T_0)/aug-cc-pVTZ//wB97X-D/6-31++G(d,p)
+level of theory. There are 510 structures in total. This folder contains:
+database.pkl:
+	All 510 structures stored in 1 pickle file, with the energy at the
+	DLPNO-CCSD(T_0)/aug-cc-pVTZ//wB97X-D/6-31++G(d,p) level of theory. 
+database1DFT.pkl:
+	All data for the lowest energy structure of each cluster type at the
+	wB97X-D/6-31++G(d,p) level of theory.
+database1DLPNO.pkl:
+	All data for the lowest energy structure of each cluster type at the
+        DLPNO-CCSD(T_0)/aug-cc-pVTZ//wB97X-D/6-31++G(d,p) level of theory.
+properties1DFT.txt
+	Thermochemistry of the lowest energy structure of each cluster type
+	at the wB97X-D/6-31++G(d,p) level of theory at 298.15K
+	Gibbs free energy, enthalpy and entropy is given in either Hartree or
+	Hartree/K
+properties1DLPNO.txt
+	Thermochemistry of the lowest energy structure of each cluster type
+        at the DLPNO-CCSD(T_0)/aug-cc-pVTZ//wB97X-D/6-31++G(d,p) level of theory at 298.15K
+        Gibbs free energy, enthalpy and entropy is given in either Hartree or
+        Hartree/K
+structures1DFT.xyzs
+	XYZ coordinates of the lowest energy structure of each cluster type at the
+	wB97X-D/6-31++G(d,p) level of theory.
+structures1DLPNO.xyzs
+	XYZ coordinates of the lowest energy structure of each cluster type at the
+        DLPNO-CCSD(T_0)/aug-cc-pVTZ//wB97X-D/6-31++G(d,p) level of theory.
+structures.xyzs
+	XYZ coordinates of all the generated structures.
 
-frequencies:
-Folder containing log files from vibrational calculation at the wB97X-D/6-31++G(d,p) level of theory.
-There are 510 files. The vibrational calculation of the 1pa1dma structures were done with opt freq, 
-which means that the opt and freq files for these are identical.
-They were run using Gaussian 16
-
-single_point:
-Folder containing out files from single-point energy calculation at the DLPNO-CCSD(T_0)/aug-cc-pVTZ
-level of theory. There are 510 files. They were run using ORCA 5.0.4 with normal PNO settings.
-
-structures:
-Folder containing the optimized structures. There are 510 files.
-
+Additional files:
+Folder containing geometry optimization logs at the wB97X-D/6-31++G(d,p)
+level of theory. They were run using Gaussian 16. The files are stored in a .tar.gz file in our own reposortories.
+There are 510 files.

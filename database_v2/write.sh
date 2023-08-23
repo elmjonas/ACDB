@@ -61,6 +61,13 @@ echo "TO BE DONE"
 echo ""
 fi
 
+if [ 1 -eq 1 ] 
+then
+echo "### FORCES"
+echo ""
+echo "TO BE DONE"
+echo ""
+fi
 
 #- **DLPNO_vnw09**
 #  - *(67170 structures of 1027 different clusters)*
@@ -87,28 +94,25 @@ echo """## Files
 
 - databases:
   - database.pkl
-    - all data collected from the given folder  
-  - database3DFT.pkl  
-    - 3 lowest (DFT) Gibbs free energy structures from database.pkl and all database3DFT.pkl in subfolders
-    - QHA: vibrational frequency scaling factor: 0.996; low-vibrational freq. cutoff: 100 1/cm
+    - all data collected from the given folder 
+    - database is often split into database_s<int>.pkl files with maximum 10000 entries per file  
+  - database1DFT.pkl  
+    - 1 lowest (DFT[geometry+TMD]) Gibbs free energy structure per cluster from database.pkl
   - database1DLPNO.pkl
-    - 1 lowest (DLPNO//DFT) Gibbs free energy structure from database.pkl and all database1DLPNO.pkl in subfolders
-    - QHA: vibrational frequency scaling factor: 0.996; low-vibrational freq. cutoff: 100 1/cm
+    - 1 lowest (DLPNO[SP corr]//DFT[geometry+TMD]) Gibbs free energy structure from database.pkl
 - structures:
-  - structures3DFT.xyz and structures1DLPNO.xyz
-    - structures from database3DFT.pkl and structures1DLPNO.pkl, respectively
+  - structures1DFT.xyzs and structures1DLPNO.xyzs
+    - structures from database1DFT.pkl and structures1DLPNO.pkl, respectively
 - properties:
-  - properties3DFT.txt and properties1DLPNO.txt
-    - properties from database3DFT.pkl and structures1DLPNO.pkl, respectively
+  - properties1DFT.txt and properties1DLPNO.txt
+    - properties from database1DFT.pkl and structures1DLPNO.pkl, respectively
+    - QHA and anharmonicity corrections applied
     - these are in the following format:
              structure_name | dG(298.15K) | dH(298.15K) | dS(298.15K)
 - binding properties:
   - located only in the most outside folder
   - binding_properties3DFT.txt and binding_properties1DLPNO.txt
     - 1 lowest (DFT or DLPNO//DFT) Gibbs free energies of formation from database3DFT.pkl and database1DLPNO.pkl, respectively
-- ACDC results:
-  - ACDC_NPF_rates.csv
-    - ACDC simulation outputs (relevant only for specific articles)
 
 ## USING THE PICKLED FILES
 

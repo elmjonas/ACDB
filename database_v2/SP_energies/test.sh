@@ -10,4 +10,4 @@ do
     echo $l
   fi
 done
-rm output all_databases.txt 2>/dev/null
+rm all_databases.txt 2>/dev/null
