@@ -8,5 +8,5 @@ JKQC `cat all_databases.txt | xargs` -out full_database.pkl
 
 #SPLIT DATABASE IF NEEDED + MAKE STRUCTURES.xyz
 length=`JKQC full_database.pkl -b | wc -l`
-splits=`echo "($length-$length%10000)/10000+1" | bc`
+splits=`echo "($length-$length%8000)/8000+1" | bc`
 JKQC full_database.pkl -split $splits -out full_database.pkl
