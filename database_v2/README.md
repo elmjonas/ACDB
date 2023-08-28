@@ -1,70 +1,123 @@
 # ACDB2.0
 
-This folder contains new version of ACDB where the structures are stored in pickled files. 
+This folder contains new version of ACDB where the structures are stored in pickled files.
 
 This manual contains descriptions of:
  - Subfolders (i.e. methods that were used to obtain the clusters)
- - Files (i.e. what is saved in each file)
+ - Type of files (i.e. what is saved in each file)
+ - How to download only specific subfolder!
  - Using the pickles files (i.e. how to utilize JKQC or manipulate with databases)
 
 ## Subfolders
 
+### Full_database
+
+- Full database contains 1109667 entries.
+
+### Articles
+
+- This folder contains over 33 articles and molecular clusters/data provided from them.
+- The newest folders contain metadata described in greater detail.
+- The old articles sometimes lack proper description.
+
 ### SP_energies
 
-- **B97-3c**
-  - 
+- This folder contains SP energies calculated level of theory specified by each subfolder
+- See the levels.txt file for more details on program version and method input.
+
+- **B97-3c/**
+   - contains 25551 entries
+   - contains 92 different cluster types
+- **DLPNO-CCSD-T_aug-cc-pVTZ_NormalPNO/**
+   - contains 5557 entries
+   - contains 1553 different cluster types
+- **DLPNO-CCSD-T_aug-cc-pVTZ_TightPNO/**
+   - contains 1075 entries
+   - contains 294 different cluster types
+- **G09-wB97X-D_6-31++Gxx/**
+   - contains 69590 entries
+   - contains 1045 different cluster types
+- **G16-wB97X-D_6-31++Gxx/**
+   - contains 39074 entries
+   - contains 1152 different cluster types
+- **GFN1-xTB/**
+   - contains 325137 entries
+   - contains 382 different cluster types
+- **ORCA-wB97X-D_6-311++Gxx/**
+   - contains 11350 entries
+   - contains 50 different cluster types
+- **r2SCAN-3c/**
+   - contains 276538 entries
+   - contains 382 different cluster types
 
 ### Equilibrium_TMD
 
-Yet to be done
+- This folder contains free energy properties for SP_electronic_energy//geom._optim.+TMD
+- Some monomers are missing, hence not all binding properties are provided
+- For all wB97X-D TMD, we use anharmonicity (-v 0.996) and low-vibrational (-fc 100) treatement
 
-- **DLPNO_vnw09**
-  - *(67170 structures of 1027 different clusters)*
-  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 09**)
-  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **NormalPNO** (ORCA 5)
-      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) TightSCF RI-JK aug-cc-pVTZ/JK)
-- **DLPNO_vnw16** 
-  - *(23158 structures of 340 different clusters)*
-  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
-  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **NormalPNO** (ORCA 5)
-      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) TightSCF RI-JK aug-cc-pVTZ/JK) 
-- **DLPNO_vtw16** 
-  - *(4939 structures of 399 different clusters)*
-  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
-  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **TightPNO** (ORCA 4)
-      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) GRID4 nofinalgrid TightPNO TightSCF)
-- **DLPNO_vtw09** 
-  - *(89 structures of 77 different clusters)*
-  - optimized geometry + vibration freq.: wB97X-D/6-31++G(d,p) (**Gaussian 16**)
-  - SP el. correction:  DLPNO-CCSD(T)/aug-cc-pVTZ with **TightPNO** (ORCA 4)
-      - (aug-cc-pVTZ aug-cc-pVTZ/C DLPNO-CCSD(T) GRID4 nofinalgrid TightPNO TightSCF)   
+- **B97-3c__GFB1-xTB/**
+   - contains 17079 entries
+   - contains 91 different cluster types
+- **DLPNO-CCSD-T_aug-cc-pVTZ_NormalPNO__G09-wB97X-D_6-31++Gxx/**
+   - contains 1958 entries
+   - contains 781 different cluster types
+- **DLPNO-CCSD-T_aug-cc-pVTZ_NormalPNO__G16-wB97X-D_6-31++Gxx/**
+   - contains 3253 entries
+   - contains 932 different cluster types
+- **DLPNO-CCSD-T_aug-cc-pVTZ_TightPNO__G09-wB97X-D_6-31++Gxx/**
+   - contains 119 entries
+   - contains 89 different cluster types
+- **DLPNO-CCSD-T_aug-cc-pVTZ_TightPNO__G16-wB97X-D_6-31++Gxx/**
+   - contains 836 entries
+   - contains 229 different cluster types
+- **G09-wB97X-D_6-31++Gxx__G09-wB97X-D_6-31++Gxx/**
+   - contains 44600 entries
+   - contains 864 different cluster types
+- **G16-wB97X-D_6-31++Gxx__G16-wB97X-D_6-31++Gxx/**
+   - contains 60073 entries
+   - contains 1224 different cluster types
+- **GFN1-xTB__GFB1-xTB/**
+   - contains 65001 entries
+   - contains 91 different cluster types
+- **r2SCAN-3c__GFB1-xTB/**
+   - contains 24874 entries
+   - contains 91 different cluster types
+
+### FORCES
+
+TO BE DONE
 
 ## Files
 
 - databases:
   - database.pkl
-    - all data collected from the given folder  
-  - database3DFT.pkl  
-    - 3 lowest (DFT) Gibbs free energy structures from database.pkl and all database3DFT.pkl in subfolders
-    - QHA: vibrational frequency scaling factor: 0.996; low-vibrational freq. cutoff: 100 1/cm
+    - all data collected from the given folder 
+    - database is often split into database_s<int>.pkl files with maximum 10000 entries per file  
+  - database1DFT.pkl  
+    - 1 lowest (DFT[geometry+TMD]) Gibbs free energy structure per cluster from database.pkl
   - database1DLPNO.pkl
-    - 1 lowest (DLPNO//DFT) Gibbs free energy structure from database.pkl and all database1DLPNO.pkl in subfolders
-    - QHA: vibrational frequency scaling factor: 0.996; low-vibrational freq. cutoff: 100 1/cm
+    - 1 lowest (DLPNO[SP corr]//DFT[geometry+TMD]) Gibbs free energy structure from database.pkl
 - structures:
-  - structures3DFT.xyz and structures1DLPNO.xyz
-    - structures from database3DFT.pkl and structures1DLPNO.pkl, respectively
+  - structures1DFT.xyzs and structures1DLPNO.xyzs
+    - structures from database1DFT.pkl and structures1DLPNO.pkl, respectively
 - properties:
-  - properties3DFT.txt and properties1DLPNO.txt
-    - properties from database3DFT.pkl and structures1DLPNO.pkl, respectively
+  - properties1DFT.txt and properties1DLPNO.txt
+    - properties from database1DFT.pkl and structures1DLPNO.pkl, respectively
+    - QHA and anharmonicity corrections applied
     - these are in the following format:
              structure_name | dG(298.15K) | dH(298.15K) | dS(298.15K)
 - binding properties:
   - located only in the most outside folder
   - binding_properties3DFT.txt and binding_properties1DLPNO.txt
     - 1 lowest (DFT or DLPNO//DFT) Gibbs free energies of formation from database3DFT.pkl and database1DLPNO.pkl, respectively
-- ACDC results:
-  - ACDC_NPF_rates.csv
-    - ACDC simulation outputs (relevant only for specific articles)
+
+## DOWNLOADING FROM ACDB
+
+If you are interested in e.g. this folder: https://github.com/elmjonas/ACDB/master/tree/database_v2/Articles/kubecka19_sa_gd
+then you must replace *master/tree* with *trunk* and use svn to downlaod the folder:
+
+  svn checkout https://github.com/elmjonas/ACDB/trunk/database_v2/Articles/kubecka19_sa_gd
 
 ## USING THE PICKLED FILES
 
@@ -132,7 +185,7 @@ Bases:
  - bda=butane-1,4-diamine
  - pda=propan-1,3-diamine
  - diAAmda=N,N-dimethylethylendiamine
- - diABmda=N,N’-dimethylethylendiamine
+ - diABmda=N,N-dimethylethylendiamine
  - triAABmda=trimethylethylendiamine
  - teAABBmda= tetramethylethylendiamine
     
