@@ -99,7 +99,7 @@ JKQC $f/f_*.pkl -noex -out $f/database.pkl
 split_database
 rm $f/f_*.pkl
 
-f="ORCA-wB97X-D_6-31++Gxx"
+f="ORCA-wB97X-D_6-311++Gxx"
 mkdir $f
 for pkl in ../Articles/engsvang23_sa_am/wB97X-D_GFN1-XTB/wB97X-D/database_s1.pkl ../Articles/engsvang23_sa_am/wB97X-D_GFN1-XTB/wB97X-D/database_s2.pkl
 do
@@ -109,5 +109,5 @@ JKQC $f/f_*.pkl -noex -out $f/database.pkl
 split_database
 rm $f/f_*.pkl
 
-for i in `ls -d */`; do cd $i; sbatch JKsend 'JKQC -levels -noex data*.pkl > levels.txt; rm mydatabase.pkl'; cd ..; done
+for i in `ls -d */`; do cd $i; sbatch JKsend "JKQC -levels -noex data*.pkl > levels.txt; rm mydatabase.pkl output"; cd ..; done
 #for i in `ls -d */`; do echo ""; echo $i; cat $i/levels.txt; done
