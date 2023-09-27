@@ -10,15 +10,15 @@ This manual contains descriptions of:
 
 ## Subfolders
 
-### Full_database
-
-- Full database contains 1109667 entries.
-
 ### Articles
 
-- This folder contains over 33 articles and molecular clusters/data provided from them.
+- This folder contains over 35 articles and molecular clusters/data provided from them.
 - The newest folders contain metadata described in greater detail.
 - The old articles sometimes lack proper description.
+
+### Full_database
+
+- Full database contains 1112775 entries.
 
 ### SP_energies
 
@@ -26,20 +26,20 @@ This manual contains descriptions of:
 - See the levels.txt file for more details on program version and method input.
 
 - **B97-3c/**
-   - contains 25551 entries
-   - contains 92 different cluster types
+   - contains 28270 entries
+   - contains 108 different cluster types
 - **DLPNO-CCSD-T_aug-cc-pVTZ_NormalPNO/**
-   - contains 5557 entries
-   - contains 1553 different cluster types
+   - contains 5589 entries
+   - contains 1592 different cluster types
 - **DLPNO-CCSD-T_aug-cc-pVTZ_TightPNO/**
-   - contains 1075 entries
-   - contains 294 different cluster types
+   - contains 1073 entries
+   - contains 292 different cluster types
 - **G09-wB97X-D_6-31++Gxx/**
-   - contains 69590 entries
+   - contains 68695 entries
    - contains 1045 different cluster types
 - **G16-wB97X-D_6-31++Gxx/**
-   - contains 39074 entries
-   - contains 1152 different cluster types
+   - contains 40117 entries
+   - contains 1193 different cluster types
 - **GFN1-xTB/**
    - contains 325137 entries
    - contains 382 different cluster types
@@ -56,27 +56,30 @@ This manual contains descriptions of:
 - Some monomers are missing, hence not all binding properties are provided
 - For all wB97X-D TMD, we use anharmonicity (-v 0.996) and low-vibrational (-fc 100) treatement
 
+- **B97-3c__B97-3c/**
+   - contains 2233 entries
+   - contains 34 different cluster types
 - **B97-3c__GFB1-xTB/**
    - contains 17079 entries
    - contains 91 different cluster types
 - **DLPNO-CCSD-T_aug-cc-pVTZ_NormalPNO__G09-wB97X-D_6-31++Gxx/**
-   - contains 1958 entries
-   - contains 781 different cluster types
+   - contains 1957 entries
+   - contains 782 different cluster types
 - **DLPNO-CCSD-T_aug-cc-pVTZ_NormalPNO__G16-wB97X-D_6-31++Gxx/**
-   - contains 3253 entries
-   - contains 932 different cluster types
+   - contains 3293 entries
+   - contains 972 different cluster types
 - **DLPNO-CCSD-T_aug-cc-pVTZ_TightPNO__G09-wB97X-D_6-31++Gxx/**
-   - contains 119 entries
-   - contains 89 different cluster types
+   - contains 118 entries
+   - contains 88 different cluster types
 - **DLPNO-CCSD-T_aug-cc-pVTZ_TightPNO__G16-wB97X-D_6-31++Gxx/**
-   - contains 836 entries
-   - contains 229 different cluster types
+   - contains 835 entries
+   - contains 228 different cluster types
 - **G09-wB97X-D_6-31++Gxx__G09-wB97X-D_6-31++Gxx/**
-   - contains 44600 entries
-   - contains 864 different cluster types
+   - contains 44482 entries
+   - contains 863 different cluster types
 - **G16-wB97X-D_6-31++Gxx__G16-wB97X-D_6-31++Gxx/**
-   - contains 60073 entries
-   - contains 1224 different cluster types
+   - contains 60235 entries
+   - contains 1265 different cluster types
 - **GFN1-xTB__GFB1-xTB/**
    - contains 65001 entries
    - contains 91 different cluster types
@@ -173,21 +176,39 @@ Positive charges:
 
 Bases:
  - am=ammonia
- - dma=dimethylamine
- - tma=trimethylamine
- - gd=guanidine
- - ma=methylamine
- - put=putrescine
- - mea=monoethylamine
- - pz=piperazine
- - eda=ethylendiamine
- - mda=methylethylendiamine
  - bda=butane-1,4-diamine
+ - buta=butamine
+ - dbma=dibuthylmethylamine
+ - dea=diethylmine
+ - dma=dimethylamine
+ - dmea=dimethylethylamine
+ - dpenta=dipentamine
+ - dpropa=dipropamine
+ - eda=ethylendiamine
+ - gd=guanidine
+ - dhexa=dihexamine
+ - ibuta=isobutylamine
+ - ipropa=iso-propylamine
+ - ipropea=iso-propylethylamine
+ - ma=methylamine
+ - mda=methylethylendiamine
+ - mea=monoethylamine
+ - nona=nonamine
  - pda=propan-1,3-diamine
+ - propa=propamine
+ - put=putrescine
+ - pz=piperazine
+ - sbuta=sec-butamine
+ - tbuta=tributylamine
+ - tibuta=triisobutylamine
+ - tea=triethylamine
+ - tma=trimethylamine
+ - tpropa=tripropamine
  - diAAmda=N,N-dimethylethylendiamine
  - diABmda=N,N-dimethylethylendiamine
  - triAABmda=trimethylethylendiamine
- - teAABBmda= tetramethylethylendiamine
+ - teAABBmda=tetramethylethylendiamine
+ - IIebuta=2-ethylbutylamine
     
 Anorganic acids:
  - sa=sulfuric acid
