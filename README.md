@@ -241,7 +241,13 @@ Organics:
  - homJ=C10H16O8
  - fd=folrmaldehyde
  - ml=methanol
- - pxml=methanolperoxide
+ - pxml=methanolperoxide/methyl hydroperoxide
+ - mf=methyl formate 
+ - etox=ethylene oxide
+ - acal=acetaldehyde
+ - acan=acetic anhydride
+ - dme=dimethylether
+ - acon=acetone
 
 Organic acids:
  - aca=acetic acid
