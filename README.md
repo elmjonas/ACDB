@@ -8,10 +8,20 @@ Please cite:
   - and the associated original literature if any of the structures or thermochemical properties from the database are used in your published research.
 
 README content:
+ - How to download only a specific file!
  - Subfolders (i.e. methods that were used to obtain the clusters)
  - Type of files (i.e. what is saved in each file)
- - How to download only specific subfolder!
  - Using the pickles files (i.e. how to utilize JKQC or manipulate with databases)
+
+## DOWNLOADING FROM ACDB
+
+If you want to download just one file, e.g.:
+
+  https://github.com/elmjonas/ACDB/blob/master/Articles/clusteromics_V_sa_msa_nta_fa_multibase/database1DLPNO_DFT.pkl
+
+then use wget (note: svn is not supported anymore) but you must modify "github" -> "raw.githubusercontent" and remove "blob/"
+
+  wget https://raw.githubusercontent.com/elmjonas/ACDB/master/Articles/clusteromics_V_sa_msa_nta_fa_multibase/database1DLPNO_DFT.pkl
 
 ## Subfolders
 
@@ -119,13 +129,6 @@ TO BE DONE
   - located only in the most outside folder
   - binding_properties3DFT.txt and binding_properties1DLPNO.txt
     - 1 lowest (DFT or DLPNO//DFT) Gibbs free energies of formation from database3DFT.pkl and database1DLPNO.pkl, respectively
-
-## DOWNLOADING FROM ACDB
-
-If you are interested in e.g. this folder: https://github.com/elmjonas/ACDB/master/tree/database_v2/Articles/kubecka19_sa_gd
-then you must replace *master/tree* with *trunk* and use svn to downlaod the folder:
-
-  svn checkout https://github.com/elmjonas/ACDB/trunk/database_v2/Articles/kubecka19_sa_gd
 
 ## USING THE PICKLED FILES
 
