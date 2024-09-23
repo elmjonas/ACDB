@@ -1,0 +1,17 @@
+Job to be performed: opt_constrain
+Submitting file CH4O_H1.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CO/CH4O_H1 with job id 12989275
+Waiting 309 seconds before first check
+***CH4O_H1 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file CH4O_H1_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CO/CH4O_H1 with job id 12989356
+Waiting 412 seconds before first check
+Error termination found in CH4O_H1_TS. Trying to resubmit
+submitted file CH4O_H1_TS.com with job type: TS_opt and job id 12989592 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CO/CH4O_H1
+Log files of the 1 conformers have been checked. Checking every 206 seconds. Attempt: 1/100
+!!! Dropping molecule conformer CH4O_H1_TS due to repeated error terminations!!!
+No conformer has managed to converge for job type: TS_opt

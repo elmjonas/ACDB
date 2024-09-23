@@ -1,0 +1,40 @@
+COMMAND: JKTS -smiles CCCO -OH -time 48:00:00 -method wB97XD -initial_delay 500
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+Ea: 0.7186 kcal/mol
+Ea_reverse: -17.1314 kcal/mol
+k_MCTST = 3.454231703262511e-14
+Eckart = 2.121125290670209
+k_LCTST = 3.2176874745723633e-14
+Wigner = 2.0563440764542187
+Qratio: 2.168730997537863e-07
+3.454231703262511e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 2.121125290670209  Wigner: 2.0563440764542187  Ea: 0.7185754115635063  Qratio: 2.168730997537863e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H2.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_2.pkl -loc
+JKTS C3H8O_H1/Final_TS_C3H8O_H2.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H2.pkl -loc
+JKTS C3H8O_H2/Final_TS_C3H8O_H2.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H2.pkl -loc
+Ea: 0.2236 kcal/mol
+Ea_reverse: -18.1899 kcal/mol
+k_MCTST = 1.331094530780511e-13
+Eckart = 1.4477256367766203
+k_LCTST = 7.852101071266333e-14
+Wigner = 1.569281299932733
+Qratio: 5.310242517251029e-07
+1.331094530780511e-13 cm^3 molecules^-1 s^-1    Tunneling coefficient 1.4477256367766203  Wigner: 1.569281299932733  Ea: 0.22358764958335087  Qratio: 5.310242517251029e-07
+JKTS C3H8O_H3/Final_TS_C3H8O_H3.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H3.pkl -loc
+Ea: 0.2236 kcal/mol
+Ea_reverse: -18.1900 kcal/mol
+k_MCTST = 1.251254106690134e-13
+Eckart = 1.4477600434558497
+k_LCTST = 7.850307350822488e-14
+Wigner = 1.569332447055383
+Qratio: 4.991690823903957e-07
+1.251254106690134e-13 cm^3 molecules^-1 s^-1    Tunneling coefficient 1.4477600434558497  Wigner: 1.569332447055383  Ea: 0.22359723606496118  Qratio: 4.991690823903957e-07
+JKTS C3H8O_H4/Final_TS_C3H8O_H4.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H4.pkl -loc
+Error in calculating the eckart tunneling. Returning tunneling coefficient 1
+Ea: 0.5062 kcal/mol
+Ea_reverse: -21.5022 kcal/mol
+k_MCTST = 8.100522345639193e-14
+Eckart = 1
+k_LCTST = 2.1129239100559827e-13
+Wigner = 1.0508768259399308
+Qratio: 7.537901900893369e-07
+8.100522345639193e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 1  Wigner: 1.0508768259399308  Ea: 0.5061853864463046  Qratio: 7.537901900893369e-07

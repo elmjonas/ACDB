@@ -1,0 +1,504 @@
+Job to be performed: opt_constrain
+Submitting file C2H6O_H1.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/C2H6O_H1 with job id 12747443
+Waiting 500 seconds before first check
+***C2H6O_H1 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C2H6O_H1_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/C2H6O_H1 with job id 12748545
+Waiting 500 seconds before first check
+Job 12748545 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+
+***************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_TS with imaginary frequency: -704.9765 ******
+***************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file C2H6O_H1_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/C2H6O_H1 with job id 12765891
+Waiting 500 seconds before first check
+Job 12765891 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+
+**************************************************
+****** 58 conformers generated for C2H6O_H1 ******
+**************************************************
+
+CREST conformers generated. Proceeding with next step: opt_constrain_conf
+Job to be performed: opt_constrain_conf
+Filtering molecules using ArbAlign algorithm
+Filtered 58 conformers to 44 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12766941 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/C2H6O_H1
+Waiting 500 seconds before first check
+Job 12766941_1 is pending in the queue.
+Job 12766941_2 is pending in the queue.
+Job 12766941_3 is pending in the queue.
+Job 12766941_4 is pending in the queue.
+Job 12766941_5 is pending in the queue.
+Job 12766941_6 is pending in the queue.
+Job 12766941_7 is pending in the queue.
+Job 12766941_8 is pending in the queue.
+Job 12766941_9 is pending in the queue.
+Job 12766941_10 is pending in the queue.
+Job 12766941_11 is pending in the queue.
+Job 12766941_12 is pending in the queue.
+Job 12766941_13 is pending in the queue.
+Job 12766941_14 is pending in the queue.
+Job 12766941_15 is pending in the queue.
+Job 12766941_16 is pending in the queue.
+Job 12766941_17 is pending in the queue.
+Job 12766941_18 is pending in the queue.
+Job 12766941_19 is pending in the queue.
+Job 12766941_20 is pending in the queue.
+Job 12766941_21 is pending in the queue.
+Job 12766941_22 is pending in the queue.
+Job 12766941_23 is pending in the queue.
+Job 12766941_24 is pending in the queue.
+Job 12766941_25 is pending in the queue.
+Job 12766941_26 is pending in the queue.
+Job 12766941_27 is pending in the queue.
+Job 12766941_28 is pending in the queue.
+Job 12766941_29 is pending in the queue.
+Job 12766941_30 is pending in the queue.
+Job 12766941_31 is pending in the queue.
+Job 12766941_32 is pending in the queue.
+Job 12766941_33 is pending in the queue.
+Job 12766941_34 is pending in the queue.
+Job 12766941_35 is pending in the queue.
+Job 12766941_36 is pending in the queue.
+Job 12766941_37 is pending in the queue.
+Job 12766941_38 is pending in the queue.
+Job 12766941_39 is pending in the queue.
+Job 12766941_40 is pending in the queue.
+Job 12766941_41 is pending in the queue.
+Job 12766941_42 is pending in the queue.
+Job 12766941_43 is pending in the queue.
+Job 12766941_44 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***C2H6O_H1_conf1 converged***
+***C2H6O_H1_conf3 converged***
+***C2H6O_H1_conf4 converged***
+***C2H6O_H1_conf6 converged***
+***C2H6O_H1_conf7 converged***
+***C2H6O_H1_conf8 converged***
+***C2H6O_H1_conf9 converged***
+***C2H6O_H1_conf11 converged***
+***C2H6O_H1_conf12 converged***
+***C2H6O_H1_conf13 converged***
+***C2H6O_H1_conf15 converged***
+***C2H6O_H1_conf17 converged***
+***C2H6O_H1_conf19 converged***
+***C2H6O_H1_conf20 converged***
+***C2H6O_H1_conf22 converged***
+***C2H6O_H1_conf23 converged***
+***C2H6O_H1_conf24 converged***
+***C2H6O_H1_conf25 converged***
+***C2H6O_H1_conf26 converged***
+***C2H6O_H1_conf27 converged***
+***C2H6O_H1_conf29 converged***
+***C2H6O_H1_conf31 converged***
+***C2H6O_H1_conf32 converged***
+***C2H6O_H1_conf33 converged***
+***C2H6O_H1_conf34 converged***
+***C2H6O_H1_conf35 converged***
+***C2H6O_H1_conf36 converged***
+***C2H6O_H1_conf37 converged***
+***C2H6O_H1_conf38 converged***
+***C2H6O_H1_conf39 converged***
+***C2H6O_H1_conf40 converged***
+***C2H6O_H1_conf43 converged***
+***C2H6O_H1_conf44 converged***
+***C2H6O_H1_conf45 converged***
+***C2H6O_H1_conf46 converged***
+Job opt_constrain_conf for C2H6O_H1_conf47 with job id 12766941_36 is running.
+Convergence error 'l9999' termination found in C2H6O_H1_conf47
+Trying to resubmit job for C2H6O_H1_conf47 due to error termination
+submitted file C2H6O_H1_conf47.com with job type: opt_constrain_conf and job id 12768323 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/C2H6O_H1
+***C2H6O_H1_conf48 converged***
+***C2H6O_H1_conf49 converged***
+***C2H6O_H1_conf51 converged***
+***C2H6O_H1_conf52 converged***
+***C2H6O_H1_conf54 converged***
+***C2H6O_H1_conf55 converged***
+***C2H6O_H1_conf57 converged***
+***C2H6O_H1_conf58 converged***
+Log files of the 44 conformers have been checked. Checking every 461 seconds. Attempt: 1/100
+Job 12768323 is pending in the queue.
+Log files of the 44 conformers have been checked. Checking every 461 seconds. Attempt: 10/100
+***C2H6O_H1_conf47 converged***
+
+**************************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain_conf. ******
+**************************************************************************************
+
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 12777251 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/C2H6O_H1
+Waiting 500 seconds before first check
+Job 12777251_1 is pending in the queue.
+Job 12777251_2 is pending in the queue.
+Job 12777251_3 is pending in the queue.
+Job 12777251_4 is pending in the queue.
+Job 12777251_5 is pending in the queue.
+Job 12777251_6 is pending in the queue.
+Job 12777251_7 is pending in the queue.
+Job 12777251_8 is pending in the queue.
+Job 12777251_9 is pending in the queue.
+Job 12777251_10 is pending in the queue.
+Job 12777251_11 is pending in the queue.
+Job 12777251_12 is pending in the queue.
+Job 12777251_13 is pending in the queue.
+Job 12777251_14 is pending in the queue.
+Job 12777251_15 is pending in the queue.
+Job 12777251_16 is pending in the queue.
+Job 12777251_17 is pending in the queue.
+Job 12777251_18 is pending in the queue.
+Job 12777251_19 is pending in the queue.
+Job 12777251_20 is pending in the queue.
+Job 12777251_21 is pending in the queue.
+Job 12777251_22 is pending in the queue.
+Job 12777251_23 is pending in the queue.
+Job 12777251_24 is pending in the queue.
+Job 12777251_25 is pending in the queue.
+Job 12777251_26 is pending in the queue.
+Job 12777251_27 is pending in the queue.
+Job 12777251_28 is pending in the queue.
+Job 12777251_29 is pending in the queue.
+Job 12777251_30 is pending in the queue.
+Job 12777251_31 is pending in the queue.
+Job 12777251_32 is pending in the queue.
+Job 12777251_33 is pending in the queue.
+Job 12777251_34 is pending in the queue.
+Job 12777251_35 is pending in the queue.
+Job 12777251_36 is pending in the queue.
+Job 12777251_37 is pending in the queue.
+Job 12777251_38 is pending in the queue.
+Job 12777251_39 is pending in the queue.
+Job 12777251_40 is pending in the queue.
+Job 12777251_41 is pending in the queue.
+Job 12777251_42 is pending in the queue.
+Job 12777251_43 is pending in the queue.
+Job 12777251_44 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt_conf for C2H6O_H1_conf1_TS with job id 12777251_1 is running.
+Job TS_opt_conf for C2H6O_H1_conf3_TS with job id 12777251_2 is running.
+Job TS_opt_conf for C2H6O_H1_conf4_TS with job id 12777251_3 is running.
+Job TS_opt_conf for C2H6O_H1_conf6_TS with job id 12777251_4 is running.
+Job TS_opt_conf for C2H6O_H1_conf7_TS with job id 12777251_5 is running.
+Job TS_opt_conf for C2H6O_H1_conf8_TS with job id 12777251_6 is running.
+Job TS_opt_conf for C2H6O_H1_conf9_TS with job id 12777251_7 is running.
+Job TS_opt_conf for C2H6O_H1_conf11_TS with job id 12777251_8 is running.
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf12_TS with imaginary frequency: -704.9988 ******
+**********************************************************************************************************************
+
+Job TS_opt_conf for C2H6O_H1_conf13_TS with job id 12777251_10 is running.
+Job TS_opt_conf for C2H6O_H1_conf15_TS with job id 12777251_11 is running.
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf17_TS with imaginary frequency: -1186.8078 ******
+***********************************************************************************************************************
+
+Job TS_opt_conf for C2H6O_H1_conf19_TS with job id 12777251_13 is running.
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf19_TS with imaginary frequency: -1186.8172 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf20_TS with imaginary frequency: -1186.7987 ******
+***********************************************************************************************************************
+
+Job TS_opt_conf for C2H6O_H1_conf22_TS with job id 12777251_15 is running.
+Job TS_opt_conf for C2H6O_H1_conf23_TS with job id 12777251_16 is running.
+Job TS_opt_conf for C2H6O_H1_conf24_TS with job id 12777251_17 is running.
+Job TS_opt_conf for C2H6O_H1_conf25_TS with job id 12777251_18 is running.
+Job TS_opt_conf for C2H6O_H1_conf26_TS with job id 12777251_19 is running.
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf26_TS with imaginary frequency: -1186.7959 ******
+***********************************************************************************************************************
+
+Job TS_opt_conf for C2H6O_H1_conf27_TS with job id 12777251_20 is running.
+Job TS_opt_conf for C2H6O_H1_conf29_TS with job id 12777251_21 is running.
+Job TS_opt_conf for C2H6O_H1_conf31_TS with job id 12777251_22 is running.
+Job TS_opt_conf for C2H6O_H1_conf32_TS with job id 12777251_23 is running.
+Job TS_opt_conf for C2H6O_H1_conf33_TS with job id 12777251_24 is running.
+Job TS_opt_conf for C2H6O_H1_conf34_TS with job id 12777251_25 is running.
+Job TS_opt_conf for C2H6O_H1_conf35_TS with job id 12777251_26 is running.
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf36_TS with imaginary frequency: -1186.816 ******
+**********************************************************************************************************************
+
+Job TS_opt_conf for C2H6O_H1_conf37_TS with job id 12777251_28 is running.
+Job TS_opt_conf for C2H6O_H1_conf38_TS with job id 12777251_29 is running.
+Job TS_opt_conf for C2H6O_H1_conf39_TS with job id 12777251_30 is running.
+Job TS_opt_conf for C2H6O_H1_conf40_TS with job id 12777251_31 is running.
+Job TS_opt_conf for C2H6O_H1_conf43_TS with job id 12777251_32 is running.
+Job TS_opt_conf for C2H6O_H1_conf44_TS with job id 12777251_33 is running.
+Job TS_opt_conf for C2H6O_H1_conf45_TS with job id 12777251_34 is running.
+Job TS_opt_conf for C2H6O_H1_conf46_TS with job id 12777251_35 is running.
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf46_TS with imaginary frequency: -1145.7843 ******
+***********************************************************************************************************************
+
+Job TS_opt_conf for C2H6O_H1_conf47_TS with job id 12777251_36 is running.
+Job TS_opt_conf for C2H6O_H1_conf48_TS with job id 12777251_37 is running.
+Job TS_opt_conf for C2H6O_H1_conf49_TS with job id 12777251_38 is running.
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf49_TS with imaginary frequency: -1145.645 ******
+**********************************************************************************************************************
+
+Job TS_opt_conf for C2H6O_H1_conf51_TS with job id 12777251_39 is running.
+Job TS_opt_conf for C2H6O_H1_conf52_TS with job id 12777251_40 is running.
+Job TS_opt_conf for C2H6O_H1_conf54_TS with job id 12777251_41 is running.
+Job TS_opt_conf for C2H6O_H1_conf55_TS with job id 12777251_42 is running.
+Job TS_opt_conf for C2H6O_H1_conf57_TS with job id 12777251_43 is running.
+Job TS_opt_conf for C2H6O_H1_conf58_TS with job id 12777251_44 is running.
+Log files of the 44 conformers have been checked. Checking every 461 seconds. Attempt: 1/100
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf1_TS with imaginary frequency: -704.983 ******
+********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf3_TS with imaginary frequency: -704.9678 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf4_TS with imaginary frequency: -704.9648 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf6_TS with imaginary frequency: -704.9832 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf7_TS with imaginary frequency: -704.9888 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf8_TS with imaginary frequency: -704.9954 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf9_TS with imaginary frequency: -704.9806 ******
+*********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf11_TS with imaginary frequency: -704.9847 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf13_TS with imaginary frequency: -1186.7966 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf15_TS with imaginary frequency: -1186.8109 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf22_TS with imaginary frequency: -1186.7699 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf23_TS with imaginary frequency: -1186.8002 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf24_TS with imaginary frequency: -1186.8189 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf25_TS with imaginary frequency: -1186.8069 ******
+***********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf27_TS with imaginary frequency: -684.8368 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf29_TS with imaginary frequency: -1145.6518 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf31_TS with imaginary frequency: -1145.7386 ******
+***********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf32_TS with imaginary frequency: -684.8731 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf33_TS with imaginary frequency: -1145.6235 ******
+***********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf34_TS with imaginary frequency: -684.847 ******
+*********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf35_TS with imaginary frequency: -1145.6401 ******
+***********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf37_TS with imaginary frequency: -684.8812 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf38_TS with imaginary frequency: -1145.6215 ******
+***********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf39_TS with imaginary frequency: -684.8376 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf40_TS with imaginary frequency: -684.8314 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf43_TS with imaginary frequency: -1145.5744 ******
+***********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf44_TS with imaginary frequency: -684.8568 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf45_TS with imaginary frequency: -684.8491 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf47_TS with imaginary frequency: -684.8372 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf48_TS with imaginary frequency: -684.7898 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf51_TS with imaginary frequency: -684.8566 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf52_TS with imaginary frequency: -1145.6468 ******
+***********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf54_TS with imaginary frequency: -795.6038 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf55_TS with imaginary frequency: -795.5905 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf57_TS with imaginary frequency: -795.5747 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H1_conf58_TS with imaginary frequency: -795.6104 ******
+**********************************************************************************************************************
+
+
+*******************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt_conf. ******
+*******************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 44 conformers to 5 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12789626 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/C2H6O_H1
+Waiting 500 seconds before first check
+Job 12789626_1 is pending in the queue.
+Job 12789626_2 is pending in the queue.
+Job 12789626_3 is pending in the queue.
+Job 12789626_4 is pending in the queue.
+Job 12789626_5 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job DLPNO for C2H6O_H1_conf12_DLPNO with job id 12789626_1 is running.
+Job DLPNO for C2H6O_H1_conf36_DLPNO with job id 12789626_2 is running.
+Job DLPNO for C2H6O_H1_conf51_DLPNO with job id 12789626_3 is running.
+Job DLPNO for C2H6O_H1_conf52_DLPNO with job id 12789626_4 is running.
+Job DLPNO for C2H6O_H1_conf58_DLPNO with job id 12789626_5 is running.
+Log files of the 5 conformers have been checked. Checking every 304 seconds. Attempt: 1/100
+***C2H6O_H1_conf12_DLPNO converged***
+***C2H6O_H1_conf36_DLPNO converged***
+***C2H6O_H1_conf51_DLPNO converged***
+***C2H6O_H1_conf52_DLPNO converged***
+***C2H6O_H1_conf58_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/products/Final_products_C2H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/products/Final_products_C2H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/products/Final_products_C2H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/products/Final_products_C2H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/products/Final_products_C2H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/products/Final_products_C2H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/products/Final_products_C2H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/products/Final_products_C2H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/products/Final_products_C2H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/products/Final_products_C2H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/products/Final_products_C2H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCO/reactants/Final_reactants_C2H6O.pkl

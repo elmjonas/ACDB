@@ -1,0 +1,24 @@
+COMMAND: JKTS -smiles C -OH -time 48:00:00 -method M062X -initial_delay 500
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+Ea: 5.4561 kcal/mol  Q_TS: 944028871880.9813  k: 6.3384924822917685e-15
+6.3384924822917685e-15 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 3.2381430151892525
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+Ea: 5.4561 kcal/mol  Q_TS: 944028871880.9813  k: 7.360850420214966e-16
+7.360850420214966e-16 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 3.2381430151892525
+COMMAND: JKTS collected_molecules.pkl -info
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+Ea: 5.4561 kcal/mol  Q_TS: 944028871880.9813  k: 7.360850420214966e-16
+7.360850420214966e-16 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 3.2381430151892525
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+Ea: 5.4561 kcal/mol  Q_TS: 944028871880.9813  k: 7.360850420214966e-16
+7.360850420214966e-16 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 3.2381430151892525
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+k_G: 6.338492e-15
+Ea: 5.4561 kcal/mol  Q_TS: 944028871880.9813  k: 7.360850420214966e-16
+7.360850420214966e-16 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 3.2381430151892525
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc

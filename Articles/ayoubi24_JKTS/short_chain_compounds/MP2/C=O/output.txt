@@ -1,0 +1,2 @@
+COMMAND: JKTS -smiles C=O -OH -time 168:00:00 -method MP2 -F12 -initial_delay 2000 -interval 500
+COMMAND: JKTS CH2O_H1/Final_TS_CH2O_H1.pkl reactants/Final_reactants_CH2O.pkl -loc

@@ -1,0 +1,67 @@
+COMMAND: JKTS -smiles CCCO -OH -time 48:00:00 -method BHandHLYP -initial_delay 500
+COMMAND: JKTS -smiles CCCO -OH -method BHandHLYP -time 72:00:00 -transition_states false
+COMMAND: JKTS -smiles CCCO -OH -method BHandHLYP -time 72:00:00 -TS false -reactants false
+JKTS Final_*
+JKTS Final_* -loc
+File type  is not supported
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+k_G: nan
+Ea: 0.0361 kcal/mol  k: nan Qratio: 6.786643840271172e-07  Eckart: nan  Wigner: 4.398218803724811
+LC-TST: 1.4806299510840986e-13
+nan cm^3 molecules^-1 s^-1    Tunneling coefficient nan  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+k_G: nan
+Ea: 0.0361 kcal/mol  k: nan Qratio: 6.786643840271172e-07  Eckart: nan  Wigner: 4.398218803724811
+LC-TST: 1.4806299510840986e-13
+nan cm^3 molecules^-1 s^-1    Tunneling coefficient nan  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+k_G: 6.256116e-16
+Ea: 0.0361 kcal/mol  k: nan Qratio: 6.786643840271172e-07  Eckart: nan  Wigner: 4.398218803724811
+LC-TST: 1.4806299510840986e-13
+nan cm^3 molecules^-1 s^-1    Tunneling coefficient nan  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+k_G: nan
+Ea: 0.0361 kcal/mol  k: 1.612569870381592e-13 Qratio: 6.786643840271172e-07  Eckart: nan  Wigner: 4.398218803724811
+LC-TST: 1.4806299510840986e-13
+1.612569870381592e-13 cm^3 molecules^-1 s^-1    Tunneling coefficient nan  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+THIS IS KAPPA: nan
+k_G: nan
+Ea: 0.0361 kcal/mol  k: nan Qratio: 6.786643840271172e-07  Eckart: nan  Wigner: 4.398218803724811
+LC-TST: 1.4806299510840986e-13
+nan cm^3 molecules^-1 s^-1    Tunneling coefficient nan  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+k_G: nan
+Ea: 0.0361 kcal/mol  k: nan Qratio: 6.786643840271172e-07  Eckart: nan  Wigner: 4.398218803724811
+LC-TST: 1.4806299510840986e-13
+nan cm^3 molecules^-1 s^-1    Tunneling coefficient nan  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+nan
+k_G: nan
+Ea: 0.0361 kcal/mol  k: nan Qratio: 6.786643840271172e-07  Eckart: nan  Wigner: 4.398218803724811
+LC-TST: 1.4806299510840986e-13
+nan cm^3 molecules^-1 s^-1    Tunneling coefficient nan  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+k_G: nan
+Ea: 0.0361 kcal/mol  k: nan Qratio: 6.786643840271172e-07  Eckart: nan  Wigner: 4.398218803724811
+LC-TST: 1.4806299510840986e-13
+nan cm^3 molecules^-1 s^-1    Tunneling coefficient nan  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+k_G: nan
+Ea: 0.0361 kcal/mol  k: nan Qratio: 6.786643840271172e-07  Eckart: nan  Wigner: 4.398218803724811
+LC-TST: 1.4806299510840986e-13
+nan cm^3 molecules^-1 s^-1    Tunneling coefficient nan  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+k_G: 6.256116e-16
+Ea: 0.0361 kcal/mol  k: 1.612569870381592e-13 Qratio: 6.786643840271172e-07  Eckart: 1  Wigner: 4.398218803724811
+LC-TST: 1.4806299510840986e-13
+1.612569870381592e-13 cm^3 molecules^-1 s^-1    Tunneling coefficient 1  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+Eckart = 1
+1.612569870381592e-13 cm^3 molecules^-1 s^-1    Tunneling coefficient 1  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+Wigner = 4.398218803724811
+JKTS C3H8O_H1/Final_TS_C3H8O_H1.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H1.pkl -loc
+Eckart = 1
+1.612569870381592e-13 cm^3 molecules^-1 s^-1    Tunneling coefficient 1  Wigner: 4.398218803724811  Ea: 0.036064938962226734  Qratio: 6.786643840271172e-07

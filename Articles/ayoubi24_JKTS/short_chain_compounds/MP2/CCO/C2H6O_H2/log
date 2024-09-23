@@ -1,0 +1,330 @@
+Job to be performed: opt_constrain
+Submitting file C2H6O_H2.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2 with job id 12763507
+Waiting 2000 seconds before first check
+Job 12763507 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***C2H6O_H2 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C2H6O_H2_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2 with job id 12766161
+Waiting 2000 seconds before first check
+
+****************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H2_TS with imaginary frequency: -1248.3717 ******
+****************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file C2H6O_H2_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2 with job id 12767169
+Waiting 2000 seconds before first check
+
+**************************************************
+****** 42 conformers generated for C2H6O_H2 ******
+**************************************************
+
+CREST conformers generated. Proceeding with next step: opt_constrain_conf
+Job to be performed: opt_constrain_conf
+Filtering molecules using ArbAlign algorithm
+Filtered 42 conformers to 28 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12768312 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Waiting 2000 seconds before first check
+Job 12768312_1 is pending in the queue.
+Job 12768312_2 is pending in the queue.
+Job 12768312_3 is pending in the queue.
+Job 12768312_4 is pending in the queue.
+Job 12768312_5 is pending in the queue.
+Job 12768312_6 is pending in the queue.
+Job 12768312_7 is pending in the queue.
+Job 12768312_8 is pending in the queue.
+Job 12768312_9 is pending in the queue.
+Job 12768312_10 is pending in the queue.
+Job 12768312_11 is pending in the queue.
+Job 12768312_12 is pending in the queue.
+Job 12768312_13 is pending in the queue.
+Job 12768312_14 is pending in the queue.
+Job 12768312_15 is pending in the queue.
+Job 12768312_16 is pending in the queue.
+Job 12768312_17 is pending in the queue.
+Job 12768312_18 is pending in the queue.
+Job 12768312_19 is pending in the queue.
+Job 12768312_20 is pending in the queue.
+Job 12768312_21 is pending in the queue.
+Job 12768312_22 is pending in the queue.
+Job 12768312_23 is pending in the queue.
+Job 12768312_24 is pending in the queue.
+Job 12768312_25 is pending in the queue.
+Job 12768312_26 is pending in the queue.
+Job 12768312_27 is pending in the queue.
+Job 12768312_28 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***C2H6O_H2_conf1 converged***
+***C2H6O_H2_conf3 converged***
+***C2H6O_H2_conf5 converged***
+***C2H6O_H2_conf7 converged***
+***C2H6O_H2_conf10 converged***
+***C2H6O_H2_conf12 converged***
+***C2H6O_H2_conf14 converged***
+***C2H6O_H2_conf15 converged***
+***C2H6O_H2_conf16 converged***
+***C2H6O_H2_conf17 converged***
+***C2H6O_H2_conf18 converged***
+***C2H6O_H2_conf20 converged***
+***C2H6O_H2_conf21 converged***
+***C2H6O_H2_conf22 converged***
+***C2H6O_H2_conf24 converged***
+***C2H6O_H2_conf26 converged***
+***C2H6O_H2_conf28 converged***
+***C2H6O_H2_conf29 converged***
+***C2H6O_H2_conf30 converged***
+***C2H6O_H2_conf31 converged***
+***C2H6O_H2_conf32 converged***
+***C2H6O_H2_conf34 converged***
+***C2H6O_H2_conf36 converged***
+***C2H6O_H2_conf38 converged***
+***C2H6O_H2_conf39 converged***
+***C2H6O_H2_conf40 converged***
+***C2H6O_H2_conf41 converged***
+***C2H6O_H2_conf42 converged***
+
+**************************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain_conf. ******
+**************************************************************************************
+
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 12776534 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Waiting 2000 seconds before first check
+Job 12776534_1 is pending in the queue.
+Job 12776534_2 is pending in the queue.
+Job 12776534_3 is pending in the queue.
+Job 12776534_4 is pending in the queue.
+Job 12776534_5 is pending in the queue.
+Job 12776534_6 is pending in the queue.
+Job 12776534_7 is pending in the queue.
+Job 12776534_8 is pending in the queue.
+Job 12776534_9 is pending in the queue.
+Job 12776534_10 is pending in the queue.
+Job 12776534_11 is pending in the queue.
+Job 12776534_12 is pending in the queue.
+Job 12776534_13 is pending in the queue.
+Job 12776534_14 is pending in the queue.
+Job 12776534_15 is pending in the queue.
+Job 12776534_16 is pending in the queue.
+Job 12776534_17 is pending in the queue.
+Job 12776534_18 is pending in the queue.
+Job 12776534_19 is pending in the queue.
+Job 12776534_20 is pending in the queue.
+Job 12776534_21 is pending in the queue.
+Job 12776534_22 is pending in the queue.
+Job 12776534_23 is pending in the queue.
+Job 12776534_24 is pending in the queue.
+Job 12776534_25 is pending in the queue.
+Job 12776534_26 is pending in the queue.
+Job 12776534_27 is pending in the queue.
+Job 12776534_28 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt_conf for C2H6O_H2_conf1_TS with job id 12776534_1 is running.
+Job TS_opt_conf for C2H6O_H2_conf3_TS with job id 12776534_2 is running.
+Job TS_opt_conf for C2H6O_H2_conf5_TS with job id 12776534_3 is running.
+Job TS_opt_conf for C2H6O_H2_conf7_TS with job id 12776534_4 is running.
+Job TS_opt_conf for C2H6O_H2_conf10_TS with job id 12776534_5 is running.
+Job TS_opt_conf for C2H6O_H2_conf12_TS with job id 12776534_6 is running.
+Job TS_opt_conf for C2H6O_H2_conf14_TS with job id 12776534_7 is running.
+Job TS_opt_conf for C2H6O_H2_conf15_TS with job id 12776534_8 is running.
+Job TS_opt_conf for C2H6O_H2_conf16_TS with job id 12776534_9 is running.
+Job TS_opt_conf for C2H6O_H2_conf17_TS with job id 12776534_10 is running.
+Job TS_opt_conf for C2H6O_H2_conf18_TS with job id 12776534_11 is running.
+Job TS_opt_conf for C2H6O_H2_conf20_TS with job id 12776534_12 is running.
+Job TS_opt_conf for C2H6O_H2_conf21_TS with job id 12776534_13 is running.
+Job TS_opt_conf for C2H6O_H2_conf22_TS with job id 12776534_14 is running.
+Job TS_opt_conf for C2H6O_H2_conf24_TS with job id 12776534_15 is running.
+Job TS_opt_conf for C2H6O_H2_conf26_TS with job id 12776534_16 is running.
+Job TS_opt_conf for C2H6O_H2_conf28_TS with job id 12776534_17 is running.
+Job TS_opt_conf for C2H6O_H2_conf29_TS with job id 12776534_18 is running.
+Job TS_opt_conf for C2H6O_H2_conf30_TS with job id 12776534_19 is running.
+Job TS_opt_conf for C2H6O_H2_conf31_TS with job id 12776534_20 is running.
+Job TS_opt_conf for C2H6O_H2_conf32_TS with job id 12776534_21 is running.
+Job TS_opt_conf for C2H6O_H2_conf34_TS with job id 12776534_22 is running.
+Job TS_opt_conf for C2H6O_H2_conf36_TS with job id 12776534_23 is running.
+Job TS_opt_conf for C2H6O_H2_conf38_TS with job id 12776534_24 is running.
+Job TS_opt_conf for C2H6O_H2_conf39_TS with job id 12776534_25 is running.
+Job TS_opt_conf for C2H6O_H2_conf40_TS with job id 12776534_26 is running.
+Job TS_opt_conf for C2H6O_H2_conf41_TS with job id 12776534_27 is running.
+Job TS_opt_conf for C2H6O_H2_conf42_TS with job id 12776534_28 is running.
+Log files of the 28 conformers have been checked. Checking every 500 seconds. Attempt: 1/100
+Convergence error 'l9999' termination found in C2H6O_H2_conf1_TS
+Trying to resubmit job for C2H6O_H2_conf1_TS due to error termination
+submitted file C2H6O_H2_conf1_TS.com with job type: TS_opt_conf and job id 12787215 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Convergence error 'l9999' termination found in C2H6O_H2_conf3_TS
+Trying to resubmit job for C2H6O_H2_conf3_TS due to error termination
+submitted file C2H6O_H2_conf3_TS.com with job type: TS_opt_conf and job id 12787575 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf5_TS. Trying to resubmit
+submitted file C2H6O_H2_conf5_TS.com with job type: TS_opt_conf and job id 12787908 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf7_TS. Trying to resubmit
+submitted file C2H6O_H2_conf7_TS.com with job type: TS_opt_conf and job id 12788400 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf10_TS. Trying to resubmit
+submitted file C2H6O_H2_conf10_TS.com with job type: TS_opt_conf and job id 12789161 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf12_TS. Trying to resubmit
+submitted file C2H6O_H2_conf12_TS.com with job type: TS_opt_conf and job id 12789534 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Convergence error 'l9999' termination found in C2H6O_H2_conf14_TS
+Trying to resubmit job for C2H6O_H2_conf14_TS due to error termination
+submitted file C2H6O_H2_conf14_TS.com with job type: TS_opt_conf and job id 12789742 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf15_TS. Trying to resubmit
+submitted file C2H6O_H2_conf15_TS.com with job type: TS_opt_conf and job id 12789835 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf16_TS. Trying to resubmit
+submitted file C2H6O_H2_conf16_TS.com with job type: TS_opt_conf and job id 12790061 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf17_TS. Trying to resubmit
+submitted file C2H6O_H2_conf17_TS.com with job type: TS_opt_conf and job id 12790324 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf18_TS. Trying to resubmit
+submitted file C2H6O_H2_conf18_TS.com with job type: TS_opt_conf and job id 12790660 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H2_conf20_TS with imaginary frequency: -1248.2882 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H2_conf21_TS with imaginary frequency: -1248.2919 ******
+***********************************************************************************************************************
+
+Convergence error 'l9999' termination found in C2H6O_H2_conf22_TS
+Trying to resubmit job for C2H6O_H2_conf22_TS due to error termination
+submitted file C2H6O_H2_conf22_TS.com with job type: TS_opt_conf and job id 12791060 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf24_TS. Trying to resubmit
+submitted file C2H6O_H2_conf24_TS.com with job type: TS_opt_conf and job id 12791425 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Convergence error 'l9999' termination found in C2H6O_H2_conf26_TS
+Trying to resubmit job for C2H6O_H2_conf26_TS due to error termination
+submitted file C2H6O_H2_conf26_TS.com with job type: TS_opt_conf and job id 12791575 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf28_TS. Trying to resubmit
+submitted file C2H6O_H2_conf28_TS.com with job type: TS_opt_conf and job id 12791871 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf29_TS. Trying to resubmit
+submitted file C2H6O_H2_conf29_TS.com with job type: TS_opt_conf and job id 12792158 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf30_TS. Trying to resubmit
+submitted file C2H6O_H2_conf30_TS.com with job type: TS_opt_conf and job id 12792407 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf31_TS. Trying to resubmit
+submitted file C2H6O_H2_conf31_TS.com with job type: TS_opt_conf and job id 12792408 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf32_TS. Trying to resubmit
+submitted file C2H6O_H2_conf32_TS.com with job type: TS_opt_conf and job id 12792620 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Convergence error 'l9999' termination found in C2H6O_H2_conf34_TS
+Trying to resubmit job for C2H6O_H2_conf34_TS due to error termination
+submitted file C2H6O_H2_conf34_TS.com with job type: TS_opt_conf and job id 12792932 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf36_TS. Trying to resubmit
+submitted file C2H6O_H2_conf36_TS.com with job type: TS_opt_conf and job id 12793232 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Convergence error 'l9999' termination found in C2H6O_H2_conf38_TS
+Trying to resubmit job for C2H6O_H2_conf38_TS due to error termination
+submitted file C2H6O_H2_conf38_TS.com with job type: TS_opt_conf and job id 12793525 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Convergence error 'l9999' termination found in C2H6O_H2_conf39_TS
+Trying to resubmit job for C2H6O_H2_conf39_TS due to error termination
+submitted file C2H6O_H2_conf39_TS.com with job type: TS_opt_conf and job id 12793946 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Error termination found in C2H6O_H2_conf40_TS. Trying to resubmit
+submitted file C2H6O_H2_conf40_TS.com with job type: TS_opt_conf and job id 12794220 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H2_conf41_TS with imaginary frequency: -1320.6563 ******
+***********************************************************************************************************************
+
+Convergence error 'l9999' termination found in C2H6O_H2_conf42_TS
+Trying to resubmit job for C2H6O_H2_conf42_TS due to error termination
+submitted file C2H6O_H2_conf42_TS.com with job type: TS_opt_conf and job id 12794427 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Job 12787215 is pending in the queue.
+Job 12787575 is pending in the queue.
+Job 12787908 is pending in the queue.
+Job 12788400 is pending in the queue.
+Job 12789161 is pending in the queue.
+Job 12789534 is pending in the queue.
+Job 12789742 is pending in the queue.
+Job 12789835 is pending in the queue.
+Job 12790061 is pending in the queue.
+Job 12790324 is pending in the queue.
+Job 12790660 is pending in the queue.
+Job 12791060 is pending in the queue.
+Job 12791425 is pending in the queue.
+Job 12791575 is pending in the queue.
+Job 12791871 is pending in the queue.
+Job 12792158 is pending in the queue.
+Job 12792407 is pending in the queue.
+Job 12792408 is pending in the queue.
+Job 12792620 is pending in the queue.
+Job 12792932 is pending in the queue.
+Job 12793232 is pending in the queue.
+Job 12793525 is pending in the queue.
+Job 12793946 is pending in the queue.
+Job 12794220 is pending in the queue.
+Job 12794427 is pending in the queue.
+Job TS_opt_conf for C2H6O_H2_conf3_TS with job id 12787575 is running.
+Job TS_opt_conf for C2H6O_H2_conf10_TS with job id 12789161 is running.
+Job TS_opt_conf for C2H6O_H2_conf14_TS with job id 12789742 is running.
+Job TS_opt_conf for C2H6O_H2_conf39_TS with job id 12793946 is running.
+!!! Dropping molecule conformer C2H6O_H2_conf1_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf3_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf5_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf7_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf10_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf16_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf17_TS due to repeated error terminations!!!
+Job TS_opt_conf for C2H6O_H2_conf38_TS with job id 12793525 is running.
+Job TS_opt_conf for C2H6O_H2_conf42_TS with job id 12794427 is running.
+!!! Dropping molecule conformer C2H6O_H2_conf12_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf15_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf18_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf22_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf24_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf26_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf28_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf29_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf30_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf31_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf32_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf34_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf36_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf40_TS due to repeated error terminations!!!
+Log files of the 7 conformers have been checked. Checking every 500 seconds. Attempt: 10/100
+!!! Dropping molecule conformer C2H6O_H2_conf38_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf39_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf42_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C2H6O_H2_conf14_TS due to repeated error terminations!!!
+
+*******************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt_conf. ******
+*******************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 3 conformers to 2 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12811179 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/C2H6O_H2
+Waiting 2000 seconds before first check
+Job DLPNO for C2H6O_H2_conf20_DLPNO with job id 12811179_1 is running.
+Job DLPNO for C2H6O_H2_conf41_DLPNO with job id 12811179_2 is running.
+Log files of the 2 conformers have been checked. Checking every 500 seconds. Attempt: 1/100
+***C2H6O_H2_conf20_DLPNO converged***
+***C2H6O_H2_conf41_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/products/Final_products_C2H6O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/products/Final_products_C2H6O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/products/Final_products_C2H6O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/products/Final_products_C2H6O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/products/Final_products_C2H6O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/products/Final_products_C2H6O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/products/Final_products_C2H6O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/products/Final_products_C2H6O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/reactants/Final_reactants_C2H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H6O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/products/Final_products_C2H6O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCO/reactants/Final_reactants_C2H6O.pkl

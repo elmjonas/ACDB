@@ -1,0 +1,3 @@
+slurmstepd: error: *** JOB 13578568 ON s83n31 CANCELLED AT 2024-05-16T18:40:53 ***
+C-H: 1.1760709958148787   H-O: 1.3605011292391491    C-O: 2.534640697600747   CHO_angle: 175.5160334690337
+Error in job submission: Command '['sh', '/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CC/C2H6_H1/log_files/crest_submit.sh', 'C2H6_H1_CREST.xyz']' returned non-zero exit status 1.!! Check g16/orca_submit.sh

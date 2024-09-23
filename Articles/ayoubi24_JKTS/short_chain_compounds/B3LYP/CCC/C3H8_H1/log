@@ -1,0 +1,155 @@
+Job to be performed: opt_constrain
+Submitting file C3H8_H1.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1 with job id 12747849
+Waiting 500 seconds before first check
+Job opt_constrain for C3H8_H1 with job id 12747849 is running.
+Log files of the 1 conformers have been checked. Checking every 276 seconds. Attempt: 1/100
+***C3H8_H1 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C3H8_H1_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1 with job id 12748866
+Waiting 500 seconds before first check
+Job 12748866 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt for C3H8_H1_TS with job id 12748866 is running.
+Log files of the 1 conformers have been checked. Checking every 369 seconds. Attempt: 1/100
+
+**************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H1_TS with imaginary frequency: -133.8133 ******
+**************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file C3H8_H1_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1 with job id 12765624
+Waiting 500 seconds before first check
+Job 12765624 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Not all files found. Retrying every 91 seconds.
+
+*************************************************
+****** 14 conformers generated for C3H8_H1 ******
+*************************************************
+
+CREST conformers generated. Proceeding with next step: opt_constrain_conf
+Job to be performed: opt_constrain_conf
+Filtering molecules using ArbAlign algorithm
+Filtered 14 conformers to 6 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12767278 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1
+Waiting 500 seconds before first check
+Job 12767278_1 is pending in the queue.
+Job 12767278_2 is pending in the queue.
+Job 12767278_3 is pending in the queue.
+Job 12767278_4 is pending in the queue.
+Job 12767278_5 is pending in the queue.
+Job 12767278_6 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***C3H8_H1_conf1 converged***
+***C3H8_H1_conf4 converged***
+***C3H8_H1_conf7 converged***
+Job opt_constrain_conf for C3H8_H1_conf8 with job id 12767278_4 is running.
+Job opt_constrain_conf for C3H8_H1_conf11 with job id 12767278_5 is running.
+Job opt_constrain_conf for C3H8_H1_conf13 with job id 12767278_6 is running.
+Log files of the 6 conformers have been checked. Checking every 461 seconds. Attempt: 1/100
+***C3H8_H1_conf8 converged***
+***C3H8_H1_conf11 converged***
+***C3H8_H1_conf13 converged***
+
+**************************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain_conf. ******
+**************************************************************************************
+
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 12769062 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1
+Waiting 500 seconds before first check
+Job 12769062_1 is pending in the queue.
+Job 12769062_2 is pending in the queue.
+Job 12769062_3 is pending in the queue.
+Job 12769062_4 is pending in the queue.
+Job 12769062_5 is pending in the queue.
+Job 12769062_6 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt_conf for C3H8_H1_conf1_TS with job id 12769062_1 is running.
+Job TS_opt_conf for C3H8_H1_conf4_TS with job id 12769062_2 is running.
+Job TS_opt_conf for C3H8_H1_conf7_TS with job id 12769062_3 is running.
+Job TS_opt_conf for C3H8_H1_conf8_TS with job id 12769062_4 is running.
+Job TS_opt_conf for C3H8_H1_conf11_TS with job id 12769062_5 is running.
+Job TS_opt_conf for C3H8_H1_conf13_TS with job id 12769062_6 is running.
+Log files of the 6 conformers have been checked. Checking every 461 seconds. Attempt: 1/100
+Error termination found in C3H8_H1_conf4_TS. Trying to resubmit
+submitted file C3H8_H1_conf4_TS.com with job type: TS_opt_conf and job id 12777672 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1
+Error termination found in C3H8_H1_conf7_TS. Trying to resubmit
+submitted file C3H8_H1_conf7_TS.com with job type: TS_opt_conf and job id 12777972 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1
+Error termination found in C3H8_H1_conf8_TS. Trying to resubmit
+submitted file C3H8_H1_conf8_TS.com with job type: TS_opt_conf and job id 12778046 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1
+Error termination found in C3H8_H1_conf11_TS. Trying to resubmit
+submitted file C3H8_H1_conf11_TS.com with job type: TS_opt_conf and job id 12778117 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1
+Error termination found in C3H8_H1_conf13_TS. Trying to resubmit
+submitted file C3H8_H1_conf13_TS.com with job type: TS_opt_conf and job id 12778235 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H1_conf1_TS with imaginary frequency: -133.8164 ******
+********************************************************************************************************************
+
+Job 12777672 is pending in the queue.
+Job 12777972 is pending in the queue.
+Job 12778046 is pending in the queue.
+Job 12778117 is pending in the queue.
+Job 12778235 is pending in the queue.
+!!! Dropping molecule conformer C3H8_H1_conf4_TS due to repeated error terminations!!!
+Job TS_opt_conf for C3H8_H1_conf8_TS with job id 12778046 is running.
+Job TS_opt_conf for C3H8_H1_conf11_TS with job id 12778117 is running.
+!!! Dropping molecule conformer C3H8_H1_conf7_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8_H1_conf8_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8_H1_conf11_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8_H1_conf13_TS due to repeated error terminations!!!
+
+*******************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt_conf. ******
+*******************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 1 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitting file C3H8_H1_conf1_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1 with job id 12794968
+Waiting 500 seconds before first check
+Job 12794968 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job DLPNO for C3H8_H1_conf1_DLPNO with job id 12794968 is running.
+Error termination was found in C3H8_H1_conf1_DLPNO. Resubmitting
+submitted file C3H8_H1_conf1_DLPNO.inp with job type: DLPNO and job id 12806796 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H1
+Log files of the 1 conformers have been checked. Checking every 304 seconds. Attempt: 1/100
+Job 12806796 is pending in the queue.
+Job DLPNO for C3H8_H1_conf1_DLPNO with job id 12806796 is running.
+***C3H8_H1_conf1_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/products/Final_products_C3H8_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/products/Final_products_C3H8_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/products/Final_products_C3H8_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/products/Final_products_C3H8_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/products/Final_products_C3H8_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/products/Final_products_C3H8_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/products/Final_products_C3H8_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/products/Final_products_C3H8_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/products/Final_products_C3H8_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/products/Final_products_C3H8_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/Final_reactants_C3H8.pkl

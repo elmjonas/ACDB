@@ -1,0 +1,28 @@
+COMMAND: JKTS -smiles CCC -OH -time 48:00:00 -method wB97XD -initial_delay 500
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -loc
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 2.9717 kcal/mol  k: 1.3083432290247747e-14
+1.3083432290247747e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 1.279892089470264
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -loc
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl products/Final_products_C3H8_H1.pkl -test
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl -loc
+Ea: 2.9717 kcal/mol  k: 1.301888574743338e-14
+1.301888574743338e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 1
+COMMAND: JKTS C3H8_H1/Final_TS_C3H8_H1.pkl reactants/Final_reactants_C3H8.pkl -loc
+Ea: 2.9717 kcal/mol  k: 1.301888574743338e-14
+1.301888574743338e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 1

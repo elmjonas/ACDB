@@ -1,0 +1,83 @@
+Molecule: C2H6_product_H1_conf1_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CC/products
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CC/products/C2H6_product_H1_conf1_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: True
+Multiplicity: 2
+Charge: 0
+Dipole Moment: None
+Workflow: ['crest_sampling', 'optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -79.00749422952
+Zero Point Correction: None
+Gibbs free energy: None
+Partition Function: None
+Vibrational Frequencies: []
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.794362 -0.000000 -0.025734
+  C   0.694444 -0.000000 -0.000044
+  H  -1.349178  0.926344  0.055933
+  H  -1.349179 -0.926344  0.055934
+  H   1.105396 -0.886028 -0.492982
+  H   1.087073 -0.000003  1.028759
+  H   1.105395  0.886030 -0.492977
+-----------------------------------------------------------------------
+Molecule: C2H6_product_H2_conf1_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CC/products
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CC/products/C2H6_product_H2_conf1_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: True
+Multiplicity: 2
+Charge: 0
+Dipole Moment: None
+Workflow: ['crest_sampling', 'optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -79.007494231153
+Zero Point Correction: None
+Gibbs free energy: None
+Partition Function: None
+Vibrational Frequencies: []
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.694444 -0.000000 -0.000045
+  C   0.794361  0.000000 -0.025732
+  H  -1.105394 -0.886036 -0.492968
+  H  -1.087073  0.000014  1.028759
+  H  -1.105395  0.886023 -0.492991
+  H   1.349180 -0.926343  0.055930
+  H   1.349179  0.926344  0.055930
+-----------------------------------------------------------------------
+Molecule: H2O_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CC/products
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CC/products/H2O_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: True
+Multiplicity: 1
+Charge: 0
+Dipole Moment: None
+Workflow: ['optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -76.34200082777
+Zero Point Correction: None
+Gibbs free energy: None
+Partition Function: None
+Vibrational Frequencies: []
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  O   0.000000 -0.000000  0.115657
+  H   0.000000 -0.768643 -0.462629
+  H   0.000000  0.768643 -0.462629
+-----------------------------------------------------------------------

@@ -1,0 +1,4 @@
+JKTS *TS.log
+JKTS *TS.log -test
+JKTS CH2O_product_H1_conf1.log CH2O_product_H2_conf1.log -test
+JKTS CH2O_product_H1_conf1_DLPNO.out CH2O_product_H1_conf1.log H2O_DLPNO.out H2O.log -collect

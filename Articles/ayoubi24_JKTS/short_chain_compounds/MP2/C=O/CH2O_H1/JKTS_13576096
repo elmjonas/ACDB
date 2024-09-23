@@ -1,0 +1,13 @@
+C-H: 1.1774700935807243   H-O: 1.396743924864182    C-O: 2.573285011842645   CHO_angle: 176.91006416083073
+C-H: 1.17746999328433   H-O: 1.3967497141134486    C-O: 2.5732902948383027   CHO_angle: 176.90939193118695
+C-H: 2.4097026716184304   H-O: 0.9660766543732437    C-O: 3.375259239098532   CHO_angle: 177.77471492806927
+C-H: 2.6112568532233666   H-O: 0.965217753232917    C-O: 3.0581685991838317   CHO_angle: 108.53114429390493
+C-H: 2.4096209014367793   H-O: 0.9660767755872203    C-O: 3.3750584151469143   CHO_angle: 177.53287238777833
+Traceback (most recent call last):
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1977, in <module>
+    if __name__ == "__main__":
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1959, in main
+    final_products = Molecule.load_molecules_from_pickle(product_pkl_path)
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1509, in rate_constant
+    lowest_ZP_reactant_J = lowest_reactant.zero_point_corrected * HtoJ
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'

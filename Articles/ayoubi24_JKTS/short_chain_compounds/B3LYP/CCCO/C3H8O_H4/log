@@ -1,0 +1,26 @@
+Job to be performed: opt_constrain
+Submitting file C3H8O_H4.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H4 with job id 12878709
+Waiting 877 seconds before first check
+Job opt_constrain for C3H8O_H4 with job id 12878709 is running.
+Log files of the 1 conformers have been checked. Checking every 438 seconds. Attempt: 1/100
+Convergence error 'l9999' termination found in C3H8O_H4
+Trying to resubmit job for C3H8O_H4 due to error termination
+submitted file C3H8O_H4.com with job type: opt_constrain and job id 12879011 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H4
+Job opt_constrain for C3H8O_H4 with job id 12879011 is running.
+***C3H8O_H4 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C3H8O_H4_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H4 with job id 12879377
+Waiting 1170 seconds before first check
+Job TS_opt for C3H8O_H4_TS with job id 12879377 is running.
+Log files of the 1 conformers have been checked. Checking every 585 seconds. Attempt: 1/100
+Convergence error 'l9999' termination found in C3H8O_H4_TS
+Trying to resubmit job for C3H8O_H4_TS due to error termination
+submitted file C3H8O_H4_TS.com with job type: TS_opt and job id 12880261 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H4
+Job TS_opt for C3H8O_H4_TS with job id 12880261 is running.
+!!! Dropping molecule conformer C3H8O_H4_TS due to repeated error terminations!!!
+No conformer has managed to converge for job type: TS_opt

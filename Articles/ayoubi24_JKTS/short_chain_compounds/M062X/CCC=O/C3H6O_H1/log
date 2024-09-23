@@ -1,0 +1,272 @@
+Job to be performed: opt_constrain
+Submitting file C3H6O_H1.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/C3H6O_H1 with job id 12747630
+Waiting 500 seconds before first check
+Job opt_constrain for C3H6O_H1 with job id 12747630 is running.
+Log files of the 1 conformers have been checked. Checking every 438 seconds. Attempt: 1/100
+***C3H6O_H1 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C3H6O_H1_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/C3H6O_H1 with job id 12748967
+Waiting 500 seconds before first check
+Job 12748967 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt for C3H6O_H1_TS with job id 12748967 is running.
+
+****************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_TS with imaginary frequency: -1140.9623 ******
+****************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file C3H6O_H1_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/C3H6O_H1 with job id 12766630
+Waiting 500 seconds before first check
+
+**************************************************
+****** 22 conformers generated for C3H6O_H1 ******
+**************************************************
+
+CREST conformers generated. Proceeding with next step: opt_constrain_conf
+Job to be performed: opt_constrain_conf
+Filtering molecules using ArbAlign algorithm
+Filtered 22 conformers to 16 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12767248 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/C3H6O_H1
+Waiting 500 seconds before first check
+Job 12767248_1 is pending in the queue.
+Job 12767248_2 is pending in the queue.
+Job 12767248_3 is pending in the queue.
+Job 12767248_4 is pending in the queue.
+Job 12767248_5 is pending in the queue.
+Job 12767248_6 is pending in the queue.
+Job 12767248_7 is pending in the queue.
+Job 12767248_8 is pending in the queue.
+Job 12767248_9 is pending in the queue.
+Job 12767248_10 is pending in the queue.
+Job 12767248_11 is pending in the queue.
+Job 12767248_12 is pending in the queue.
+Job 12767248_13 is pending in the queue.
+Job 12767248_14 is pending in the queue.
+Job 12767248_15 is pending in the queue.
+Job 12767248_16 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job opt_constrain_conf for C3H6O_H1_conf1 with job id 12767248_1 is running.
+Job opt_constrain_conf for C3H6O_H1_conf3 with job id 12767248_2 is running.
+***C3H6O_H1_conf4 converged***
+Job opt_constrain_conf for C3H6O_H1_conf5 with job id 12767248_4 is running.
+***C3H6O_H1_conf8 converged***
+Job opt_constrain_conf for C3H6O_H1_conf10 with job id 12767248_6 is running.
+***C3H6O_H1_conf11 converged***
+***C3H6O_H1_conf12 converged***
+***C3H6O_H1_conf14 converged***
+Job opt_constrain_conf for C3H6O_H1_conf15 with job id 12767248_10 is running.
+Job opt_constrain_conf for C3H6O_H1_conf16 with job id 12767248_11 is running.
+***C3H6O_H1_conf17 converged***
+***C3H6O_H1_conf18 converged***
+Job opt_constrain_conf for C3H6O_H1_conf19 with job id 12767248_14 is running.
+Job opt_constrain_conf for C3H6O_H1_conf20 with job id 12767248_15 is running.
+Job opt_constrain_conf for C3H6O_H1_conf21 with job id 12767248_16 is running.
+Log files of the 16 conformers have been checked. Checking every 731 seconds. Attempt: 1/100
+***C3H6O_H1_conf1 converged***
+***C3H6O_H1_conf3 converged***
+***C3H6O_H1_conf5 converged***
+***C3H6O_H1_conf10 converged***
+***C3H6O_H1_conf15 converged***
+Convergence error 'l9999' termination found in C3H6O_H1_conf16
+Trying to resubmit job for C3H6O_H1_conf16 due to error termination
+submitted file C3H6O_H1_conf16.com with job type: opt_constrain_conf and job id 12769537 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/C3H6O_H1
+***C3H6O_H1_conf19 converged***
+Convergence error 'l9999' termination found in C3H6O_H1_conf20
+Trying to resubmit job for C3H6O_H1_conf20 due to error termination
+submitted file C3H6O_H1_conf20.com with job type: opt_constrain_conf and job id 12769690 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/C3H6O_H1
+Convergence error 'l9999' termination found in C3H6O_H1_conf21
+Trying to resubmit job for C3H6O_H1_conf21 due to error termination
+submitted file C3H6O_H1_conf21.com with job type: opt_constrain_conf and job id 12769874 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/C3H6O_H1
+Job 12769537 is pending in the queue.
+Job 12769690 is pending in the queue.
+Job 12769874 is pending in the queue.
+Job opt_constrain_conf for C3H6O_H1_conf16 with job id 12769537 is running.
+Job opt_constrain_conf for C3H6O_H1_conf21 with job id 12769874 is running.
+Log files of the 16 conformers have been checked. Checking every 731 seconds. Attempt: 10/100
+***C3H6O_H1_conf16 converged***
+***C3H6O_H1_conf20 converged***
+***C3H6O_H1_conf21 converged***
+
+**************************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain_conf. ******
+**************************************************************************************
+
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 12778321 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/C3H6O_H1
+Waiting 500 seconds before first check
+Job 12778321_1 is pending in the queue.
+Job 12778321_2 is pending in the queue.
+Job 12778321_3 is pending in the queue.
+Job 12778321_4 is pending in the queue.
+Job 12778321_5 is pending in the queue.
+Job 12778321_6 is pending in the queue.
+Job 12778321_7 is pending in the queue.
+Job 12778321_8 is pending in the queue.
+Job 12778321_9 is pending in the queue.
+Job 12778321_10 is pending in the queue.
+Job 12778321_11 is pending in the queue.
+Job 12778321_12 is pending in the queue.
+Job 12778321_13 is pending in the queue.
+Job 12778321_14 is pending in the queue.
+Job 12778321_15 is pending in the queue.
+Job 12778321_16 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt_conf for C3H6O_H1_conf1_TS with job id 12778321_1 is running.
+Job TS_opt_conf for C3H6O_H1_conf3_TS with job id 12778321_2 is running.
+Job TS_opt_conf for C3H6O_H1_conf4_TS with job id 12778321_3 is running.
+Job TS_opt_conf for C3H6O_H1_conf5_TS with job id 12778321_4 is running.
+Job TS_opt_conf for C3H6O_H1_conf8_TS with job id 12778321_5 is running.
+Job TS_opt_conf for C3H6O_H1_conf10_TS with job id 12778321_6 is running.
+Job TS_opt_conf for C3H6O_H1_conf11_TS with job id 12778321_7 is running.
+Job TS_opt_conf for C3H6O_H1_conf12_TS with job id 12778321_8 is running.
+Job TS_opt_conf for C3H6O_H1_conf14_TS with job id 12778321_9 is running.
+Job TS_opt_conf for C3H6O_H1_conf15_TS with job id 12778321_10 is running.
+Job TS_opt_conf for C3H6O_H1_conf16_TS with job id 12778321_11 is running.
+Job TS_opt_conf for C3H6O_H1_conf17_TS with job id 12778321_12 is running.
+Job TS_opt_conf for C3H6O_H1_conf18_TS with job id 12778321_13 is running.
+Job TS_opt_conf for C3H6O_H1_conf19_TS with job id 12778321_14 is running.
+Job TS_opt_conf for C3H6O_H1_conf20_TS with job id 12778321_15 is running.
+Job TS_opt_conf for C3H6O_H1_conf21_TS with job id 12778321_16 is running.
+Log files of the 16 conformers have been checked. Checking every 731 seconds. Attempt: 1/100
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf4_TS with imaginary frequency: -816.2054 ******
+*********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf8_TS with imaginary frequency: -1140.9464 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf10_TS with imaginary frequency: -853.2483 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf12_TS with imaginary frequency: -1140.9471 ******
+***********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf16_TS with imaginary frequency: -853.2585 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf17_TS with imaginary frequency: -850.6929 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf19_TS with imaginary frequency: -1140.9406 ******
+***********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf1_TS with imaginary frequency: -853.2495 ******
+*********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf11_TS with imaginary frequency: -816.2084 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf14_TS with imaginary frequency: -816.1946 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf15_TS with imaginary frequency: -853.2527 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf18_TS with imaginary frequency: -850.7085 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf20_TS with imaginary frequency: -1140.9272 ******
+***********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf5_TS with imaginary frequency: -853.2481 ******
+*********************************************************************************************************************
+
+Convergence error 'l9999' termination found in C3H6O_H1_conf21_TS
+Trying to resubmit job for C3H6O_H1_conf21_TS due to error termination
+submitted file C3H6O_H1_conf21_TS.com with job type: TS_opt_conf and job id 12797952 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/C3H6O_H1
+Job 12797952 is pending in the queue.
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H6O_H1_conf3_TS with imaginary frequency: -853.2482 ******
+*********************************************************************************************************************
+
+Log files of the 16 conformers have been checked. Checking every 731 seconds. Attempt: 10/100
+Job TS_opt_conf for C3H6O_H1_conf21_TS with job id 12797952 is running.
+Log files of the 16 conformers have been checked. Checking every 731 seconds. Attempt: 20/100
+Log files of the 16 conformers have been checked. Checking every 731 seconds. Attempt: 30/100
+Log files of the 16 conformers have been checked. Checking every 731 seconds. Attempt: 40/100
+Log files of the 16 conformers have been checked. Checking every 731 seconds. Attempt: 50/100
+!!! Dropping molecule conformer C3H6O_H1_conf21_TS due to repeated error terminations!!!
+
+*******************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt_conf. ******
+*******************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 15 conformers to 4 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12817684 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/C3H6O_H1
+Waiting 500 seconds before first check
+Error termination was found in C3H6O_H1_conf16_DLPNO. Resubmitting
+submitted file C3H6O_H1_conf16_DLPNO.inp with job type: DLPNO and job id 12817726 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/C3H6O_H1
+Job DLPNO for C3H6O_H1_conf14_DLPNO with job id 12817684_2 is running.
+Job DLPNO for C3H6O_H1_conf19_DLPNO with job id 12817684_3 is running.
+Job DLPNO for C3H6O_H1_conf18_DLPNO with job id 12817684_4 is running.
+Log files of the 4 conformers have been checked. Checking every 482 seconds. Attempt: 1/100
+!!! Dropping molecule conformer C3H6O_H1_conf16_DLPNO due to repeated error terminations!!!
+***C3H6O_H1_conf14_DLPNO converged***
+***C3H6O_H1_conf19_DLPNO converged***
+***C3H6O_H1_conf18_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/products/Final_products_C3H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/reactants/Final_reactants_C3H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/products/Final_products_C3H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/reactants/Final_reactants_C3H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/products/Final_products_C3H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/reactants/Final_reactants_C3H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/products/Final_products_C3H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/reactants/Final_reactants_C3H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/products/Final_products_C3H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/reactants/Final_reactants_C3H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/products/Final_products_C3H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/reactants/Final_reactants_C3H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/products/Final_products_C3H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/reactants/Final_reactants_C3H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/products/Final_products_C3H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/reactants/Final_reactants_C3H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/products/Final_products_C3H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/reactants/Final_reactants_C3H6O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H6O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/products/Final_products_C3H6O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC=O/reactants/Final_reactants_C3H6O.pkl

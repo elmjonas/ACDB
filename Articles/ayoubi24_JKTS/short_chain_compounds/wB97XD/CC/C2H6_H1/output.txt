@@ -1,0 +1,6 @@
+COMMAND: JKTS C2H6_H1_conf1_TS.log -info
+COMMAND: JKTS C2H6_H1_conf20.log C2H6_H1_conf15.log -test
+COMMAND: JKTS C2H6_H1_conf20.log C2H6_H1_conf15.log -test
+COMMAND: JKTS C2H6_H1.log ../../../../MP2/CC/C2H6_H1/log_files/C2H6_H1.log -test
+JKTS C2H6_H1_conf14_TS.log C2H6_H1_conf15_TS.log C2H6_H1_conf1_TS.log C2H6_H1_conf20_TS.log C2H6_H1_conf23_TS.log C2H6_H1_conf26_TS.log C2H6_H1_conf30_TS.log C2H6_H1_conf35_TS.log C2H6_H1_conf39_TS.log C2H6_H1_conf5_TS.log C2H6_H1_conf6_TS.log C2H6_H1_conf8_TS.log C2H6_H1_conf9_TS.log C2H6_H1_TS.log
+JKTS C2H6_H1_conf14_TS.log C2H6_H1_conf15_TS.log C2H6_H1_conf1_TS.log C2H6_H1_conf20_TS.log C2H6_H1_conf23_TS.log C2H6_H1_conf26_TS.log C2H6_H1_conf30_TS.log C2H6_H1_conf35_TS.log C2H6_H1_conf39_TS.log C2H6_H1_conf5_TS.log C2H6_H1_conf6_TS.log C2H6_H1_conf8_TS.log C2H6_H1_conf9_TS.log C2H6_H1_TS.log -test

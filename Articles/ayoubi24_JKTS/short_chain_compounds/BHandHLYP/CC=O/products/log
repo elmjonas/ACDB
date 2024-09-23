@@ -1,0 +1,57 @@
+Job to be performed: crest_sampling
+Submitted SLURM array job with job id 13343345 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products
+Waiting 192 seconds before first check
+
+*********************************************************
+****** 1 conformers generated for C2H4O_product_H1 ******
+*********************************************************
+
+
+*********************************************************
+****** 1 conformers generated for C2H4O_product_H2 ******
+*********************************************************
+
+CREST conformers generated. Proceeding with next step: optimization
+Job to be performed: optimization
+Submitted SLURM array job with job id 13343432 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products
+Waiting 553 seconds before first check
+***C2H4O_product_H1_conf1 converged***
+***C2H4O_product_H2_conf1 converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Filtering product molecules for H1 using ArbAlign alogrithm
+Filtered 1 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Filtering product molecules for H2 using ArbAlign alogrithm
+Filtered 1 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 13343622 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products
+Waiting 609 seconds before first check
+***C2H4O_product_H1_conf1_DLPNO converged***
+***C2H4O_product_H2_conf1_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Submitting file H2O.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products with job id 13343781
+Waiting 40 seconds before first check
+***H2O converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Submitting file H2O_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products with job id 13343793
+Waiting 40 seconds before first check
+***H2O_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for products are done. Logging properties to Final_products_C2H4O_H1.pkl
+Final DLPNO calculations for products are done. Logging properties to Final_products_C2H4O_H2.pkl

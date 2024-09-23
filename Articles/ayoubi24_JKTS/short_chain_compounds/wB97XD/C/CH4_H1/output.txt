@@ -1,0 +1,11 @@
+COMMAND: JKTS CH4_H1_conf1_TS.log -info
+COMMAND: JKTS CH4_H1_conf1_TS.log CH4_H1_conf2_TS.log CH4_H1_conf5_TS.log ../../reactants/log_files/CH4_reactant_conf1.log -test
+COMMAND: JKTS CH4_H1_conf1_TS.log CH4_H1_conf2_TS.log CH4_H1_conf5_TS.log ../../reactants/log_files/CH4_reactant_conf1.log ../../reactants/log_files/OH.log -test
+COMMAND: JKTS ../Final_TS_CH4_H1.pkl ../../reactants/Final_reactants_CH4.pkl -loc
+Ea: 5.5299 kcal/mol  k: 1.7296558826396395e-16
+1.7296558826396395e-16 cm^3 molecules^-1 s^-1    Tunneling coefficient 1
+COMMAND: JKTS CH4_H1_conf1.log CH4_H1_conf1_TS.log CH4_H1_conf2.log CH4_H1_conf2_TS.log CH4_H1_conf5.log CH4_H1_conf5_TS.log -info
+COMMAND: JKTS CH4_H1_conf1_TS.log CH4_H1_conf2_TS.log CH4_H1_conf5_TS.log ../../reactants/log_files/CH4_reactant_conf1.log ../../reactants/log_files/OH.log -test
+JKTS CH4_H1_conf1_TS.log CH4_H1_conf2_TS.log CH4_H1_conf5_TS.log CH4_H1_TS.log
+JKTS CH4_H1_conf1_TS.log CH4_H1_conf2_TS.log CH4_H1_conf5_TS.log CH4_H1_TS.log -test
+JKTS CH4_H1_conf1_TS.log CH4_H1_conf2_TS.log CH4_H1_conf5_TS.log CH4_H1_TS.log -test

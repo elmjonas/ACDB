@@ -1,0 +1,6 @@
+COMMAND: JKTS -smiles C=O -OH -time 48:00:00 -method wB97XD -initial_delay 500
+COMMAND: JKTS CH2O_H1/Final_TS_CH2O_H1.pkl reactants/Final_reactants_CH2O.pkl products/Final_products_CH2O_H1.pkl -loc
+JKTS CH2O_H1/Final_TS_CH2O_H1.pkl reactants/Final_reactants_CH2O.pkl products/Final_products_CH2O_H1.pkl -loc
+Error in calculating the eckart tunneling. Returning tunneling coefficient 1
+Eckart = 1
+1.6815435390826531e-12 cm^3 molecules^-1 s^-1    Tunneling coefficient 1  Wigner: 1.0137771426040265  Ea: 0.2969211387389805  Qratio: 1.0991417375696445e-05

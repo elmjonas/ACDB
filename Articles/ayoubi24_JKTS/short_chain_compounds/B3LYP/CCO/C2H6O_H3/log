@@ -1,0 +1,47 @@
+Job to be performed: opt_constrain
+Submitting file C2H6O_H3.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCO/C2H6O_H3 with job id 12747918
+Waiting 500 seconds before first check
+***C2H6O_H3 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C2H6O_H3_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCO/C2H6O_H3 with job id 12748592
+Waiting 500 seconds before first check
+Job 12748592 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Error termination found in C2H6O_H3_TS. Trying to resubmit
+submitted file C2H6O_H3_TS.com with job type: TS_opt and job id 12764980 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCO/C2H6O_H3
+Log files of the 1 conformers have been checked. Checking every 369 seconds. Attempt: 1/100
+Job 12764980 is pending in the queue.
+Job TS_opt for C2H6O_H3_TS with job id 12764980 is running.
+!!! Dropping molecule conformer C2H6O_H3_TS due to repeated error terminations!!!
+No conformer has managed to converge for job type: TS_opt
+Job to be performed: opt_constrain
+Submitting file C2H6O_H3.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCO/C2H6O_H3 with job id 12878692
+Waiting 553 seconds before first check
+***C2H6O_H3 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C2H6O_H3_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCO/C2H6O_H3 with job id 12878748
+Waiting 738 seconds before first check
+
+***************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H6O_H3_TS with imaginary frequency: -954.4602 ******
+***************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file C2H6O_H3_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCO/C2H6O_H3 with job id 12878798
+Waiting 192 seconds before first check
+Not all files found. Retrying every 96 seconds.

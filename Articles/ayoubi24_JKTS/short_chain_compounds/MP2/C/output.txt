@@ -1,0 +1,78 @@
+COMMAND: JKTS -smiles C -OH -time 168:00:00 -method MP2 -F12 -initial_delay 2000 -interval 500
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+Ea: 5.2002 kcal/mol  Q_TS: 919947040036.4587  k: 1.358599613914233e-14
+1.358599613914233e-14 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 39.11777281710143
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: 1.358599613914233e-14  Eckart: 39.11777281710143  Wigner: 36000.612792539905
+1.358599613914233e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 39.11777281710143
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: 1.358599613914233e-14  Eckart: 39.11777281710143  Wigner: 36000.612792539905
+1.358599613914233e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 39.11777281710143
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: 1.358599613914233e-14  Eckart: 39.11777281710143  Wigner: 1.0
+1.358599613914233e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 39.11777281710143
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: 1.358599613914233e-14  Eckart: 39.11777281710143  Wigner: 1.0913143815114925
+1.358599613914233e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 39.11777281710143
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: 1.358599613914233e-14  Eckart: 39.11777281710143  Wigner: 2.7146811639380255
+1.358599613914233e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 39.11777281710143
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: 1.358599613914233e-14  Eckart: 39.11777281710143  Wigner: 1.0907066335723217
+1.358599613914233e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 39.11777281710143
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: 1.358599613914233e-14  Eckart: 39.11777281710143  Wigner: 4.580878656986249
+1.358599613914233e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 39.11777281710143
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: 1.358599613914233e-14  Eckart: 39.11777281710143  Wigner: 4.580878656986249
+1.358599613914233e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 39.11777281710143
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: 1.358599613914233e-14  Eckart: 39.11777281710143  Wigner: 4.580878656986249
+1.358599613914233e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 39.11777281710143
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: nan  Eckart: nan  Wigner: 4.580878656986249
+nan cm^3 molecules^-1 s^-1    Tunneling coefficient nan
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: nan  Eckart: nan  Wigner: 4.580878656986249
+nan cm^3 molecules^-1 s^-1    Tunneling coefficient nan
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: 0.0  Eckart: 0.0  Wigner: 4.580878656986249
+0.0 cm^3 molecules^-1 s^-1    Tunneling coefficient 0.0
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: nan  Eckart: nan  Wigner: 4.580878656986249
+nan cm^3 molecules^-1 s^-1    Tunneling coefficient nan
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+COMMAND: JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+Ea: 5.2002 kcal/mol  k: 1.358599613914233e-14  Eckart: 39.11777281710143  Wigner: 4.580878656986249
+1.358599613914233e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 39.11777281710143
+JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+No zero point energy, using electronic energy
+k_G: 2.712607e-17
+Ea: 5.2002 kcal/mol  k: 1.358599613914233e-14 Qratio: 8.91709241016445e-06  Eckart: 39.11777281710143  Wigner: 4.580878656986249
+LC-TST: 3.473100629390339e-16
+1.358599613914233e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 39.11777281710143  Wigner: 4.580878656986249  Ea: 5.200239912330289  Qratio: 8.91709241016445e-06
+JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl -loc
+Ea: 5.2002 kcal/mol  k: 3.473100629390339e-16 Qratio: 8.91709241016445e-06  Eckart: 1  Wigner: 4.580878656986249
+LC-TST: 3.473100629390339e-16
+3.473100629390339e-16 cm^3 molecules^-1 s^-1    Tunneling coefficient 1  Wigner: 4.580878656986249  Ea: 5.200239912330289  Qratio: 8.91709241016445e-06

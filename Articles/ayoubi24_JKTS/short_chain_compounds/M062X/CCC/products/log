@@ -1,0 +1,115 @@
+Job to be performed: crest_sampling
+Submitted SLURM array job with job id 12747622 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC/products
+Waiting 500 seconds before first check
+
+********************************************************
+****** 3 conformers generated for C3H8_product_H1 ******
+********************************************************
+
+
+********************************************************
+****** 4 conformers generated for C3H8_product_H2 ******
+********************************************************
+
+
+********************************************************
+****** 4 conformers generated for C3H8_product_H3 ******
+********************************************************
+
+
+********************************************************
+****** 3 conformers generated for C3H8_product_H4 ******
+********************************************************
+
+CREST conformers generated. Proceeding with next step: optimization
+Job to be performed: optimization
+Submitted SLURM array job with job id 12748894 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC/products
+Waiting 500 seconds before first check
+Job 12748894_1 is pending in the queue.
+Job 12748894_2 is pending in the queue.
+Job 12748894_3 is pending in the queue.
+Job 12748894_4 is pending in the queue.
+Job 12748894_5 is pending in the queue.
+Job 12748894_6 is pending in the queue.
+Job 12748894_7 is pending in the queue.
+Job 12748894_8 is pending in the queue.
+Job 12748894_9 is pending in the queue.
+Job 12748894_10 is pending in the queue.
+Job 12748894_11 is pending in the queue.
+Job 12748894_12 is pending in the queue.
+Job 12748894_13 is pending in the queue.
+Job 12748894_14 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***C3H8_product_H1_conf1 converged***
+***C3H8_product_H1_conf2 converged***
+***C3H8_product_H1_conf3 converged***
+***C3H8_product_H2_conf1 converged***
+***C3H8_product_H2_conf2 converged***
+***C3H8_product_H2_conf3 converged***
+***C3H8_product_H2_conf4 converged***
+***C3H8_product_H3_conf1 converged***
+***C3H8_product_H3_conf2 converged***
+***C3H8_product_H3_conf3 converged***
+***C3H8_product_H3_conf4 converged***
+***C3H8_product_H4_conf1 converged***
+***C3H8_product_H4_conf2 converged***
+***C3H8_product_H4_conf3 converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Filtering product molecules for H1 using ArbAlign alogrithm
+Filtered 3 conformers to 2 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Filtering product molecules for H2 using ArbAlign alogrithm
+Filtered 4 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Filtering product molecules for H3 using ArbAlign alogrithm
+Filtered 4 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Filtering product molecules for H4 using ArbAlign alogrithm
+Filtered 3 conformers to 2 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12767041 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC/products
+Waiting 500 seconds before first check
+Job 12767041_1 is pending in the queue.
+Job 12767041_2 is pending in the queue.
+Job 12767041_3 is pending in the queue.
+Job 12767041_4 is pending in the queue.
+Job 12767041_5 is pending in the queue.
+Job 12767041_6 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***C3H8_product_H1_conf2_DLPNO converged***
+***C3H8_product_H1_conf3_DLPNO converged***
+***C3H8_product_H2_conf4_DLPNO converged***
+***C3H8_product_H3_conf4_DLPNO converged***
+***C3H8_product_H4_conf2_DLPNO converged***
+***C3H8_product_H4_conf3_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Submitting file H2O.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC/products with job id 12768313
+Waiting 500 seconds before first check
+Job 12768313 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***H2O converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Submitting file H2O_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CCC/products with job id 12776766
+Waiting 500 seconds before first check
+Job 12776766 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***H2O_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for products are done. Logging properties to Final_products_C3H8_H1.pkl
+Final DLPNO calculations for products are done. Logging properties to Final_products_C3H8_H2.pkl
+Final DLPNO calculations for products are done. Logging properties to Final_products_C3H8_H3.pkl
+Final DLPNO calculations for products are done. Logging properties to Final_products_C3H8_H4.pkl

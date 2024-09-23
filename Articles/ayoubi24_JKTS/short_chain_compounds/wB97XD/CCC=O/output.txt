@@ -1,0 +1,36 @@
+COMMAND: JKTS -smiles CCC=O -OH -time 48:00:00 -method wB97XD -initial_delay 500
+COMMAND: JKTS C3H6O_H2/Final_TS_C3H6O_H2.pkl reactants/Final_reactants_C3H6O.pkl products/Final_products_C3H6O_H2.pkl -loc
+Ea: 2.0874 kcal/mol  Q_TS: 398412918886523.1  k: 3.065493284350435e-15
+3.065493284350435e-15 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 2.9014143289721783
+COMMAND: JKTS C3H6O_H2/Final_TS_C3H6O_H2.pkl reactants/Final_reactants_C3H6O.pkl products/Final_products_C3H6O_H2.pkl -loc
+k_G: 2.392627e-12
+Ea: 2.0874 kcal/mol  Q_TS: 398412918886523.1  k: 3.065493284350435e-15
+3.065493284350435e-15 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 2.9014143289721783
+COMMAND: JKTS C3H6O_H2/Final_TS_C3H6O_H2.pkl reactants/Final_reactants_C3H6O.pkl products/Final_products_C3H6O_H2.pkl -loc
+k_G: 9.433843e-10
+Ea: 2.0874 kcal/mol  Q_TS: 398412918886523.1  k: 3.065493284350435e-15
+3.065493284350435e-15 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 2.9014143289721783
+COMMAND: JKTS C3H6O_H2/Final_TS_C3H6O_H2.pkl reactants/Final_reactants_C3H6O.pkl products/Final_products_C3H6O_H2.pkl -loc
+k_G: 2.783685e-11
+Ea: 2.0874 kcal/mol  Q_TS: 398412918886523.1  k: 3.065493284350435e-15
+3.065493284350435e-15 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 2.9014143289721783
+COMMAND: JKTS C3H6O_H1/Final_TS_C3H6O_H1.pkl reactants/Final_reactants_C3H6O.pkl products/Final_products_C3H6O_H1.pkl -loc
+k_G: 2.390668e-11
+Ea: 1.6115 kcal/mol  Q_TS: 7.063556635017517e+17  k: 1.1795180965900908e-11
+1.1795180965900908e-11 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 2.820493825750932
+COMMAND: JKTS C3H6O_H1/Final_TS_C3H6O_H1.pkl reactants/Final_reactants_C3H6O.pkl products/Final_products_C3H6O_H1.pkl -loc
+k_G: 2.390668e-11
+Ea: 1.6115 kcal/mol  Q_TS: 7.063556635017517e+17  k: 1.1795180965900908e-11
+1.1795180965900908e-11 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 2.820493825750932
+COMMAND: JKTS C3H6O_H4/Final_TS_C3H6O_H4.pkl reactants/Final_reactants_C3H6O.pkl products/Final_products_C3H6O_H4.pkl -loc
+Error in calculating the eckart tunneling. Returning tunneling coefficient 1
+k_G: 9.913772e-11
+Ea: -0.4575 kcal/mol  Q_TS: 807238002994254.8  k: 1.570294055014801e-13
+1.570294055014801e-13 cm^3 molecules^-1 s^-1
+Tunneling coefficient: 1

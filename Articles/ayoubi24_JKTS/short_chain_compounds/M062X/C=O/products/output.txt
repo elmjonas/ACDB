@@ -1,0 +1,4 @@
+COMMAND: JKTS Final_products_CH2O_H1.pkl -info
+COMMAND: JKTS CH2O_product_H1_conf1.log -info
+COMMAND: JKTS CH2O_product_H1_conf1.log -restart -method M062X -time 72:00:00 -cpu 8
+JKTS Final_products_CH2O_H1.pkl -info

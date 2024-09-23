@@ -1,0 +1,282 @@
+Job to be performed: opt_constrain
+Submitting file CH4O_H1.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/CH4O_H1 with job id 12747796
+Waiting 500 seconds before first check
+***CH4O_H1 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file CH4O_H1_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/CH4O_H1 with job id 12748289
+Waiting 500 seconds before first check
+
+**************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_TS with imaginary frequency: -795.5269 ******
+**************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file CH4O_H1_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/CH4O_H1 with job id 12748875
+Waiting 500 seconds before first check
+Job 12748875 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+
+*************************************************
+****** 41 conformers generated for CH4O_H1 ******
+*************************************************
+
+CREST conformers generated. Proceeding with next step: opt_constrain_conf
+Job to be performed: opt_constrain_conf
+Filtering molecules using ArbAlign algorithm
+Filtered 41 conformers to 24 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12765168 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/CH4O_H1
+Waiting 500 seconds before first check
+Job 12765168_1 is pending in the queue.
+Job 12765168_2 is pending in the queue.
+Job 12765168_3 is pending in the queue.
+Job 12765168_4 is pending in the queue.
+Job 12765168_5 is pending in the queue.
+Job 12765168_6 is pending in the queue.
+Job 12765168_7 is pending in the queue.
+Job 12765168_8 is pending in the queue.
+Job 12765168_9 is pending in the queue.
+Job 12765168_10 is pending in the queue.
+Job 12765168_11 is pending in the queue.
+Job 12765168_12 is pending in the queue.
+Job 12765168_13 is pending in the queue.
+Job 12765168_14 is pending in the queue.
+Job 12765168_15 is pending in the queue.
+Job 12765168_16 is pending in the queue.
+Job 12765168_17 is pending in the queue.
+Job 12765168_18 is pending in the queue.
+Job 12765168_19 is pending in the queue.
+Job 12765168_20 is pending in the queue.
+Job 12765168_21 is pending in the queue.
+Job 12765168_22 is pending in the queue.
+Job 12765168_23 is pending in the queue.
+Job 12765168_24 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***CH4O_H1_conf1 converged***
+***CH4O_H1_conf3 converged***
+***CH4O_H1_conf4 converged***
+***CH4O_H1_conf6 converged***
+***CH4O_H1_conf9 converged***
+***CH4O_H1_conf11 converged***
+***CH4O_H1_conf13 converged***
+***CH4O_H1_conf15 converged***
+***CH4O_H1_conf17 converged***
+***CH4O_H1_conf18 converged***
+***CH4O_H1_conf19 converged***
+***CH4O_H1_conf20 converged***
+***CH4O_H1_conf22 converged***
+***CH4O_H1_conf23 converged***
+***CH4O_H1_conf26 converged***
+***CH4O_H1_conf28 converged***
+***CH4O_H1_conf29 converged***
+***CH4O_H1_conf31 converged***
+***CH4O_H1_conf32 converged***
+***CH4O_H1_conf34 converged***
+***CH4O_H1_conf35 converged***
+***CH4O_H1_conf37 converged***
+***CH4O_H1_conf39 converged***
+***CH4O_H1_conf40 converged***
+
+**************************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain_conf. ******
+**************************************************************************************
+
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 12766876 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/CH4O_H1
+Waiting 500 seconds before first check
+Job 12766876_1 is pending in the queue.
+Job 12766876_2 is pending in the queue.
+Job 12766876_3 is pending in the queue.
+Job 12766876_4 is pending in the queue.
+Job 12766876_5 is pending in the queue.
+Job 12766876_6 is pending in the queue.
+Job 12766876_7 is pending in the queue.
+Job 12766876_8 is pending in the queue.
+Job 12766876_9 is pending in the queue.
+Job 12766876_10 is pending in the queue.
+Job 12766876_11 is pending in the queue.
+Job 12766876_12 is pending in the queue.
+Job 12766876_13 is pending in the queue.
+Job 12766876_14 is pending in the queue.
+Job 12766876_15 is pending in the queue.
+Job 12766876_16 is pending in the queue.
+Job 12766876_17 is pending in the queue.
+Job 12766876_18 is pending in the queue.
+Job 12766876_19 is pending in the queue.
+Job 12766876_20 is pending in the queue.
+Job 12766876_21 is pending in the queue.
+Job 12766876_22 is pending in the queue.
+Job 12766876_23 is pending in the queue.
+Job 12766876_24 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf1_TS with imaginary frequency: -795.5392 ******
+********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf3_TS with imaginary frequency: -795.5554 ******
+********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf4_TS with imaginary frequency: -795.5065 ******
+********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf6_TS with imaginary frequency: -795.5328 ******
+********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf9_TS with imaginary frequency: -795.5313 ******
+********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf11_TS with imaginary frequency: -795.5291 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf13_TS with imaginary frequency: -795.5274 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf15_TS with imaginary frequency: -795.5306 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf17_TS with imaginary frequency: -795.5151 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf18_TS with imaginary frequency: -795.5268 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf19_TS with imaginary frequency: -795.5367 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf20_TS with imaginary frequency: -795.5351 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf22_TS with imaginary frequency: -795.5368 ******
+*********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf23_TS with imaginary frequency: -795.525 ******
+********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf26_TS with imaginary frequency: -795.5287 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf28_TS with imaginary frequency: -795.5318 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf29_TS with imaginary frequency: -795.4809 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf31_TS with imaginary frequency: -795.5185 ******
+*********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf32_TS with imaginary frequency: -795.533 ******
+********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf34_TS with imaginary frequency: -795.5291 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf35_TS with imaginary frequency: -795.5293 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf37_TS with imaginary frequency: -795.5566 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf39_TS with imaginary frequency: -795.5295 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH4O_H1_conf40_TS with imaginary frequency: -795.5209 ******
+*********************************************************************************************************************
+
+
+*******************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt_conf. ******
+*******************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 24 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitting file CH4O_H1_conf35_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/CH4O_H1 with job id 12767905
+Waiting 500 seconds before first check
+Job 12767905 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***CH4O_H1_conf35_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/reactants/Final_reactants_CH4O.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/CH4O_H1/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/CH4O_H1/reactants/Final_reactants_CH4O.pkl
+Could not find pickle files in path: CH4O_H1 and /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/CH4O_H1/reactants/Final_reactants_CH4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/reactants/Final_reactants_CH4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/reactants/Final_reactants_CH4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/reactants/Final_reactants_CH4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/reactants/Final_reactants_CH4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/reactants/Final_reactants_CH4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/reactants/Final_reactants_CH4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/reactants/Final_reactants_CH4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/reactants/Final_reactants_CH4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/reactants/Final_reactants_CH4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/products/Final_products_CH4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CO/reactants/Final_reactants_CH4O.pkl

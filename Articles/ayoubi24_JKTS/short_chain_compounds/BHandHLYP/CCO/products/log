@@ -1,0 +1,77 @@
+Job to be performed: crest_sampling
+Submitted SLURM array job with job id 13343352 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CCO/products
+Waiting 192 seconds before first check
+
+*********************************************************
+****** 4 conformers generated for C2H6O_product_H1 ******
+*********************************************************
+
+
+*********************************************************
+****** 3 conformers generated for C2H6O_product_H2 ******
+*********************************************************
+
+
+*********************************************************
+****** 3 conformers generated for C2H6O_product_H3 ******
+*********************************************************
+
+CREST conformers generated. Proceeding with next step: optimization
+Job to be performed: optimization
+Submitted SLURM array job with job id 13343439 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CCO/products
+Waiting 553 seconds before first check
+***C2H6O_product_H1_conf1 converged***
+***C2H6O_product_H1_conf2 converged***
+***C2H6O_product_H1_conf3 converged***
+***C2H6O_product_H1_conf4 converged***
+***C2H6O_product_H2_conf1 converged***
+***C2H6O_product_H2_conf2 converged***
+***C2H6O_product_H2_conf3 converged***
+***C2H6O_product_H3_conf1 converged***
+***C2H6O_product_H3_conf2 converged***
+***C2H6O_product_H3_conf3 converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Filtering product molecules for H1 using ArbAlign alogrithm
+Filtered 4 conformers to 2 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Filtering product molecules for H2 using ArbAlign alogrithm
+Filtered 3 conformers to 2 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Filtering product molecules for H3 using ArbAlign alogrithm
+Filtered 3 conformers to 2 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 13343654 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CCO/products
+Waiting 609 seconds before first check
+***C2H6O_product_H1_conf3_DLPNO converged***
+***C2H6O_product_H1_conf4_DLPNO converged***
+***C2H6O_product_H2_conf1_DLPNO converged***
+***C2H6O_product_H2_conf3_DLPNO converged***
+***C2H6O_product_H3_conf1_DLPNO converged***
+***C2H6O_product_H3_conf3_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Submitting file H2O.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CCO/products with job id 13343807
+Waiting 40 seconds before first check
+***H2O converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Submitting file H2O_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CCO/products with job id 13343826
+Waiting 40 seconds before first check
+***H2O_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for products are done. Logging properties to Final_products_C2H6O_H1.pkl
+Final DLPNO calculations for products are done. Logging properties to Final_products_C2H6O_H2.pkl
+Final DLPNO calculations for products are done. Logging properties to Final_products_C2H6O_H3.pkl

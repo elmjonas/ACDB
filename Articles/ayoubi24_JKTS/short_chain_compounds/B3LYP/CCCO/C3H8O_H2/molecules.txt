@@ -1,0 +1,2880 @@
+Molecule: C3H8O_H2_conf15_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf15_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.1291
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.692939784318
+Zero Point Correction: 0.115816
+Gibbs free energy: -270.049664
+Partition Function: 171259867645431.3
+Vibrational Frequencies: [-816.9291, 78.2367, 173.7106, 197.7429, 299.6637, 325.524, 383.6924, 478.9374, 598.7683, 716.0405, 835.3787, 864.3225, 905.6789, 971.1916, 1009.5557, 1080.0105, 1087.5732, 1129.974, 1219.319, 1277.3361, 1292.0796, 1377.6925, 1381.1, 1412.407, 1435.763, 1463.6484, 1473.149, 1508.8328, 3001.4124, 3032.333, 3048.1887, 3075.5259, 3103.6523, 3148.4769, 3630.6067, 3819.9461]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.697146  1.360639  0.172942
+  C  -0.687395  1.051811 -0.365735
+  C  -1.376329 -0.143947  0.297839
+  O  -0.760468 -1.403237 -0.012864
+  H   1.218086  2.149397 -0.375683
+  H   1.435332  0.405385  0.036720
+  H   0.713401  1.555867  1.249004
+  H  -1.332719  1.930989 -0.212708
+  H  -0.646676  0.890721 -1.451528
+  H  -1.320436 -0.060060  1.387418
+  H  -2.437426 -0.172215  0.017625
+  H  -0.922274 -1.606796 -0.943830
+  O   2.043375 -0.772000 -0.040868
+  H   1.228922 -1.302405  0.092556
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf19_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf19_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 0.6773
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689169450841
+Zero Point Correction: 0.116091
+Gibbs free energy: -270.046408
+Partition Function: 2145151920062635.5
+Vibrational Frequencies: [-171.6347, 45.3214, 74.1245, 87.4011, 155.4855, 287.4417, 311.2417, 348.8867, 492.9928, 668.9413, 787.9963, 874.6615, 916.232, 1028.6406, 1071.5994, 1078.5856, 1120.4406, 1220.8761, 1291.9683, 1316.7525, 1345.4514, 1363.2537, 1375.8678, 1406.9151, 1473.3698, 1490.0811, 1508.1177, 1842.3913, 3006.1031, 3030.7167, 3068.9759, 3074.1085, 3097.0736, 3144.8327, 3731.5922, 3819.6888]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.672829 -0.303864  0.557467
+  C   0.213601  0.683873 -0.182299
+  C   1.701101  0.513415  0.155750
+  O   2.217408 -0.767976 -0.202594
+  H  -0.431037 -1.344924  0.330866
+  H  -1.765876 -0.124238  0.210733
+  H  -0.680542 -0.147282  1.640832
+  H   0.075999  0.572559 -1.266310
+  H  -0.078894  1.712211  0.064639
+  H   2.280713  1.314497 -0.326041
+  H   1.855904  0.594468  1.236187
+  H   2.199940 -0.851425 -1.165051
+  O  -3.149240 -0.004360 -0.278182
+  H  -3.452786 -0.907721 -0.065153
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf34_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf34_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.0203
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.690446856334
+Zero Point Correction: 0.115838
+Gibbs free energy: -270.046546
+Partition Function: 213502962958170.66
+Vibrational Frequencies: [-791.7709, 78.2263, 150.9893, 181.6654, 273.1516, 308.675, 363.136, 477.5409, 517.8825, 756.3637, 835.9269, 859.2114, 917.443, 951.984, 1011.339, 1071.8864, 1084.812, 1119.2853, 1202.5807, 1288.5336, 1334.0594, 1343.5948, 1379.5755, 1419.9234, 1461.4845, 1470.4528, 1491.05, 1512.0662, 3000.7761, 3031.7869, 3067.9726, 3089.1117, 3124.7872, 3160.3333, 3684.8681, 3824.6186]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.621502  1.273406 -0.423354
+  C   0.754150  1.111425  0.208589
+  C   1.111843 -0.342334  0.542366
+  O   0.832668 -1.255881 -0.526444
+  H  -1.108185  2.227890 -0.209246
+  H  -1.381513  0.446623  0.031664
+  H  -0.643053  1.061891 -1.493911
+  H   1.512092  1.530591 -0.471046
+  H   0.822067  1.686680  1.139878
+  H   2.164069 -0.416809  0.847201
+  H   0.491190 -0.689368  1.371410
+  H   1.411966 -1.064419 -1.275456
+  O  -2.003857 -0.711480  0.306561
+  H  -1.366072 -1.299172 -0.147031
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf26_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf26_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 2.065
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689734603213
+Zero Point Correction: 0.116086
+Gibbs free energy: -270.046865
+Partition Function: 2335664915870626.5
+Vibrational Frequencies: [-182.9408, 56.9707, 65.4488, 83.8872, 160.3239, 262.1185, 301.5707, 336.1551, 461.5936, 662.8506, 778.6717, 883.5574, 915.5891, 1046.7457, 1067.0976, 1090.8494, 1122.3306, 1227.0698, 1284.7986, 1324.1032, 1333.8932, 1370.8156, 1384.3591, 1422.647, 1463.4544, 1483.2276, 1519.0876, 1890.9314, 3017.785, 3029.4362, 3053.2286, 3069.6937, 3095.2411, 3135.8457, 3730.3866, 3824.0811]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   1.017262  1.157853  0.168855
+  C  -0.381261  0.853452 -0.343462
+  C  -1.037480 -0.312984  0.396646
+  O  -2.371929 -0.565399 -0.044548
+  H   1.514158  1.967618 -0.371868
+  H   1.673456  0.221551 -0.020599
+  H   1.049876  1.348831  1.246502
+  H  -1.016792  1.743345 -0.231791
+  H  -0.338718  0.629784 -1.417810
+  H  -0.413610 -1.212218  0.302685
+  H  -1.124403 -0.078299  1.462621
+  H  -2.339639 -0.904825 -0.948309
+  O   2.418345 -1.053255 -0.194434
+  H   3.033220 -0.956484  0.558195
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf31_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf31_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8982
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688332091522
+Zero Point Correction: 0.115861
+Gibbs free energy: -270.046519
+Partition Function: 2940234856426881.0
+Vibrational Frequencies: [-203.2558, 42.6111, 72.2504, 76.5133, 132.1302, 281.0303, 309.0926, 357.581, 449.8274, 675.8477, 767.4642, 892.9421, 950.4324, 1041.2904, 1060.3993, 1090.7865, 1123.3013, 1242.049, 1295.4394, 1309.2669, 1328.3854, 1358.8137, 1376.8726, 1414.4411, 1471.2051, 1496.8169, 1517.3861, 1751.9259, 3001.1166, 3033.9391, 3065.0217, 3084.984, 3102.0569, 3131.8455, 3732.3838, 3819.585]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.917434  0.761177  0.045396
+  C  -0.220052 -0.244758 -0.010028
+  C  -1.593829  0.441209  0.013606
+  O  -2.670723 -0.483267 -0.114498
+  H   0.959310  1.414143 -0.832020
+  H   1.916604  0.162261  0.061665
+  H   0.930027  1.361074  0.960765
+  H  -0.149200 -0.852126 -0.918620
+  H  -0.146603 -0.931417  0.843743
+  H  -1.699665  1.040681  0.930439
+  H  -1.691036  1.119955 -0.839084
+  H  -2.655364 -1.086894  0.639905
+  O   3.194273 -0.532233  0.025253
+  H   3.726213  0.150557 -0.426681
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf37_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf37_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 3.1101
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688977795781
+Zero Point Correction: 0.115857
+Gibbs free energy: -270.04637
+Partition Function: 1957673668080878.2
+Vibrational Frequencies: [-240.9293, 56.3133, 69.679, 94.5965, 158.247, 268.9719, 300.9247, 347.0956, 463.4216, 723.674, 780.5612, 875.9893, 901.2664, 1039.4946, 1057.0394, 1081.3606, 1139.9544, 1201.2778, 1297.7339, 1321.7461, 1326.7352, 1377.335, 1390.1707, 1426.2797, 1459.2774, 1485.558, 1519.0246, 1754.152, 2992.5027, 2998.3018, 3065.325, 3074.9494, 3117.3328, 3136.9277, 3731.6962, 3820.3833]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.016885  1.149135  0.202623
+  C   0.354092  0.819500 -0.363672
+  C   1.041480 -0.323685  0.384614
+  O   2.313848 -0.659078 -0.168196
+  H  -1.000854  1.412730  1.265515
+  H  -1.684293  0.192859  0.174662
+  H  -1.552639  1.914736 -0.364370
+  H   0.280442  0.553471 -1.424607
+  H   0.985204  1.721354 -0.310735
+  H   1.133718 -0.072930  1.452694
+  H   0.436990 -1.231205  0.309628
+  H   2.910348  0.092737 -0.057825
+  O  -2.446093 -1.036086 -0.012834
+  H  -2.723078 -0.892139 -0.938111
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf46_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf46_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.3919
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.693270405672
+Zero Point Correction: 0.115599
+Gibbs free energy: -270.050154
+Partition Function: 227337916076202.25
+Vibrational Frequencies: [-787.1296, 61.3906, 174.2186, 200.1337, 270.0336, 329.0798, 368.1271, 474.9498, 512.282, 690.5021, 846.3267, 878.7095, 921.2493, 988.4353, 1019.0907, 1079.7478, 1113.1847, 1164.7824, 1221.0909, 1258.0736, 1286.7847, 1308.6527, 1384.7698, 1434.4837, 1448.6514, 1462.592, 1472.5256, 1520.2103, 3003.596, 3015.9512, 3047.0843, 3069.7724, 3080.1073, 3146.7138, 3645.8272, 3842.8694]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.721354  1.317406  0.263664
+  C   0.617967  1.054491 -0.401755
+  C   1.423671 -0.082743  0.214889
+  O   0.776695 -1.330838 -0.084406
+  H  -0.656940  1.452461  1.347485
+  H  -1.461189  0.367958  0.123106
+  H  -1.283791  2.131965 -0.199673
+  H   0.479496  0.850083 -1.470091
+  H   1.233206  1.964267 -0.334690
+  H   2.439259 -0.086753 -0.202739
+  H   1.496234  0.053971  1.303503
+  H   1.245174 -2.049160  0.358346
+  O  -2.051884 -0.807994 -0.071831
+  H  -1.211635 -1.309063 -0.136138
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf42_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf42_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.4592
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688293292407
+Zero Point Correction: 0.115672
+Gibbs free energy: -270.046583
+Partition Function: 3877101203874587.5
+Vibrational Frequencies: [-233.2151, 31.889, 56.3115, 88.3608, 147.3288, 264.7455, 313.8097, 354.125, 483.0059, 716.2477, 800.4167, 859.3096, 902.5792, 1010.0826, 1065.9055, 1071.8061, 1137.4806, 1207.5785, 1280.285, 1296.0313, 1355.4574, 1374.9024, 1383.8697, 1406.544, 1468.7495, 1484.0093, 1506.107, 1716.077, 3003.0881, 3043.1792, 3058.7416, 3089.3326, 3102.2752, 3126.835, 3733.4151, 3834.1349]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.666551 -0.407449  0.456089
+  C  -0.197008  0.677843 -0.163664
+  C  -1.686584  0.532614  0.180980
+  O  -2.280952 -0.649570 -0.353641
+  H   0.623194 -0.431207  1.550491
+  H   1.784701 -0.166781  0.222707
+  H   0.478743 -1.405565  0.048150
+  H   0.136529  1.661096  0.191221
+  H  -0.086952  0.670460 -1.253647
+  H  -1.827368  0.578707  1.271419
+  H  -2.243694  1.363058 -0.262096
+  H  -1.956892 -1.415874  0.135703
+  O   3.166536  0.038094 -0.155777
+  H   3.309306 -0.780132 -0.669032
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf15_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf15_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.1291
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.692939784318
+Zero Point Correction: 0.115816
+Gibbs free energy: -270.049664
+Partition Function: 171259867645431.3
+Vibrational Frequencies: [-816.9291, 78.2367, 173.7106, 197.7429, 299.6637, 325.524, 383.6924, 478.9374, 598.7683, 716.0405, 835.3787, 864.3225, 905.6789, 971.1916, 1009.5557, 1080.0105, 1087.5732, 1129.974, 1219.319, 1277.3361, 1292.0796, 1377.6925, 1381.1, 1412.407, 1435.763, 1463.6484, 1473.149, 1508.8328, 3001.4124, 3032.333, 3048.1887, 3075.5259, 3103.6523, 3148.4769, 3630.6067, 3819.9461]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.697146  1.360639  0.172942
+  C  -0.687395  1.051811 -0.365735
+  C  -1.376329 -0.143947  0.297839
+  O  -0.760468 -1.403237 -0.012864
+  H   1.218086  2.149397 -0.375683
+  H   1.435332  0.405385  0.036720
+  H   0.713401  1.555867  1.249004
+  H  -1.332719  1.930989 -0.212708
+  H  -0.646676  0.890721 -1.451528
+  H  -1.320436 -0.060060  1.387418
+  H  -2.437426 -0.172215  0.017625
+  H  -0.922274 -1.606796 -0.943830
+  O   2.043375 -0.772000 -0.040868
+  H   1.228922 -1.302405  0.092556
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf19_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf19_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 0.6773
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689169450841
+Zero Point Correction: 0.116091
+Gibbs free energy: -270.046408
+Partition Function: 2145151920062635.5
+Vibrational Frequencies: [-171.6347, 45.3214, 74.1245, 87.4011, 155.4855, 287.4417, 311.2417, 348.8867, 492.9928, 668.9413, 787.9963, 874.6615, 916.232, 1028.6406, 1071.5994, 1078.5856, 1120.4406, 1220.8761, 1291.9683, 1316.7525, 1345.4514, 1363.2537, 1375.8678, 1406.9151, 1473.3698, 1490.0811, 1508.1177, 1842.3913, 3006.1031, 3030.7167, 3068.9759, 3074.1085, 3097.0736, 3144.8327, 3731.5922, 3819.6888]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.672829 -0.303864  0.557467
+  C   0.213601  0.683873 -0.182299
+  C   1.701101  0.513415  0.155750
+  O   2.217408 -0.767976 -0.202594
+  H  -0.431037 -1.344924  0.330866
+  H  -1.765876 -0.124238  0.210733
+  H  -0.680542 -0.147282  1.640832
+  H   0.075999  0.572559 -1.266310
+  H  -0.078894  1.712211  0.064639
+  H   2.280713  1.314497 -0.326041
+  H   1.855904  0.594468  1.236187
+  H   2.199940 -0.851425 -1.165051
+  O  -3.149240 -0.004360 -0.278182
+  H  -3.452786 -0.907721 -0.065153
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf34_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf34_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.0203
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.690446856334
+Zero Point Correction: 0.115838
+Gibbs free energy: -270.046546
+Partition Function: 213502962958170.66
+Vibrational Frequencies: [-791.7709, 78.2263, 150.9893, 181.6654, 273.1516, 308.675, 363.136, 477.5409, 517.8825, 756.3637, 835.9269, 859.2114, 917.443, 951.984, 1011.339, 1071.8864, 1084.812, 1119.2853, 1202.5807, 1288.5336, 1334.0594, 1343.5948, 1379.5755, 1419.9234, 1461.4845, 1470.4528, 1491.05, 1512.0662, 3000.7761, 3031.7869, 3067.9726, 3089.1117, 3124.7872, 3160.3333, 3684.8681, 3824.6186]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.621502  1.273406 -0.423354
+  C   0.754150  1.111425  0.208589
+  C   1.111843 -0.342334  0.542366
+  O   0.832668 -1.255881 -0.526444
+  H  -1.108185  2.227890 -0.209246
+  H  -1.381513  0.446623  0.031664
+  H  -0.643053  1.061891 -1.493911
+  H   1.512092  1.530591 -0.471046
+  H   0.822067  1.686680  1.139878
+  H   2.164069 -0.416809  0.847201
+  H   0.491190 -0.689368  1.371410
+  H   1.411966 -1.064419 -1.275456
+  O  -2.003857 -0.711480  0.306561
+  H  -1.366072 -1.299172 -0.147031
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf26_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf26_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 2.065
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689734603213
+Zero Point Correction: 0.116086
+Gibbs free energy: -270.046865
+Partition Function: 2335664915870626.5
+Vibrational Frequencies: [-182.9408, 56.9707, 65.4488, 83.8872, 160.3239, 262.1185, 301.5707, 336.1551, 461.5936, 662.8506, 778.6717, 883.5574, 915.5891, 1046.7457, 1067.0976, 1090.8494, 1122.3306, 1227.0698, 1284.7986, 1324.1032, 1333.8932, 1370.8156, 1384.3591, 1422.647, 1463.4544, 1483.2276, 1519.0876, 1890.9314, 3017.785, 3029.4362, 3053.2286, 3069.6937, 3095.2411, 3135.8457, 3730.3866, 3824.0811]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   1.017262  1.157853  0.168855
+  C  -0.381261  0.853452 -0.343462
+  C  -1.037480 -0.312984  0.396646
+  O  -2.371929 -0.565399 -0.044548
+  H   1.514158  1.967618 -0.371868
+  H   1.673456  0.221551 -0.020599
+  H   1.049876  1.348831  1.246502
+  H  -1.016792  1.743345 -0.231791
+  H  -0.338718  0.629784 -1.417810
+  H  -0.413610 -1.212218  0.302685
+  H  -1.124403 -0.078299  1.462621
+  H  -2.339639 -0.904825 -0.948309
+  O   2.418345 -1.053255 -0.194434
+  H   3.033220 -0.956484  0.558195
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf31_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf31_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8982
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688332091522
+Zero Point Correction: 0.115861
+Gibbs free energy: -270.046519
+Partition Function: 2940234856426881.0
+Vibrational Frequencies: [-203.2558, 42.6111, 72.2504, 76.5133, 132.1302, 281.0303, 309.0926, 357.581, 449.8274, 675.8477, 767.4642, 892.9421, 950.4324, 1041.2904, 1060.3993, 1090.7865, 1123.3013, 1242.049, 1295.4394, 1309.2669, 1328.3854, 1358.8137, 1376.8726, 1414.4411, 1471.2051, 1496.8169, 1517.3861, 1751.9259, 3001.1166, 3033.9391, 3065.0217, 3084.984, 3102.0569, 3131.8455, 3732.3838, 3819.585]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.917434  0.761177  0.045396
+  C  -0.220052 -0.244758 -0.010028
+  C  -1.593829  0.441209  0.013606
+  O  -2.670723 -0.483267 -0.114498
+  H   0.959310  1.414143 -0.832020
+  H   1.916604  0.162261  0.061665
+  H   0.930027  1.361074  0.960765
+  H  -0.149200 -0.852126 -0.918620
+  H  -0.146603 -0.931417  0.843743
+  H  -1.699665  1.040681  0.930439
+  H  -1.691036  1.119955 -0.839084
+  H  -2.655364 -1.086894  0.639905
+  O   3.194273 -0.532233  0.025253
+  H   3.726213  0.150557 -0.426681
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf37_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf37_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 3.1101
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688977795781
+Zero Point Correction: 0.115857
+Gibbs free energy: -270.04637
+Partition Function: 1957673668080878.2
+Vibrational Frequencies: [-240.9293, 56.3133, 69.679, 94.5965, 158.247, 268.9719, 300.9247, 347.0956, 463.4216, 723.674, 780.5612, 875.9893, 901.2664, 1039.4946, 1057.0394, 1081.3606, 1139.9544, 1201.2778, 1297.7339, 1321.7461, 1326.7352, 1377.335, 1390.1707, 1426.2797, 1459.2774, 1485.558, 1519.0246, 1754.152, 2992.5027, 2998.3018, 3065.325, 3074.9494, 3117.3328, 3136.9277, 3731.6962, 3820.3833]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.016885  1.149135  0.202623
+  C   0.354092  0.819500 -0.363672
+  C   1.041480 -0.323685  0.384614
+  O   2.313848 -0.659078 -0.168196
+  H  -1.000854  1.412730  1.265515
+  H  -1.684293  0.192859  0.174662
+  H  -1.552639  1.914736 -0.364370
+  H   0.280442  0.553471 -1.424607
+  H   0.985204  1.721354 -0.310735
+  H   1.133718 -0.072930  1.452694
+  H   0.436990 -1.231205  0.309628
+  H   2.910348  0.092737 -0.057825
+  O  -2.446093 -1.036086 -0.012834
+  H  -2.723078 -0.892139 -0.938111
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf46_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf46_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.3919
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.693270405672
+Zero Point Correction: 0.115599
+Gibbs free energy: -270.050154
+Partition Function: 227337916076202.25
+Vibrational Frequencies: [-787.1296, 61.3906, 174.2186, 200.1337, 270.0336, 329.0798, 368.1271, 474.9498, 512.282, 690.5021, 846.3267, 878.7095, 921.2493, 988.4353, 1019.0907, 1079.7478, 1113.1847, 1164.7824, 1221.0909, 1258.0736, 1286.7847, 1308.6527, 1384.7698, 1434.4837, 1448.6514, 1462.592, 1472.5256, 1520.2103, 3003.596, 3015.9512, 3047.0843, 3069.7724, 3080.1073, 3146.7138, 3645.8272, 3842.8694]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.721354  1.317406  0.263664
+  C   0.617967  1.054491 -0.401755
+  C   1.423671 -0.082743  0.214889
+  O   0.776695 -1.330838 -0.084406
+  H  -0.656940  1.452461  1.347485
+  H  -1.461189  0.367958  0.123106
+  H  -1.283791  2.131965 -0.199673
+  H   0.479496  0.850083 -1.470091
+  H   1.233206  1.964267 -0.334690
+  H   2.439259 -0.086753 -0.202739
+  H   1.496234  0.053971  1.303503
+  H   1.245174 -2.049160  0.358346
+  O  -2.051884 -0.807994 -0.071831
+  H  -1.211635 -1.309063 -0.136138
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf42_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf42_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.4592
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688293292407
+Zero Point Correction: 0.115672
+Gibbs free energy: -270.046583
+Partition Function: 3877101203874587.5
+Vibrational Frequencies: [-233.2151, 31.889, 56.3115, 88.3608, 147.3288, 264.7455, 313.8097, 354.125, 483.0059, 716.2477, 800.4167, 859.3096, 902.5792, 1010.0826, 1065.9055, 1071.8061, 1137.4806, 1207.5785, 1280.285, 1296.0313, 1355.4574, 1374.9024, 1383.8697, 1406.544, 1468.7495, 1484.0093, 1506.107, 1716.077, 3003.0881, 3043.1792, 3058.7416, 3089.3326, 3102.2752, 3126.835, 3733.4151, 3834.1349]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.666551 -0.407449  0.456089
+  C  -0.197008  0.677843 -0.163664
+  C  -1.686584  0.532614  0.180980
+  O  -2.280952 -0.649570 -0.353641
+  H   0.623194 -0.431207  1.550491
+  H   1.784701 -0.166781  0.222707
+  H   0.478743 -1.405565  0.048150
+  H   0.136529  1.661096  0.191221
+  H  -0.086952  0.670460 -1.253647
+  H  -1.827368  0.578707  1.271419
+  H  -2.243694  1.363058 -0.262096
+  H  -1.956892 -1.415874  0.135703
+  O   3.166536  0.038094 -0.155777
+  H   3.309306 -0.780132 -0.669032
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf15_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf15_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.1291
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.692939784318
+Zero Point Correction: 0.115816
+Gibbs free energy: -270.049664
+Partition Function: 171259867645431.3
+Vibrational Frequencies: [-816.9291, 78.2367, 173.7106, 197.7429, 299.6637, 325.524, 383.6924, 478.9374, 598.7683, 716.0405, 835.3787, 864.3225, 905.6789, 971.1916, 1009.5557, 1080.0105, 1087.5732, 1129.974, 1219.319, 1277.3361, 1292.0796, 1377.6925, 1381.1, 1412.407, 1435.763, 1463.6484, 1473.149, 1508.8328, 3001.4124, 3032.333, 3048.1887, 3075.5259, 3103.6523, 3148.4769, 3630.6067, 3819.9461]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.697146  1.360639  0.172942
+  C  -0.687395  1.051811 -0.365735
+  C  -1.376329 -0.143947  0.297839
+  O  -0.760468 -1.403237 -0.012864
+  H   1.218086  2.149397 -0.375683
+  H   1.435332  0.405385  0.036720
+  H   0.713401  1.555867  1.249004
+  H  -1.332719  1.930989 -0.212708
+  H  -0.646676  0.890721 -1.451528
+  H  -1.320436 -0.060060  1.387418
+  H  -2.437426 -0.172215  0.017625
+  H  -0.922274 -1.606796 -0.943830
+  O   2.043375 -0.772000 -0.040868
+  H   1.228922 -1.302405  0.092556
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf19_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf19_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 0.6773
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689169450841
+Zero Point Correction: 0.116091
+Gibbs free energy: -270.046408
+Partition Function: 2145151920062635.5
+Vibrational Frequencies: [-171.6347, 45.3214, 74.1245, 87.4011, 155.4855, 287.4417, 311.2417, 348.8867, 492.9928, 668.9413, 787.9963, 874.6615, 916.232, 1028.6406, 1071.5994, 1078.5856, 1120.4406, 1220.8761, 1291.9683, 1316.7525, 1345.4514, 1363.2537, 1375.8678, 1406.9151, 1473.3698, 1490.0811, 1508.1177, 1842.3913, 3006.1031, 3030.7167, 3068.9759, 3074.1085, 3097.0736, 3144.8327, 3731.5922, 3819.6888]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.672829 -0.303864  0.557467
+  C   0.213601  0.683873 -0.182299
+  C   1.701101  0.513415  0.155750
+  O   2.217408 -0.767976 -0.202594
+  H  -0.431037 -1.344924  0.330866
+  H  -1.765876 -0.124238  0.210733
+  H  -0.680542 -0.147282  1.640832
+  H   0.075999  0.572559 -1.266310
+  H  -0.078894  1.712211  0.064639
+  H   2.280713  1.314497 -0.326041
+  H   1.855904  0.594468  1.236187
+  H   2.199940 -0.851425 -1.165051
+  O  -3.149240 -0.004360 -0.278182
+  H  -3.452786 -0.907721 -0.065153
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf34_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf34_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.0203
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.690446856334
+Zero Point Correction: 0.115838
+Gibbs free energy: -270.046546
+Partition Function: 213502962958170.66
+Vibrational Frequencies: [-791.7709, 78.2263, 150.9893, 181.6654, 273.1516, 308.675, 363.136, 477.5409, 517.8825, 756.3637, 835.9269, 859.2114, 917.443, 951.984, 1011.339, 1071.8864, 1084.812, 1119.2853, 1202.5807, 1288.5336, 1334.0594, 1343.5948, 1379.5755, 1419.9234, 1461.4845, 1470.4528, 1491.05, 1512.0662, 3000.7761, 3031.7869, 3067.9726, 3089.1117, 3124.7872, 3160.3333, 3684.8681, 3824.6186]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.621502  1.273406 -0.423354
+  C   0.754150  1.111425  0.208589
+  C   1.111843 -0.342334  0.542366
+  O   0.832668 -1.255881 -0.526444
+  H  -1.108185  2.227890 -0.209246
+  H  -1.381513  0.446623  0.031664
+  H  -0.643053  1.061891 -1.493911
+  H   1.512092  1.530591 -0.471046
+  H   0.822067  1.686680  1.139878
+  H   2.164069 -0.416809  0.847201
+  H   0.491190 -0.689368  1.371410
+  H   1.411966 -1.064419 -1.275456
+  O  -2.003857 -0.711480  0.306561
+  H  -1.366072 -1.299172 -0.147031
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf26_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf26_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 2.065
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689734603213
+Zero Point Correction: 0.116086
+Gibbs free energy: -270.046865
+Partition Function: 2335664915870626.5
+Vibrational Frequencies: [-182.9408, 56.9707, 65.4488, 83.8872, 160.3239, 262.1185, 301.5707, 336.1551, 461.5936, 662.8506, 778.6717, 883.5574, 915.5891, 1046.7457, 1067.0976, 1090.8494, 1122.3306, 1227.0698, 1284.7986, 1324.1032, 1333.8932, 1370.8156, 1384.3591, 1422.647, 1463.4544, 1483.2276, 1519.0876, 1890.9314, 3017.785, 3029.4362, 3053.2286, 3069.6937, 3095.2411, 3135.8457, 3730.3866, 3824.0811]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   1.017262  1.157853  0.168855
+  C  -0.381261  0.853452 -0.343462
+  C  -1.037480 -0.312984  0.396646
+  O  -2.371929 -0.565399 -0.044548
+  H   1.514158  1.967618 -0.371868
+  H   1.673456  0.221551 -0.020599
+  H   1.049876  1.348831  1.246502
+  H  -1.016792  1.743345 -0.231791
+  H  -0.338718  0.629784 -1.417810
+  H  -0.413610 -1.212218  0.302685
+  H  -1.124403 -0.078299  1.462621
+  H  -2.339639 -0.904825 -0.948309
+  O   2.418345 -1.053255 -0.194434
+  H   3.033220 -0.956484  0.558195
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf31_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf31_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8982
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688332091522
+Zero Point Correction: 0.115861
+Gibbs free energy: -270.046519
+Partition Function: 2940234856426881.0
+Vibrational Frequencies: [-203.2558, 42.6111, 72.2504, 76.5133, 132.1302, 281.0303, 309.0926, 357.581, 449.8274, 675.8477, 767.4642, 892.9421, 950.4324, 1041.2904, 1060.3993, 1090.7865, 1123.3013, 1242.049, 1295.4394, 1309.2669, 1328.3854, 1358.8137, 1376.8726, 1414.4411, 1471.2051, 1496.8169, 1517.3861, 1751.9259, 3001.1166, 3033.9391, 3065.0217, 3084.984, 3102.0569, 3131.8455, 3732.3838, 3819.585]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.917434  0.761177  0.045396
+  C  -0.220052 -0.244758 -0.010028
+  C  -1.593829  0.441209  0.013606
+  O  -2.670723 -0.483267 -0.114498
+  H   0.959310  1.414143 -0.832020
+  H   1.916604  0.162261  0.061665
+  H   0.930027  1.361074  0.960765
+  H  -0.149200 -0.852126 -0.918620
+  H  -0.146603 -0.931417  0.843743
+  H  -1.699665  1.040681  0.930439
+  H  -1.691036  1.119955 -0.839084
+  H  -2.655364 -1.086894  0.639905
+  O   3.194273 -0.532233  0.025253
+  H   3.726213  0.150557 -0.426681
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf37_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf37_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 3.1101
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688977795781
+Zero Point Correction: 0.115857
+Gibbs free energy: -270.04637
+Partition Function: 1957673668080878.2
+Vibrational Frequencies: [-240.9293, 56.3133, 69.679, 94.5965, 158.247, 268.9719, 300.9247, 347.0956, 463.4216, 723.674, 780.5612, 875.9893, 901.2664, 1039.4946, 1057.0394, 1081.3606, 1139.9544, 1201.2778, 1297.7339, 1321.7461, 1326.7352, 1377.335, 1390.1707, 1426.2797, 1459.2774, 1485.558, 1519.0246, 1754.152, 2992.5027, 2998.3018, 3065.325, 3074.9494, 3117.3328, 3136.9277, 3731.6962, 3820.3833]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.016885  1.149135  0.202623
+  C   0.354092  0.819500 -0.363672
+  C   1.041480 -0.323685  0.384614
+  O   2.313848 -0.659078 -0.168196
+  H  -1.000854  1.412730  1.265515
+  H  -1.684293  0.192859  0.174662
+  H  -1.552639  1.914736 -0.364370
+  H   0.280442  0.553471 -1.424607
+  H   0.985204  1.721354 -0.310735
+  H   1.133718 -0.072930  1.452694
+  H   0.436990 -1.231205  0.309628
+  H   2.910348  0.092737 -0.057825
+  O  -2.446093 -1.036086 -0.012834
+  H  -2.723078 -0.892139 -0.938111
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf46_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf46_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.3919
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.693270405672
+Zero Point Correction: 0.115599
+Gibbs free energy: -270.050154
+Partition Function: 227337916076202.25
+Vibrational Frequencies: [-787.1296, 61.3906, 174.2186, 200.1337, 270.0336, 329.0798, 368.1271, 474.9498, 512.282, 690.5021, 846.3267, 878.7095, 921.2493, 988.4353, 1019.0907, 1079.7478, 1113.1847, 1164.7824, 1221.0909, 1258.0736, 1286.7847, 1308.6527, 1384.7698, 1434.4837, 1448.6514, 1462.592, 1472.5256, 1520.2103, 3003.596, 3015.9512, 3047.0843, 3069.7724, 3080.1073, 3146.7138, 3645.8272, 3842.8694]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.721354  1.317406  0.263664
+  C   0.617967  1.054491 -0.401755
+  C   1.423671 -0.082743  0.214889
+  O   0.776695 -1.330838 -0.084406
+  H  -0.656940  1.452461  1.347485
+  H  -1.461189  0.367958  0.123106
+  H  -1.283791  2.131965 -0.199673
+  H   0.479496  0.850083 -1.470091
+  H   1.233206  1.964267 -0.334690
+  H   2.439259 -0.086753 -0.202739
+  H   1.496234  0.053971  1.303503
+  H   1.245174 -2.049160  0.358346
+  O  -2.051884 -0.807994 -0.071831
+  H  -1.211635 -1.309063 -0.136138
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf42_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf42_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.4592
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688293292407
+Zero Point Correction: 0.115672
+Gibbs free energy: -270.046583
+Partition Function: 3877101203874587.5
+Vibrational Frequencies: [-233.2151, 31.889, 56.3115, 88.3608, 147.3288, 264.7455, 313.8097, 354.125, 483.0059, 716.2477, 800.4167, 859.3096, 902.5792, 1010.0826, 1065.9055, 1071.8061, 1137.4806, 1207.5785, 1280.285, 1296.0313, 1355.4574, 1374.9024, 1383.8697, 1406.544, 1468.7495, 1484.0093, 1506.107, 1716.077, 3003.0881, 3043.1792, 3058.7416, 3089.3326, 3102.2752, 3126.835, 3733.4151, 3834.1349]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.666551 -0.407449  0.456089
+  C  -0.197008  0.677843 -0.163664
+  C  -1.686584  0.532614  0.180980
+  O  -2.280952 -0.649570 -0.353641
+  H   0.623194 -0.431207  1.550491
+  H   1.784701 -0.166781  0.222707
+  H   0.478743 -1.405565  0.048150
+  H   0.136529  1.661096  0.191221
+  H  -0.086952  0.670460 -1.253647
+  H  -1.827368  0.578707  1.271419
+  H  -2.243694  1.363058 -0.262096
+  H  -1.956892 -1.415874  0.135703
+  O   3.166536  0.038094 -0.155777
+  H   3.309306 -0.780132 -0.669032
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf15_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf15_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.1291
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.692939784318
+Zero Point Correction: 0.115816
+Gibbs free energy: -270.049664
+Partition Function: 171259867645431.3
+Vibrational Frequencies: [-816.9291, 78.2367, 173.7106, 197.7429, 299.6637, 325.524, 383.6924, 478.9374, 598.7683, 716.0405, 835.3787, 864.3225, 905.6789, 971.1916, 1009.5557, 1080.0105, 1087.5732, 1129.974, 1219.319, 1277.3361, 1292.0796, 1377.6925, 1381.1, 1412.407, 1435.763, 1463.6484, 1473.149, 1508.8328, 3001.4124, 3032.333, 3048.1887, 3075.5259, 3103.6523, 3148.4769, 3630.6067, 3819.9461]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.697146  1.360639  0.172942
+  C  -0.687395  1.051811 -0.365735
+  C  -1.376329 -0.143947  0.297839
+  O  -0.760468 -1.403237 -0.012864
+  H   1.218086  2.149397 -0.375683
+  H   1.435332  0.405385  0.036720
+  H   0.713401  1.555867  1.249004
+  H  -1.332719  1.930989 -0.212708
+  H  -0.646676  0.890721 -1.451528
+  H  -1.320436 -0.060060  1.387418
+  H  -2.437426 -0.172215  0.017625
+  H  -0.922274 -1.606796 -0.943830
+  O   2.043375 -0.772000 -0.040868
+  H   1.228922 -1.302405  0.092556
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf19_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf19_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 0.6773
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689169450841
+Zero Point Correction: 0.116091
+Gibbs free energy: -270.046408
+Partition Function: 2145151920062635.5
+Vibrational Frequencies: [-171.6347, 45.3214, 74.1245, 87.4011, 155.4855, 287.4417, 311.2417, 348.8867, 492.9928, 668.9413, 787.9963, 874.6615, 916.232, 1028.6406, 1071.5994, 1078.5856, 1120.4406, 1220.8761, 1291.9683, 1316.7525, 1345.4514, 1363.2537, 1375.8678, 1406.9151, 1473.3698, 1490.0811, 1508.1177, 1842.3913, 3006.1031, 3030.7167, 3068.9759, 3074.1085, 3097.0736, 3144.8327, 3731.5922, 3819.6888]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.672829 -0.303864  0.557467
+  C   0.213601  0.683873 -0.182299
+  C   1.701101  0.513415  0.155750
+  O   2.217408 -0.767976 -0.202594
+  H  -0.431037 -1.344924  0.330866
+  H  -1.765876 -0.124238  0.210733
+  H  -0.680542 -0.147282  1.640832
+  H   0.075999  0.572559 -1.266310
+  H  -0.078894  1.712211  0.064639
+  H   2.280713  1.314497 -0.326041
+  H   1.855904  0.594468  1.236187
+  H   2.199940 -0.851425 -1.165051
+  O  -3.149240 -0.004360 -0.278182
+  H  -3.452786 -0.907721 -0.065153
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf34_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf34_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.0203
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.690446856334
+Zero Point Correction: 0.115838
+Gibbs free energy: -270.046546
+Partition Function: 213502962958170.66
+Vibrational Frequencies: [-791.7709, 78.2263, 150.9893, 181.6654, 273.1516, 308.675, 363.136, 477.5409, 517.8825, 756.3637, 835.9269, 859.2114, 917.443, 951.984, 1011.339, 1071.8864, 1084.812, 1119.2853, 1202.5807, 1288.5336, 1334.0594, 1343.5948, 1379.5755, 1419.9234, 1461.4845, 1470.4528, 1491.05, 1512.0662, 3000.7761, 3031.7869, 3067.9726, 3089.1117, 3124.7872, 3160.3333, 3684.8681, 3824.6186]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.621502  1.273406 -0.423354
+  C   0.754150  1.111425  0.208589
+  C   1.111843 -0.342334  0.542366
+  O   0.832668 -1.255881 -0.526444
+  H  -1.108185  2.227890 -0.209246
+  H  -1.381513  0.446623  0.031664
+  H  -0.643053  1.061891 -1.493911
+  H   1.512092  1.530591 -0.471046
+  H   0.822067  1.686680  1.139878
+  H   2.164069 -0.416809  0.847201
+  H   0.491190 -0.689368  1.371410
+  H   1.411966 -1.064419 -1.275456
+  O  -2.003857 -0.711480  0.306561
+  H  -1.366072 -1.299172 -0.147031
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf26_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf26_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 2.065
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689734603213
+Zero Point Correction: 0.116086
+Gibbs free energy: -270.046865
+Partition Function: 2335664915870626.5
+Vibrational Frequencies: [-182.9408, 56.9707, 65.4488, 83.8872, 160.3239, 262.1185, 301.5707, 336.1551, 461.5936, 662.8506, 778.6717, 883.5574, 915.5891, 1046.7457, 1067.0976, 1090.8494, 1122.3306, 1227.0698, 1284.7986, 1324.1032, 1333.8932, 1370.8156, 1384.3591, 1422.647, 1463.4544, 1483.2276, 1519.0876, 1890.9314, 3017.785, 3029.4362, 3053.2286, 3069.6937, 3095.2411, 3135.8457, 3730.3866, 3824.0811]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   1.017262  1.157853  0.168855
+  C  -0.381261  0.853452 -0.343462
+  C  -1.037480 -0.312984  0.396646
+  O  -2.371929 -0.565399 -0.044548
+  H   1.514158  1.967618 -0.371868
+  H   1.673456  0.221551 -0.020599
+  H   1.049876  1.348831  1.246502
+  H  -1.016792  1.743345 -0.231791
+  H  -0.338718  0.629784 -1.417810
+  H  -0.413610 -1.212218  0.302685
+  H  -1.124403 -0.078299  1.462621
+  H  -2.339639 -0.904825 -0.948309
+  O   2.418345 -1.053255 -0.194434
+  H   3.033220 -0.956484  0.558195
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf31_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf31_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8982
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688332091522
+Zero Point Correction: 0.115861
+Gibbs free energy: -270.046519
+Partition Function: 2940234856426881.0
+Vibrational Frequencies: [-203.2558, 42.6111, 72.2504, 76.5133, 132.1302, 281.0303, 309.0926, 357.581, 449.8274, 675.8477, 767.4642, 892.9421, 950.4324, 1041.2904, 1060.3993, 1090.7865, 1123.3013, 1242.049, 1295.4394, 1309.2669, 1328.3854, 1358.8137, 1376.8726, 1414.4411, 1471.2051, 1496.8169, 1517.3861, 1751.9259, 3001.1166, 3033.9391, 3065.0217, 3084.984, 3102.0569, 3131.8455, 3732.3838, 3819.585]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.917434  0.761177  0.045396
+  C  -0.220052 -0.244758 -0.010028
+  C  -1.593829  0.441209  0.013606
+  O  -2.670723 -0.483267 -0.114498
+  H   0.959310  1.414143 -0.832020
+  H   1.916604  0.162261  0.061665
+  H   0.930027  1.361074  0.960765
+  H  -0.149200 -0.852126 -0.918620
+  H  -0.146603 -0.931417  0.843743
+  H  -1.699665  1.040681  0.930439
+  H  -1.691036  1.119955 -0.839084
+  H  -2.655364 -1.086894  0.639905
+  O   3.194273 -0.532233  0.025253
+  H   3.726213  0.150557 -0.426681
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf37_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf37_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 3.1101
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688977795781
+Zero Point Correction: 0.115857
+Gibbs free energy: -270.04637
+Partition Function: 1957673668080878.2
+Vibrational Frequencies: [-240.9293, 56.3133, 69.679, 94.5965, 158.247, 268.9719, 300.9247, 347.0956, 463.4216, 723.674, 780.5612, 875.9893, 901.2664, 1039.4946, 1057.0394, 1081.3606, 1139.9544, 1201.2778, 1297.7339, 1321.7461, 1326.7352, 1377.335, 1390.1707, 1426.2797, 1459.2774, 1485.558, 1519.0246, 1754.152, 2992.5027, 2998.3018, 3065.325, 3074.9494, 3117.3328, 3136.9277, 3731.6962, 3820.3833]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.016885  1.149135  0.202623
+  C   0.354092  0.819500 -0.363672
+  C   1.041480 -0.323685  0.384614
+  O   2.313848 -0.659078 -0.168196
+  H  -1.000854  1.412730  1.265515
+  H  -1.684293  0.192859  0.174662
+  H  -1.552639  1.914736 -0.364370
+  H   0.280442  0.553471 -1.424607
+  H   0.985204  1.721354 -0.310735
+  H   1.133718 -0.072930  1.452694
+  H   0.436990 -1.231205  0.309628
+  H   2.910348  0.092737 -0.057825
+  O  -2.446093 -1.036086 -0.012834
+  H  -2.723078 -0.892139 -0.938111
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf46_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf46_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.3919
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.693270405672
+Zero Point Correction: 0.115599
+Gibbs free energy: -270.050154
+Partition Function: 227337916076202.25
+Vibrational Frequencies: [-787.1296, 61.3906, 174.2186, 200.1337, 270.0336, 329.0798, 368.1271, 474.9498, 512.282, 690.5021, 846.3267, 878.7095, 921.2493, 988.4353, 1019.0907, 1079.7478, 1113.1847, 1164.7824, 1221.0909, 1258.0736, 1286.7847, 1308.6527, 1384.7698, 1434.4837, 1448.6514, 1462.592, 1472.5256, 1520.2103, 3003.596, 3015.9512, 3047.0843, 3069.7724, 3080.1073, 3146.7138, 3645.8272, 3842.8694]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.721354  1.317406  0.263664
+  C   0.617967  1.054491 -0.401755
+  C   1.423671 -0.082743  0.214889
+  O   0.776695 -1.330838 -0.084406
+  H  -0.656940  1.452461  1.347485
+  H  -1.461189  0.367958  0.123106
+  H  -1.283791  2.131965 -0.199673
+  H   0.479496  0.850083 -1.470091
+  H   1.233206  1.964267 -0.334690
+  H   2.439259 -0.086753 -0.202739
+  H   1.496234  0.053971  1.303503
+  H   1.245174 -2.049160  0.358346
+  O  -2.051884 -0.807994 -0.071831
+  H  -1.211635 -1.309063 -0.136138
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf42_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf42_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.4592
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688293292407
+Zero Point Correction: 0.115672
+Gibbs free energy: -270.046583
+Partition Function: 3877101203874587.5
+Vibrational Frequencies: [-233.2151, 31.889, 56.3115, 88.3608, 147.3288, 264.7455, 313.8097, 354.125, 483.0059, 716.2477, 800.4167, 859.3096, 902.5792, 1010.0826, 1065.9055, 1071.8061, 1137.4806, 1207.5785, 1280.285, 1296.0313, 1355.4574, 1374.9024, 1383.8697, 1406.544, 1468.7495, 1484.0093, 1506.107, 1716.077, 3003.0881, 3043.1792, 3058.7416, 3089.3326, 3102.2752, 3126.835, 3733.4151, 3834.1349]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.666551 -0.407449  0.456089
+  C  -0.197008  0.677843 -0.163664
+  C  -1.686584  0.532614  0.180980
+  O  -2.280952 -0.649570 -0.353641
+  H   0.623194 -0.431207  1.550491
+  H   1.784701 -0.166781  0.222707
+  H   0.478743 -1.405565  0.048150
+  H   0.136529  1.661096  0.191221
+  H  -0.086952  0.670460 -1.253647
+  H  -1.827368  0.578707  1.271419
+  H  -2.243694  1.363058 -0.262096
+  H  -1.956892 -1.415874  0.135703
+  O   3.166536  0.038094 -0.155777
+  H   3.309306 -0.780132 -0.669032
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf15_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf15_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.1291
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.692939784318
+Zero Point Correction: 0.115816
+Gibbs free energy: -270.049664
+Partition Function: 171259867645431.3
+Vibrational Frequencies: [-816.9291, 78.2367, 173.7106, 197.7429, 299.6637, 325.524, 383.6924, 478.9374, 598.7683, 716.0405, 835.3787, 864.3225, 905.6789, 971.1916, 1009.5557, 1080.0105, 1087.5732, 1129.974, 1219.319, 1277.3361, 1292.0796, 1377.6925, 1381.1, 1412.407, 1435.763, 1463.6484, 1473.149, 1508.8328, 3001.4124, 3032.333, 3048.1887, 3075.5259, 3103.6523, 3148.4769, 3630.6067, 3819.9461]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.697146  1.360639  0.172942
+  C  -0.687395  1.051811 -0.365735
+  C  -1.376329 -0.143947  0.297839
+  O  -0.760468 -1.403237 -0.012864
+  H   1.218086  2.149397 -0.375683
+  H   1.435332  0.405385  0.036720
+  H   0.713401  1.555867  1.249004
+  H  -1.332719  1.930989 -0.212708
+  H  -0.646676  0.890721 -1.451528
+  H  -1.320436 -0.060060  1.387418
+  H  -2.437426 -0.172215  0.017625
+  H  -0.922274 -1.606796 -0.943830
+  O   2.043375 -0.772000 -0.040868
+  H   1.228922 -1.302405  0.092556
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf19_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf19_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 0.6773
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689169450841
+Zero Point Correction: 0.116091
+Gibbs free energy: -270.046408
+Partition Function: 2145151920062635.5
+Vibrational Frequencies: [-171.6347, 45.3214, 74.1245, 87.4011, 155.4855, 287.4417, 311.2417, 348.8867, 492.9928, 668.9413, 787.9963, 874.6615, 916.232, 1028.6406, 1071.5994, 1078.5856, 1120.4406, 1220.8761, 1291.9683, 1316.7525, 1345.4514, 1363.2537, 1375.8678, 1406.9151, 1473.3698, 1490.0811, 1508.1177, 1842.3913, 3006.1031, 3030.7167, 3068.9759, 3074.1085, 3097.0736, 3144.8327, 3731.5922, 3819.6888]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.672829 -0.303864  0.557467
+  C   0.213601  0.683873 -0.182299
+  C   1.701101  0.513415  0.155750
+  O   2.217408 -0.767976 -0.202594
+  H  -0.431037 -1.344924  0.330866
+  H  -1.765876 -0.124238  0.210733
+  H  -0.680542 -0.147282  1.640832
+  H   0.075999  0.572559 -1.266310
+  H  -0.078894  1.712211  0.064639
+  H   2.280713  1.314497 -0.326041
+  H   1.855904  0.594468  1.236187
+  H   2.199940 -0.851425 -1.165051
+  O  -3.149240 -0.004360 -0.278182
+  H  -3.452786 -0.907721 -0.065153
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf34_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf34_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.0203
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.690446856334
+Zero Point Correction: 0.115838
+Gibbs free energy: -270.046546
+Partition Function: 213502962958170.66
+Vibrational Frequencies: [-791.7709, 78.2263, 150.9893, 181.6654, 273.1516, 308.675, 363.136, 477.5409, 517.8825, 756.3637, 835.9269, 859.2114, 917.443, 951.984, 1011.339, 1071.8864, 1084.812, 1119.2853, 1202.5807, 1288.5336, 1334.0594, 1343.5948, 1379.5755, 1419.9234, 1461.4845, 1470.4528, 1491.05, 1512.0662, 3000.7761, 3031.7869, 3067.9726, 3089.1117, 3124.7872, 3160.3333, 3684.8681, 3824.6186]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.621502  1.273406 -0.423354
+  C   0.754150  1.111425  0.208589
+  C   1.111843 -0.342334  0.542366
+  O   0.832668 -1.255881 -0.526444
+  H  -1.108185  2.227890 -0.209246
+  H  -1.381513  0.446623  0.031664
+  H  -0.643053  1.061891 -1.493911
+  H   1.512092  1.530591 -0.471046
+  H   0.822067  1.686680  1.139878
+  H   2.164069 -0.416809  0.847201
+  H   0.491190 -0.689368  1.371410
+  H   1.411966 -1.064419 -1.275456
+  O  -2.003857 -0.711480  0.306561
+  H  -1.366072 -1.299172 -0.147031
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf26_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf26_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 2.065
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689734603213
+Zero Point Correction: 0.116086
+Gibbs free energy: -270.046865
+Partition Function: 2335664915870626.5
+Vibrational Frequencies: [-182.9408, 56.9707, 65.4488, 83.8872, 160.3239, 262.1185, 301.5707, 336.1551, 461.5936, 662.8506, 778.6717, 883.5574, 915.5891, 1046.7457, 1067.0976, 1090.8494, 1122.3306, 1227.0698, 1284.7986, 1324.1032, 1333.8932, 1370.8156, 1384.3591, 1422.647, 1463.4544, 1483.2276, 1519.0876, 1890.9314, 3017.785, 3029.4362, 3053.2286, 3069.6937, 3095.2411, 3135.8457, 3730.3866, 3824.0811]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   1.017262  1.157853  0.168855
+  C  -0.381261  0.853452 -0.343462
+  C  -1.037480 -0.312984  0.396646
+  O  -2.371929 -0.565399 -0.044548
+  H   1.514158  1.967618 -0.371868
+  H   1.673456  0.221551 -0.020599
+  H   1.049876  1.348831  1.246502
+  H  -1.016792  1.743345 -0.231791
+  H  -0.338718  0.629784 -1.417810
+  H  -0.413610 -1.212218  0.302685
+  H  -1.124403 -0.078299  1.462621
+  H  -2.339639 -0.904825 -0.948309
+  O   2.418345 -1.053255 -0.194434
+  H   3.033220 -0.956484  0.558195
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf31_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf31_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8982
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688332091522
+Zero Point Correction: 0.115861
+Gibbs free energy: -270.046519
+Partition Function: 2940234856426881.0
+Vibrational Frequencies: [-203.2558, 42.6111, 72.2504, 76.5133, 132.1302, 281.0303, 309.0926, 357.581, 449.8274, 675.8477, 767.4642, 892.9421, 950.4324, 1041.2904, 1060.3993, 1090.7865, 1123.3013, 1242.049, 1295.4394, 1309.2669, 1328.3854, 1358.8137, 1376.8726, 1414.4411, 1471.2051, 1496.8169, 1517.3861, 1751.9259, 3001.1166, 3033.9391, 3065.0217, 3084.984, 3102.0569, 3131.8455, 3732.3838, 3819.585]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.917434  0.761177  0.045396
+  C  -0.220052 -0.244758 -0.010028
+  C  -1.593829  0.441209  0.013606
+  O  -2.670723 -0.483267 -0.114498
+  H   0.959310  1.414143 -0.832020
+  H   1.916604  0.162261  0.061665
+  H   0.930027  1.361074  0.960765
+  H  -0.149200 -0.852126 -0.918620
+  H  -0.146603 -0.931417  0.843743
+  H  -1.699665  1.040681  0.930439
+  H  -1.691036  1.119955 -0.839084
+  H  -2.655364 -1.086894  0.639905
+  O   3.194273 -0.532233  0.025253
+  H   3.726213  0.150557 -0.426681
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf37_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf37_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 3.1101
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688977795781
+Zero Point Correction: 0.115857
+Gibbs free energy: -270.04637
+Partition Function: 1957673668080878.2
+Vibrational Frequencies: [-240.9293, 56.3133, 69.679, 94.5965, 158.247, 268.9719, 300.9247, 347.0956, 463.4216, 723.674, 780.5612, 875.9893, 901.2664, 1039.4946, 1057.0394, 1081.3606, 1139.9544, 1201.2778, 1297.7339, 1321.7461, 1326.7352, 1377.335, 1390.1707, 1426.2797, 1459.2774, 1485.558, 1519.0246, 1754.152, 2992.5027, 2998.3018, 3065.325, 3074.9494, 3117.3328, 3136.9277, 3731.6962, 3820.3833]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.016885  1.149135  0.202623
+  C   0.354092  0.819500 -0.363672
+  C   1.041480 -0.323685  0.384614
+  O   2.313848 -0.659078 -0.168196
+  H  -1.000854  1.412730  1.265515
+  H  -1.684293  0.192859  0.174662
+  H  -1.552639  1.914736 -0.364370
+  H   0.280442  0.553471 -1.424607
+  H   0.985204  1.721354 -0.310735
+  H   1.133718 -0.072930  1.452694
+  H   0.436990 -1.231205  0.309628
+  H   2.910348  0.092737 -0.057825
+  O  -2.446093 -1.036086 -0.012834
+  H  -2.723078 -0.892139 -0.938111
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf46_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf46_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.3919
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.693270405672
+Zero Point Correction: 0.115599
+Gibbs free energy: -270.050154
+Partition Function: 227337916076202.25
+Vibrational Frequencies: [-787.1296, 61.3906, 174.2186, 200.1337, 270.0336, 329.0798, 368.1271, 474.9498, 512.282, 690.5021, 846.3267, 878.7095, 921.2493, 988.4353, 1019.0907, 1079.7478, 1113.1847, 1164.7824, 1221.0909, 1258.0736, 1286.7847, 1308.6527, 1384.7698, 1434.4837, 1448.6514, 1462.592, 1472.5256, 1520.2103, 3003.596, 3015.9512, 3047.0843, 3069.7724, 3080.1073, 3146.7138, 3645.8272, 3842.8694]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.721354  1.317406  0.263664
+  C   0.617967  1.054491 -0.401755
+  C   1.423671 -0.082743  0.214889
+  O   0.776695 -1.330838 -0.084406
+  H  -0.656940  1.452461  1.347485
+  H  -1.461189  0.367958  0.123106
+  H  -1.283791  2.131965 -0.199673
+  H   0.479496  0.850083 -1.470091
+  H   1.233206  1.964267 -0.334690
+  H   2.439259 -0.086753 -0.202739
+  H   1.496234  0.053971  1.303503
+  H   1.245174 -2.049160  0.358346
+  O  -2.051884 -0.807994 -0.071831
+  H  -1.211635 -1.309063 -0.136138
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf42_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf42_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.4592
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688293292407
+Zero Point Correction: 0.115672
+Gibbs free energy: -270.046583
+Partition Function: 3877101203874587.5
+Vibrational Frequencies: [-233.2151, 31.889, 56.3115, 88.3608, 147.3288, 264.7455, 313.8097, 354.125, 483.0059, 716.2477, 800.4167, 859.3096, 902.5792, 1010.0826, 1065.9055, 1071.8061, 1137.4806, 1207.5785, 1280.285, 1296.0313, 1355.4574, 1374.9024, 1383.8697, 1406.544, 1468.7495, 1484.0093, 1506.107, 1716.077, 3003.0881, 3043.1792, 3058.7416, 3089.3326, 3102.2752, 3126.835, 3733.4151, 3834.1349]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.666551 -0.407449  0.456089
+  C  -0.197008  0.677843 -0.163664
+  C  -1.686584  0.532614  0.180980
+  O  -2.280952 -0.649570 -0.353641
+  H   0.623194 -0.431207  1.550491
+  H   1.784701 -0.166781  0.222707
+  H   0.478743 -1.405565  0.048150
+  H   0.136529  1.661096  0.191221
+  H  -0.086952  0.670460 -1.253647
+  H  -1.827368  0.578707  1.271419
+  H  -2.243694  1.363058 -0.262096
+  H  -1.956892 -1.415874  0.135703
+  O   3.166536  0.038094 -0.155777
+  H   3.309306 -0.780132 -0.669032
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf15_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf15_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.1291
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.692939784318
+Zero Point Correction: 0.115816
+Gibbs free energy: -270.049664
+Partition Function: 171259867645431.3
+Vibrational Frequencies: [-816.9291, 78.2367, 173.7106, 197.7429, 299.6637, 325.524, 383.6924, 478.9374, 598.7683, 716.0405, 835.3787, 864.3225, 905.6789, 971.1916, 1009.5557, 1080.0105, 1087.5732, 1129.974, 1219.319, 1277.3361, 1292.0796, 1377.6925, 1381.1, 1412.407, 1435.763, 1463.6484, 1473.149, 1508.8328, 3001.4124, 3032.333, 3048.1887, 3075.5259, 3103.6523, 3148.4769, 3630.6067, 3819.9461]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.697146  1.360639  0.172942
+  C  -0.687395  1.051811 -0.365735
+  C  -1.376329 -0.143947  0.297839
+  O  -0.760468 -1.403237 -0.012864
+  H   1.218086  2.149397 -0.375683
+  H   1.435332  0.405385  0.036720
+  H   0.713401  1.555867  1.249004
+  H  -1.332719  1.930989 -0.212708
+  H  -0.646676  0.890721 -1.451528
+  H  -1.320436 -0.060060  1.387418
+  H  -2.437426 -0.172215  0.017625
+  H  -0.922274 -1.606796 -0.943830
+  O   2.043375 -0.772000 -0.040868
+  H   1.228922 -1.302405  0.092556
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf19_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf19_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 0.6773
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689169450841
+Zero Point Correction: 0.116091
+Gibbs free energy: -270.046408
+Partition Function: 2145151920062635.5
+Vibrational Frequencies: [-171.6347, 45.3214, 74.1245, 87.4011, 155.4855, 287.4417, 311.2417, 348.8867, 492.9928, 668.9413, 787.9963, 874.6615, 916.232, 1028.6406, 1071.5994, 1078.5856, 1120.4406, 1220.8761, 1291.9683, 1316.7525, 1345.4514, 1363.2537, 1375.8678, 1406.9151, 1473.3698, 1490.0811, 1508.1177, 1842.3913, 3006.1031, 3030.7167, 3068.9759, 3074.1085, 3097.0736, 3144.8327, 3731.5922, 3819.6888]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.672829 -0.303864  0.557467
+  C   0.213601  0.683873 -0.182299
+  C   1.701101  0.513415  0.155750
+  O   2.217408 -0.767976 -0.202594
+  H  -0.431037 -1.344924  0.330866
+  H  -1.765876 -0.124238  0.210733
+  H  -0.680542 -0.147282  1.640832
+  H   0.075999  0.572559 -1.266310
+  H  -0.078894  1.712211  0.064639
+  H   2.280713  1.314497 -0.326041
+  H   1.855904  0.594468  1.236187
+  H   2.199940 -0.851425 -1.165051
+  O  -3.149240 -0.004360 -0.278182
+  H  -3.452786 -0.907721 -0.065153
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf34_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf34_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.0203
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.690446856334
+Zero Point Correction: 0.115838
+Gibbs free energy: -270.046546
+Partition Function: 213502962958170.66
+Vibrational Frequencies: [-791.7709, 78.2263, 150.9893, 181.6654, 273.1516, 308.675, 363.136, 477.5409, 517.8825, 756.3637, 835.9269, 859.2114, 917.443, 951.984, 1011.339, 1071.8864, 1084.812, 1119.2853, 1202.5807, 1288.5336, 1334.0594, 1343.5948, 1379.5755, 1419.9234, 1461.4845, 1470.4528, 1491.05, 1512.0662, 3000.7761, 3031.7869, 3067.9726, 3089.1117, 3124.7872, 3160.3333, 3684.8681, 3824.6186]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.621502  1.273406 -0.423354
+  C   0.754150  1.111425  0.208589
+  C   1.111843 -0.342334  0.542366
+  O   0.832668 -1.255881 -0.526444
+  H  -1.108185  2.227890 -0.209246
+  H  -1.381513  0.446623  0.031664
+  H  -0.643053  1.061891 -1.493911
+  H   1.512092  1.530591 -0.471046
+  H   0.822067  1.686680  1.139878
+  H   2.164069 -0.416809  0.847201
+  H   0.491190 -0.689368  1.371410
+  H   1.411966 -1.064419 -1.275456
+  O  -2.003857 -0.711480  0.306561
+  H  -1.366072 -1.299172 -0.147031
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf26_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf26_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 2.065
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689734603213
+Zero Point Correction: 0.116086
+Gibbs free energy: -270.046865
+Partition Function: 2335664915870626.5
+Vibrational Frequencies: [-182.9408, 56.9707, 65.4488, 83.8872, 160.3239, 262.1185, 301.5707, 336.1551, 461.5936, 662.8506, 778.6717, 883.5574, 915.5891, 1046.7457, 1067.0976, 1090.8494, 1122.3306, 1227.0698, 1284.7986, 1324.1032, 1333.8932, 1370.8156, 1384.3591, 1422.647, 1463.4544, 1483.2276, 1519.0876, 1890.9314, 3017.785, 3029.4362, 3053.2286, 3069.6937, 3095.2411, 3135.8457, 3730.3866, 3824.0811]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   1.017262  1.157853  0.168855
+  C  -0.381261  0.853452 -0.343462
+  C  -1.037480 -0.312984  0.396646
+  O  -2.371929 -0.565399 -0.044548
+  H   1.514158  1.967618 -0.371868
+  H   1.673456  0.221551 -0.020599
+  H   1.049876  1.348831  1.246502
+  H  -1.016792  1.743345 -0.231791
+  H  -0.338718  0.629784 -1.417810
+  H  -0.413610 -1.212218  0.302685
+  H  -1.124403 -0.078299  1.462621
+  H  -2.339639 -0.904825 -0.948309
+  O   2.418345 -1.053255 -0.194434
+  H   3.033220 -0.956484  0.558195
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf31_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf31_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8982
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688332091522
+Zero Point Correction: 0.115861
+Gibbs free energy: -270.046519
+Partition Function: 2940234856426881.0
+Vibrational Frequencies: [-203.2558, 42.6111, 72.2504, 76.5133, 132.1302, 281.0303, 309.0926, 357.581, 449.8274, 675.8477, 767.4642, 892.9421, 950.4324, 1041.2904, 1060.3993, 1090.7865, 1123.3013, 1242.049, 1295.4394, 1309.2669, 1328.3854, 1358.8137, 1376.8726, 1414.4411, 1471.2051, 1496.8169, 1517.3861, 1751.9259, 3001.1166, 3033.9391, 3065.0217, 3084.984, 3102.0569, 3131.8455, 3732.3838, 3819.585]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.917434  0.761177  0.045396
+  C  -0.220052 -0.244758 -0.010028
+  C  -1.593829  0.441209  0.013606
+  O  -2.670723 -0.483267 -0.114498
+  H   0.959310  1.414143 -0.832020
+  H   1.916604  0.162261  0.061665
+  H   0.930027  1.361074  0.960765
+  H  -0.149200 -0.852126 -0.918620
+  H  -0.146603 -0.931417  0.843743
+  H  -1.699665  1.040681  0.930439
+  H  -1.691036  1.119955 -0.839084
+  H  -2.655364 -1.086894  0.639905
+  O   3.194273 -0.532233  0.025253
+  H   3.726213  0.150557 -0.426681
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf37_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf37_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 3.1101
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688977795781
+Zero Point Correction: 0.115857
+Gibbs free energy: -270.04637
+Partition Function: 1957673668080878.2
+Vibrational Frequencies: [-240.9293, 56.3133, 69.679, 94.5965, 158.247, 268.9719, 300.9247, 347.0956, 463.4216, 723.674, 780.5612, 875.9893, 901.2664, 1039.4946, 1057.0394, 1081.3606, 1139.9544, 1201.2778, 1297.7339, 1321.7461, 1326.7352, 1377.335, 1390.1707, 1426.2797, 1459.2774, 1485.558, 1519.0246, 1754.152, 2992.5027, 2998.3018, 3065.325, 3074.9494, 3117.3328, 3136.9277, 3731.6962, 3820.3833]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.016885  1.149135  0.202623
+  C   0.354092  0.819500 -0.363672
+  C   1.041480 -0.323685  0.384614
+  O   2.313848 -0.659078 -0.168196
+  H  -1.000854  1.412730  1.265515
+  H  -1.684293  0.192859  0.174662
+  H  -1.552639  1.914736 -0.364370
+  H   0.280442  0.553471 -1.424607
+  H   0.985204  1.721354 -0.310735
+  H   1.133718 -0.072930  1.452694
+  H   0.436990 -1.231205  0.309628
+  H   2.910348  0.092737 -0.057825
+  O  -2.446093 -1.036086 -0.012834
+  H  -2.723078 -0.892139 -0.938111
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf46_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf46_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.3919
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.693270405672
+Zero Point Correction: 0.115599
+Gibbs free energy: -270.050154
+Partition Function: 227337916076202.25
+Vibrational Frequencies: [-787.1296, 61.3906, 174.2186, 200.1337, 270.0336, 329.0798, 368.1271, 474.9498, 512.282, 690.5021, 846.3267, 878.7095, 921.2493, 988.4353, 1019.0907, 1079.7478, 1113.1847, 1164.7824, 1221.0909, 1258.0736, 1286.7847, 1308.6527, 1384.7698, 1434.4837, 1448.6514, 1462.592, 1472.5256, 1520.2103, 3003.596, 3015.9512, 3047.0843, 3069.7724, 3080.1073, 3146.7138, 3645.8272, 3842.8694]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.721354  1.317406  0.263664
+  C   0.617967  1.054491 -0.401755
+  C   1.423671 -0.082743  0.214889
+  O   0.776695 -1.330838 -0.084406
+  H  -0.656940  1.452461  1.347485
+  H  -1.461189  0.367958  0.123106
+  H  -1.283791  2.131965 -0.199673
+  H   0.479496  0.850083 -1.470091
+  H   1.233206  1.964267 -0.334690
+  H   2.439259 -0.086753 -0.202739
+  H   1.496234  0.053971  1.303503
+  H   1.245174 -2.049160  0.358346
+  O  -2.051884 -0.807994 -0.071831
+  H  -1.211635 -1.309063 -0.136138
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf42_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf42_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.4592
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688293292407
+Zero Point Correction: 0.115672
+Gibbs free energy: -270.046583
+Partition Function: 3877101203874587.5
+Vibrational Frequencies: [-233.2151, 31.889, 56.3115, 88.3608, 147.3288, 264.7455, 313.8097, 354.125, 483.0059, 716.2477, 800.4167, 859.3096, 902.5792, 1010.0826, 1065.9055, 1071.8061, 1137.4806, 1207.5785, 1280.285, 1296.0313, 1355.4574, 1374.9024, 1383.8697, 1406.544, 1468.7495, 1484.0093, 1506.107, 1716.077, 3003.0881, 3043.1792, 3058.7416, 3089.3326, 3102.2752, 3126.835, 3733.4151, 3834.1349]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.666551 -0.407449  0.456089
+  C  -0.197008  0.677843 -0.163664
+  C  -1.686584  0.532614  0.180980
+  O  -2.280952 -0.649570 -0.353641
+  H   0.623194 -0.431207  1.550491
+  H   1.784701 -0.166781  0.222707
+  H   0.478743 -1.405565  0.048150
+  H   0.136529  1.661096  0.191221
+  H  -0.086952  0.670460 -1.253647
+  H  -1.827368  0.578707  1.271419
+  H  -2.243694  1.363058 -0.262096
+  H  -1.956892 -1.415874  0.135703
+  O   3.166536  0.038094 -0.155777
+  H   3.309306 -0.780132 -0.669032
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf15_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf15_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.1291
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.692939784318
+Zero Point Correction: 0.115816
+Gibbs free energy: -270.049664
+Partition Function: 171259867645431.3
+Vibrational Frequencies: [-816.9291, 78.2367, 173.7106, 197.7429, 299.6637, 325.524, 383.6924, 478.9374, 598.7683, 716.0405, 835.3787, 864.3225, 905.6789, 971.1916, 1009.5557, 1080.0105, 1087.5732, 1129.974, 1219.319, 1277.3361, 1292.0796, 1377.6925, 1381.1, 1412.407, 1435.763, 1463.6484, 1473.149, 1508.8328, 3001.4124, 3032.333, 3048.1887, 3075.5259, 3103.6523, 3148.4769, 3630.6067, 3819.9461]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.697146  1.360639  0.172942
+  C  -0.687395  1.051811 -0.365735
+  C  -1.376329 -0.143947  0.297839
+  O  -0.760468 -1.403237 -0.012864
+  H   1.218086  2.149397 -0.375683
+  H   1.435332  0.405385  0.036720
+  H   0.713401  1.555867  1.249004
+  H  -1.332719  1.930989 -0.212708
+  H  -0.646676  0.890721 -1.451528
+  H  -1.320436 -0.060060  1.387418
+  H  -2.437426 -0.172215  0.017625
+  H  -0.922274 -1.606796 -0.943830
+  O   2.043375 -0.772000 -0.040868
+  H   1.228922 -1.302405  0.092556
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf19_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf19_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 0.6773
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689169450841
+Zero Point Correction: 0.116091
+Gibbs free energy: -270.046408
+Partition Function: 2145151920062635.5
+Vibrational Frequencies: [-171.6347, 45.3214, 74.1245, 87.4011, 155.4855, 287.4417, 311.2417, 348.8867, 492.9928, 668.9413, 787.9963, 874.6615, 916.232, 1028.6406, 1071.5994, 1078.5856, 1120.4406, 1220.8761, 1291.9683, 1316.7525, 1345.4514, 1363.2537, 1375.8678, 1406.9151, 1473.3698, 1490.0811, 1508.1177, 1842.3913, 3006.1031, 3030.7167, 3068.9759, 3074.1085, 3097.0736, 3144.8327, 3731.5922, 3819.6888]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.672829 -0.303864  0.557467
+  C   0.213601  0.683873 -0.182299
+  C   1.701101  0.513415  0.155750
+  O   2.217408 -0.767976 -0.202594
+  H  -0.431037 -1.344924  0.330866
+  H  -1.765876 -0.124238  0.210733
+  H  -0.680542 -0.147282  1.640832
+  H   0.075999  0.572559 -1.266310
+  H  -0.078894  1.712211  0.064639
+  H   2.280713  1.314497 -0.326041
+  H   1.855904  0.594468  1.236187
+  H   2.199940 -0.851425 -1.165051
+  O  -3.149240 -0.004360 -0.278182
+  H  -3.452786 -0.907721 -0.065153
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf34_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf34_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.0203
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.690446856334
+Zero Point Correction: 0.115838
+Gibbs free energy: -270.046546
+Partition Function: 213502962958170.66
+Vibrational Frequencies: [-791.7709, 78.2263, 150.9893, 181.6654, 273.1516, 308.675, 363.136, 477.5409, 517.8825, 756.3637, 835.9269, 859.2114, 917.443, 951.984, 1011.339, 1071.8864, 1084.812, 1119.2853, 1202.5807, 1288.5336, 1334.0594, 1343.5948, 1379.5755, 1419.9234, 1461.4845, 1470.4528, 1491.05, 1512.0662, 3000.7761, 3031.7869, 3067.9726, 3089.1117, 3124.7872, 3160.3333, 3684.8681, 3824.6186]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.621502  1.273406 -0.423354
+  C   0.754150  1.111425  0.208589
+  C   1.111843 -0.342334  0.542366
+  O   0.832668 -1.255881 -0.526444
+  H  -1.108185  2.227890 -0.209246
+  H  -1.381513  0.446623  0.031664
+  H  -0.643053  1.061891 -1.493911
+  H   1.512092  1.530591 -0.471046
+  H   0.822067  1.686680  1.139878
+  H   2.164069 -0.416809  0.847201
+  H   0.491190 -0.689368  1.371410
+  H   1.411966 -1.064419 -1.275456
+  O  -2.003857 -0.711480  0.306561
+  H  -1.366072 -1.299172 -0.147031
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf26_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf26_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 2.065
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689734603213
+Zero Point Correction: 0.116086
+Gibbs free energy: -270.046865
+Partition Function: 2335664915870626.5
+Vibrational Frequencies: [-182.9408, 56.9707, 65.4488, 83.8872, 160.3239, 262.1185, 301.5707, 336.1551, 461.5936, 662.8506, 778.6717, 883.5574, 915.5891, 1046.7457, 1067.0976, 1090.8494, 1122.3306, 1227.0698, 1284.7986, 1324.1032, 1333.8932, 1370.8156, 1384.3591, 1422.647, 1463.4544, 1483.2276, 1519.0876, 1890.9314, 3017.785, 3029.4362, 3053.2286, 3069.6937, 3095.2411, 3135.8457, 3730.3866, 3824.0811]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   1.017262  1.157853  0.168855
+  C  -0.381261  0.853452 -0.343462
+  C  -1.037480 -0.312984  0.396646
+  O  -2.371929 -0.565399 -0.044548
+  H   1.514158  1.967618 -0.371868
+  H   1.673456  0.221551 -0.020599
+  H   1.049876  1.348831  1.246502
+  H  -1.016792  1.743345 -0.231791
+  H  -0.338718  0.629784 -1.417810
+  H  -0.413610 -1.212218  0.302685
+  H  -1.124403 -0.078299  1.462621
+  H  -2.339639 -0.904825 -0.948309
+  O   2.418345 -1.053255 -0.194434
+  H   3.033220 -0.956484  0.558195
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf31_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf31_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8982
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688332091522
+Zero Point Correction: 0.115861
+Gibbs free energy: -270.046519
+Partition Function: 2940234856426881.0
+Vibrational Frequencies: [-203.2558, 42.6111, 72.2504, 76.5133, 132.1302, 281.0303, 309.0926, 357.581, 449.8274, 675.8477, 767.4642, 892.9421, 950.4324, 1041.2904, 1060.3993, 1090.7865, 1123.3013, 1242.049, 1295.4394, 1309.2669, 1328.3854, 1358.8137, 1376.8726, 1414.4411, 1471.2051, 1496.8169, 1517.3861, 1751.9259, 3001.1166, 3033.9391, 3065.0217, 3084.984, 3102.0569, 3131.8455, 3732.3838, 3819.585]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.917434  0.761177  0.045396
+  C  -0.220052 -0.244758 -0.010028
+  C  -1.593829  0.441209  0.013606
+  O  -2.670723 -0.483267 -0.114498
+  H   0.959310  1.414143 -0.832020
+  H   1.916604  0.162261  0.061665
+  H   0.930027  1.361074  0.960765
+  H  -0.149200 -0.852126 -0.918620
+  H  -0.146603 -0.931417  0.843743
+  H  -1.699665  1.040681  0.930439
+  H  -1.691036  1.119955 -0.839084
+  H  -2.655364 -1.086894  0.639905
+  O   3.194273 -0.532233  0.025253
+  H   3.726213  0.150557 -0.426681
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf37_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf37_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 3.1101
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688977795781
+Zero Point Correction: 0.115857
+Gibbs free energy: -270.04637
+Partition Function: 1957673668080878.2
+Vibrational Frequencies: [-240.9293, 56.3133, 69.679, 94.5965, 158.247, 268.9719, 300.9247, 347.0956, 463.4216, 723.674, 780.5612, 875.9893, 901.2664, 1039.4946, 1057.0394, 1081.3606, 1139.9544, 1201.2778, 1297.7339, 1321.7461, 1326.7352, 1377.335, 1390.1707, 1426.2797, 1459.2774, 1485.558, 1519.0246, 1754.152, 2992.5027, 2998.3018, 3065.325, 3074.9494, 3117.3328, 3136.9277, 3731.6962, 3820.3833]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.016885  1.149135  0.202623
+  C   0.354092  0.819500 -0.363672
+  C   1.041480 -0.323685  0.384614
+  O   2.313848 -0.659078 -0.168196
+  H  -1.000854  1.412730  1.265515
+  H  -1.684293  0.192859  0.174662
+  H  -1.552639  1.914736 -0.364370
+  H   0.280442  0.553471 -1.424607
+  H   0.985204  1.721354 -0.310735
+  H   1.133718 -0.072930  1.452694
+  H   0.436990 -1.231205  0.309628
+  H   2.910348  0.092737 -0.057825
+  O  -2.446093 -1.036086 -0.012834
+  H  -2.723078 -0.892139 -0.938111
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf46_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf46_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.3919
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.693270405672
+Zero Point Correction: 0.115599
+Gibbs free energy: -270.050154
+Partition Function: 227337916076202.25
+Vibrational Frequencies: [-787.1296, 61.3906, 174.2186, 200.1337, 270.0336, 329.0798, 368.1271, 474.9498, 512.282, 690.5021, 846.3267, 878.7095, 921.2493, 988.4353, 1019.0907, 1079.7478, 1113.1847, 1164.7824, 1221.0909, 1258.0736, 1286.7847, 1308.6527, 1384.7698, 1434.4837, 1448.6514, 1462.592, 1472.5256, 1520.2103, 3003.596, 3015.9512, 3047.0843, 3069.7724, 3080.1073, 3146.7138, 3645.8272, 3842.8694]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.721354  1.317406  0.263664
+  C   0.617967  1.054491 -0.401755
+  C   1.423671 -0.082743  0.214889
+  O   0.776695 -1.330838 -0.084406
+  H  -0.656940  1.452461  1.347485
+  H  -1.461189  0.367958  0.123106
+  H  -1.283791  2.131965 -0.199673
+  H   0.479496  0.850083 -1.470091
+  H   1.233206  1.964267 -0.334690
+  H   2.439259 -0.086753 -0.202739
+  H   1.496234  0.053971  1.303503
+  H   1.245174 -2.049160  0.358346
+  O  -2.051884 -0.807994 -0.071831
+  H  -1.211635 -1.309063 -0.136138
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf42_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf42_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.4592
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688293292407
+Zero Point Correction: 0.115672
+Gibbs free energy: -270.046583
+Partition Function: 3877101203874587.5
+Vibrational Frequencies: [-233.2151, 31.889, 56.3115, 88.3608, 147.3288, 264.7455, 313.8097, 354.125, 483.0059, 716.2477, 800.4167, 859.3096, 902.5792, 1010.0826, 1065.9055, 1071.8061, 1137.4806, 1207.5785, 1280.285, 1296.0313, 1355.4574, 1374.9024, 1383.8697, 1406.544, 1468.7495, 1484.0093, 1506.107, 1716.077, 3003.0881, 3043.1792, 3058.7416, 3089.3326, 3102.2752, 3126.835, 3733.4151, 3834.1349]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.666551 -0.407449  0.456089
+  C  -0.197008  0.677843 -0.163664
+  C  -1.686584  0.532614  0.180980
+  O  -2.280952 -0.649570 -0.353641
+  H   0.623194 -0.431207  1.550491
+  H   1.784701 -0.166781  0.222707
+  H   0.478743 -1.405565  0.048150
+  H   0.136529  1.661096  0.191221
+  H  -0.086952  0.670460 -1.253647
+  H  -1.827368  0.578707  1.271419
+  H  -2.243694  1.363058 -0.262096
+  H  -1.956892 -1.415874  0.135703
+  O   3.166536  0.038094 -0.155777
+  H   3.309306 -0.780132 -0.669032
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf15_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf15_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.1291
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.692939784318
+Zero Point Correction: 0.115816
+Gibbs free energy: -270.049664
+Partition Function: 171259867645431.3
+Vibrational Frequencies: [-816.9291, 78.2367, 173.7106, 197.7429, 299.6637, 325.524, 383.6924, 478.9374, 598.7683, 716.0405, 835.3787, 864.3225, 905.6789, 971.1916, 1009.5557, 1080.0105, 1087.5732, 1129.974, 1219.319, 1277.3361, 1292.0796, 1377.6925, 1381.1, 1412.407, 1435.763, 1463.6484, 1473.149, 1508.8328, 3001.4124, 3032.333, 3048.1887, 3075.5259, 3103.6523, 3148.4769, 3630.6067, 3819.9461]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.697146  1.360639  0.172942
+  C  -0.687395  1.051811 -0.365735
+  C  -1.376329 -0.143947  0.297839
+  O  -0.760468 -1.403237 -0.012864
+  H   1.218086  2.149397 -0.375683
+  H   1.435332  0.405385  0.036720
+  H   0.713401  1.555867  1.249004
+  H  -1.332719  1.930989 -0.212708
+  H  -0.646676  0.890721 -1.451528
+  H  -1.320436 -0.060060  1.387418
+  H  -2.437426 -0.172215  0.017625
+  H  -0.922274 -1.606796 -0.943830
+  O   2.043375 -0.772000 -0.040868
+  H   1.228922 -1.302405  0.092556
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf19_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf19_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 0.6773
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689169450841
+Zero Point Correction: 0.116091
+Gibbs free energy: -270.046408
+Partition Function: 2145151920062635.5
+Vibrational Frequencies: [-171.6347, 45.3214, 74.1245, 87.4011, 155.4855, 287.4417, 311.2417, 348.8867, 492.9928, 668.9413, 787.9963, 874.6615, 916.232, 1028.6406, 1071.5994, 1078.5856, 1120.4406, 1220.8761, 1291.9683, 1316.7525, 1345.4514, 1363.2537, 1375.8678, 1406.9151, 1473.3698, 1490.0811, 1508.1177, 1842.3913, 3006.1031, 3030.7167, 3068.9759, 3074.1085, 3097.0736, 3144.8327, 3731.5922, 3819.6888]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.672829 -0.303864  0.557467
+  C   0.213601  0.683873 -0.182299
+  C   1.701101  0.513415  0.155750
+  O   2.217408 -0.767976 -0.202594
+  H  -0.431037 -1.344924  0.330866
+  H  -1.765876 -0.124238  0.210733
+  H  -0.680542 -0.147282  1.640832
+  H   0.075999  0.572559 -1.266310
+  H  -0.078894  1.712211  0.064639
+  H   2.280713  1.314497 -0.326041
+  H   1.855904  0.594468  1.236187
+  H   2.199940 -0.851425 -1.165051
+  O  -3.149240 -0.004360 -0.278182
+  H  -3.452786 -0.907721 -0.065153
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf34_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf34_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.0203
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.690446856334
+Zero Point Correction: 0.115838
+Gibbs free energy: -270.046546
+Partition Function: 213502962958170.66
+Vibrational Frequencies: [-791.7709, 78.2263, 150.9893, 181.6654, 273.1516, 308.675, 363.136, 477.5409, 517.8825, 756.3637, 835.9269, 859.2114, 917.443, 951.984, 1011.339, 1071.8864, 1084.812, 1119.2853, 1202.5807, 1288.5336, 1334.0594, 1343.5948, 1379.5755, 1419.9234, 1461.4845, 1470.4528, 1491.05, 1512.0662, 3000.7761, 3031.7869, 3067.9726, 3089.1117, 3124.7872, 3160.3333, 3684.8681, 3824.6186]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.621502  1.273406 -0.423354
+  C   0.754150  1.111425  0.208589
+  C   1.111843 -0.342334  0.542366
+  O   0.832668 -1.255881 -0.526444
+  H  -1.108185  2.227890 -0.209246
+  H  -1.381513  0.446623  0.031664
+  H  -0.643053  1.061891 -1.493911
+  H   1.512092  1.530591 -0.471046
+  H   0.822067  1.686680  1.139878
+  H   2.164069 -0.416809  0.847201
+  H   0.491190 -0.689368  1.371410
+  H   1.411966 -1.064419 -1.275456
+  O  -2.003857 -0.711480  0.306561
+  H  -1.366072 -1.299172 -0.147031
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf26_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf26_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 2.065
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689734603213
+Zero Point Correction: 0.116086
+Gibbs free energy: -270.046865
+Partition Function: 2335664915870626.5
+Vibrational Frequencies: [-182.9408, 56.9707, 65.4488, 83.8872, 160.3239, 262.1185, 301.5707, 336.1551, 461.5936, 662.8506, 778.6717, 883.5574, 915.5891, 1046.7457, 1067.0976, 1090.8494, 1122.3306, 1227.0698, 1284.7986, 1324.1032, 1333.8932, 1370.8156, 1384.3591, 1422.647, 1463.4544, 1483.2276, 1519.0876, 1890.9314, 3017.785, 3029.4362, 3053.2286, 3069.6937, 3095.2411, 3135.8457, 3730.3866, 3824.0811]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   1.017262  1.157853  0.168855
+  C  -0.381261  0.853452 -0.343462
+  C  -1.037480 -0.312984  0.396646
+  O  -2.371929 -0.565399 -0.044548
+  H   1.514158  1.967618 -0.371868
+  H   1.673456  0.221551 -0.020599
+  H   1.049876  1.348831  1.246502
+  H  -1.016792  1.743345 -0.231791
+  H  -0.338718  0.629784 -1.417810
+  H  -0.413610 -1.212218  0.302685
+  H  -1.124403 -0.078299  1.462621
+  H  -2.339639 -0.904825 -0.948309
+  O   2.418345 -1.053255 -0.194434
+  H   3.033220 -0.956484  0.558195
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf31_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf31_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8982
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688332091522
+Zero Point Correction: 0.115861
+Gibbs free energy: -270.046519
+Partition Function: 2940234856426881.0
+Vibrational Frequencies: [-203.2558, 42.6111, 72.2504, 76.5133, 132.1302, 281.0303, 309.0926, 357.581, 449.8274, 675.8477, 767.4642, 892.9421, 950.4324, 1041.2904, 1060.3993, 1090.7865, 1123.3013, 1242.049, 1295.4394, 1309.2669, 1328.3854, 1358.8137, 1376.8726, 1414.4411, 1471.2051, 1496.8169, 1517.3861, 1751.9259, 3001.1166, 3033.9391, 3065.0217, 3084.984, 3102.0569, 3131.8455, 3732.3838, 3819.585]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.917434  0.761177  0.045396
+  C  -0.220052 -0.244758 -0.010028
+  C  -1.593829  0.441209  0.013606
+  O  -2.670723 -0.483267 -0.114498
+  H   0.959310  1.414143 -0.832020
+  H   1.916604  0.162261  0.061665
+  H   0.930027  1.361074  0.960765
+  H  -0.149200 -0.852126 -0.918620
+  H  -0.146603 -0.931417  0.843743
+  H  -1.699665  1.040681  0.930439
+  H  -1.691036  1.119955 -0.839084
+  H  -2.655364 -1.086894  0.639905
+  O   3.194273 -0.532233  0.025253
+  H   3.726213  0.150557 -0.426681
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf37_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf37_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 3.1101
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688977795781
+Zero Point Correction: 0.115857
+Gibbs free energy: -270.04637
+Partition Function: 1957673668080878.2
+Vibrational Frequencies: [-240.9293, 56.3133, 69.679, 94.5965, 158.247, 268.9719, 300.9247, 347.0956, 463.4216, 723.674, 780.5612, 875.9893, 901.2664, 1039.4946, 1057.0394, 1081.3606, 1139.9544, 1201.2778, 1297.7339, 1321.7461, 1326.7352, 1377.335, 1390.1707, 1426.2797, 1459.2774, 1485.558, 1519.0246, 1754.152, 2992.5027, 2998.3018, 3065.325, 3074.9494, 3117.3328, 3136.9277, 3731.6962, 3820.3833]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.016885  1.149135  0.202623
+  C   0.354092  0.819500 -0.363672
+  C   1.041480 -0.323685  0.384614
+  O   2.313848 -0.659078 -0.168196
+  H  -1.000854  1.412730  1.265515
+  H  -1.684293  0.192859  0.174662
+  H  -1.552639  1.914736 -0.364370
+  H   0.280442  0.553471 -1.424607
+  H   0.985204  1.721354 -0.310735
+  H   1.133718 -0.072930  1.452694
+  H   0.436990 -1.231205  0.309628
+  H   2.910348  0.092737 -0.057825
+  O  -2.446093 -1.036086 -0.012834
+  H  -2.723078 -0.892139 -0.938111
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf46_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf46_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.3919
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.693270405672
+Zero Point Correction: 0.115599
+Gibbs free energy: -270.050154
+Partition Function: 227337916076202.25
+Vibrational Frequencies: [-787.1296, 61.3906, 174.2186, 200.1337, 270.0336, 329.0798, 368.1271, 474.9498, 512.282, 690.5021, 846.3267, 878.7095, 921.2493, 988.4353, 1019.0907, 1079.7478, 1113.1847, 1164.7824, 1221.0909, 1258.0736, 1286.7847, 1308.6527, 1384.7698, 1434.4837, 1448.6514, 1462.592, 1472.5256, 1520.2103, 3003.596, 3015.9512, 3047.0843, 3069.7724, 3080.1073, 3146.7138, 3645.8272, 3842.8694]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.721354  1.317406  0.263664
+  C   0.617967  1.054491 -0.401755
+  C   1.423671 -0.082743  0.214889
+  O   0.776695 -1.330838 -0.084406
+  H  -0.656940  1.452461  1.347485
+  H  -1.461189  0.367958  0.123106
+  H  -1.283791  2.131965 -0.199673
+  H   0.479496  0.850083 -1.470091
+  H   1.233206  1.964267 -0.334690
+  H   2.439259 -0.086753 -0.202739
+  H   1.496234  0.053971  1.303503
+  H   1.245174 -2.049160  0.358346
+  O  -2.051884 -0.807994 -0.071831
+  H  -1.211635 -1.309063 -0.136138
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf42_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf42_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.4592
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688293292407
+Zero Point Correction: 0.115672
+Gibbs free energy: -270.046583
+Partition Function: 3877101203874587.5
+Vibrational Frequencies: [-233.2151, 31.889, 56.3115, 88.3608, 147.3288, 264.7455, 313.8097, 354.125, 483.0059, 716.2477, 800.4167, 859.3096, 902.5792, 1010.0826, 1065.9055, 1071.8061, 1137.4806, 1207.5785, 1280.285, 1296.0313, 1355.4574, 1374.9024, 1383.8697, 1406.544, 1468.7495, 1484.0093, 1506.107, 1716.077, 3003.0881, 3043.1792, 3058.7416, 3089.3326, 3102.2752, 3126.835, 3733.4151, 3834.1349]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.666551 -0.407449  0.456089
+  C  -0.197008  0.677843 -0.163664
+  C  -1.686584  0.532614  0.180980
+  O  -2.280952 -0.649570 -0.353641
+  H   0.623194 -0.431207  1.550491
+  H   1.784701 -0.166781  0.222707
+  H   0.478743 -1.405565  0.048150
+  H   0.136529  1.661096  0.191221
+  H  -0.086952  0.670460 -1.253647
+  H  -1.827368  0.578707  1.271419
+  H  -2.243694  1.363058 -0.262096
+  H  -1.956892 -1.415874  0.135703
+  O   3.166536  0.038094 -0.155777
+  H   3.309306 -0.780132 -0.669032
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf15_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf15_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.1291
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.692939784318
+Zero Point Correction: 0.115816
+Gibbs free energy: -270.049664
+Partition Function: 171259867645431.3
+Vibrational Frequencies: [-816.9291, 78.2367, 173.7106, 197.7429, 299.6637, 325.524, 383.6924, 478.9374, 598.7683, 716.0405, 835.3787, 864.3225, 905.6789, 971.1916, 1009.5557, 1080.0105, 1087.5732, 1129.974, 1219.319, 1277.3361, 1292.0796, 1377.6925, 1381.1, 1412.407, 1435.763, 1463.6484, 1473.149, 1508.8328, 3001.4124, 3032.333, 3048.1887, 3075.5259, 3103.6523, 3148.4769, 3630.6067, 3819.9461]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.697146  1.360639  0.172942
+  C  -0.687395  1.051811 -0.365735
+  C  -1.376329 -0.143947  0.297839
+  O  -0.760468 -1.403237 -0.012864
+  H   1.218086  2.149397 -0.375683
+  H   1.435332  0.405385  0.036720
+  H   0.713401  1.555867  1.249004
+  H  -1.332719  1.930989 -0.212708
+  H  -0.646676  0.890721 -1.451528
+  H  -1.320436 -0.060060  1.387418
+  H  -2.437426 -0.172215  0.017625
+  H  -0.922274 -1.606796 -0.943830
+  O   2.043375 -0.772000 -0.040868
+  H   1.228922 -1.302405  0.092556
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf19_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf19_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 0.6773
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689169450841
+Zero Point Correction: 0.116091
+Gibbs free energy: -270.046408
+Partition Function: 2145151920062635.5
+Vibrational Frequencies: [-171.6347, 45.3214, 74.1245, 87.4011, 155.4855, 287.4417, 311.2417, 348.8867, 492.9928, 668.9413, 787.9963, 874.6615, 916.232, 1028.6406, 1071.5994, 1078.5856, 1120.4406, 1220.8761, 1291.9683, 1316.7525, 1345.4514, 1363.2537, 1375.8678, 1406.9151, 1473.3698, 1490.0811, 1508.1177, 1842.3913, 3006.1031, 3030.7167, 3068.9759, 3074.1085, 3097.0736, 3144.8327, 3731.5922, 3819.6888]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.672829 -0.303864  0.557467
+  C   0.213601  0.683873 -0.182299
+  C   1.701101  0.513415  0.155750
+  O   2.217408 -0.767976 -0.202594
+  H  -0.431037 -1.344924  0.330866
+  H  -1.765876 -0.124238  0.210733
+  H  -0.680542 -0.147282  1.640832
+  H   0.075999  0.572559 -1.266310
+  H  -0.078894  1.712211  0.064639
+  H   2.280713  1.314497 -0.326041
+  H   1.855904  0.594468  1.236187
+  H   2.199940 -0.851425 -1.165051
+  O  -3.149240 -0.004360 -0.278182
+  H  -3.452786 -0.907721 -0.065153
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf34_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf34_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.0203
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.690446856334
+Zero Point Correction: 0.115838
+Gibbs free energy: -270.046546
+Partition Function: 213502962958170.66
+Vibrational Frequencies: [-791.7709, 78.2263, 150.9893, 181.6654, 273.1516, 308.675, 363.136, 477.5409, 517.8825, 756.3637, 835.9269, 859.2114, 917.443, 951.984, 1011.339, 1071.8864, 1084.812, 1119.2853, 1202.5807, 1288.5336, 1334.0594, 1343.5948, 1379.5755, 1419.9234, 1461.4845, 1470.4528, 1491.05, 1512.0662, 3000.7761, 3031.7869, 3067.9726, 3089.1117, 3124.7872, 3160.3333, 3684.8681, 3824.6186]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.621502  1.273406 -0.423354
+  C   0.754150  1.111425  0.208589
+  C   1.111843 -0.342334  0.542366
+  O   0.832668 -1.255881 -0.526444
+  H  -1.108185  2.227890 -0.209246
+  H  -1.381513  0.446623  0.031664
+  H  -0.643053  1.061891 -1.493911
+  H   1.512092  1.530591 -0.471046
+  H   0.822067  1.686680  1.139878
+  H   2.164069 -0.416809  0.847201
+  H   0.491190 -0.689368  1.371410
+  H   1.411966 -1.064419 -1.275456
+  O  -2.003857 -0.711480  0.306561
+  H  -1.366072 -1.299172 -0.147031
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf26_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf26_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 2.065
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689734603213
+Zero Point Correction: 0.116086
+Gibbs free energy: -270.046865
+Partition Function: 2335664915870626.5
+Vibrational Frequencies: [-182.9408, 56.9707, 65.4488, 83.8872, 160.3239, 262.1185, 301.5707, 336.1551, 461.5936, 662.8506, 778.6717, 883.5574, 915.5891, 1046.7457, 1067.0976, 1090.8494, 1122.3306, 1227.0698, 1284.7986, 1324.1032, 1333.8932, 1370.8156, 1384.3591, 1422.647, 1463.4544, 1483.2276, 1519.0876, 1890.9314, 3017.785, 3029.4362, 3053.2286, 3069.6937, 3095.2411, 3135.8457, 3730.3866, 3824.0811]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   1.017262  1.157853  0.168855
+  C  -0.381261  0.853452 -0.343462
+  C  -1.037480 -0.312984  0.396646
+  O  -2.371929 -0.565399 -0.044548
+  H   1.514158  1.967618 -0.371868
+  H   1.673456  0.221551 -0.020599
+  H   1.049876  1.348831  1.246502
+  H  -1.016792  1.743345 -0.231791
+  H  -0.338718  0.629784 -1.417810
+  H  -0.413610 -1.212218  0.302685
+  H  -1.124403 -0.078299  1.462621
+  H  -2.339639 -0.904825 -0.948309
+  O   2.418345 -1.053255 -0.194434
+  H   3.033220 -0.956484  0.558195
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf31_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf31_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8982
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688332091522
+Zero Point Correction: 0.115861
+Gibbs free energy: -270.046519
+Partition Function: 2940234856426881.0
+Vibrational Frequencies: [-203.2558, 42.6111, 72.2504, 76.5133, 132.1302, 281.0303, 309.0926, 357.581, 449.8274, 675.8477, 767.4642, 892.9421, 950.4324, 1041.2904, 1060.3993, 1090.7865, 1123.3013, 1242.049, 1295.4394, 1309.2669, 1328.3854, 1358.8137, 1376.8726, 1414.4411, 1471.2051, 1496.8169, 1517.3861, 1751.9259, 3001.1166, 3033.9391, 3065.0217, 3084.984, 3102.0569, 3131.8455, 3732.3838, 3819.585]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.917434  0.761177  0.045396
+  C  -0.220052 -0.244758 -0.010028
+  C  -1.593829  0.441209  0.013606
+  O  -2.670723 -0.483267 -0.114498
+  H   0.959310  1.414143 -0.832020
+  H   1.916604  0.162261  0.061665
+  H   0.930027  1.361074  0.960765
+  H  -0.149200 -0.852126 -0.918620
+  H  -0.146603 -0.931417  0.843743
+  H  -1.699665  1.040681  0.930439
+  H  -1.691036  1.119955 -0.839084
+  H  -2.655364 -1.086894  0.639905
+  O   3.194273 -0.532233  0.025253
+  H   3.726213  0.150557 -0.426681
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf37_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf37_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 3.1101
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688977795781
+Zero Point Correction: 0.115857
+Gibbs free energy: -270.04637
+Partition Function: 1957673668080878.2
+Vibrational Frequencies: [-240.9293, 56.3133, 69.679, 94.5965, 158.247, 268.9719, 300.9247, 347.0956, 463.4216, 723.674, 780.5612, 875.9893, 901.2664, 1039.4946, 1057.0394, 1081.3606, 1139.9544, 1201.2778, 1297.7339, 1321.7461, 1326.7352, 1377.335, 1390.1707, 1426.2797, 1459.2774, 1485.558, 1519.0246, 1754.152, 2992.5027, 2998.3018, 3065.325, 3074.9494, 3117.3328, 3136.9277, 3731.6962, 3820.3833]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.016885  1.149135  0.202623
+  C   0.354092  0.819500 -0.363672
+  C   1.041480 -0.323685  0.384614
+  O   2.313848 -0.659078 -0.168196
+  H  -1.000854  1.412730  1.265515
+  H  -1.684293  0.192859  0.174662
+  H  -1.552639  1.914736 -0.364370
+  H   0.280442  0.553471 -1.424607
+  H   0.985204  1.721354 -0.310735
+  H   1.133718 -0.072930  1.452694
+  H   0.436990 -1.231205  0.309628
+  H   2.910348  0.092737 -0.057825
+  O  -2.446093 -1.036086 -0.012834
+  H  -2.723078 -0.892139 -0.938111
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf46_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf46_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.3919
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.693270405672
+Zero Point Correction: 0.115599
+Gibbs free energy: -270.050154
+Partition Function: 227337916076202.25
+Vibrational Frequencies: [-787.1296, 61.3906, 174.2186, 200.1337, 270.0336, 329.0798, 368.1271, 474.9498, 512.282, 690.5021, 846.3267, 878.7095, 921.2493, 988.4353, 1019.0907, 1079.7478, 1113.1847, 1164.7824, 1221.0909, 1258.0736, 1286.7847, 1308.6527, 1384.7698, 1434.4837, 1448.6514, 1462.592, 1472.5256, 1520.2103, 3003.596, 3015.9512, 3047.0843, 3069.7724, 3080.1073, 3146.7138, 3645.8272, 3842.8694]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.721354  1.317406  0.263664
+  C   0.617967  1.054491 -0.401755
+  C   1.423671 -0.082743  0.214889
+  O   0.776695 -1.330838 -0.084406
+  H  -0.656940  1.452461  1.347485
+  H  -1.461189  0.367958  0.123106
+  H  -1.283791  2.131965 -0.199673
+  H   0.479496  0.850083 -1.470091
+  H   1.233206  1.964267 -0.334690
+  H   2.439259 -0.086753 -0.202739
+  H   1.496234  0.053971  1.303503
+  H   1.245174 -2.049160  0.358346
+  O  -2.051884 -0.807994 -0.071831
+  H  -1.211635 -1.309063 -0.136138
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf42_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf42_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.4592
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688293292407
+Zero Point Correction: 0.115672
+Gibbs free energy: -270.046583
+Partition Function: 3877101203874587.5
+Vibrational Frequencies: [-233.2151, 31.889, 56.3115, 88.3608, 147.3288, 264.7455, 313.8097, 354.125, 483.0059, 716.2477, 800.4167, 859.3096, 902.5792, 1010.0826, 1065.9055, 1071.8061, 1137.4806, 1207.5785, 1280.285, 1296.0313, 1355.4574, 1374.9024, 1383.8697, 1406.544, 1468.7495, 1484.0093, 1506.107, 1716.077, 3003.0881, 3043.1792, 3058.7416, 3089.3326, 3102.2752, 3126.835, 3733.4151, 3834.1349]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.666551 -0.407449  0.456089
+  C  -0.197008  0.677843 -0.163664
+  C  -1.686584  0.532614  0.180980
+  O  -2.280952 -0.649570 -0.353641
+  H   0.623194 -0.431207  1.550491
+  H   1.784701 -0.166781  0.222707
+  H   0.478743 -1.405565  0.048150
+  H   0.136529  1.661096  0.191221
+  H  -0.086952  0.670460 -1.253647
+  H  -1.827368  0.578707  1.271419
+  H  -2.243694  1.363058 -0.262096
+  H  -1.956892 -1.415874  0.135703
+  O   3.166536  0.038094 -0.155777
+  H   3.309306 -0.780132 -0.669032
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf15_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf15_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.1291
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.692939784318
+Zero Point Correction: 0.115816
+Gibbs free energy: -270.049664
+Partition Function: 171259867645431.3
+Vibrational Frequencies: [-816.9291, 78.2367, 173.7106, 197.7429, 299.6637, 325.524, 383.6924, 478.9374, 598.7683, 716.0405, 835.3787, 864.3225, 905.6789, 971.1916, 1009.5557, 1080.0105, 1087.5732, 1129.974, 1219.319, 1277.3361, 1292.0796, 1377.6925, 1381.1, 1412.407, 1435.763, 1463.6484, 1473.149, 1508.8328, 3001.4124, 3032.333, 3048.1887, 3075.5259, 3103.6523, 3148.4769, 3630.6067, 3819.9461]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.697146  1.360639  0.172942
+  C  -0.687395  1.051811 -0.365735
+  C  -1.376329 -0.143947  0.297839
+  O  -0.760468 -1.403237 -0.012864
+  H   1.218086  2.149397 -0.375683
+  H   1.435332  0.405385  0.036720
+  H   0.713401  1.555867  1.249004
+  H  -1.332719  1.930989 -0.212708
+  H  -0.646676  0.890721 -1.451528
+  H  -1.320436 -0.060060  1.387418
+  H  -2.437426 -0.172215  0.017625
+  H  -0.922274 -1.606796 -0.943830
+  O   2.043375 -0.772000 -0.040868
+  H   1.228922 -1.302405  0.092556
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf19_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf19_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 0.6773
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689169450841
+Zero Point Correction: 0.116091
+Gibbs free energy: -270.046408
+Partition Function: 2145151920062635.5
+Vibrational Frequencies: [-171.6347, 45.3214, 74.1245, 87.4011, 155.4855, 287.4417, 311.2417, 348.8867, 492.9928, 668.9413, 787.9963, 874.6615, 916.232, 1028.6406, 1071.5994, 1078.5856, 1120.4406, 1220.8761, 1291.9683, 1316.7525, 1345.4514, 1363.2537, 1375.8678, 1406.9151, 1473.3698, 1490.0811, 1508.1177, 1842.3913, 3006.1031, 3030.7167, 3068.9759, 3074.1085, 3097.0736, 3144.8327, 3731.5922, 3819.6888]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.672829 -0.303864  0.557467
+  C   0.213601  0.683873 -0.182299
+  C   1.701101  0.513415  0.155750
+  O   2.217408 -0.767976 -0.202594
+  H  -0.431037 -1.344924  0.330866
+  H  -1.765876 -0.124238  0.210733
+  H  -0.680542 -0.147282  1.640832
+  H   0.075999  0.572559 -1.266310
+  H  -0.078894  1.712211  0.064639
+  H   2.280713  1.314497 -0.326041
+  H   1.855904  0.594468  1.236187
+  H   2.199940 -0.851425 -1.165051
+  O  -3.149240 -0.004360 -0.278182
+  H  -3.452786 -0.907721 -0.065153
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf34_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf34_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.0203
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.690446856334
+Zero Point Correction: 0.115838
+Gibbs free energy: -270.046546
+Partition Function: 213502962958170.66
+Vibrational Frequencies: [-791.7709, 78.2263, 150.9893, 181.6654, 273.1516, 308.675, 363.136, 477.5409, 517.8825, 756.3637, 835.9269, 859.2114, 917.443, 951.984, 1011.339, 1071.8864, 1084.812, 1119.2853, 1202.5807, 1288.5336, 1334.0594, 1343.5948, 1379.5755, 1419.9234, 1461.4845, 1470.4528, 1491.05, 1512.0662, 3000.7761, 3031.7869, 3067.9726, 3089.1117, 3124.7872, 3160.3333, 3684.8681, 3824.6186]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.621502  1.273406 -0.423354
+  C   0.754150  1.111425  0.208589
+  C   1.111843 -0.342334  0.542366
+  O   0.832668 -1.255881 -0.526444
+  H  -1.108185  2.227890 -0.209246
+  H  -1.381513  0.446623  0.031664
+  H  -0.643053  1.061891 -1.493911
+  H   1.512092  1.530591 -0.471046
+  H   0.822067  1.686680  1.139878
+  H   2.164069 -0.416809  0.847201
+  H   0.491190 -0.689368  1.371410
+  H   1.411966 -1.064419 -1.275456
+  O  -2.003857 -0.711480  0.306561
+  H  -1.366072 -1.299172 -0.147031
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf26_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf26_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 2.065
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.689734603213
+Zero Point Correction: 0.116086
+Gibbs free energy: -270.046865
+Partition Function: 2335664915870626.5
+Vibrational Frequencies: [-182.9408, 56.9707, 65.4488, 83.8872, 160.3239, 262.1185, 301.5707, 336.1551, 461.5936, 662.8506, 778.6717, 883.5574, 915.5891, 1046.7457, 1067.0976, 1090.8494, 1122.3306, 1227.0698, 1284.7986, 1324.1032, 1333.8932, 1370.8156, 1384.3591, 1422.647, 1463.4544, 1483.2276, 1519.0876, 1890.9314, 3017.785, 3029.4362, 3053.2286, 3069.6937, 3095.2411, 3135.8457, 3730.3866, 3824.0811]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   1.017262  1.157853  0.168855
+  C  -0.381261  0.853452 -0.343462
+  C  -1.037480 -0.312984  0.396646
+  O  -2.371929 -0.565399 -0.044548
+  H   1.514158  1.967618 -0.371868
+  H   1.673456  0.221551 -0.020599
+  H   1.049876  1.348831  1.246502
+  H  -1.016792  1.743345 -0.231791
+  H  -0.338718  0.629784 -1.417810
+  H  -0.413610 -1.212218  0.302685
+  H  -1.124403 -0.078299  1.462621
+  H  -2.339639 -0.904825 -0.948309
+  O   2.418345 -1.053255 -0.194434
+  H   3.033220 -0.956484  0.558195
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf31_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf31_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8982
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688332091522
+Zero Point Correction: 0.115861
+Gibbs free energy: -270.046519
+Partition Function: 2940234856426881.0
+Vibrational Frequencies: [-203.2558, 42.6111, 72.2504, 76.5133, 132.1302, 281.0303, 309.0926, 357.581, 449.8274, 675.8477, 767.4642, 892.9421, 950.4324, 1041.2904, 1060.3993, 1090.7865, 1123.3013, 1242.049, 1295.4394, 1309.2669, 1328.3854, 1358.8137, 1376.8726, 1414.4411, 1471.2051, 1496.8169, 1517.3861, 1751.9259, 3001.1166, 3033.9391, 3065.0217, 3084.984, 3102.0569, 3131.8455, 3732.3838, 3819.585]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.917434  0.761177  0.045396
+  C  -0.220052 -0.244758 -0.010028
+  C  -1.593829  0.441209  0.013606
+  O  -2.670723 -0.483267 -0.114498
+  H   0.959310  1.414143 -0.832020
+  H   1.916604  0.162261  0.061665
+  H   0.930027  1.361074  0.960765
+  H  -0.149200 -0.852126 -0.918620
+  H  -0.146603 -0.931417  0.843743
+  H  -1.699665  1.040681  0.930439
+  H  -1.691036  1.119955 -0.839084
+  H  -2.655364 -1.086894  0.639905
+  O   3.194273 -0.532233  0.025253
+  H   3.726213  0.150557 -0.426681
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf37_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf37_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 3.1101
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688977795781
+Zero Point Correction: 0.115857
+Gibbs free energy: -270.04637
+Partition Function: 1957673668080878.2
+Vibrational Frequencies: [-240.9293, 56.3133, 69.679, 94.5965, 158.247, 268.9719, 300.9247, 347.0956, 463.4216, 723.674, 780.5612, 875.9893, 901.2664, 1039.4946, 1057.0394, 1081.3606, 1139.9544, 1201.2778, 1297.7339, 1321.7461, 1326.7352, 1377.335, 1390.1707, 1426.2797, 1459.2774, 1485.558, 1519.0246, 1754.152, 2992.5027, 2998.3018, 3065.325, 3074.9494, 3117.3328, 3136.9277, 3731.6962, 3820.3833]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.016885  1.149135  0.202623
+  C   0.354092  0.819500 -0.363672
+  C   1.041480 -0.323685  0.384614
+  O   2.313848 -0.659078 -0.168196
+  H  -1.000854  1.412730  1.265515
+  H  -1.684293  0.192859  0.174662
+  H  -1.552639  1.914736 -0.364370
+  H   0.280442  0.553471 -1.424607
+  H   0.985204  1.721354 -0.310735
+  H   1.133718 -0.072930  1.452694
+  H   0.436990 -1.231205  0.309628
+  H   2.910348  0.092737 -0.057825
+  O  -2.446093 -1.036086 -0.012834
+  H  -2.723078 -0.892139 -0.938111
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf46_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf46_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 4.3919
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.693270405672
+Zero Point Correction: 0.115599
+Gibbs free energy: -270.050154
+Partition Function: 227337916076202.25
+Vibrational Frequencies: [-787.1296, 61.3906, 174.2186, 200.1337, 270.0336, 329.0798, 368.1271, 474.9498, 512.282, 690.5021, 846.3267, 878.7095, 921.2493, 988.4353, 1019.0907, 1079.7478, 1113.1847, 1164.7824, 1221.0909, 1258.0736, 1286.7847, 1308.6527, 1384.7698, 1434.4837, 1448.6514, 1462.592, 1472.5256, 1520.2103, 3003.596, 3015.9512, 3047.0843, 3069.7724, 3080.1073, 3146.7138, 3645.8272, 3842.8694]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.721354  1.317406  0.263664
+  C   0.617967  1.054491 -0.401755
+  C   1.423671 -0.082743  0.214889
+  O   0.776695 -1.330838 -0.084406
+  H  -0.656940  1.452461  1.347485
+  H  -1.461189  0.367958  0.123106
+  H  -1.283791  2.131965 -0.199673
+  H   0.479496  0.850083 -1.470091
+  H   1.233206  1.964267 -0.334690
+  H   2.439259 -0.086753 -0.202739
+  H   1.496234  0.053971  1.303503
+  H   1.245174 -2.049160  0.358346
+  O  -2.051884 -0.807994 -0.071831
+  H  -1.211635 -1.309063 -0.136138
+-----------------------------------------------------------------------
+Molecule: C3H8O_H2_conf42_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/C3H8O_H2_conf42_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.4592
+Workflow: ['opt_constrain', 'TS_opt', 'crest_sampling', 'opt_constrain_conf', 'TS_opt_conf', 'DLPNO']
+Constrained Indexes: {'C': 1, 'H': 6, 'O': 13, 'OH': 14}
+Electronic Energy: -269.688293292407
+Zero Point Correction: 0.115672
+Gibbs free energy: -270.046583
+Partition Function: 3877101203874587.5
+Vibrational Frequencies: [-233.2151, 31.889, 56.3115, 88.3608, 147.3288, 264.7455, 313.8097, 354.125, 483.0059, 716.2477, 800.4167, 859.3096, 902.5792, 1010.0826, 1065.9055, 1071.8061, 1137.4806, 1207.5785, 1280.285, 1296.0313, 1355.4574, 1374.9024, 1383.8697, 1406.544, 1468.7495, 1484.0093, 1506.107, 1716.077, 3003.0881, 3043.1792, 3058.7416, 3089.3326, 3102.2752, 3126.835, 3733.4151, 3834.1349]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.666551 -0.407449  0.456089
+  C  -0.197008  0.677843 -0.163664
+  C  -1.686584  0.532614  0.180980
+  O  -2.280952 -0.649570 -0.353641
+  H   0.623194 -0.431207  1.550491
+  H   1.784701 -0.166781  0.222707
+  H   0.478743 -1.405565  0.048150
+  H   0.136529  1.661096  0.191221
+  H  -0.086952  0.670460 -1.253647
+  H  -1.827368  0.578707  1.271419
+  H  -2.243694  1.363058 -0.262096
+  H  -1.956892 -1.415874  0.135703
+  O   3.166536  0.038094 -0.155777
+  H   3.309306 -0.780132 -0.669032
+-----------------------------------------------------------------------

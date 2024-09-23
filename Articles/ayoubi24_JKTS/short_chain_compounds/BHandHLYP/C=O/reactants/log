@@ -1,0 +1,49 @@
+Job to be performed: crest_sampling
+Submitting file CH2O_reactant_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/C=O/reactants with job id 13293656
+Waiting 40 seconds before first check
+
+******************************************************
+****** 1 conformers generated for CH2O_reactant ******
+******************************************************
+
+CREST conformers generated. Proceeding with next step: optimization
+Job to be performed: optimization
+Submitting file CH2O_reactant_conf1.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/C=O/reactants with job id 13293673
+Waiting 40 seconds before first check
+***CH2O_reactant_conf1 converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Submitting file CH2O_reactant_conf1_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/C=O/reactants with job id 13293705
+Waiting 40 seconds before first check
+Job DLPNO for CH2O_reactant_conf1_DLPNO with job id 13293705 is running.
+Log files of the 1 conformers have been checked. Checking every 20 seconds. Attempt: 1/100
+***CH2O_reactant_conf1_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Submitting file OH.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/C=O/reactants with job id 13293736
+Waiting 40 seconds before first check
+***OH converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 1 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitting file OH_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/C=O/reactants with job id 13293765
+Waiting 40 seconds before first check
+***OH_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for reactants is done. Logging molecules to Final_reactants_CH2O.pkl

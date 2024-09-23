@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1870, in <module>
+    main()
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1852, in main
+    k, kappa = rate_constant(global_molecules, final_reactants, final_products)
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1419, in rate_constant
+    OH = next((mol for mol in reactant_conformers if 'OH' in mol.name))
+StopIteration

@@ -1,0 +1,10 @@
+COMMAND: JKTS CH2O_H2.pkl -info
+COMMAND: JKTS CH2O_H2.pkl -restart -time 48:00:00 -method B3LYP -initial_delay 500
+JKTS *Final_*.pkl -loc
+JKTS *Final_*.pkl -loc
+JKTS *Final_*.pkl -loc
+JKTS *Final_*.pkl -loc
+JKTS *Final_*.pkl -loc
+JKTS *Final_*.pkl -loc
+JKTS *Final_*.pkl -loc
+JKTS *Final_*.pkl -loc

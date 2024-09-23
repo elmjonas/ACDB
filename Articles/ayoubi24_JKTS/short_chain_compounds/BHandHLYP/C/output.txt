@@ -1,0 +1,23 @@
+COMMAND: JKTS -smiles C -OH -time 48:00:00 -method BHandHLYP -initial_delay 500
+COMMAND: JKTS -smiles C -OH -method BHandHLYP -time 72:00:00 -transition_states false
+COMMAND: JKTS -smiles C -OH -method BHandHLYP -time 72:00:00 -transition_states false -reactants false
+COMMAND: JKTS -smiles C -OH -method BHandHLYP -time 72:00:00 -TS false -reactants false
+COMMAND: JKTS -smiles C -OH -method BHandHLYP -time 72:00:00 -TS false -reactants false
+COMMAND: JKTS -smiles C -OH -method BHandHLYP -time 72:00:00 -TS false -reactants false
+COMMAND: JKTS -smiles C -OH -method BHandHLYP -time 72:00:00 -TS false -reactants false -par qtest
+COMMAND: JKTS -smiles C -OH -method BHandHLYP -time 72:00:00 -TS false -reactants false -par qtest
+COMMAND: JKTS -smiles C -OH -method BHandHLYP -time 72:00:00 -TS false -reactants false -par qtest
+COMMAND: JKTS -smiles C -OH -method BHandHLYP -time 72:00:00 -TS false -reactants false
+JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+k_G: 3.464839e-17
+Ea: 4.8999 kcal/mol  k: 1.603891675276392e-14 Qratio: 1.4135727184425622e-05  Eckart: 17.547782657825085  Wigner: 4.320486868021896
+LC-TST: 9.140138708984798e-16
+1.603891675276392e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 17.547782657825085  Wigner: 4.320486868021896  Ea: 4.8999140754458494  Qratio: 1.4135727184425622e-05
+JKTS CH4_H1/Final_TS_CH4_H1.pkl reactants/Final_reactants_CH4.pkl products/Final_products_CH4_H1.pkl -loc
+k_G: 3.464839e-17
+Ea: 4.8999 kcal/mol  k: 1.603891675276392e-14 Qratio: 1.4135727184425622e-05  Eckart: 17.547782657825085  Wigner: 4.320486868021896
+LC-TST: 9.140138708984798e-16
+1.603891675276392e-14 cm^3 molecules^-1 s^-1    Tunneling coefficient 17.547782657825085  Wigner: 4.320486868021896  Ea: 4.8999140754458494  Qratio: 1.4135727184425622e-05
+JKTS Final_*
+JKTS Final_* -loc
+File type  is not supported

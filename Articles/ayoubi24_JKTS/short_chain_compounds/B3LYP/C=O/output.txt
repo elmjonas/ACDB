@@ -1,0 +1,2 @@
+COMMAND: JKTS -smiles C=O -OH -time 48:00:00 -method B3LYP -initial_delay 500
+COMMAND: JKTS -smiles C=O -OH -time 48:00:00 -method B3LYP -initial_delay 500 -products false -reactants false -init

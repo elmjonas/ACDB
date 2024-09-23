@@ -1,0 +1,845 @@
+Job to be performed: opt_constrain
+Submitting file C3H8O_H4.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4 with job id 12763544
+Waiting 2000 seconds before first check
+Job 12763544 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***C3H8O_H4 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C3H8O_H4_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4 with job id 12767319
+Waiting 2000 seconds before first check
+Job TS_opt for C3H8O_H4_TS with job id 12767319 is running.
+Log files of the 1 conformers have been checked. Checking every 500 seconds. Attempt: 1/100
+
+****************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_TS with imaginary frequency: -1280.9056 ******
+****************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file C3H8O_H4_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4 with job id 12769869
+Waiting 2000 seconds before first check
+Job 12769869 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+
+***************************************************
+****** 160 conformers generated for C3H8O_H4 ******
+***************************************************
+
+CREST conformers generated. Proceeding with next step: opt_constrain_conf
+Job to be performed: opt_constrain_conf
+Filtering molecules using ArbAlign algorithm
+Filtered 160 conformers to 95 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12778207 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Waiting 2000 seconds before first check
+Job 12778207_1 is pending in the queue.
+Job 12778207_2 is pending in the queue.
+Job 12778207_3 is pending in the queue.
+Job 12778207_4 is pending in the queue.
+Job 12778207_5 is pending in the queue.
+Job 12778207_6 is pending in the queue.
+Job 12778207_7 is pending in the queue.
+Job 12778207_8 is pending in the queue.
+Job 12778207_9 is pending in the queue.
+Job 12778207_10 is pending in the queue.
+Job 12778207_11 is pending in the queue.
+Job 12778207_12 is pending in the queue.
+Job 12778207_13 is pending in the queue.
+Job 12778207_14 is pending in the queue.
+Job 12778207_15 is pending in the queue.
+Job 12778207_16 is pending in the queue.
+Job 12778207_17 is pending in the queue.
+Job 12778207_18 is pending in the queue.
+Job 12778207_19 is pending in the queue.
+Job 12778207_20 is pending in the queue.
+Job 12778207_21 is pending in the queue.
+Job 12778207_22 is pending in the queue.
+Job 12778207_23 is pending in the queue.
+Job 12778207_24 is pending in the queue.
+Job 12778207_25 is pending in the queue.
+Job 12778207_26 is pending in the queue.
+Job 12778207_27 is pending in the queue.
+Job 12778207_28 is pending in the queue.
+Job 12778207_29 is pending in the queue.
+Job 12778207_30 is pending in the queue.
+Job 12778207_31 is pending in the queue.
+Job 12778207_32 is pending in the queue.
+Job 12778207_33 is pending in the queue.
+Job 12778207_34 is pending in the queue.
+Job 12778207_35 is pending in the queue.
+Job 12778207_36 is pending in the queue.
+Job 12778207_37 is pending in the queue.
+Job 12778207_38 is pending in the queue.
+Job 12778207_39 is pending in the queue.
+Job 12778207_40 is pending in the queue.
+Job 12778207_41 is pending in the queue.
+Job 12778207_42 is pending in the queue.
+Job 12778207_43 is pending in the queue.
+Job 12778207_44 is pending in the queue.
+Job 12778207_45 is pending in the queue.
+Job 12778207_46 is pending in the queue.
+Job 12778207_47 is pending in the queue.
+Job 12778207_48 is pending in the queue.
+Job 12778207_49 is pending in the queue.
+Job 12778207_50 is pending in the queue.
+Job 12778207_51 is pending in the queue.
+Job 12778207_52 is pending in the queue.
+Job 12778207_53 is pending in the queue.
+Job 12778207_54 is pending in the queue.
+Job 12778207_55 is pending in the queue.
+Job 12778207_56 is pending in the queue.
+Job 12778207_57 is pending in the queue.
+Job 12778207_58 is pending in the queue.
+Job 12778207_59 is pending in the queue.
+Job 12778207_60 is pending in the queue.
+Job 12778207_61 is pending in the queue.
+Job 12778207_62 is pending in the queue.
+Job 12778207_63 is pending in the queue.
+Job 12778207_64 is pending in the queue.
+Job 12778207_65 is pending in the queue.
+Job 12778207_66 is pending in the queue.
+Job 12778207_67 is pending in the queue.
+Job 12778207_68 is pending in the queue.
+Job 12778207_69 is pending in the queue.
+Job 12778207_70 is pending in the queue.
+Job 12778207_71 is pending in the queue.
+Job 12778207_72 is pending in the queue.
+Job 12778207_73 is pending in the queue.
+Job 12778207_74 is pending in the queue.
+Job 12778207_75 is pending in the queue.
+Job 12778207_76 is pending in the queue.
+Job 12778207_77 is pending in the queue.
+Job 12778207_78 is pending in the queue.
+Job 12778207_79 is pending in the queue.
+Job 12778207_80 is pending in the queue.
+Job 12778207_81 is pending in the queue.
+Job 12778207_82 is pending in the queue.
+Job 12778207_83 is pending in the queue.
+Job 12778207_84 is pending in the queue.
+Job 12778207_85 is pending in the queue.
+Job 12778207_86 is pending in the queue.
+Job 12778207_87 is pending in the queue.
+Job 12778207_88 is pending in the queue.
+Job 12778207_89 is pending in the queue.
+Job 12778207_90 is pending in the queue.
+Job 12778207_91 is pending in the queue.
+Job 12778207_92 is pending in the queue.
+Job 12778207_93 is pending in the queue.
+Job 12778207_94 is pending in the queue.
+Job 12778207_95 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***C3H8O_H4_conf1 converged***
+***C3H8O_H4_conf3 converged***
+***C3H8O_H4_conf5 converged***
+***C3H8O_H4_conf7 converged***
+***C3H8O_H4_conf9 converged***
+***C3H8O_H4_conf10 converged***
+***C3H8O_H4_conf11 converged***
+***C3H8O_H4_conf14 converged***
+***C3H8O_H4_conf15 converged***
+***C3H8O_H4_conf16 converged***
+***C3H8O_H4_conf17 converged***
+***C3H8O_H4_conf18 converged***
+***C3H8O_H4_conf20 converged***
+***C3H8O_H4_conf22 converged***
+***C3H8O_H4_conf24 converged***
+***C3H8O_H4_conf28 converged***
+***C3H8O_H4_conf27 converged***
+***C3H8O_H4_conf29 converged***
+***C3H8O_H4_conf30 converged***
+***C3H8O_H4_conf33 converged***
+***C3H8O_H4_conf32 converged***
+***C3H8O_H4_conf37 converged***
+***C3H8O_H4_conf38 converged***
+***C3H8O_H4_conf39 converged***
+***C3H8O_H4_conf42 converged***
+***C3H8O_H4_conf44 converged***
+***C3H8O_H4_conf45 converged***
+***C3H8O_H4_conf46 converged***
+***C3H8O_H4_conf47 converged***
+***C3H8O_H4_conf49 converged***
+***C3H8O_H4_conf51 converged***
+***C3H8O_H4_conf52 converged***
+***C3H8O_H4_conf54 converged***
+***C3H8O_H4_conf56 converged***
+***C3H8O_H4_conf57 converged***
+***C3H8O_H4_conf59 converged***
+***C3H8O_H4_conf60 converged***
+***C3H8O_H4_conf61 converged***
+***C3H8O_H4_conf65 converged***
+***C3H8O_H4_conf66 converged***
+***C3H8O_H4_conf67 converged***
+***C3H8O_H4_conf68 converged***
+***C3H8O_H4_conf70 converged***
+***C3H8O_H4_conf71 converged***
+***C3H8O_H4_conf72 converged***
+***C3H8O_H4_conf74 converged***
+***C3H8O_H4_conf76 converged***
+***C3H8O_H4_conf77 converged***
+***C3H8O_H4_conf78 converged***
+***C3H8O_H4_conf81 converged***
+***C3H8O_H4_conf83 converged***
+***C3H8O_H4_conf84 converged***
+***C3H8O_H4_conf85 converged***
+***C3H8O_H4_conf88 converged***
+***C3H8O_H4_conf89 converged***
+***C3H8O_H4_conf92 converged***
+***C3H8O_H4_conf93 converged***
+***C3H8O_H4_conf96 converged***
+***C3H8O_H4_conf98 converged***
+***C3H8O_H4_conf100 converged***
+***C3H8O_H4_conf101 converged***
+***C3H8O_H4_conf104 converged***
+***C3H8O_H4_conf105 converged***
+***C3H8O_H4_conf107 converged***
+***C3H8O_H4_conf108 converged***
+***C3H8O_H4_conf111 converged***
+***C3H8O_H4_conf112 converged***
+***C3H8O_H4_conf113 converged***
+***C3H8O_H4_conf115 converged***
+***C3H8O_H4_conf117 converged***
+***C3H8O_H4_conf118 converged***
+***C3H8O_H4_conf120 converged***
+***C3H8O_H4_conf125 converged***
+***C3H8O_H4_conf126 converged***
+Job opt_constrain_conf for C3H8O_H4_conf127 with job id 12778207_75 is running.
+***C3H8O_H4_conf127 converged***
+***C3H8O_H4_conf129 converged***
+***C3H8O_H4_conf131 converged***
+***C3H8O_H4_conf132 converged***
+***C3H8O_H4_conf134 converged***
+Job opt_constrain_conf for C3H8O_H4_conf136 with job id 12778207_80 is running.
+***C3H8O_H4_conf136 converged***
+***C3H8O_H4_conf137 converged***
+***C3H8O_H4_conf139 converged***
+***C3H8O_H4_conf140 converged***
+***C3H8O_H4_conf141 converged***
+***C3H8O_H4_conf142 converged***
+***C3H8O_H4_conf145 converged***
+Job opt_constrain_conf for C3H8O_H4_conf146 with job id 12778207_87 is running.
+***C3H8O_H4_conf146 converged***
+***C3H8O_H4_conf148 converged***
+***C3H8O_H4_conf149 converged***
+***C3H8O_H4_conf150 converged***
+***C3H8O_H4_conf153 converged***
+***C3H8O_H4_conf155 converged***
+***C3H8O_H4_conf157 converged***
+***C3H8O_H4_conf158 converged***
+***C3H8O_H4_conf160 converged***
+
+**************************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain_conf. ******
+**************************************************************************************
+
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 12794252 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Waiting 2000 seconds before first check
+Job 12794252_1 is pending in the queue.
+Job 12794252_2 is pending in the queue.
+Job 12794252_3 is pending in the queue.
+Job 12794252_4 is pending in the queue.
+Job 12794252_5 is pending in the queue.
+Job 12794252_6 is pending in the queue.
+Job 12794252_7 is pending in the queue.
+Job 12794252_8 is pending in the queue.
+Job 12794252_9 is pending in the queue.
+Job 12794252_10 is pending in the queue.
+Job 12794252_11 is pending in the queue.
+Job 12794252_12 is pending in the queue.
+Job 12794252_13 is pending in the queue.
+Job 12794252_14 is pending in the queue.
+Job 12794252_15 is pending in the queue.
+Job 12794252_16 is pending in the queue.
+Job 12794252_17 is pending in the queue.
+Job 12794252_18 is pending in the queue.
+Job 12794252_19 is pending in the queue.
+Job 12794252_20 is pending in the queue.
+Job 12794252_21 is pending in the queue.
+Job 12794252_22 is pending in the queue.
+Job 12794252_23 is pending in the queue.
+Job 12794252_24 is pending in the queue.
+Job 12794252_25 is pending in the queue.
+Job 12794252_26 is pending in the queue.
+Job 12794252_27 is pending in the queue.
+Job 12794252_28 is pending in the queue.
+Job 12794252_29 is pending in the queue.
+Job 12794252_30 is pending in the queue.
+Job 12794252_31 is pending in the queue.
+Job 12794252_32 is pending in the queue.
+Job 12794252_33 is pending in the queue.
+Job 12794252_34 is pending in the queue.
+Job 12794252_35 is pending in the queue.
+Job 12794252_36 is pending in the queue.
+Job 12794252_37 is pending in the queue.
+Job 12794252_38 is pending in the queue.
+Job 12794252_39 is pending in the queue.
+Job 12794252_40 is pending in the queue.
+Job 12794252_41 is pending in the queue.
+Job 12794252_42 is pending in the queue.
+Job 12794252_43 is pending in the queue.
+Job 12794252_44 is pending in the queue.
+Job 12794252_45 is pending in the queue.
+Job 12794252_46 is pending in the queue.
+Job 12794252_47 is pending in the queue.
+Job 12794252_48 is pending in the queue.
+Job 12794252_49 is pending in the queue.
+Job 12794252_50 is pending in the queue.
+Job 12794252_51 is pending in the queue.
+Job 12794252_52 is pending in the queue.
+Job 12794252_53 is pending in the queue.
+Job 12794252_54 is pending in the queue.
+Job 12794252_55 is pending in the queue.
+Job 12794252_56 is pending in the queue.
+Job 12794252_57 is pending in the queue.
+Job 12794252_58 is pending in the queue.
+Job 12794252_59 is pending in the queue.
+Job 12794252_60 is pending in the queue.
+Job 12794252_61 is pending in the queue.
+Job 12794252_62 is pending in the queue.
+Job 12794252_63 is pending in the queue.
+Job 12794252_64 is pending in the queue.
+Job 12794252_65 is pending in the queue.
+Job 12794252_66 is pending in the queue.
+Job 12794252_67 is pending in the queue.
+Job 12794252_68 is pending in the queue.
+Job 12794252_69 is pending in the queue.
+Job 12794252_70 is pending in the queue.
+Job 12794252_71 is pending in the queue.
+Job 12794252_72 is pending in the queue.
+Job 12794252_73 is pending in the queue.
+Job 12794252_74 is pending in the queue.
+Job 12794252_75 is pending in the queue.
+Job 12794252_76 is pending in the queue.
+Job 12794252_77 is pending in the queue.
+Job 12794252_78 is pending in the queue.
+Job 12794252_79 is pending in the queue.
+Job 12794252_80 is pending in the queue.
+Job 12794252_81 is pending in the queue.
+Job 12794252_82 is pending in the queue.
+Job 12794252_83 is pending in the queue.
+Job 12794252_84 is pending in the queue.
+Job 12794252_85 is pending in the queue.
+Job 12794252_86 is pending in the queue.
+Job 12794252_87 is pending in the queue.
+Job 12794252_88 is pending in the queue.
+Job 12794252_89 is pending in the queue.
+Job 12794252_90 is pending in the queue.
+Job 12794252_91 is pending in the queue.
+Job 12794252_92 is pending in the queue.
+Job 12794252_93 is pending in the queue.
+Job 12794252_94 is pending in the queue.
+Job 12794252_95 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt_conf for C3H8O_H4_conf1_TS with job id 12794252_1 is running.
+Job TS_opt_conf for C3H8O_H4_conf3_TS with job id 12794252_2 is running.
+Job TS_opt_conf for C3H8O_H4_conf5_TS with job id 12794252_3 is running.
+Job TS_opt_conf for C3H8O_H4_conf7_TS with job id 12794252_4 is running.
+Job TS_opt_conf for C3H8O_H4_conf9_TS with job id 12794252_5 is running.
+Job TS_opt_conf for C3H8O_H4_conf10_TS with job id 12794252_6 is running.
+Job TS_opt_conf for C3H8O_H4_conf11_TS with job id 12794252_7 is running.
+Job TS_opt_conf for C3H8O_H4_conf14_TS with job id 12794252_8 is running.
+Job TS_opt_conf for C3H8O_H4_conf15_TS with job id 12794252_9 is running.
+Job TS_opt_conf for C3H8O_H4_conf16_TS with job id 12794252_10 is running.
+Job TS_opt_conf for C3H8O_H4_conf17_TS with job id 12794252_11 is running.
+Job TS_opt_conf for C3H8O_H4_conf18_TS with job id 12794252_12 is running.
+Job TS_opt_conf for C3H8O_H4_conf20_TS with job id 12794252_13 is running.
+Job TS_opt_conf for C3H8O_H4_conf22_TS with job id 12794252_14 is running.
+Job TS_opt_conf for C3H8O_H4_conf24_TS with job id 12794252_15 is running.
+Job TS_opt_conf for C3H8O_H4_conf28_TS with job id 12794252_16 is running.
+Job TS_opt_conf for C3H8O_H4_conf27_TS with job id 12794252_17 is running.
+Job TS_opt_conf for C3H8O_H4_conf29_TS with job id 12794252_18 is running.
+Job TS_opt_conf for C3H8O_H4_conf30_TS with job id 12794252_19 is running.
+Job TS_opt_conf for C3H8O_H4_conf33_TS with job id 12794252_20 is running.
+Job TS_opt_conf for C3H8O_H4_conf32_TS with job id 12794252_21 is running.
+Job TS_opt_conf for C3H8O_H4_conf37_TS with job id 12794252_22 is running.
+Job TS_opt_conf for C3H8O_H4_conf38_TS with job id 12794252_23 is running.
+Job TS_opt_conf for C3H8O_H4_conf39_TS with job id 12794252_24 is running.
+Job TS_opt_conf for C3H8O_H4_conf42_TS with job id 12794252_25 is running.
+Job TS_opt_conf for C3H8O_H4_conf44_TS with job id 12794252_26 is running.
+Job TS_opt_conf for C3H8O_H4_conf45_TS with job id 12794252_27 is running.
+Job TS_opt_conf for C3H8O_H4_conf46_TS with job id 12794252_28 is running.
+Job TS_opt_conf for C3H8O_H4_conf47_TS with job id 12794252_29 is running.
+Job TS_opt_conf for C3H8O_H4_conf49_TS with job id 12794252_30 is running.
+Job TS_opt_conf for C3H8O_H4_conf51_TS with job id 12794252_31 is running.
+Job TS_opt_conf for C3H8O_H4_conf52_TS with job id 12794252_32 is running.
+Job TS_opt_conf for C3H8O_H4_conf54_TS with job id 12794252_33 is running.
+Job TS_opt_conf for C3H8O_H4_conf56_TS with job id 12794252_34 is running.
+Job TS_opt_conf for C3H8O_H4_conf57_TS with job id 12794252_35 is running.
+Job TS_opt_conf for C3H8O_H4_conf59_TS with job id 12794252_36 is running.
+Job TS_opt_conf for C3H8O_H4_conf60_TS with job id 12794252_37 is running.
+Job TS_opt_conf for C3H8O_H4_conf61_TS with job id 12794252_38 is running.
+Job TS_opt_conf for C3H8O_H4_conf65_TS with job id 12794252_39 is running.
+Job TS_opt_conf for C3H8O_H4_conf66_TS with job id 12794252_40 is running.
+Job TS_opt_conf for C3H8O_H4_conf67_TS with job id 12794252_41 is running.
+Job TS_opt_conf for C3H8O_H4_conf68_TS with job id 12794252_42 is running.
+Job TS_opt_conf for C3H8O_H4_conf70_TS with job id 12794252_43 is running.
+Job TS_opt_conf for C3H8O_H4_conf71_TS with job id 12794252_44 is running.
+Job TS_opt_conf for C3H8O_H4_conf72_TS with job id 12794252_45 is running.
+Job TS_opt_conf for C3H8O_H4_conf74_TS with job id 12794252_46 is running.
+Job TS_opt_conf for C3H8O_H4_conf76_TS with job id 12794252_47 is running.
+Job TS_opt_conf for C3H8O_H4_conf77_TS with job id 12794252_48 is running.
+Job TS_opt_conf for C3H8O_H4_conf78_TS with job id 12794252_49 is running.
+Job TS_opt_conf for C3H8O_H4_conf81_TS with job id 12794252_50 is running.
+Job TS_opt_conf for C3H8O_H4_conf83_TS with job id 12794252_51 is running.
+Job TS_opt_conf for C3H8O_H4_conf84_TS with job id 12794252_52 is running.
+Job TS_opt_conf for C3H8O_H4_conf85_TS with job id 12794252_53 is running.
+Job TS_opt_conf for C3H8O_H4_conf88_TS with job id 12794252_54 is running.
+Job TS_opt_conf for C3H8O_H4_conf89_TS with job id 12794252_55 is running.
+Job TS_opt_conf for C3H8O_H4_conf92_TS with job id 12794252_56 is running.
+Job TS_opt_conf for C3H8O_H4_conf93_TS with job id 12794252_57 is running.
+Job TS_opt_conf for C3H8O_H4_conf96_TS with job id 12794252_58 is running.
+Job TS_opt_conf for C3H8O_H4_conf98_TS with job id 12794252_59 is running.
+Job TS_opt_conf for C3H8O_H4_conf100_TS with job id 12794252_60 is running.
+Job TS_opt_conf for C3H8O_H4_conf101_TS with job id 12794252_61 is running.
+Job TS_opt_conf for C3H8O_H4_conf104_TS with job id 12794252_62 is running.
+Job TS_opt_conf for C3H8O_H4_conf105_TS with job id 12794252_63 is running.
+Job TS_opt_conf for C3H8O_H4_conf107_TS with job id 12794252_64 is running.
+Job TS_opt_conf for C3H8O_H4_conf108_TS with job id 12794252_65 is running.
+Job TS_opt_conf for C3H8O_H4_conf111_TS with job id 12794252_66 is running.
+Job TS_opt_conf for C3H8O_H4_conf112_TS with job id 12794252_67 is running.
+Job TS_opt_conf for C3H8O_H4_conf113_TS with job id 12794252_68 is running.
+Job TS_opt_conf for C3H8O_H4_conf115_TS with job id 12794252_69 is running.
+Job TS_opt_conf for C3H8O_H4_conf117_TS with job id 12794252_70 is running.
+Job TS_opt_conf for C3H8O_H4_conf118_TS with job id 12794252_71 is running.
+Job TS_opt_conf for C3H8O_H4_conf120_TS with job id 12794252_72 is running.
+Job TS_opt_conf for C3H8O_H4_conf125_TS with job id 12794252_73 is running.
+Job TS_opt_conf for C3H8O_H4_conf126_TS with job id 12794252_74 is running.
+Job TS_opt_conf for C3H8O_H4_conf127_TS with job id 12794252_75 is running.
+Job TS_opt_conf for C3H8O_H4_conf129_TS with job id 12794252_76 is running.
+Job TS_opt_conf for C3H8O_H4_conf131_TS with job id 12794252_77 is running.
+Job TS_opt_conf for C3H8O_H4_conf132_TS with job id 12794252_78 is running.
+Job TS_opt_conf for C3H8O_H4_conf134_TS with job id 12794252_79 is running.
+Job TS_opt_conf for C3H8O_H4_conf136_TS with job id 12794252_80 is running.
+Job TS_opt_conf for C3H8O_H4_conf137_TS with job id 12794252_81 is running.
+Job TS_opt_conf for C3H8O_H4_conf139_TS with job id 12794252_82 is running.
+Job TS_opt_conf for C3H8O_H4_conf140_TS with job id 12794252_83 is running.
+Job TS_opt_conf for C3H8O_H4_conf141_TS with job id 12794252_84 is running.
+Job TS_opt_conf for C3H8O_H4_conf142_TS with job id 12794252_85 is running.
+Job TS_opt_conf for C3H8O_H4_conf145_TS with job id 12794252_86 is running.
+Job TS_opt_conf for C3H8O_H4_conf146_TS with job id 12794252_87 is running.
+Job TS_opt_conf for C3H8O_H4_conf148_TS with job id 12794252_88 is running.
+Job TS_opt_conf for C3H8O_H4_conf149_TS with job id 12794252_89 is running.
+Job TS_opt_conf for C3H8O_H4_conf150_TS with job id 12794252_90 is running.
+Job TS_opt_conf for C3H8O_H4_conf153_TS with job id 12794252_91 is running.
+Job TS_opt_conf for C3H8O_H4_conf155_TS with job id 12794252_92 is running.
+Job TS_opt_conf for C3H8O_H4_conf157_TS with job id 12794252_93 is running.
+Job TS_opt_conf for C3H8O_H4_conf158_TS with job id 12794252_94 is running.
+Job TS_opt_conf for C3H8O_H4_conf160_TS with job id 12794252_95 is running.
+Log files of the 95 conformers have been checked. Checking every 500 seconds. Attempt: 1/100
+Error termination found in C3H8O_H4_conf137_TS. Trying to resubmit
+submitted file C3H8O_H4_conf137_TS.com with job type: TS_opt_conf and job id 12806757 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf142_TS. Trying to resubmit
+submitted file C3H8O_H4_conf142_TS.com with job type: TS_opt_conf and job id 12806867 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf1_TS. Trying to resubmit
+submitted file C3H8O_H4_conf1_TS.com with job type: TS_opt_conf and job id 12807533 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf3_TS. Trying to resubmit
+submitted file C3H8O_H4_conf3_TS.com with job type: TS_opt_conf and job id 12807547 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf5_TS. Trying to resubmit
+submitted file C3H8O_H4_conf5_TS.com with job type: TS_opt_conf and job id 12807614 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf7_TS. Trying to resubmit
+submitted file C3H8O_H4_conf7_TS.com with job type: TS_opt_conf and job id 12807717 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf9_TS
+Trying to resubmit job for C3H8O_H4_conf9_TS due to error termination
+submitted file C3H8O_H4_conf9_TS.com with job type: TS_opt_conf and job id 12807830 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf10_TS. Trying to resubmit
+submitted file C3H8O_H4_conf10_TS.com with job type: TS_opt_conf and job id 12807895 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf11_TS
+Trying to resubmit job for C3H8O_H4_conf11_TS due to error termination
+submitted file C3H8O_H4_conf11_TS.com with job type: TS_opt_conf and job id 12808025 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf14_TS
+Trying to resubmit job for C3H8O_H4_conf14_TS due to error termination
+submitted file C3H8O_H4_conf14_TS.com with job type: TS_opt_conf and job id 12808148 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf15_TS. Trying to resubmit
+submitted file C3H8O_H4_conf15_TS.com with job type: TS_opt_conf and job id 12808392 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf16_TS
+Trying to resubmit job for C3H8O_H4_conf16_TS due to error termination
+submitted file C3H8O_H4_conf16_TS.com with job type: TS_opt_conf and job id 12808551 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf17_TS. Trying to resubmit
+submitted file C3H8O_H4_conf17_TS.com with job type: TS_opt_conf and job id 12808849 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf18_TS. Trying to resubmit
+submitted file C3H8O_H4_conf18_TS.com with job type: TS_opt_conf and job id 12808966 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf20_TS
+Trying to resubmit job for C3H8O_H4_conf20_TS due to error termination
+submitted file C3H8O_H4_conf20_TS.com with job type: TS_opt_conf and job id 12808972 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf22_TS. Trying to resubmit
+submitted file C3H8O_H4_conf22_TS.com with job type: TS_opt_conf and job id 12809017 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf24_TS
+Trying to resubmit job for C3H8O_H4_conf24_TS due to error termination
+submitted file C3H8O_H4_conf24_TS.com with job type: TS_opt_conf and job id 12809184 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf28_TS
+Trying to resubmit job for C3H8O_H4_conf28_TS due to error termination
+submitted file C3H8O_H4_conf28_TS.com with job type: TS_opt_conf and job id 12809196 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf27_TS. Trying to resubmit
+submitted file C3H8O_H4_conf27_TS.com with job type: TS_opt_conf and job id 12809264 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf29_TS
+Trying to resubmit job for C3H8O_H4_conf29_TS due to error termination
+submitted file C3H8O_H4_conf29_TS.com with job type: TS_opt_conf and job id 12809379 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf30_TS. Trying to resubmit
+submitted file C3H8O_H4_conf30_TS.com with job type: TS_opt_conf and job id 12809507 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf33_TS. Trying to resubmit
+submitted file C3H8O_H4_conf33_TS.com with job type: TS_opt_conf and job id 12809648 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf32_TS. Trying to resubmit
+submitted file C3H8O_H4_conf32_TS.com with job type: TS_opt_conf and job id 12809738 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf37_TS. Trying to resubmit
+submitted file C3H8O_H4_conf37_TS.com with job type: TS_opt_conf and job id 12809747 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf38_TS
+Trying to resubmit job for C3H8O_H4_conf38_TS due to error termination
+submitted file C3H8O_H4_conf38_TS.com with job type: TS_opt_conf and job id 12809752 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf39_TS. Trying to resubmit
+submitted file C3H8O_H4_conf39_TS.com with job type: TS_opt_conf and job id 12809830 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf42_TS. Trying to resubmit
+submitted file C3H8O_H4_conf42_TS.com with job type: TS_opt_conf and job id 12809969 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf44_TS. Trying to resubmit
+submitted file C3H8O_H4_conf44_TS.com with job type: TS_opt_conf and job id 12810072 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf45_TS
+Trying to resubmit job for C3H8O_H4_conf45_TS due to error termination
+submitted file C3H8O_H4_conf45_TS.com with job type: TS_opt_conf and job id 12810073 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf46_TS. Trying to resubmit
+submitted file C3H8O_H4_conf46_TS.com with job type: TS_opt_conf and job id 12810207 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf47_TS
+Trying to resubmit job for C3H8O_H4_conf47_TS due to error termination
+submitted file C3H8O_H4_conf47_TS.com with job type: TS_opt_conf and job id 12810474 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf49_TS. Trying to resubmit
+submitted file C3H8O_H4_conf49_TS.com with job type: TS_opt_conf and job id 12810639 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf51_TS. Trying to resubmit
+submitted file C3H8O_H4_conf51_TS.com with job type: TS_opt_conf and job id 12810689 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf52_TS
+Trying to resubmit job for C3H8O_H4_conf52_TS due to error termination
+submitted file C3H8O_H4_conf52_TS.com with job type: TS_opt_conf and job id 12810692 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf54_TS
+Trying to resubmit job for C3H8O_H4_conf54_TS due to error termination
+submitted file C3H8O_H4_conf54_TS.com with job type: TS_opt_conf and job id 12810710 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf56_TS. Trying to resubmit
+submitted file C3H8O_H4_conf56_TS.com with job type: TS_opt_conf and job id 12810766 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf57_TS
+Trying to resubmit job for C3H8O_H4_conf57_TS due to error termination
+submitted file C3H8O_H4_conf57_TS.com with job type: TS_opt_conf and job id 12810768 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf59_TS. Trying to resubmit
+submitted file C3H8O_H4_conf59_TS.com with job type: TS_opt_conf and job id 12810862 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf60_TS. Trying to resubmit
+submitted file C3H8O_H4_conf60_TS.com with job type: TS_opt_conf and job id 12810893 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf61_TS
+Trying to resubmit job for C3H8O_H4_conf61_TS due to error termination
+submitted file C3H8O_H4_conf61_TS.com with job type: TS_opt_conf and job id 12810942 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf65_TS. Trying to resubmit
+submitted file C3H8O_H4_conf65_TS.com with job type: TS_opt_conf and job id 12811018 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf66_TS. Trying to resubmit
+submitted file C3H8O_H4_conf66_TS.com with job type: TS_opt_conf and job id 12811056 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf67_TS
+Trying to resubmit job for C3H8O_H4_conf67_TS due to error termination
+submitted file C3H8O_H4_conf67_TS.com with job type: TS_opt_conf and job id 12811107 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf68_TS. Trying to resubmit
+submitted file C3H8O_H4_conf68_TS.com with job type: TS_opt_conf and job id 12811109 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf70_TS. Trying to resubmit
+submitted file C3H8O_H4_conf70_TS.com with job type: TS_opt_conf and job id 12811139 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf71_TS. Trying to resubmit
+submitted file C3H8O_H4_conf71_TS.com with job type: TS_opt_conf and job id 12811142 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf72_TS. Trying to resubmit
+submitted file C3H8O_H4_conf72_TS.com with job type: TS_opt_conf and job id 12811165 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf74_TS. Trying to resubmit
+submitted file C3H8O_H4_conf74_TS.com with job type: TS_opt_conf and job id 12811167 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf76_TS. Trying to resubmit
+submitted file C3H8O_H4_conf76_TS.com with job type: TS_opt_conf and job id 12811171 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf77_TS
+Trying to resubmit job for C3H8O_H4_conf77_TS due to error termination
+submitted file C3H8O_H4_conf77_TS.com with job type: TS_opt_conf and job id 12811174 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf78_TS. Trying to resubmit
+submitted file C3H8O_H4_conf78_TS.com with job type: TS_opt_conf and job id 12811192 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf81_TS. Trying to resubmit
+submitted file C3H8O_H4_conf81_TS.com with job type: TS_opt_conf and job id 12811221 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf83_TS. Trying to resubmit
+submitted file C3H8O_H4_conf83_TS.com with job type: TS_opt_conf and job id 12811242 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf84_TS. Trying to resubmit
+submitted file C3H8O_H4_conf84_TS.com with job type: TS_opt_conf and job id 12811271 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf85_TS. Trying to resubmit
+submitted file C3H8O_H4_conf85_TS.com with job type: TS_opt_conf and job id 12811273 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf88_TS. Trying to resubmit
+submitted file C3H8O_H4_conf88_TS.com with job type: TS_opt_conf and job id 12811297 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf89_TS. Trying to resubmit
+submitted file C3H8O_H4_conf89_TS.com with job type: TS_opt_conf and job id 12811300 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf92_TS. Trying to resubmit
+submitted file C3H8O_H4_conf92_TS.com with job type: TS_opt_conf and job id 12811322 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf93_TS. Trying to resubmit
+submitted file C3H8O_H4_conf93_TS.com with job type: TS_opt_conf and job id 12811324 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf96_TS. Trying to resubmit
+submitted file C3H8O_H4_conf96_TS.com with job type: TS_opt_conf and job id 12811330 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf98_TS. Trying to resubmit
+submitted file C3H8O_H4_conf98_TS.com with job type: TS_opt_conf and job id 12811331 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf100_TS. Trying to resubmit
+submitted file C3H8O_H4_conf100_TS.com with job type: TS_opt_conf and job id 12811334 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf101_TS. Trying to resubmit
+submitted file C3H8O_H4_conf101_TS.com with job type: TS_opt_conf and job id 12811378 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf104_TS. Trying to resubmit
+submitted file C3H8O_H4_conf104_TS.com with job type: TS_opt_conf and job id 12811379 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf105_TS. Trying to resubmit
+submitted file C3H8O_H4_conf105_TS.com with job type: TS_opt_conf and job id 12811395 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf107_TS. Trying to resubmit
+submitted file C3H8O_H4_conf107_TS.com with job type: TS_opt_conf and job id 12811396 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf108_TS. Trying to resubmit
+submitted file C3H8O_H4_conf108_TS.com with job type: TS_opt_conf and job id 12811399 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf111_TS. Trying to resubmit
+submitted file C3H8O_H4_conf111_TS.com with job type: TS_opt_conf and job id 12811417 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf112_TS. Trying to resubmit
+submitted file C3H8O_H4_conf112_TS.com with job type: TS_opt_conf and job id 12811427 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf113_TS. Trying to resubmit
+submitted file C3H8O_H4_conf113_TS.com with job type: TS_opt_conf and job id 12811454 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf115_TS. Trying to resubmit
+submitted file C3H8O_H4_conf115_TS.com with job type: TS_opt_conf and job id 12811470 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf117_TS. Trying to resubmit
+submitted file C3H8O_H4_conf117_TS.com with job type: TS_opt_conf and job id 12811471 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf118_TS. Trying to resubmit
+submitted file C3H8O_H4_conf118_TS.com with job type: TS_opt_conf and job id 12811477 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf120_TS. Trying to resubmit
+submitted file C3H8O_H4_conf120_TS.com with job type: TS_opt_conf and job id 12811485 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf125_TS. Trying to resubmit
+submitted file C3H8O_H4_conf125_TS.com with job type: TS_opt_conf and job id 12811486 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf126_TS. Trying to resubmit
+submitted file C3H8O_H4_conf126_TS.com with job type: TS_opt_conf and job id 12811491 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf127_TS. Trying to resubmit
+submitted file C3H8O_H4_conf127_TS.com with job type: TS_opt_conf and job id 12811494 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf129_TS
+Trying to resubmit job for C3H8O_H4_conf129_TS due to error termination
+submitted file C3H8O_H4_conf129_TS.com with job type: TS_opt_conf and job id 12811499 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf131_TS. Trying to resubmit
+submitted file C3H8O_H4_conf131_TS.com with job type: TS_opt_conf and job id 12811511 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf132_TS
+Trying to resubmit job for C3H8O_H4_conf132_TS due to error termination
+submitted file C3H8O_H4_conf132_TS.com with job type: TS_opt_conf and job id 12811521 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf134_TS. Trying to resubmit
+submitted file C3H8O_H4_conf134_TS.com with job type: TS_opt_conf and job id 12811524 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf136_TS. Trying to resubmit
+submitted file C3H8O_H4_conf136_TS.com with job type: TS_opt_conf and job id 12811526 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Job 12806757 is pending in the queue.
+Convergence error 'l9999' termination found in C3H8O_H4_conf139_TS
+Trying to resubmit job for C3H8O_H4_conf139_TS due to error termination
+submitted file C3H8O_H4_conf139_TS.com with job type: TS_opt_conf and job id 12811527 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf140_TS. Trying to resubmit
+submitted file C3H8O_H4_conf140_TS.com with job type: TS_opt_conf and job id 12811535 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf141_TS. Trying to resubmit
+submitted file C3H8O_H4_conf141_TS.com with job type: TS_opt_conf and job id 12811536 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Job 12806867 is pending in the queue.
+Error termination found in C3H8O_H4_conf145_TS. Trying to resubmit
+submitted file C3H8O_H4_conf145_TS.com with job type: TS_opt_conf and job id 12811539 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf146_TS. Trying to resubmit
+submitted file C3H8O_H4_conf146_TS.com with job type: TS_opt_conf and job id 12811556 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf148_TS. Trying to resubmit
+submitted file C3H8O_H4_conf148_TS.com with job type: TS_opt_conf and job id 12811558 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf149_TS
+Trying to resubmit job for C3H8O_H4_conf149_TS due to error termination
+submitted file C3H8O_H4_conf149_TS.com with job type: TS_opt_conf and job id 12811559 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf150_TS
+Trying to resubmit job for C3H8O_H4_conf150_TS due to error termination
+submitted file C3H8O_H4_conf150_TS.com with job type: TS_opt_conf and job id 12811560 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf153_TS
+Trying to resubmit job for C3H8O_H4_conf153_TS due to error termination
+submitted file C3H8O_H4_conf153_TS.com with job type: TS_opt_conf and job id 12811578 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf155_TS
+Trying to resubmit job for C3H8O_H4_conf155_TS due to error termination
+submitted file C3H8O_H4_conf155_TS.com with job type: TS_opt_conf and job id 12811579 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Error termination found in C3H8O_H4_conf157_TS. Trying to resubmit
+submitted file C3H8O_H4_conf157_TS.com with job type: TS_opt_conf and job id 12811580 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf158_TS
+Trying to resubmit job for C3H8O_H4_conf158_TS due to error termination
+submitted file C3H8O_H4_conf158_TS.com with job type: TS_opt_conf and job id 12811592 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4
+
+************************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf160_TS with imaginary frequency: -1280.9229 ******
+************************************************************************************************************************
+
+Job TS_opt_conf for C3H8O_H4_conf16_TS with job id 12808551 is running.
+Job TS_opt_conf for C3H8O_H4_conf20_TS with job id 12808972 is running.
+Job TS_opt_conf for C3H8O_H4_conf24_TS with job id 12809184 is running.
+Job TS_opt_conf for C3H8O_H4_conf28_TS with job id 12809196 is running.
+Job TS_opt_conf for C3H8O_H4_conf29_TS with job id 12809379 is running.
+Job TS_opt_conf for C3H8O_H4_conf38_TS with job id 12809752 is running.
+Job TS_opt_conf for C3H8O_H4_conf47_TS with job id 12810474 is running.
+Job TS_opt_conf for C3H8O_H4_conf54_TS with job id 12810710 is running.
+Job TS_opt_conf for C3H8O_H4_conf56_TS with job id 12810766 is running.
+Job TS_opt_conf for C3H8O_H4_conf57_TS with job id 12810768 is running.
+Job TS_opt_conf for C3H8O_H4_conf67_TS with job id 12811107 is running.
+Job TS_opt_conf for C3H8O_H4_conf68_TS with job id 12811109 is running.
+Job TS_opt_conf for C3H8O_H4_conf77_TS with job id 12811174 is running.
+Job TS_opt_conf for C3H8O_H4_conf84_TS with job id 12811271 is running.
+Job TS_opt_conf for C3H8O_H4_conf88_TS with job id 12811297 is running.
+Job TS_opt_conf for C3H8O_H4_conf98_TS with job id 12811331 is running.
+Job TS_opt_conf for C3H8O_H4_conf112_TS with job id 12811427 is running.
+Job TS_opt_conf for C3H8O_H4_conf125_TS with job id 12811486 is running.
+Job TS_opt_conf for C3H8O_H4_conf129_TS with job id 12811499 is running.
+Job TS_opt_conf for C3H8O_H4_conf132_TS with job id 12811521 is running.
+Job TS_opt_conf for C3H8O_H4_conf134_TS with job id 12811524 is running.
+Job TS_opt_conf for C3H8O_H4_conf139_TS with job id 12811527 is running.
+Job TS_opt_conf for C3H8O_H4_conf145_TS with job id 12811539 is running.
+Job TS_opt_conf for C3H8O_H4_conf146_TS with job id 12811556 is running.
+Job TS_opt_conf for C3H8O_H4_conf149_TS with job id 12811559 is running.
+Job TS_opt_conf for C3H8O_H4_conf150_TS with job id 12811560 is running.
+Job TS_opt_conf for C3H8O_H4_conf153_TS with job id 12811578 is running.
+Job TS_opt_conf for C3H8O_H4_conf155_TS with job id 12811579 is running.
+Job TS_opt_conf for C3H8O_H4_conf157_TS with job id 12811580 is running.
+Job TS_opt_conf for C3H8O_H4_conf158_TS with job id 12811592 is running.
+!!! Dropping molecule conformer C3H8O_H4_conf1_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf3_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf5_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf7_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf9_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf10_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf11_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf14_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf15_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf17_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf18_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf22_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf27_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf30_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf33_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf32_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf37_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf39_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf42_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf44_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf45_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf46_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf49_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf51_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf52_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf59_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf60_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf61_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf65_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf66_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf70_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf71_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf72_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf74_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf76_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf78_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf81_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf83_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf84_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf85_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf88_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf89_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf92_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf93_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf96_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf98_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf100_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf101_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf104_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf105_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf107_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf108_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf111_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf113_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf115_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf117_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf118_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf120_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf126_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf127_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf131_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf136_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf137_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf140_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf141_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf142_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf148_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf134_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf150_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf149_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf68_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf157_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf112_TS due to repeated error terminations!!!
+Log files of the 22 conformers have been checked. Checking every 500 seconds. Attempt: 10/100
+!!! Dropping molecule conformer C3H8O_H4_conf125_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf139_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf145_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf132_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf158_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf77_TS due to repeated error terminations!!!
+Log files of the 16 conformers have been checked. Checking every 500 seconds. Attempt: 20/100
+!!! Dropping molecule conformer C3H8O_H4_conf56_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf155_TS due to repeated error terminations!!!
+Log files of the 14 conformers have been checked. Checking every 500 seconds. Attempt: 30/100
+Log files of the 14 conformers have been checked. Checking every 500 seconds. Attempt: 40/100
+Log files of the 14 conformers have been checked. Checking every 500 seconds. Attempt: 50/100
+Log files of the 14 conformers have been checked. Checking every 500 seconds. Attempt: 60/100
+!!! Dropping molecule conformer C3H8O_H4_conf29_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf24_TS due to repeated error terminations!!!
+Log files of the 12 conformers have been checked. Checking every 500 seconds. Attempt: 70/100
+!!! Dropping molecule conformer C3H8O_H4_conf16_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf57_TS due to repeated error terminations!!!
+Log files of the 10 conformers have been checked. Checking every 500 seconds. Attempt: 80/100
+!!! Dropping molecule conformer C3H8O_H4_conf20_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf38_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf47_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf54_TS due to repeated error terminations!!!
+Log files of the 6 conformers have been checked. Checking every 500 seconds. Attempt: 90/100
+!!! Dropping molecule conformer C3H8O_H4_conf146_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf67_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf129_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf153_TS due to repeated error terminations!!!
+Log files of the 2 conformers have been checked. Checking every 500 seconds. Attempt: 100/100
+
+JKTS restarted
+Detected molecules with current step: TS_opt_conf
+Checking convergence status of molecules
+All molecules converged for step TS_opt_conf. Proceeding with next step: DLPNO
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 1 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitting file C3H8O_H4_conf160_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/C3H8O_H4 with job id 13571284
+Error when generating input molecules. Could not create list from given input
+.log or .out extension detected. Make sure input files are from ORCA or G16
+Waiting 5184 seconds before first check
+***C3H8O_H4_conf160_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/reactants/Final_reactants_C3H8O.pkl
+
+JKTS restarted
+Detected molecules with current step: TS_opt_conf
+Checking convergence status of molecules
+All molecules converged for step TS_opt_conf. Proceeding with next step: DLPNO
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 1 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/reactants/Final_reactants_C3H8O.pkl
+
+JKTS restarted
+Detected molecules with current step: TS_opt_conf
+Checking convergence status of molecules
+All molecules converged for step TS_opt_conf. Proceeding with next step: DLPNO
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 1 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCCO/reactants/Final_reactants_C3H8O.pkl

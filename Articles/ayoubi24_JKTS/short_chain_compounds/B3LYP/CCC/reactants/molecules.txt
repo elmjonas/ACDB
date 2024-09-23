@@ -1,0 +1,57 @@
+Molecule: C3H8_reactant_conf1_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/C3H8_reactant_conf1_DLPNO.out
+Program: ORCA
+Reactant: True
+Product: False
+Multiplicity: 1
+Charge: 0
+Dipole Moment: 0.0867
+Workflow: ['crest_sampling', 'optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -118.921752324466
+Zero Point Correction: 0.10333
+Gibbs free energy: -119.09144
+Partition Function: 640276600497.5646
+Vibrational Frequencies: [222.7037, 274.7584, 369.6468, 753.6549, 875.2321, 911.3421, 932.2888, 1061.2111, 1177.5482, 1213.9466, 1314.7411, 1366.6806, 1410.4673, 1426.0163, 1494.37, 1496.0052, 1501.4691, 1512.2917, 1516.1884, 3026.1317, 3026.485, 3030.2094, 3051.6875, 3089.5067, 3099.9308, 3100.0514, 3102.0355]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.275420 -0.260294 -0.000017
+  C  -0.000000  0.588285 -0.000006
+  C   1.275420 -0.260294  0.000022
+  H  -1.316987 -0.907403 -0.884275
+  H  -1.317017 -0.907381  0.884255
+  H  -2.175384  0.364101 -0.000040
+  H   0.000013  1.247583 -0.877785
+  H  -0.000013  1.247600  0.877761
+  H   2.175384  0.364101  0.000032
+  H   1.317016 -0.907399 -0.884237
+  H   1.316987 -0.907385  0.884292
+-----------------------------------------------------------------------
+Molecule: OH_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/reactants/OH_DLPNO.out
+Program: ORCA
+Reactant: True
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8479
+Workflow: ['optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -75.645417617046
+Zero Point Correction: 0.008429
+Gibbs free energy: -75.747883
+Partition Function: 94355978.28232479
+Vibrational Frequencies: [3699.6865]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  O   0.000000  0.000000  0.108890
+  H   0.000000  0.000000 -0.871123
+-----------------------------------------------------------------------

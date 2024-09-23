@@ -1,0 +1,58 @@
+JKTS CH2O_H1_TS.log -test
+JKTS CH2O_H1_TS.log -test
+JKTS CH2O_H1_TS.log -test
+JKTS CH2O_H1_TS.log -test
+JKTS CH2O_H1_TS.log -restart -method BHandHLYP -time 24:00:00 -cpu 32
+JKTS CH2O_H1_TS.log -restart -method BHandHLYP -time 24:00:00 -cpu 16
+JKTS CH2O_H1_conf1.log -restart -method BHandHLYP -time 24:00:00 -cpu 16
+JKTS Final_TS_CH2O_H1.pkl -loc
+No H2O in product molecules. No tunneling correction will be calculated
+Ea: -0.7156 kcal/mol  k: 5.301256717655023e-12 Qratio: 6.273641078849185e-06  Eckart: 1  Wigner: 1.7139370995098988
+LC-TST: 5.301256717655023e-12
+JKTS Final_TS_CH2O_H1.pkl -loc
+No H2O in product molecules. No tunneling correction will be calculated
+Ea: -0.7156 kcal/mol  k: 5.301256717655023e-12 Qratio: 6.273641078849185e-06  Eckart: 1  Wigner: 1.7139370995098988
+LC-TST: 5.301256717655023e-12
+JKTS Final_TS_CH2O_H1.pkl -loc
+No H2O in product molecules. No tunneling correction will be calculated
+Ea: -0.7156 kcal/mol  k: 5.301256717655023e-12 Qratio: 6.273641078849185e-06  Eckart: 1  Wigner: 1.7139370995098988
+LC-TST: 5.301256717655023e-12
+JKTS Final_TS_CH2O_H1.pkl -loc
+No H2O in product molecules. No tunneling correction will be calculated
+Ea: -0.7156 kcal/mol  k: 5.301256717655023e-12 Qratio: 6.273641078849185e-06  Eckart: 1  Wigner: 1.7139370995098988
+LC-TST: 5.301256717655023e-12
+JKTS Final_TS_CH2O_H1.pkl -loc
+No H2O in product molecules. No tunneling correction will be calculated
+Ea: -0.7156 kcal/mol
+k_MCTST = 5.301256717655023e-12
+LC-TST = 5.301256717655023e-12
+Eckart = 1
+Wigner = 1.7139370995098988
+Qratio: 6.273641078849185e-06
+JKTS Final_TS_CH2O_H1.pkl -loc
+No H2O in product molecules. No tunneling correction will be calculated
+Ea: -0.7156 kcal/mol
+k_MCTST = 5.301256717655023e-12
+Eckart = 1
+Wigner = 1.7139370995098988
+No tunneling: 5.301256717655023e-12
+LC-TST = 5.301256717655023e-12
+Qratio: 6.273641078849185e-06
+JKTS Final_TS_CH2O_H1.pkl -loc
+No H2O in product molecules. No tunneling correction will be calculated
+Eckart = 1
+JKTS Final_TS_CH2O_H1.pkl -loc
+No H2O in product molecules. No tunneling correction will be calculated
+Eckart = 1
+JKTS Final_TS_CH2O_H1.pkl -loc
+Wigner = 1.7139370995098988
+JKTS Final_TS_CH2O_H1.pkl -loc
+No H2O in product molecules. No tunneling correction will be calculated
+
+Eckart = 1
+Wigner = 1.7139370995098988
+JKTS Final_TS_CH2O_H1.pkl -loc
+No H2O in product molecules. No tunneling correction will be calculated
+
+Eckart = 2.7218160969395955
+Wigner = 1.7139370995098988

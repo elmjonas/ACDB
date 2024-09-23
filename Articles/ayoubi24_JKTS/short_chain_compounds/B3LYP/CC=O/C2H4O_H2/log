@@ -1,0 +1,19 @@
+Job to be performed: opt_constrain
+Submitting file C2H4O_H2.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CC=O/C2H4O_H2 with job id 12989461
+Waiting 553 seconds before first check
+Job opt_constrain for C2H4O_H2 with job id 12989461 is running.
+Log files of the 1 conformers have been checked. Checking every 276 seconds. Attempt: 1/100
+***C2H4O_H2 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C2H4O_H2_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CC=O/C2H4O_H2 with job id 12989680
+Waiting 738 seconds before first check
+Error termination found in C2H4O_H2_TS. Trying to resubmit
+submitted file C2H4O_H2_TS.com with job type: TS_opt and job id 12989746 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CC=O/C2H4O_H2
+Log files of the 1 conformers have been checked. Checking every 369 seconds. Attempt: 1/100
+!!! Dropping molecule conformer C2H4O_H2_TS due to repeated error terminations!!!
+No conformer has managed to converge for job type: TS_opt

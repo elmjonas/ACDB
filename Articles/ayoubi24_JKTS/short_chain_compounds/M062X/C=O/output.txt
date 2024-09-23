@@ -1,0 +1,11 @@
+COMMAND: JKTS -smiles C=O -OH -time 48:00:00 -method M062X -initial_delay 500
+COMMAND: JKTS CH2O_H1/Final_TS_CH2O_H1.pkl reactants/Final_reactants_CH2O.pkl products/Final_products_CH2O_H1.pkl -loc
+COMMAND: JKTS Final_TS_CH2O_H1.pkl reactants/Final_reactants_CH2O.pkl products/Final_products_CH2O_H-loc
+COMMAND: JKTS Final_TS_CH2O_H1.pkl reactants/Final_reactants_CH2O.pkl products/Final_products_CH2O_H1.pkl -loc
+COMMAND: JKTS Final_TS_CH2O_H1.pkl reactants/Final_reactants_CH2O.pkl products/Final_products_CH2O_H1.pkl -loc
+No H2O in product molecules. No tunneling correction will be calculated
+Ea: 0.8535 kcal/mol  k: 8.586781399722761e-13
+8.586781399722761e-13 cm^3 molecules^-1 s^-1    Tunneling coefficient 1
+JKTS CH2O_H1/Final_TS_CH2O_H1.pkl reactants/Final_reactants_CH2O.pkl -loc
+Ea: 0.8535 kcal/mol  k: 8.586781399722761e-13  Eckart: 1  Wigner: 1.25953003489952
+8.586781399722761e-13 cm^3 molecules^-1 s^-1    Tunneling coefficient 1  Wigner: 1.25953003489952  Ea: 0.8534697354916716  Qratio: 1.4359167128481487e-05

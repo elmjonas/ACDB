@@ -1,0 +1,57 @@
+Molecule: C3H8_reactant_conf2_DLPNO
+Method: F12-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCC/reactants
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCC/reactants/C3H8_reactant_conf2_DLPNO.out
+Program: ORCA
+Reactant: True
+Product: False
+Multiplicity: 1
+Charge: 0
+Dipole Moment: 0.0819
+Workflow: ['crest_sampling', 'optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -118.957448726708
+Zero Point Correction: 0.106375
+Gibbs free energy: -118.649087
+Partition Function: 597726307737.4717
+Vibrational Frequencies: [229.2168, 288.2714, 374.9588, 770.5389, 908.5439, 929.1547, 951.6622, 1103.4536, 1211.9055, 1249.0772, 1341.4406, 1403.1815, 1449.8564, 1464.3163, 1532.6491, 1534.0318, 1539.0651, 1549.9387, 1553.1625, 3108.1141, 3109.7236, 3116.0212, 3161.0595, 3197.4998, 3204.8385, 3205.373, 3206.39]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   1.266758 -0.260496  0.000000
+  C  -0.000001  0.589129  0.000000
+  C  -1.266755 -0.260492  0.000000
+  H   1.301290 -0.902569  0.881680
+  H   1.301264 -0.902591 -0.881665
+  H   2.164548  0.358100 -0.000021
+  H   0.000007  1.242634  0.875705
+  H   0.000003  1.242643 -0.875698
+  H  -2.164554  0.358094 -0.000027
+  H  -1.301303 -0.902563  0.881682
+  H  -1.301270 -0.902597 -0.881660
+-----------------------------------------------------------------------
+Molecule: OH_DLPNO
+Method: F12-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCC/reactants
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCC/reactants/OH_DLPNO.out
+Program: ORCA
+Reactant: True
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.9393
+Workflow: ['optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -75.669425786481
+Zero Point Correction: 0.008708
+Gibbs free energy: -75.549468
+Partition Function: 93131991.95700757
+Vibrational Frequencies: [3822.4467]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  O   0.000000  0.000000  0.108182
+  H   0.000000  0.000000 -0.865455
+-----------------------------------------------------------------------

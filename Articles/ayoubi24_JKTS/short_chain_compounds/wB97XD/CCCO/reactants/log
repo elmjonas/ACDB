@@ -1,0 +1,73 @@
+Job to be performed: crest_sampling
+Submitting file C3H8O_reactant_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants with job id 12747366
+Waiting 500 seconds before first check
+
+*******************************************************
+****** 7 conformers generated for C3H8O_reactant ******
+*******************************************************
+
+CREST conformers generated. Proceeding with next step: optimization
+Job to be performed: optimization
+Submitted SLURM array job with job id 12747944 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants
+Waiting 500 seconds before first check
+***C3H8O_reactant_conf1 converged***
+***C3H8O_reactant_conf2 converged***
+***C3H8O_reactant_conf3 converged***
+***C3H8O_reactant_conf4 converged***
+***C3H8O_reactant_conf5 converged***
+***C3H8O_reactant_conf6 converged***
+***C3H8O_reactant_conf7 converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 7 conformers to 5 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12748771 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants
+Waiting 500 seconds before first check
+Job 12748771_1 is pending in the queue.
+Job 12748771_2 is pending in the queue.
+Job 12748771_3 is pending in the queue.
+Job 12748771_4 is pending in the queue.
+Job 12748771_5 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job DLPNO for C3H8O_reactant_conf5_DLPNO with job id 12748771_1 is running.
+Job DLPNO for C3H8O_reactant_conf2_DLPNO with job id 12748771_2 is running.
+Job DLPNO for C3H8O_reactant_conf3_DLPNO with job id 12748771_3 is running.
+Job DLPNO for C3H8O_reactant_conf4_DLPNO with job id 12748771_4 is running.
+Job DLPNO for C3H8O_reactant_conf6_DLPNO with job id 12748771_5 is running.
+Log files of the 5 conformers have been checked. Checking every 482 seconds. Attempt: 1/100
+***C3H8O_reactant_conf5_DLPNO converged***
+***C3H8O_reactant_conf2_DLPNO converged***
+***C3H8O_reactant_conf3_DLPNO converged***
+***C3H8O_reactant_conf4_DLPNO converged***
+***C3H8O_reactant_conf6_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Submitting file OH.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants with job id 12765053
+Waiting 500 seconds before first check
+Job 12765053 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***OH converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 1 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitting file OH_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants with job id 12766371
+Waiting 500 seconds before first check
+***OH_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for reactants is done. Logging molecules to Final_reactants_C3H8O.pkl

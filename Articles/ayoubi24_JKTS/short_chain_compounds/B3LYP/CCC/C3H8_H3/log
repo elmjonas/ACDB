@@ -1,0 +1,24 @@
+Job to be performed: opt_constrain
+Submitting file C3H8_H3.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H3 with job id 12747850
+Waiting 500 seconds before first check
+Job opt_constrain for C3H8_H3 with job id 12747850 is running.
+Log files of the 1 conformers have been checked. Checking every 276 seconds. Attempt: 1/100
+***C3H8_H3 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C3H8_H3_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H3 with job id 12748714
+Waiting 500 seconds before first check
+Job 12748714 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt for C3H8_H3_TS with job id 12748714 is running.
+Log files of the 1 conformers have been checked. Checking every 369 seconds. Attempt: 1/100
+Error termination found in C3H8_H3_TS. Trying to resubmit
+submitted file C3H8_H3_TS.com with job type: TS_opt and job id 12765946 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCC/C3H8_H3
+Job 12765946 is pending in the queue.
+Job TS_opt for C3H8_H3_TS with job id 12765946 is running.
+!!! Dropping molecule conformer C3H8_H3_TS due to repeated error terminations!!!
+No conformer has managed to converge for job type: TS_opt

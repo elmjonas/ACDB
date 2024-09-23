@@ -1,0 +1,164 @@
+Job to be performed: crest_sampling
+Submitted SLURM array job with job id 13578057 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products
+Waiting 5184 seconds before first check
+
+**********************************************************
+****** 11 conformers generated for C3H8O_product_H1 ******
+**********************************************************
+
+
+**********************************************************
+****** 21 conformers generated for C3H8O_product_H2 ******
+**********************************************************
+
+
+**********************************************************
+****** 17 conformers generated for C3H8O_product_H3 ******
+**********************************************************
+
+
+*********************************************************
+****** 5 conformers generated for C3H8O_product_H4 ******
+*********************************************************
+
+
+*********************************************************
+****** 6 conformers generated for C3H8O_product_H5 ******
+*********************************************************
+
+CREST conformers generated. Proceeding with next step: optimization
+Job to be performed: optimization
+Submitted SLURM array job with job id 13578481 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products
+Waiting 5184 seconds before first check
+***C3H8O_product_H1_conf1 converged***
+***C3H8O_product_H1_conf2 converged***
+***C3H8O_product_H1_conf3 converged***
+***C3H8O_product_H1_conf4 converged***
+***C3H8O_product_H1_conf5 converged***
+***C3H8O_product_H1_conf6 converged***
+***C3H8O_product_H1_conf7 converged***
+***C3H8O_product_H1_conf8 converged***
+***C3H8O_product_H1_conf9 converged***
+***C3H8O_product_H1_conf10 converged***
+***C3H8O_product_H1_conf11 converged***
+***C3H8O_product_H2_conf1 converged***
+***C3H8O_product_H2_conf2 converged***
+***C3H8O_product_H2_conf3 converged***
+***C3H8O_product_H2_conf4 converged***
+***C3H8O_product_H2_conf5 converged***
+***C3H8O_product_H2_conf6 converged***
+***C3H8O_product_H2_conf7 converged***
+***C3H8O_product_H2_conf8 converged***
+***C3H8O_product_H2_conf9 converged***
+***C3H8O_product_H2_conf10 converged***
+***C3H8O_product_H2_conf11 converged***
+***C3H8O_product_H2_conf12 converged***
+***C3H8O_product_H2_conf13 converged***
+***C3H8O_product_H2_conf14 converged***
+***C3H8O_product_H2_conf15 converged***
+***C3H8O_product_H2_conf16 converged***
+***C3H8O_product_H2_conf17 converged***
+***C3H8O_product_H2_conf18 converged***
+***C3H8O_product_H2_conf19 converged***
+***C3H8O_product_H2_conf20 converged***
+***C3H8O_product_H2_conf21 converged***
+***C3H8O_product_H3_conf1 converged***
+***C3H8O_product_H3_conf2 converged***
+***C3H8O_product_H3_conf3 converged***
+***C3H8O_product_H3_conf4 converged***
+***C3H8O_product_H3_conf5 converged***
+***C3H8O_product_H3_conf6 converged***
+***C3H8O_product_H3_conf7 converged***
+***C3H8O_product_H3_conf8 converged***
+***C3H8O_product_H3_conf9 converged***
+***C3H8O_product_H3_conf10 converged***
+***C3H8O_product_H3_conf11 converged***
+***C3H8O_product_H3_conf12 converged***
+***C3H8O_product_H3_conf13 converged***
+***C3H8O_product_H3_conf14 converged***
+***C3H8O_product_H3_conf15 converged***
+***C3H8O_product_H3_conf16 converged***
+***C3H8O_product_H3_conf17 converged***
+***C3H8O_product_H4_conf1 converged***
+***C3H8O_product_H4_conf2 converged***
+***C3H8O_product_H4_conf3 converged***
+***C3H8O_product_H4_conf4 converged***
+***C3H8O_product_H4_conf5 converged***
+***C3H8O_product_H5_conf1 converged***
+***C3H8O_product_H5_conf2 converged***
+***C3H8O_product_H5_conf3 converged***
+***C3H8O_product_H5_conf4 converged***
+***C3H8O_product_H5_conf5 converged***
+***C3H8O_product_H5_conf6 converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Filtering product molecules for H1 using ArbAlign alogrithm
+Filtered 11 conformers to 5 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Filtering product molecules for H2 using ArbAlign alogrithm
+Filtered 21 conformers to 7 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Filtering product molecules for H3 using ArbAlign alogrithm
+Filtered 17 conformers to 7 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Filtering product molecules for H4 using ArbAlign alogrithm
+Filtered 5 conformers to 4 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Filtering product molecules for H5 using ArbAlign alogrithm
+Filtered 6 conformers to 4 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 13578932 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products
+Waiting 5184 seconds before first check
+***C3H8O_product_H1_conf11_DLPNO converged***
+***C3H8O_product_H1_conf2_DLPNO converged***
+***C3H8O_product_H1_conf5_DLPNO converged***
+***C3H8O_product_H1_conf7_DLPNO converged***
+***C3H8O_product_H1_conf10_DLPNO converged***
+***C3H8O_product_H2_conf6_DLPNO converged***
+***C3H8O_product_H2_conf12_DLPNO converged***
+***C3H8O_product_H2_conf5_DLPNO converged***
+***C3H8O_product_H2_conf13_DLPNO converged***
+***C3H8O_product_H2_conf15_DLPNO converged***
+***C3H8O_product_H2_conf17_DLPNO converged***
+***C3H8O_product_H2_conf21_DLPNO converged***
+***C3H8O_product_H3_conf2_DLPNO converged***
+***C3H8O_product_H3_conf11_DLPNO converged***
+***C3H8O_product_H3_conf6_DLPNO converged***
+***C3H8O_product_H3_conf13_DLPNO converged***
+***C3H8O_product_H3_conf14_DLPNO converged***
+***C3H8O_product_H3_conf15_DLPNO converged***
+***C3H8O_product_H3_conf17_DLPNO converged***
+***C3H8O_product_H4_conf1_DLPNO converged***
+***C3H8O_product_H4_conf3_DLPNO converged***
+***C3H8O_product_H4_conf4_DLPNO converged***
+***C3H8O_product_H4_conf5_DLPNO converged***
+***C3H8O_product_H5_conf1_DLPNO converged***
+***C3H8O_product_H5_conf4_DLPNO converged***
+***C3H8O_product_H5_conf5_DLPNO converged***
+***C3H8O_product_H5_conf6_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Submitting file H2O.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products with job id 13579570
+Waiting 40 seconds before first check
+***H2O converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Submitting file H2O_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products with job id 13579575
+Waiting 40 seconds before first check
+***H2O_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for products are done. Logging properties to Final_products_C3H8O_H1.pkl
+Final DLPNO calculations for products are done. Logging properties to Final_products_C3H8O_H2.pkl
+Final DLPNO calculations for products are done. Logging properties to Final_products_C3H8O_H3.pkl
+Final DLPNO calculations for products are done. Logging properties to Final_products_C3H8O_H4.pkl
+Final DLPNO calculations for products are done. Logging properties to Final_products_C3H8O_H5.pkl

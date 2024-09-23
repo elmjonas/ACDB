@@ -1,0 +1,57 @@
+Molecule: C3H8_reactant_conf1_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/C3H8_reactant_conf1_DLPNO.out
+Program: ORCA
+Reactant: True
+Product: False
+Multiplicity: 1
+Charge: 0
+Dipole Moment: 0.0837
+Workflow: ['crest_sampling', 'optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -118.921791184902
+Zero Point Correction: 0.104165
+Gibbs free energy: -119.03895
+Partition Function: 626286821509.7252
+Vibrational Frequencies: [222.0739, 279.6162, 375.481, 758.1201, 889.0863, 918.1446, 940.3467, 1078.9892, 1186.088, 1218.8777, 1322.3673, 1373.3706, 1423.7124, 1433.6386, 1500.4759, 1504.7172, 1507.2528, 1519.3413, 1521.0421, 3046.4562, 3048.5564, 3052.4997, 3086.306, 3120.7958, 3129.9169, 3131.8348, 3134.1099]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -1.271506 -0.260073 -0.000056
+  C   0.000000  0.587933 -0.000023
+  C   1.271506 -0.260073  0.000076
+  H  -2.170889  0.363532 -0.000137
+  H  -1.311198 -0.906358 -0.884101
+  H  -1.311300 -0.906274  0.884047
+  H   0.000045  1.245706 -0.877582
+  H  -0.000045  1.245773  0.877487
+  H   1.311300 -0.906342 -0.883977
+  H   1.311198 -0.906290  0.884171
+  H   2.170889  0.363533  0.000109
+-----------------------------------------------------------------------
+Molecule: OH_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/OH_DLPNO.out
+Program: ORCA
+Reactant: True
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8735
+Workflow: ['optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -75.64545763584
+Zero Point Correction: 0.008641
+Gibbs free energy: -75.720322
+Partition Function: 93277819.75438356
+Vibrational Frequencies: [3792.8466]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  O   0.000000  0.000000  0.108267
+  H   0.000000  0.000000 -0.866132
+-----------------------------------------------------------------------

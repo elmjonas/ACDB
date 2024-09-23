@@ -1,0 +1,11 @@
+COMMAND: JKTS -smiles CCC=O -OH -time 168:00:00 -method MP2 -F12 -initial_delay 2000 -interval 500
+JKTS C3H6O_H4/Final_TS_C3H6O_H4.pkl reactants/Final_reactants_C3H6O.pkl products/Final_products_C3H6O_H4.pkl -loc
+Error in calculating the eckart tunneling. Returning tunneling coefficient 1
+Ea_reverse: -27.7862 kcal/mol
+Ea: -3.0312 kcal/mol
+k_MCTST = 1.5699712149271622e-10
+Eckart = 1
+k_LCTST = 1.5942751748250132e-10
+Wigner = 2.52970030206025
+Qratio: 3.729861796111182e-06
+1.5699712149271622e-10 cm^3 molecules^-1 s^-1    Tunneling coefficient 1  Wigner: 2.52970030206025  Ea: -3.031217688781908  Qratio: 3.729861796111182e-06

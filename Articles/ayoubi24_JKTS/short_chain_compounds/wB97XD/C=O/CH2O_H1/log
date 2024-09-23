@@ -1,0 +1,610 @@
+Job to be performed: opt_constrain
+Submitting file CH2O_H1.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1 with job id 12747473
+Waiting 500 seconds before first check
+Error termination found in CH2O_H1. Trying to resubmit
+submitted file CH2O_H1.com with job type: opt_constrain and job id 12748640 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Log files of the 1 conformers have been checked. Checking every 20 seconds. Attempt: 1/100
+Job 12748640 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***CH2O_H1 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file CH2O_H1_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1 with job id 12766718
+Waiting 500 seconds before first check
+Error termination found in CH2O_H1_TS. Trying to resubmit
+submitted file CH2O_H1_TS.com with job type: TS_opt and job id 12768533 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Log files of the 1 conformers have been checked. Checking every 20 seconds. Attempt: 1/100
+Job 12768533 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt for CH2O_H1_TS with job id 12768533 is running.
+
+**************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_TS with imaginary frequency: -119.4719 ******
+**************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file CH2O_H1_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1 with job id 12776546
+Waiting 500 seconds before first check
+Job 12776546 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+
+************************************************
+****** 4 conformers generated for CH2O_H1 ******
+************************************************
+
+CREST conformers generated. Proceeding with next step: optimization
+Job to be performed: optimization
+Submitted SLURM array job with job id 12787757 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Waiting 500 seconds before first check
+Job 12787757_1 is pending in the queue.
+Job 12787757_2 is pending in the queue.
+Job 12787757_3 is pending in the queue.
+Job 12787757_4 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job optimization for CH2O_H1_conf1 with job id 12787757_1 is running.
+Job optimization for CH2O_H1_conf2 with job id 12787757_2 is running.
+Job optimization for CH2O_H1_conf3 with job id 12787757_3 is running.
+Job optimization for CH2O_H1_conf4 with job id 12787757_4 is running.
+Log files of the 4 conformers have been checked. Checking every 20 seconds. Attempt: 1/100
+Convergence error 'l9999' termination found in CH2O_H1_conf1
+Trying to resubmit job for CH2O_H1_conf1 due to error termination
+submitted file CH2O_H1_conf1.com with job type: optimization and job id 12799654 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Convergence error 'l9999' termination found in CH2O_H1_conf2
+Trying to resubmit job for CH2O_H1_conf2 due to error termination
+submitted file CH2O_H1_conf2.com with job type: optimization and job id 12799657 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Error termination found in CH2O_H1_conf3. Trying to resubmit
+submitted file CH2O_H1_conf3.com with job type: optimization and job id 12799872 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Convergence error 'l9999' termination found in CH2O_H1_conf4
+Trying to resubmit job for CH2O_H1_conf4 due to error termination
+submitted file CH2O_H1_conf4.com with job type: optimization and job id 12800529 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Job 12799654 is pending in the queue.
+Job 12799657 is pending in the queue.
+Job 12799872 is pending in the queue.
+Job 12800529 is pending in the queue.
+Job optimization for CH2O_H1_conf4 with job id 12800529 is running.
+!!! Dropping molecule conformer CH2O_H1_conf3 due to repeated error terminations!!!
+!!! Dropping molecule conformer CH2O_H1_conf4 due to repeated error terminations!!!
+!!! Dropping molecule conformer CH2O_H1_conf1 due to repeated error terminations!!!
+!!! Dropping molecule conformer CH2O_H1_conf2 due to repeated error terminations!!!
+No conformer has managed to converge for job type: optimization
+
+JKTS restarted
+Detected molecules with current step: TS_opt
+Checking convergence status of molecules
+All molecules converged for step TS_opt. Proceeding with next step: crest_sampling
+Job to be performed: crest_sampling
+Submitting file CH2O_H1_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1 with job id 12878572
+Waiting 40 seconds before first check
+Not all files found. Retrying every 20 seconds.
+
+*************************************************
+****** 34 conformers generated for CH2O_H1 ******
+*************************************************
+
+CREST conformers generated. Proceeding with next step: opt_constrain_conf
+Job to be performed: opt_constrain_conf
+Submitted SLURM array job with job id 12878590 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Waiting 40 seconds before first check
+Job opt_constrain_conf for CH2O_H1_conf1 with job id 12878590_1 is running.
+Job opt_constrain_conf for CH2O_H1_conf2 with job id 12878590_2 is running.
+Job opt_constrain_conf for CH2O_H1_conf3 with job id 12878590_3 is running.
+Job opt_constrain_conf for CH2O_H1_conf4 with job id 12878590_4 is running.
+Job opt_constrain_conf for CH2O_H1_conf5 with job id 12878590_5 is running.
+Job opt_constrain_conf for CH2O_H1_conf6 with job id 12878590_6 is running.
+Job opt_constrain_conf for CH2O_H1_conf7 with job id 12878590_7 is running.
+Job opt_constrain_conf for CH2O_H1_conf8 with job id 12878590_8 is running.
+Job opt_constrain_conf for CH2O_H1_conf9 with job id 12878590_9 is running.
+Job opt_constrain_conf for CH2O_H1_conf10 with job id 12878590_10 is running.
+Job opt_constrain_conf for CH2O_H1_conf11 with job id 12878590_11 is running.
+Job opt_constrain_conf for CH2O_H1_conf12 with job id 12878590_12 is running.
+Job opt_constrain_conf for CH2O_H1_conf13 with job id 12878590_13 is running.
+Job opt_constrain_conf for CH2O_H1_conf14 with job id 12878590_14 is running.
+Job opt_constrain_conf for CH2O_H1_conf15 with job id 12878590_15 is running.
+Job opt_constrain_conf for CH2O_H1_conf16 with job id 12878590_16 is running.
+Job opt_constrain_conf for CH2O_H1_conf17 with job id 12878590_17 is running.
+Job opt_constrain_conf for CH2O_H1_conf18 with job id 12878590_18 is running.
+Job opt_constrain_conf for CH2O_H1_conf19 with job id 12878590_19 is running.
+Job opt_constrain_conf for CH2O_H1_conf20 with job id 12878590_20 is running.
+Job opt_constrain_conf for CH2O_H1_conf21 with job id 12878590_21 is running.
+Job opt_constrain_conf for CH2O_H1_conf22 with job id 12878590_22 is running.
+Job opt_constrain_conf for CH2O_H1_conf23 with job id 12878590_23 is running.
+Job opt_constrain_conf for CH2O_H1_conf24 with job id 12878590_24 is running.
+Job opt_constrain_conf for CH2O_H1_conf25 with job id 12878590_25 is running.
+Job opt_constrain_conf for CH2O_H1_conf26 with job id 12878590_26 is running.
+Job opt_constrain_conf for CH2O_H1_conf27 with job id 12878590_27 is running.
+Job opt_constrain_conf for CH2O_H1_conf28 with job id 12878590_28 is running.
+Job opt_constrain_conf for CH2O_H1_conf29 with job id 12878590_29 is running.
+Job opt_constrain_conf for CH2O_H1_conf30 with job id 12878590_30 is running.
+Job opt_constrain_conf for CH2O_H1_conf31 with job id 12878590_31 is running.
+Job opt_constrain_conf for CH2O_H1_conf32 with job id 12878590_32 is running.
+Job opt_constrain_conf for CH2O_H1_conf33 with job id 12878590_33 is running.
+Job opt_constrain_conf for CH2O_H1_conf34 with job id 12878590_34 is running.
+Log files of the 34 conformers have been checked. Checking every 20 seconds. Attempt: 1/100
+***CH2O_H1_conf1 converged***
+***CH2O_H1_conf2 converged***
+***CH2O_H1_conf3 converged***
+***CH2O_H1_conf4 converged***
+***CH2O_H1_conf5 converged***
+***CH2O_H1_conf6 converged***
+***CH2O_H1_conf7 converged***
+***CH2O_H1_conf8 converged***
+***CH2O_H1_conf9 converged***
+***CH2O_H1_conf10 converged***
+***CH2O_H1_conf11 converged***
+***CH2O_H1_conf12 converged***
+***CH2O_H1_conf13 converged***
+***CH2O_H1_conf14 converged***
+***CH2O_H1_conf15 converged***
+***CH2O_H1_conf16 converged***
+***CH2O_H1_conf17 converged***
+***CH2O_H1_conf18 converged***
+***CH2O_H1_conf19 converged***
+***CH2O_H1_conf20 converged***
+***CH2O_H1_conf21 converged***
+***CH2O_H1_conf22 converged***
+***CH2O_H1_conf23 converged***
+***CH2O_H1_conf24 converged***
+***CH2O_H1_conf25 converged***
+***CH2O_H1_conf26 converged***
+***CH2O_H1_conf27 converged***
+***CH2O_H1_conf28 converged***
+***CH2O_H1_conf29 converged***
+***CH2O_H1_conf30 converged***
+***CH2O_H1_conf31 converged***
+***CH2O_H1_conf32 converged***
+***CH2O_H1_conf33 converged***
+***CH2O_H1_conf34 converged***
+
+**************************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain_conf. ******
+**************************************************************************************
+
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 12878644 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Waiting 40 seconds before first check
+Job TS_opt_conf for CH2O_H1_conf1_TS with job id 12878644_1 is running.
+Job TS_opt_conf for CH2O_H1_conf2_TS with job id 12878644_2 is running.
+Job TS_opt_conf for CH2O_H1_conf3_TS with job id 12878644_3 is running.
+Job TS_opt_conf for CH2O_H1_conf4_TS with job id 12878644_4 is running.
+Job TS_opt_conf for CH2O_H1_conf5_TS with job id 12878644_5 is running.
+Job TS_opt_conf for CH2O_H1_conf6_TS with job id 12878644_6 is running.
+Job TS_opt_conf for CH2O_H1_conf7_TS with job id 12878644_7 is running.
+Job TS_opt_conf for CH2O_H1_conf8_TS with job id 12878644_8 is running.
+Job TS_opt_conf for CH2O_H1_conf9_TS with job id 12878644_9 is running.
+Job TS_opt_conf for CH2O_H1_conf10_TS with job id 12878644_10 is running.
+Job TS_opt_conf for CH2O_H1_conf11_TS with job id 12878644_11 is running.
+Job TS_opt_conf for CH2O_H1_conf12_TS with job id 12878644_12 is running.
+Job TS_opt_conf for CH2O_H1_conf13_TS with job id 12878644_13 is running.
+Job TS_opt_conf for CH2O_H1_conf14_TS with job id 12878644_14 is running.
+Job TS_opt_conf for CH2O_H1_conf15_TS with job id 12878644_15 is running.
+Job TS_opt_conf for CH2O_H1_conf16_TS with job id 12878644_16 is running.
+Job TS_opt_conf for CH2O_H1_conf17_TS with job id 12878644_17 is running.
+Job TS_opt_conf for CH2O_H1_conf18_TS with job id 12878644_18 is running.
+Job TS_opt_conf for CH2O_H1_conf19_TS with job id 12878644_19 is running.
+Job TS_opt_conf for CH2O_H1_conf20_TS with job id 12878644_20 is running.
+Job TS_opt_conf for CH2O_H1_conf21_TS with job id 12878644_21 is running.
+Job TS_opt_conf for CH2O_H1_conf22_TS with job id 12878644_22 is running.
+Job TS_opt_conf for CH2O_H1_conf23_TS with job id 12878644_23 is running.
+Job TS_opt_conf for CH2O_H1_conf24_TS with job id 12878644_24 is running.
+Job TS_opt_conf for CH2O_H1_conf25_TS with job id 12878644_25 is running.
+Job TS_opt_conf for CH2O_H1_conf26_TS with job id 12878644_26 is running.
+Job TS_opt_conf for CH2O_H1_conf27_TS with job id 12878644_27 is running.
+Job TS_opt_conf for CH2O_H1_conf28_TS with job id 12878644_28 is running.
+Job TS_opt_conf for CH2O_H1_conf29_TS with job id 12878644_29 is running.
+Job TS_opt_conf for CH2O_H1_conf30_TS with job id 12878644_30 is running.
+Job TS_opt_conf for CH2O_H1_conf31_TS with job id 12878644_31 is running.
+Job TS_opt_conf for CH2O_H1_conf32_TS with job id 12878644_32 is running.
+Job TS_opt_conf for CH2O_H1_conf33_TS with job id 12878644_33 is running.
+Job TS_opt_conf for CH2O_H1_conf34_TS with job id 12878644_34 is running.
+Log files of the 34 conformers have been checked. Checking every 20 seconds. Attempt: 1/100
+Log files of the 34 conformers have been checked. Checking every 20 seconds. Attempt: 10/100
+Error termination found in CH2O_H1_conf24_TS. Trying to resubmit
+submitted file CH2O_H1_conf24_TS.com with job type: TS_opt_conf and job id 12878694 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Job TS_opt_conf for CH2O_H1_conf24_TS with job id 12878694 is running.
+Error termination found in CH2O_H1_conf33_TS. Trying to resubmit
+submitted file CH2O_H1_conf33_TS.com with job type: TS_opt_conf and job id 12878695 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Error termination found in CH2O_H1_conf3_TS. Trying to resubmit
+submitted file CH2O_H1_conf3_TS.com with job type: TS_opt_conf and job id 12878696 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Error termination found in CH2O_H1_conf31_TS. Trying to resubmit
+submitted file CH2O_H1_conf31_TS.com with job type: TS_opt_conf and job id 12878697 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Job TS_opt_conf for CH2O_H1_conf33_TS with job id 12878695 is running.
+Job TS_opt_conf for CH2O_H1_conf3_TS with job id 12878696 is running.
+Error termination found in CH2O_H1_conf30_TS. Trying to resubmit
+submitted file CH2O_H1_conf30_TS.com with job type: TS_opt_conf and job id 12878698 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Job TS_opt_conf for CH2O_H1_conf31_TS with job id 12878697 is running.
+!!! Dropping molecule conformer CH2O_H1_conf24_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer CH2O_H1_conf33_TS due to repeated error terminations!!!
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf2_TS with imaginary frequency: -119.4705 ******
+********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf9_TS with imaginary frequency: -119.4809 ******
+********************************************************************************************************************
+
+Error termination found in CH2O_H1_conf16_TS. Trying to resubmit
+submitted file CH2O_H1_conf16_TS.com with job type: TS_opt_conf and job id 12878721 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Error termination found in CH2O_H1_conf18_TS. Trying to resubmit
+submitted file CH2O_H1_conf18_TS.com with job type: TS_opt_conf and job id 12878725 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf19_TS with imaginary frequency: -119.468 ******
+********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf28_TS with imaginary frequency: -119.4664 ******
+*********************************************************************************************************************
+
+Job TS_opt_conf for CH2O_H1_conf30_TS with job id 12878698 is running.
+!!! Dropping molecule conformer CH2O_H1_conf30_TS due to repeated error terminations!!!
+
+*******************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf1_TS with imaginary frequency: -119.463 ******
+*******************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf4_TS with imaginary frequency: -119.4688 ******
+********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf5_TS with imaginary frequency: -119.4701 ******
+********************************************************************************************************************
+
+
+*******************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf7_TS with imaginary frequency: -119.463 ******
+*******************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf8_TS with imaginary frequency: -119.4703 ******
+********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf11_TS with imaginary frequency: -119.4738 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf12_TS with imaginary frequency: -119.4682 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf13_TS with imaginary frequency: -119.4714 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf15_TS with imaginary frequency: -119.4662 ******
+*********************************************************************************************************************
+
+Job TS_opt_conf for CH2O_H1_conf16_TS with job id 12878721 is running.
+Error termination found in CH2O_H1_conf17_TS. Trying to resubmit
+submitted file CH2O_H1_conf17_TS.com with job type: TS_opt_conf and job id 12878741 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Job TS_opt_conf for CH2O_H1_conf18_TS with job id 12878725 is running.
+Error termination found in CH2O_H1_conf20_TS. Trying to resubmit
+submitted file CH2O_H1_conf20_TS.com with job type: TS_opt_conf and job id 12878742 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Error termination found in CH2O_H1_conf21_TS. Trying to resubmit
+submitted file CH2O_H1_conf21_TS.com with job type: TS_opt_conf and job id 12878743 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf23_TS with imaginary frequency: -119.4779 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf25_TS with imaginary frequency: -119.4699 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf26_TS with imaginary frequency: -119.4719 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf27_TS with imaginary frequency: -119.4671 ******
+*********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf34_TS with imaginary frequency: -119.476 ******
+********************************************************************************************************************
+
+!!! Dropping molecule conformer CH2O_H1_conf3_TS due to repeated error terminations!!!
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf10_TS with imaginary frequency: -119.4712 ******
+*********************************************************************************************************************
+
+Job TS_opt_conf for CH2O_H1_conf17_TS with job id 12878741 is running.
+Job TS_opt_conf for CH2O_H1_conf20_TS with job id 12878742 is running.
+Job TS_opt_conf for CH2O_H1_conf21_TS with job id 12878743 is running.
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf22_TS with imaginary frequency: -119.4707 ******
+*********************************************************************************************************************
+
+!!! Dropping molecule conformer CH2O_H1_conf16_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer CH2O_H1_conf20_TS due to repeated error terminations!!!
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf6_TS with imaginary frequency: -119.4704 ******
+********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf29_TS with imaginary frequency: -119.4604 ******
+*********************************************************************************************************************
+
+Log files of the 28 conformers have been checked. Checking every 20 seconds. Attempt: 20/100
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf32_TS with imaginary frequency: -119.4704 ******
+*********************************************************************************************************************
+
+!!! Dropping molecule conformer CH2O_H1_conf17_TS due to repeated error terminations!!!
+Convergence error 'l9999' termination found in CH2O_H1_conf14_TS
+Trying to resubmit job for CH2O_H1_conf14_TS due to error termination
+submitted file CH2O_H1_conf14_TS.com with job type: TS_opt_conf and job id 12878756 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+!!! Dropping molecule conformer CH2O_H1_conf31_TS due to repeated error terminations!!!
+Job TS_opt_conf for CH2O_H1_conf14_TS with job id 12878756 is running.
+Log files of the 26 conformers have been checked. Checking every 20 seconds. Attempt: 30/100
+!!! Dropping molecule conformer CH2O_H1_conf18_TS due to repeated error terminations!!!
+Log files of the 25 conformers have been checked. Checking every 20 seconds. Attempt: 40/100
+Log files of the 25 conformers have been checked. Checking every 20 seconds. Attempt: 50/100
+Log files of the 25 conformers have been checked. Checking every 20 seconds. Attempt: 60/100
+Log files of the 25 conformers have been checked. Checking every 20 seconds. Attempt: 70/100
+Log files of the 25 conformers have been checked. Checking every 20 seconds. Attempt: 80/100
+Log files of the 25 conformers have been checked. Checking every 20 seconds. Attempt: 90/100
+Log files of the 25 conformers have been checked. Checking every 20 seconds. Attempt: 100/100
+
+JKTS restarted
+Detected molecules with current step: TS_opt_conf
+Checking convergence status of molecules
+Not all molecules given have converged. Non-converged will be calculated and converged ones will be skipped.
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 13370530 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Waiting 40 seconds before first check
+Job TS_opt_conf for CH2O_H1_conf10_TS with job id 13370530_1 is running.
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf10_TS with imaginary frequency: -119.4712 ******
+*********************************************************************************************************************
+
+Job TS_opt_conf for CH2O_H1_conf11_TS with job id 13370530_2 is running.
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf11_TS with imaginary frequency: -119.4738 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf12_TS with imaginary frequency: -119.4682 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf13_TS with imaginary frequency: -119.4714 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf15_TS with imaginary frequency: -119.4662 ******
+*********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf19_TS with imaginary frequency: -119.468 ******
+********************************************************************************************************************
+
+
+*******************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf1_TS with imaginary frequency: -119.463 ******
+*******************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf22_TS with imaginary frequency: -119.4707 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf23_TS with imaginary frequency: -119.4779 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf25_TS with imaginary frequency: -119.4699 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf26_TS with imaginary frequency: -119.4719 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf27_TS with imaginary frequency: -119.4671 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf28_TS with imaginary frequency: -119.4664 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf29_TS with imaginary frequency: -119.4604 ******
+*********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf2_TS with imaginary frequency: -119.4705 ******
+********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf32_TS with imaginary frequency: -119.4704 ******
+*********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf34_TS with imaginary frequency: -119.476 ******
+********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf4_TS with imaginary frequency: -119.4688 ******
+********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf5_TS with imaginary frequency: -119.4701 ******
+********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf6_TS with imaginary frequency: -119.4704 ******
+********************************************************************************************************************
+
+
+*******************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf7_TS with imaginary frequency: -119.463 ******
+*******************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf8_TS with imaginary frequency: -119.4703 ******
+********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for CH2O_H1_conf9_TS with imaginary frequency: -119.4809 ******
+********************************************************************************************************************
+
+Log files of the 25 conformers have been checked. Checking every 20 seconds. Attempt: 1/100
+Log files of the 25 conformers have been checked. Checking every 20 seconds. Attempt: 10/100
+Error termination found in CH2O_H1_conf21_TS. Trying to resubmit
+submitted file CH2O_H1_conf21_TS.com with job type: TS_opt_conf and job id 13370669 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Job TS_opt_conf for CH2O_H1_conf21_TS with job id 13370669 is running.
+Log files of the 25 conformers have been checked. Checking every 20 seconds. Attempt: 20/100
+!!! Dropping molecule conformer CH2O_H1_conf21_TS due to repeated error terminations!!!
+Convergence error 'l9999' termination found in CH2O_H1_conf14_TS
+Trying to resubmit job for CH2O_H1_conf14_TS due to error termination
+submitted file CH2O_H1_conf14_TS.com with job type: TS_opt_conf and job id 13370714 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Job TS_opt_conf for CH2O_H1_conf14_TS with job id 13370714 is running.
+Log files of the 24 conformers have been checked. Checking every 20 seconds. Attempt: 30/100
+Log files of the 24 conformers have been checked. Checking every 20 seconds. Attempt: 40/100
+Log files of the 24 conformers have been checked. Checking every 20 seconds. Attempt: 50/100
+Log files of the 24 conformers have been checked. Checking every 20 seconds. Attempt: 60/100
+Log files of the 24 conformers have been checked. Checking every 20 seconds. Attempt: 70/100
+Log files of the 24 conformers have been checked. Checking every 20 seconds. Attempt: 80/100
+Log files of the 24 conformers have been checked. Checking every 20 seconds. Attempt: 90/100
+Log files of the 24 conformers have been checked. Checking every 20 seconds. Attempt: 100/100
+
+JKTS restarted
+Detected molecules with current step: TS_opt_conf
+Checking convergence status of molecules
+All molecules converged for step TS_opt_conf. Proceeding with next step: DLPNO
+Job to be performed: DLPNO
+Submitted SLURM array job with job id 13571253 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/CH2O_H1
+Waiting 40 seconds before first check
+Job DLPNO for CH2O_H1_conf10_DLPNO with job id 13571253_1 is running.
+Job DLPNO for CH2O_H1_conf11_DLPNO with job id 13571253_2 is running.
+Job DLPNO for CH2O_H1_conf12_DLPNO with job id 13571253_3 is running.
+Job DLPNO for CH2O_H1_conf13_DLPNO with job id 13571253_4 is running.
+Job DLPNO for CH2O_H1_conf15_DLPNO with job id 13571253_5 is running.
+Job DLPNO for CH2O_H1_conf19_DLPNO with job id 13571253_6 is running.
+Job DLPNO for CH2O_H1_conf1_DLPNO with job id 13571253_7 is running.
+Job DLPNO for CH2O_H1_conf22_DLPNO with job id 13571253_8 is running.
+Job DLPNO for CH2O_H1_conf23_DLPNO with job id 13571253_9 is running.
+Job DLPNO for CH2O_H1_conf25_DLPNO with job id 13571253_10 is running.
+Job DLPNO for CH2O_H1_conf26_DLPNO with job id 13571253_11 is running.
+Job DLPNO for CH2O_H1_conf27_DLPNO with job id 13571253_12 is running.
+Job DLPNO for CH2O_H1_conf28_DLPNO with job id 13571253_13 is running.
+Job DLPNO for CH2O_H1_conf29_DLPNO with job id 13571253_14 is running.
+Job DLPNO for CH2O_H1_conf2_DLPNO with job id 13571253_15 is running.
+Job DLPNO for CH2O_H1_conf32_DLPNO with job id 13571253_16 is running.
+Job DLPNO for CH2O_H1_conf34_DLPNO with job id 13571253_17 is running.
+Job DLPNO for CH2O_H1_conf4_DLPNO with job id 13571253_18 is running.
+Job DLPNO for CH2O_H1_conf5_DLPNO with job id 13571253_19 is running.
+Job DLPNO for CH2O_H1_conf6_DLPNO with job id 13571253_20 is running.
+Job DLPNO for CH2O_H1_conf7_DLPNO with job id 13571253_21 is running.
+Job DLPNO for CH2O_H1_conf8_DLPNO with job id 13571253_22 is running.
+Job DLPNO for CH2O_H1_conf9_DLPNO with job id 13571253_23 is running.
+Log files of the 23 conformers have been checked. Checking every 20 seconds. Attempt: 1/100
+***CH2O_H1_conf10_DLPNO converged***
+***CH2O_H1_conf34_DLPNO converged***
+***CH2O_H1_conf11_DLPNO converged***
+***CH2O_H1_conf12_DLPNO converged***
+***CH2O_H1_conf13_DLPNO converged***
+***CH2O_H1_conf15_DLPNO converged***
+***CH2O_H1_conf19_DLPNO converged***
+***CH2O_H1_conf1_DLPNO converged***
+***CH2O_H1_conf22_DLPNO converged***
+***CH2O_H1_conf23_DLPNO converged***
+***CH2O_H1_conf25_DLPNO converged***
+***CH2O_H1_conf26_DLPNO converged***
+***CH2O_H1_conf27_DLPNO converged***
+***CH2O_H1_conf28_DLPNO converged***
+***CH2O_H1_conf29_DLPNO converged***
+***CH2O_H1_conf2_DLPNO converged***
+***CH2O_H1_conf32_DLPNO converged***
+***CH2O_H1_conf4_DLPNO converged***
+***CH2O_H1_conf5_DLPNO converged***
+***CH2O_H1_conf6_DLPNO converged***
+***CH2O_H1_conf9_DLPNO converged***
+***CH2O_H1_conf7_DLPNO converged***
+***CH2O_H1_conf8_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_CH2O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/products/Final_products_CH2O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/C=O/reactants/Final_reactants_CH2O.pkl

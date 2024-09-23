@@ -1,0 +1,75 @@
+Molecule: CH2O_product_H1_conf1_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C=O/products
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C=O/products/CH2O_product_H1_conf1_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: True
+Multiplicity: 2
+Charge: 0
+Dipole Moment: None
+Workflow: ['crest_sampling', 'optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -113.691133735246
+Zero Point Correction: None
+Gibbs free energy: None
+Partition Function: None
+Vibrational Frequencies: []
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.062216  0.585397 -0.000000
+  O   0.062216 -0.590439  0.000000
+  H  -0.871026  1.211130 -0.000000
+-----------------------------------------------------------------------
+Molecule: CH2O_product_H2_conf1_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C=O/products
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C=O/products/CH2O_product_H2_conf1_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: True
+Multiplicity: 2
+Charge: 0
+Dipole Moment: None
+Workflow: ['crest_sampling', 'optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -113.691133735246
+Zero Point Correction: None
+Gibbs free energy: None
+Partition Function: None
+Vibrational Frequencies: []
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.062216  0.585397  0.000000
+  O   0.062216 -0.590439  0.000000
+  H  -0.871026  1.211130  0.000000
+-----------------------------------------------------------------------
+Molecule: CH2O_product_H1_conf1_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C=O/products/CH2O_product_H1_conf1.log
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C=O/products
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C=O/products/CH2O_product_H1_conf1_DLPNO.out
+Program: ORCA
+Reactant: False
+Product: True
+Multiplicity: 2
+Charge: 0
+Dipole Moment: None
+Workflow: ['crest_sampling', 'optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -113.691133735249
+Zero Point Correction: None
+Gibbs free energy: None
+Partition Function: None
+Vibrational Frequencies: []
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C   0.062216  0.585397 -0.000000
+  O   0.062216 -0.590439  0.000000
+  H  -0.871026  1.211130 -0.000000
+-----------------------------------------------------------------------

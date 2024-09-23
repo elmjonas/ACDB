@@ -1,0 +1,9 @@
+0.9119691478328624 0.9226902815996529 0.9851268463067042 0.8495325831258111
+Traceback (most recent call last):
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1921, in <module>
+    main()
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1903, in main
+    k, kappa = rate_constant(global_molecules, final_reactants, final_products)
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1473, in rate_constant
+    lowest_ZP_reactant_J = float64(lowest_reactant.zero_point_corrected * HtoJ)
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'float'

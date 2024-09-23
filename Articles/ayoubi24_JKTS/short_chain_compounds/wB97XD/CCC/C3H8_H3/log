@@ -1,0 +1,483 @@
+Job to be performed: opt_constrain
+Submitting file C3H8_H3.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3 with job id 12747385
+Waiting 500 seconds before first check
+Job opt_constrain for C3H8_H3 with job id 12747385 is running.
+Log files of the 1 conformers have been checked. Checking every 276 seconds. Attempt: 1/100
+***C3H8_H3 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C3H8_H3_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3 with job id 12748970
+Waiting 500 seconds before first check
+Job 12748970 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt for C3H8_H3_TS with job id 12748970 is running.
+Log files of the 1 conformers have been checked. Checking every 369 seconds. Attempt: 1/100
+
+**************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_TS with imaginary frequency: -166.0343 ******
+**************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file C3H8_H3_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3 with job id 12765927
+Waiting 500 seconds before first check
+Job 12765927 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+
+**************************************************
+****** 122 conformers generated for C3H8_H3 ******
+**************************************************
+
+CREST conformers generated. Proceeding with next step: opt_constrain_conf
+Job to be performed: opt_constrain_conf
+Filtering molecules using ArbAlign algorithm
+Filtered 122 conformers to 42 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12766904 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+Waiting 500 seconds before first check
+Job opt_constrain_conf for C3H8_H3_conf1 with job id 12766904_1 is running.
+Job opt_constrain_conf for C3H8_H3_conf2 with job id 12766904_2 is running.
+Job opt_constrain_conf for C3H8_H3_conf5 with job id 12766904_3 is running.
+Job opt_constrain_conf for C3H8_H3_conf9 with job id 12766904_4 is running.
+Job opt_constrain_conf for C3H8_H3_conf12 with job id 12766904_5 is running.
+Job opt_constrain_conf for C3H8_H3_conf13 with job id 12766904_6 is running.
+Job opt_constrain_conf for C3H8_H3_conf16 with job id 12766904_7 is running.
+Job opt_constrain_conf for C3H8_H3_conf20 with job id 12766904_8 is running.
+Job opt_constrain_conf for C3H8_H3_conf23 with job id 12766904_9 is running.
+Job opt_constrain_conf for C3H8_H3_conf27 with job id 12766904_10 is running.
+Job opt_constrain_conf for C3H8_H3_conf30 with job id 12766904_11 is running.
+Job opt_constrain_conf for C3H8_H3_conf33 with job id 12766904_12 is running.
+Job opt_constrain_conf for C3H8_H3_conf39 with job id 12766904_13 is running.
+Job opt_constrain_conf for C3H8_H3_conf40 with job id 12766904_14 is running.
+Job opt_constrain_conf for C3H8_H3_conf44 with job id 12766904_15 is running.
+Job opt_constrain_conf for C3H8_H3_conf49 with job id 12766904_16 is running.
+Job opt_constrain_conf for C3H8_H3_conf56 with job id 12766904_17 is running.
+Job opt_constrain_conf for C3H8_H3_conf54 with job id 12766904_18 is running.
+Job opt_constrain_conf for C3H8_H3_conf59 with job id 12766904_19 is running.
+Job opt_constrain_conf for C3H8_H3_conf65 with job id 12766904_20 is running.
+Job opt_constrain_conf for C3H8_H3_conf69 with job id 12766904_21 is running.
+Job opt_constrain_conf for C3H8_H3_conf71 with job id 12766904_22 is running.
+Job opt_constrain_conf for C3H8_H3_conf73 with job id 12766904_23 is running.
+Job opt_constrain_conf for C3H8_H3_conf78 with job id 12766904_24 is running.
+Job opt_constrain_conf for C3H8_H3_conf84 with job id 12766904_25 is running.
+Job opt_constrain_conf for C3H8_H3_conf86 with job id 12766904_26 is running.
+Job opt_constrain_conf for C3H8_H3_conf90 with job id 12766904_27 is running.
+Job opt_constrain_conf for C3H8_H3_conf92 with job id 12766904_28 is running.
+Job 12766904_29 is pending in the queue.
+Job 12766904_30 is pending in the queue.
+Job 12766904_31 is pending in the queue.
+Job 12766904_32 is pending in the queue.
+Job 12766904_33 is pending in the queue.
+Job 12766904_34 is pending in the queue.
+Job 12766904_35 is pending in the queue.
+Job 12766904_36 is pending in the queue.
+Job 12766904_37 is pending in the queue.
+Job 12766904_38 is pending in the queue.
+Job 12766904_39 is pending in the queue.
+Job 12766904_40 is pending in the queue.
+Job 12766904_41 is pending in the queue.
+Job 12766904_42 is pending in the queue.
+Log files of the 42 conformers have been checked. Checking every 461 seconds. Attempt: 1/100
+***C3H8_H3_conf1 converged***
+***C3H8_H3_conf2 converged***
+***C3H8_H3_conf5 converged***
+***C3H8_H3_conf9 converged***
+***C3H8_H3_conf12 converged***
+***C3H8_H3_conf13 converged***
+***C3H8_H3_conf16 converged***
+***C3H8_H3_conf20 converged***
+***C3H8_H3_conf23 converged***
+***C3H8_H3_conf27 converged***
+***C3H8_H3_conf30 converged***
+***C3H8_H3_conf33 converged***
+***C3H8_H3_conf39 converged***
+***C3H8_H3_conf40 converged***
+***C3H8_H3_conf44 converged***
+***C3H8_H3_conf49 converged***
+***C3H8_H3_conf56 converged***
+***C3H8_H3_conf54 converged***
+***C3H8_H3_conf59 converged***
+***C3H8_H3_conf65 converged***
+***C3H8_H3_conf69 converged***
+***C3H8_H3_conf73 converged***
+***C3H8_H3_conf78 converged***
+***C3H8_H3_conf84 converged***
+***C3H8_H3_conf86 converged***
+***C3H8_H3_conf90 converged***
+***C3H8_H3_conf92 converged***
+***C3H8_H3_conf94 converged***
+***C3H8_H3_conf95 converged***
+***C3H8_H3_conf99 converged***
+***C3H8_H3_conf103 converged***
+Job opt_constrain_conf for C3H8_H3_conf102 with job id 12766904_33 is running.
+***C3H8_H3_conf102 converged***
+***C3H8_H3_conf105 converged***
+***C3H8_H3_conf109 converged***
+***C3H8_H3_conf114 converged***
+***C3H8_H3_conf115 converged***
+***C3H8_H3_conf117 converged***
+***C3H8_H3_conf118 converged***
+***C3H8_H3_conf120 converged***
+***C3H8_H3_conf121 converged***
+Job opt_constrain_conf for C3H8_H3_conf122 with job id 12766904_42 is running.
+***C3H8_H3_conf122 converged***
+***C3H8_H3_conf71 converged***
+
+**************************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain_conf. ******
+**************************************************************************************
+
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 12768319 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+Waiting 500 seconds before first check
+Job 12768319_1 is pending in the queue.
+Job 12768319_2 is pending in the queue.
+Job 12768319_3 is pending in the queue.
+Job 12768319_4 is pending in the queue.
+Job 12768319_5 is pending in the queue.
+Job 12768319_6 is pending in the queue.
+Job 12768319_7 is pending in the queue.
+Job 12768319_8 is pending in the queue.
+Job 12768319_9 is pending in the queue.
+Job 12768319_10 is pending in the queue.
+Job 12768319_11 is pending in the queue.
+Job 12768319_12 is pending in the queue.
+Job 12768319_13 is pending in the queue.
+Job 12768319_14 is pending in the queue.
+Job 12768319_15 is pending in the queue.
+Job 12768319_16 is pending in the queue.
+Job 12768319_17 is pending in the queue.
+Job 12768319_18 is pending in the queue.
+Job 12768319_19 is pending in the queue.
+Job 12768319_20 is pending in the queue.
+Job 12768319_21 is pending in the queue.
+Job 12768319_22 is pending in the queue.
+Job 12768319_23 is pending in the queue.
+Job 12768319_24 is pending in the queue.
+Job 12768319_25 is pending in the queue.
+Job 12768319_26 is pending in the queue.
+Job 12768319_27 is pending in the queue.
+Job 12768319_28 is pending in the queue.
+Job 12768319_29 is pending in the queue.
+Job 12768319_30 is pending in the queue.
+Job 12768319_31 is pending in the queue.
+Job 12768319_32 is pending in the queue.
+Job 12768319_33 is pending in the queue.
+Job 12768319_34 is pending in the queue.
+Job 12768319_35 is pending in the queue.
+Job 12768319_36 is pending in the queue.
+Job 12768319_37 is pending in the queue.
+Job 12768319_38 is pending in the queue.
+Job 12768319_39 is pending in the queue.
+Job 12768319_40 is pending in the queue.
+Job 12768319_41 is pending in the queue.
+Job 12768319_42 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt_conf for C3H8_H3_conf1_TS with job id 12768319_1 is running.
+Job TS_opt_conf for C3H8_H3_conf2_TS with job id 12768319_2 is running.
+Job TS_opt_conf for C3H8_H3_conf5_TS with job id 12768319_3 is running.
+Job TS_opt_conf for C3H8_H3_conf9_TS with job id 12768319_4 is running.
+Job TS_opt_conf for C3H8_H3_conf12_TS with job id 12768319_5 is running.
+Job TS_opt_conf for C3H8_H3_conf13_TS with job id 12768319_6 is running.
+Job TS_opt_conf for C3H8_H3_conf16_TS with job id 12768319_7 is running.
+Job TS_opt_conf for C3H8_H3_conf20_TS with job id 12768319_8 is running.
+Job TS_opt_conf for C3H8_H3_conf23_TS with job id 12768319_9 is running.
+Job TS_opt_conf for C3H8_H3_conf27_TS with job id 12768319_10 is running.
+Job TS_opt_conf for C3H8_H3_conf30_TS with job id 12768319_11 is running.
+Job TS_opt_conf for C3H8_H3_conf33_TS with job id 12768319_12 is running.
+Job TS_opt_conf for C3H8_H3_conf39_TS with job id 12768319_13 is running.
+Job TS_opt_conf for C3H8_H3_conf40_TS with job id 12768319_14 is running.
+Job TS_opt_conf for C3H8_H3_conf44_TS with job id 12768319_15 is running.
+Job TS_opt_conf for C3H8_H3_conf49_TS with job id 12768319_16 is running.
+Job TS_opt_conf for C3H8_H3_conf56_TS with job id 12768319_17 is running.
+Job TS_opt_conf for C3H8_H3_conf54_TS with job id 12768319_18 is running.
+Job TS_opt_conf for C3H8_H3_conf59_TS with job id 12768319_19 is running.
+Job TS_opt_conf for C3H8_H3_conf65_TS with job id 12768319_20 is running.
+Job TS_opt_conf for C3H8_H3_conf69_TS with job id 12768319_21 is running.
+Job TS_opt_conf for C3H8_H3_conf71_TS with job id 12768319_22 is running.
+Job TS_opt_conf for C3H8_H3_conf73_TS with job id 12768319_23 is running.
+Job TS_opt_conf for C3H8_H3_conf78_TS with job id 12768319_24 is running.
+Job TS_opt_conf for C3H8_H3_conf84_TS with job id 12768319_25 is running.
+Job TS_opt_conf for C3H8_H3_conf86_TS with job id 12768319_26 is running.
+Job TS_opt_conf for C3H8_H3_conf90_TS with job id 12768319_27 is running.
+Job TS_opt_conf for C3H8_H3_conf92_TS with job id 12768319_28 is running.
+Job TS_opt_conf for C3H8_H3_conf94_TS with job id 12768319_29 is running.
+Job TS_opt_conf for C3H8_H3_conf95_TS with job id 12768319_30 is running.
+Job TS_opt_conf for C3H8_H3_conf99_TS with job id 12768319_31 is running.
+Job TS_opt_conf for C3H8_H3_conf103_TS with job id 12768319_32 is running.
+Log files of the 42 conformers have been checked. Checking every 461 seconds. Attempt: 1/100
+Job TS_opt_conf for C3H8_H3_conf102_TS with job id 12768319_33 is running.
+Job TS_opt_conf for C3H8_H3_conf105_TS with job id 12768319_34 is running.
+Job TS_opt_conf for C3H8_H3_conf109_TS with job id 12768319_35 is running.
+Job TS_opt_conf for C3H8_H3_conf114_TS with job id 12768319_36 is running.
+Job TS_opt_conf for C3H8_H3_conf115_TS with job id 12768319_37 is running.
+Job TS_opt_conf for C3H8_H3_conf117_TS with job id 12768319_38 is running.
+Job TS_opt_conf for C3H8_H3_conf118_TS with job id 12768319_39 is running.
+Job TS_opt_conf for C3H8_H3_conf120_TS with job id 12768319_40 is running.
+Job TS_opt_conf for C3H8_H3_conf121_TS with job id 12768319_41 is running.
+Job TS_opt_conf for C3H8_H3_conf122_TS with job id 12768319_42 is running.
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf1_TS with imaginary frequency: -234.1464 ******
+********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf39_TS with imaginary frequency: -234.1361 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf54_TS with imaginary frequency: -166.0309 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf94_TS with imaginary frequency: -234.1475 ******
+*********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf102_TS with imaginary frequency: -166.0331 ******
+**********************************************************************************************************************
+
+Error termination found in C3H8_H3_conf2_TS. Trying to resubmit
+submitted file C3H8_H3_conf2_TS.com with job type: TS_opt_conf and job id 12777257 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+Error termination found in C3H8_H3_conf5_TS. Trying to resubmit
+submitted file C3H8_H3_conf5_TS.com with job type: TS_opt_conf and job id 12777338 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf9_TS with imaginary frequency: -215.3883 ******
+********************************************************************************************************************
+
+Error termination found in C3H8_H3_conf12_TS. Trying to resubmit
+submitted file C3H8_H3_conf12_TS.com with job type: TS_opt_conf and job id 12777453 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf13_TS with imaginary frequency: -166.0353 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf16_TS with imaginary frequency: -166.0374 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf20_TS with imaginary frequency: -166.0251 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf23_TS with imaginary frequency: -166.0329 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf27_TS with imaginary frequency: -215.3893 ******
+*********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf30_TS with imaginary frequency: -166.032 ******
+********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf33_TS with imaginary frequency: -215.3876 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf40_TS with imaginary frequency: -166.0312 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf44_TS with imaginary frequency: -166.0477 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf49_TS with imaginary frequency: -166.0323 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf56_TS with imaginary frequency: -215.3822 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf59_TS with imaginary frequency: -215.3883 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf65_TS with imaginary frequency: -215.3846 ******
+*********************************************************************************************************************
+
+
+********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf69_TS with imaginary frequency: -166.032 ******
+********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf71_TS with imaginary frequency: -166.0338 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf73_TS with imaginary frequency: -215.3891 ******
+*********************************************************************************************************************
+
+Error termination found in C3H8_H3_conf78_TS. Trying to resubmit
+submitted file C3H8_H3_conf78_TS.com with job type: TS_opt_conf and job id 12777639 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf84_TS with imaginary frequency: -215.3804 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf86_TS with imaginary frequency: -166.0314 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf90_TS with imaginary frequency: -166.0311 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf92_TS with imaginary frequency: -215.3866 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf95_TS with imaginary frequency: -215.3818 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf99_TS with imaginary frequency: -166.0349 ******
+*********************************************************************************************************************
+
+Error termination found in C3H8_H3_conf103_TS. Trying to resubmit
+submitted file C3H8_H3_conf103_TS.com with job type: TS_opt_conf and job id 12777673 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+Error termination found in C3H8_H3_conf105_TS. Trying to resubmit
+submitted file C3H8_H3_conf105_TS.com with job type: TS_opt_conf and job id 12777973 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf109_TS with imaginary frequency: -166.0353 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf114_TS with imaginary frequency: -166.0294 ******
+**********************************************************************************************************************
+
+Error termination found in C3H8_H3_conf115_TS. Trying to resubmit
+submitted file C3H8_H3_conf115_TS.com with job type: TS_opt_conf and job id 12778036 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf117_TS with imaginary frequency: -166.0332 ******
+**********************************************************************************************************************
+
+Error termination found in C3H8_H3_conf118_TS. Trying to resubmit
+submitted file C3H8_H3_conf118_TS.com with job type: TS_opt_conf and job id 12778088 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf120_TS with imaginary frequency: -215.3836 ******
+**********************************************************************************************************************
+
+Error termination found in C3H8_H3_conf121_TS. Trying to resubmit
+submitted file C3H8_H3_conf121_TS.com with job type: TS_opt_conf and job id 12778171 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8_H3_conf122_TS with imaginary frequency: -215.3856 ******
+**********************************************************************************************************************
+
+Job 12777257 is pending in the queue.
+Job 12777338 is pending in the queue.
+Job 12777453 is pending in the queue.
+Job 12777639 is pending in the queue.
+Job 12777673 is pending in the queue.
+Job 12777973 is pending in the queue.
+Job 12778036 is pending in the queue.
+Job 12778088 is pending in the queue.
+Job 12778171 is pending in the queue.
+!!! Dropping molecule conformer C3H8_H3_conf2_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8_H3_conf5_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8_H3_conf103_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8_H3_conf12_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8_H3_conf78_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8_H3_conf105_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8_H3_conf115_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8_H3_conf118_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8_H3_conf121_TS due to repeated error terminations!!!
+
+*******************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt_conf. ******
+*******************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 33 conformers to 2 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12793966 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/C3H8_H3
+Waiting 500 seconds before first check
+Job 12793966_1 is pending in the queue.
+Job 12793966_2 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job DLPNO for C3H8_H3_conf122_DLPNO with job id 12793966_1 is running.
+Job DLPNO for C3H8_H3_conf117_DLPNO with job id 12793966_2 is running.
+Log files of the 2 conformers have been checked. Checking every 304 seconds. Attempt: 1/100
+***C3H8_H3_conf122_DLPNO converged***
+***C3H8_H3_conf117_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8_H3.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/products/Final_products_C3H8_H3.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCC/reactants/Final_reactants_C3H8.pkl

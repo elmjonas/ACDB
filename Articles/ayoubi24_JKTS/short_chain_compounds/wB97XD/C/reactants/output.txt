@@ -1,0 +1,11 @@
+COMMAND: JKTS CH4_reactant_conf1.log -info
+COMMAND: JKTS OH.log
+COMMAND: JKTS OH.log -info
+JKTS *TS.log
+JKTS *TS.log -test
+JKTS *TS.log -test
+JKTS *TS.log -test
+JKTS CH4_reactant_conf1.log OH.log -test
+JKTS CH4_reactant_conf1.log
+JKTS CH4_reactant_conf1.log -info
+JKTS CH4_reactant_conf1.log OH.log -test

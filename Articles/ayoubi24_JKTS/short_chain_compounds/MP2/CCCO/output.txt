@@ -1,0 +1,13 @@
+COMMAND: JKTS -smiles CCCO -OH -time 168:00:00 -method MP2 -F12 -initial_delay 2000 -interval 500
+COMMAND: JKTS C3H8O_H4/Final_TS_C3H8O_H4.pkl reactants/Final_reactants_C3H8O.pkl -loc
+Ea: 52.4493 kcal/mol  k: 2.6099387226907258e-52  Eckart: 1  Wigner: 1
+2.6099387226907258e-52 cm^3 molecules^-1 s^-1    Tunneling coefficient 1
+JKTS C3H8O_H4/Final_TS_C3H8O_H4.pkl reactants/Final_reactants_C3H8O.pkl products/Final_products_C3H8O_H4.pkl -loc
+Ea: -1.0967 kcal/mol
+Ea_reverse: -22.9448 kcal/mol
+k_MCTST = 4.419808118001697e-13
+Eckart = 0.9534530601185945
+k_LCTST = 1.9195759169689655e-12
+Wigner = 2.5835937722754583
+Qratio: 2.88366649241748e-07
+4.419808118001697e-13 cm^3 molecules^-1 s^-1    Tunneling coefficient 0.9534530601185945  Wigner: 2.5835937722754583  Ea: -1.0966624762222636  Qratio: 2.88366649241748e-07

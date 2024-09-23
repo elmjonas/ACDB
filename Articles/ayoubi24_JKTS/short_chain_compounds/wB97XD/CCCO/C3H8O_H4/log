@@ -1,0 +1,785 @@
+Job to be performed: opt_constrain
+Submitting file C3H8O_H4.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4 with job id 12747378
+Waiting 500 seconds before first check
+Job opt_constrain for C3H8O_H4 with job id 12747378 is running.
+Log files of the 1 conformers have been checked. Checking every 438 seconds. Attempt: 1/100
+***C3H8O_H4 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C3H8O_H4_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4 with job id 12749002
+Waiting 500 seconds before first check
+Job 12749002 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt for C3H8O_H4_TS with job id 12749002 is running.
+Log files of the 1 conformers have been checked. Checking every 585 seconds. Attempt: 1/100
+
+***************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_TS with imaginary frequency: -200.0898 ******
+***************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file C3H8O_H4_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4 with job id 12765657
+Waiting 500 seconds before first check
+Job 12765657 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Not all files found. Retrying every 118 seconds.
+
+***************************************************
+****** 134 conformers generated for C3H8O_H4 ******
+***************************************************
+
+CREST conformers generated. Proceeding with next step: opt_constrain_conf
+Job to be performed: opt_constrain_conf
+Filtering molecules using ArbAlign algorithm
+Filtered 134 conformers to 78 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12767476 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+Waiting 500 seconds before first check
+Job 12767476_1 is pending in the queue.
+Job 12767476_2 is pending in the queue.
+Job 12767476_3 is pending in the queue.
+Job 12767476_4 is pending in the queue.
+Job 12767476_5 is pending in the queue.
+Job 12767476_6 is pending in the queue.
+Job 12767476_7 is pending in the queue.
+Job 12767476_8 is pending in the queue.
+Job 12767476_9 is pending in the queue.
+Job 12767476_10 is pending in the queue.
+Job 12767476_11 is pending in the queue.
+Job 12767476_12 is pending in the queue.
+Job 12767476_13 is pending in the queue.
+Job 12767476_14 is pending in the queue.
+Job 12767476_15 is pending in the queue.
+Job 12767476_16 is pending in the queue.
+Job 12767476_17 is pending in the queue.
+Job 12767476_18 is pending in the queue.
+Job 12767476_19 is pending in the queue.
+Job 12767476_20 is pending in the queue.
+Job 12767476_21 is pending in the queue.
+Job 12767476_22 is pending in the queue.
+Job 12767476_23 is pending in the queue.
+Job 12767476_24 is pending in the queue.
+Job 12767476_25 is pending in the queue.
+Job 12767476_26 is pending in the queue.
+Job 12767476_27 is pending in the queue.
+Job 12767476_28 is pending in the queue.
+Job 12767476_29 is pending in the queue.
+Job 12767476_30 is pending in the queue.
+Job 12767476_31 is pending in the queue.
+Job 12767476_32 is pending in the queue.
+Job 12767476_33 is pending in the queue.
+Job 12767476_34 is pending in the queue.
+Job 12767476_35 is pending in the queue.
+Job 12767476_36 is pending in the queue.
+Job 12767476_37 is pending in the queue.
+Job 12767476_38 is pending in the queue.
+Job 12767476_39 is pending in the queue.
+Job 12767476_40 is pending in the queue.
+Job 12767476_41 is pending in the queue.
+Job 12767476_42 is pending in the queue.
+Job 12767476_43 is pending in the queue.
+Job 12767476_44 is pending in the queue.
+Job 12767476_45 is pending in the queue.
+Job 12767476_46 is pending in the queue.
+Job 12767476_47 is pending in the queue.
+Job 12767476_48 is pending in the queue.
+Job 12767476_49 is pending in the queue.
+Job 12767476_50 is pending in the queue.
+Job 12767476_51 is pending in the queue.
+Job 12767476_52 is pending in the queue.
+Job 12767476_53 is pending in the queue.
+Job 12767476_54 is pending in the queue.
+Job 12767476_55 is pending in the queue.
+Job 12767476_56 is pending in the queue.
+Job 12767476_57 is pending in the queue.
+Job 12767476_58 is pending in the queue.
+Job 12767476_59 is pending in the queue.
+Job 12767476_60 is pending in the queue.
+Job 12767476_61 is pending in the queue.
+Job 12767476_62 is pending in the queue.
+Job 12767476_63 is pending in the queue.
+Job 12767476_64 is pending in the queue.
+Job 12767476_65 is pending in the queue.
+Job 12767476_66 is pending in the queue.
+Job 12767476_67 is pending in the queue.
+Job 12767476_68 is pending in the queue.
+Job 12767476_69 is pending in the queue.
+Job 12767476_70 is pending in the queue.
+Job 12767476_71 is pending in the queue.
+Job 12767476_72 is pending in the queue.
+Job 12767476_73 is pending in the queue.
+Job 12767476_74 is pending in the queue.
+Job 12767476_75 is pending in the queue.
+Job 12767476_76 is pending in the queue.
+Job 12767476_77 is pending in the queue.
+Job 12767476_78 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***C3H8O_H4_conf1 converged***
+***C3H8O_H4_conf2 converged***
+***C3H8O_H4_conf3 converged***
+***C3H8O_H4_conf5 converged***
+***C3H8O_H4_conf6 converged***
+***C3H8O_H4_conf9 converged***
+***C3H8O_H4_conf10 converged***
+***C3H8O_H4_conf11 converged***
+***C3H8O_H4_conf15 converged***
+***C3H8O_H4_conf16 converged***
+***C3H8O_H4_conf17 converged***
+***C3H8O_H4_conf21 converged***
+***C3H8O_H4_conf22 converged***
+***C3H8O_H4_conf24 converged***
+***C3H8O_H4_conf26 converged***
+***C3H8O_H4_conf28 converged***
+***C3H8O_H4_conf30 converged***
+***C3H8O_H4_conf32 converged***
+***C3H8O_H4_conf35 converged***
+***C3H8O_H4_conf36 converged***
+***C3H8O_H4_conf38 converged***
+***C3H8O_H4_conf39 converged***
+***C3H8O_H4_conf40 converged***
+***C3H8O_H4_conf41 converged***
+***C3H8O_H4_conf42 converged***
+***C3H8O_H4_conf44 converged***
+***C3H8O_H4_conf47 converged***
+***C3H8O_H4_conf48 converged***
+***C3H8O_H4_conf49 converged***
+***C3H8O_H4_conf51 converged***
+***C3H8O_H4_conf53 converged***
+***C3H8O_H4_conf54 converged***
+***C3H8O_H4_conf56 converged***
+***C3H8O_H4_conf57 converged***
+***C3H8O_H4_conf59 converged***
+***C3H8O_H4_conf61 converged***
+***C3H8O_H4_conf62 converged***
+***C3H8O_H4_conf63 converged***
+***C3H8O_H4_conf64 converged***
+***C3H8O_H4_conf65 converged***
+***C3H8O_H4_conf67 converged***
+***C3H8O_H4_conf68 converged***
+***C3H8O_H4_conf70 converged***
+***C3H8O_H4_conf72 converged***
+***C3H8O_H4_conf74 converged***
+***C3H8O_H4_conf75 converged***
+***C3H8O_H4_conf78 converged***
+***C3H8O_H4_conf80 converged***
+***C3H8O_H4_conf82 converged***
+***C3H8O_H4_conf83 converged***
+***C3H8O_H4_conf85 converged***
+***C3H8O_H4_conf88 converged***
+***C3H8O_H4_conf89 converged***
+***C3H8O_H4_conf90 converged***
+***C3H8O_H4_conf92 converged***
+***C3H8O_H4_conf93 converged***
+***C3H8O_H4_conf97 converged***
+***C3H8O_H4_conf96 converged***
+***C3H8O_H4_conf98 converged***
+***C3H8O_H4_conf100 converged***
+***C3H8O_H4_conf101 converged***
+***C3H8O_H4_conf105 converged***
+***C3H8O_H4_conf106 converged***
+Job opt_constrain_conf for C3H8O_H4_conf108 with job id 12767476_64 is running.
+***C3H8O_H4_conf108 converged***
+***C3H8O_H4_conf111 converged***
+***C3H8O_H4_conf114 converged***
+***C3H8O_H4_conf115 converged***
+***C3H8O_H4_conf116 converged***
+***C3H8O_H4_conf117 converged***
+***C3H8O_H4_conf120 converged***
+***C3H8O_H4_conf121 converged***
+***C3H8O_H4_conf124 converged***
+Job opt_constrain_conf for C3H8O_H4_conf125 with job id 12767476_73 is running.
+***C3H8O_H4_conf125 converged***
+***C3H8O_H4_conf126 converged***
+***C3H8O_H4_conf128 converged***
+***C3H8O_H4_conf130 converged***
+***C3H8O_H4_conf131 converged***
+Job opt_constrain_conf for C3H8O_H4_conf133 with job id 12767476_78 is running.
+***C3H8O_H4_conf133 converged***
+
+**************************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain_conf. ******
+**************************************************************************************
+
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 12776004 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+Waiting 500 seconds before first check
+Job 12776004_1 is pending in the queue.
+Job 12776004_2 is pending in the queue.
+Job 12776004_3 is pending in the queue.
+Job 12776004_4 is pending in the queue.
+Job 12776004_5 is pending in the queue.
+Job 12776004_6 is pending in the queue.
+Job 12776004_7 is pending in the queue.
+Job 12776004_8 is pending in the queue.
+Job 12776004_9 is pending in the queue.
+Job 12776004_10 is pending in the queue.
+Job 12776004_11 is pending in the queue.
+Job 12776004_12 is pending in the queue.
+Job 12776004_13 is pending in the queue.
+Job 12776004_14 is pending in the queue.
+Job 12776004_15 is pending in the queue.
+Job 12776004_16 is pending in the queue.
+Job 12776004_17 is pending in the queue.
+Job 12776004_18 is pending in the queue.
+Job 12776004_19 is pending in the queue.
+Job 12776004_20 is pending in the queue.
+Job 12776004_21 is pending in the queue.
+Job 12776004_22 is pending in the queue.
+Job 12776004_23 is pending in the queue.
+Job 12776004_24 is pending in the queue.
+Job 12776004_25 is pending in the queue.
+Job 12776004_26 is pending in the queue.
+Job 12776004_27 is pending in the queue.
+Job 12776004_28 is pending in the queue.
+Job 12776004_29 is pending in the queue.
+Job 12776004_30 is pending in the queue.
+Job 12776004_31 is pending in the queue.
+Job 12776004_32 is pending in the queue.
+Job 12776004_33 is pending in the queue.
+Job 12776004_34 is pending in the queue.
+Job 12776004_35 is pending in the queue.
+Job 12776004_36 is pending in the queue.
+Job 12776004_37 is pending in the queue.
+Job 12776004_38 is pending in the queue.
+Job 12776004_39 is pending in the queue.
+Job 12776004_40 is pending in the queue.
+Job 12776004_41 is pending in the queue.
+Job 12776004_42 is pending in the queue.
+Job 12776004_43 is pending in the queue.
+Job 12776004_44 is pending in the queue.
+Job 12776004_45 is pending in the queue.
+Job 12776004_46 is pending in the queue.
+Job 12776004_47 is pending in the queue.
+Job 12776004_48 is pending in the queue.
+Job 12776004_49 is pending in the queue.
+Job 12776004_50 is pending in the queue.
+Job 12776004_51 is pending in the queue.
+Job 12776004_52 is pending in the queue.
+Job 12776004_53 is pending in the queue.
+Job 12776004_54 is pending in the queue.
+Job 12776004_55 is pending in the queue.
+Job 12776004_56 is pending in the queue.
+Job 12776004_57 is pending in the queue.
+Job 12776004_58 is pending in the queue.
+Job 12776004_59 is pending in the queue.
+Job 12776004_60 is pending in the queue.
+Job 12776004_61 is pending in the queue.
+Job 12776004_62 is pending in the queue.
+Job 12776004_63 is pending in the queue.
+Job 12776004_64 is pending in the queue.
+Job 12776004_65 is pending in the queue.
+Job 12776004_66 is pending in the queue.
+Job 12776004_67 is pending in the queue.
+Job 12776004_68 is pending in the queue.
+Job 12776004_69 is pending in the queue.
+Job 12776004_70 is pending in the queue.
+Job 12776004_71 is pending in the queue.
+Job 12776004_72 is pending in the queue.
+Job 12776004_73 is pending in the queue.
+Job 12776004_74 is pending in the queue.
+Job 12776004_75 is pending in the queue.
+Job 12776004_76 is pending in the queue.
+Job 12776004_77 is pending in the queue.
+Job 12776004_78 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job TS_opt_conf for C3H8O_H4_conf1_TS with job id 12776004_1 is running.
+Job TS_opt_conf for C3H8O_H4_conf2_TS with job id 12776004_2 is running.
+Job TS_opt_conf for C3H8O_H4_conf3_TS with job id 12776004_3 is running.
+Job TS_opt_conf for C3H8O_H4_conf5_TS with job id 12776004_4 is running.
+Job TS_opt_conf for C3H8O_H4_conf6_TS with job id 12776004_5 is running.
+Job TS_opt_conf for C3H8O_H4_conf9_TS with job id 12776004_6 is running.
+Job TS_opt_conf for C3H8O_H4_conf10_TS with job id 12776004_7 is running.
+Job TS_opt_conf for C3H8O_H4_conf11_TS with job id 12776004_8 is running.
+Job TS_opt_conf for C3H8O_H4_conf15_TS with job id 12776004_9 is running.
+Job TS_opt_conf for C3H8O_H4_conf16_TS with job id 12776004_10 is running.
+Job TS_opt_conf for C3H8O_H4_conf17_TS with job id 12776004_11 is running.
+Job TS_opt_conf for C3H8O_H4_conf21_TS with job id 12776004_12 is running.
+Job TS_opt_conf for C3H8O_H4_conf22_TS with job id 12776004_13 is running.
+Job TS_opt_conf for C3H8O_H4_conf24_TS with job id 12776004_14 is running.
+Job TS_opt_conf for C3H8O_H4_conf26_TS with job id 12776004_15 is running.
+Job TS_opt_conf for C3H8O_H4_conf28_TS with job id 12776004_16 is running.
+Job TS_opt_conf for C3H8O_H4_conf30_TS with job id 12776004_17 is running.
+Job TS_opt_conf for C3H8O_H4_conf32_TS with job id 12776004_18 is running.
+Job TS_opt_conf for C3H8O_H4_conf35_TS with job id 12776004_19 is running.
+Job TS_opt_conf for C3H8O_H4_conf36_TS with job id 12776004_20 is running.
+Job TS_opt_conf for C3H8O_H4_conf38_TS with job id 12776004_21 is running.
+Job TS_opt_conf for C3H8O_H4_conf39_TS with job id 12776004_22 is running.
+Job TS_opt_conf for C3H8O_H4_conf40_TS with job id 12776004_23 is running.
+Job TS_opt_conf for C3H8O_H4_conf41_TS with job id 12776004_24 is running.
+Job TS_opt_conf for C3H8O_H4_conf42_TS with job id 12776004_25 is running.
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf1_TS with imaginary frequency: -105.7818 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf2_TS with imaginary frequency: -105.7766 ******
+*********************************************************************************************************************
+
+Error termination found in C3H8O_H4_conf6_TS. Trying to resubmit
+submitted file C3H8O_H4_conf6_TS.com with job type: TS_opt_conf and job id 12783380 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf9_TS with imaginary frequency: -122.4704 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf11_TS with imaginary frequency: -105.773 ******
+*********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf15_TS with imaginary frequency: -122.4849 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf16_TS with imaginary frequency: -105.7781 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf17_TS with imaginary frequency: -115.5252 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf21_TS with imaginary frequency: -105.7818 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf22_TS with imaginary frequency: -122.4637 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf24_TS with imaginary frequency: -115.5396 ******
+**********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf26_TS with imaginary frequency: -122.447 ******
+*********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf28_TS with imaginary frequency: -105.7765 ******
+**********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf30_TS with imaginary frequency: -115.522 ******
+*********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf32_TS with imaginary frequency: -122.4504 ******
+**********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf35_TS with imaginary frequency: -115.524 ******
+*********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf36_TS with imaginary frequency: -105.7736 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf39_TS with imaginary frequency: -105.7772 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf40_TS with imaginary frequency: -122.4698 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf42_TS with imaginary frequency: -122.4605 ******
+**********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf3_TS with imaginary frequency: -122.4636 ******
+*********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf5_TS with imaginary frequency: -115.5145 ******
+*********************************************************************************************************************
+
+Job 12783380 is pending in the queue.
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf10_TS with imaginary frequency: -115.5287 ******
+**********************************************************************************************************************
+
+Convergence error 'l9999' termination found in C3H8O_H4_conf41_TS
+Trying to resubmit job for C3H8O_H4_conf41_TS due to error termination
+submitted file C3H8O_H4_conf41_TS.com with job type: TS_opt_conf and job id 12785566 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+Convergence error 'l9999' termination found in C3H8O_H4_conf38_TS
+Trying to resubmit job for C3H8O_H4_conf38_TS due to error termination
+submitted file C3H8O_H4_conf38_TS.com with job type: TS_opt_conf and job id 12788141 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+Job 12785566 is pending in the queue.
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf44_TS with imaginary frequency: -105.792 ******
+*********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf47_TS with imaginary frequency: -115.5317 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf48_TS with imaginary frequency: -122.4567 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf49_TS with imaginary frequency: -105.7668 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf51_TS with imaginary frequency: -115.5406 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf53_TS with imaginary frequency: -122.4569 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf54_TS with imaginary frequency: -115.5189 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf56_TS with imaginary frequency: -122.4613 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf57_TS with imaginary frequency: -105.7736 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf59_TS with imaginary frequency: -115.5351 ******
+**********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf61_TS with imaginary frequency: -115.529 ******
+*********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf62_TS with imaginary frequency: -122.4575 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf63_TS with imaginary frequency: -105.7796 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf64_TS with imaginary frequency: -115.5317 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf65_TS with imaginary frequency: -229.5849 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf67_TS with imaginary frequency: -122.4641 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf68_TS with imaginary frequency: -229.5962 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf70_TS with imaginary frequency: -229.6148 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf72_TS with imaginary frequency: -229.5818 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf74_TS with imaginary frequency: -229.5928 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf75_TS with imaginary frequency: -209.0986 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf78_TS with imaginary frequency: -229.5859 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf80_TS with imaginary frequency: -209.1059 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf82_TS with imaginary frequency: -229.5925 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf83_TS with imaginary frequency: -209.1123 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf85_TS with imaginary frequency: -209.1007 ******
+**********************************************************************************************************************
+
+
+*********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf88_TS with imaginary frequency: -209.101 ******
+*********************************************************************************************************************
+
+Job TS_opt_conf for C3H8O_H4_conf89_TS with job id 12776004_53 is running.
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf89_TS with imaginary frequency: -229.5894 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf90_TS with imaginary frequency: -209.0986 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf92_TS with imaginary frequency: -229.5894 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf93_TS with imaginary frequency: -200.0924 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf97_TS with imaginary frequency: -209.0979 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf96_TS with imaginary frequency: -200.0788 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf98_TS with imaginary frequency: -229.5814 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf100_TS with imaginary frequency: -200.0772 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf101_TS with imaginary frequency: -209.1014 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf105_TS with imaginary frequency: -229.6026 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf106_TS with imaginary frequency: -209.1023 ******
+***********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf108_TS with imaginary frequency: -200.087 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf111_TS with imaginary frequency: -209.1077 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf114_TS with imaginary frequency: -200.0878 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf115_TS with imaginary frequency: -229.5943 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf116_TS with imaginary frequency: -200.0851 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf117_TS with imaginary frequency: -209.1128 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf120_TS with imaginary frequency: -200.0723 ******
+***********************************************************************************************************************
+
+Job TS_opt_conf for C3H8O_H4_conf121_TS with job id 12776004_71 is running.
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf124_TS with imaginary frequency: -200.0813 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf125_TS with imaginary frequency: -209.1081 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf126_TS with imaginary frequency: -200.0835 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf128_TS with imaginary frequency: -200.0787 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf130_TS with imaginary frequency: -200.0904 ******
+***********************************************************************************************************************
+
+Job TS_opt_conf for C3H8O_H4_conf131_TS with job id 12776004_77 is running.
+Error termination found in C3H8O_H4_conf131_TS. Trying to resubmit
+submitted file C3H8O_H4_conf131_TS.com with job type: TS_opt_conf and job id 12788985 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H4_conf133_TS with imaginary frequency: -200.0784 ******
+***********************************************************************************************************************
+
+Log files of the 78 conformers have been checked. Checking every 731 seconds. Attempt: 1/100
+Job 12788141 is pending in the queue.
+Convergence error 'l9999' termination found in C3H8O_H4_conf121_TS
+Trying to resubmit job for C3H8O_H4_conf121_TS due to error termination
+submitted file C3H8O_H4_conf121_TS.com with job type: TS_opt_conf and job id 12790334 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+Job 12788985 is pending in the queue.
+Job 12790334 is pending in the queue.
+Job TS_opt_conf for C3H8O_H4_conf6_TS with job id 12783380 is running.
+Job TS_opt_conf for C3H8O_H4_conf41_TS with job id 12785566 is running.
+!!! Dropping molecule conformer C3H8O_H4_conf6_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf41_TS due to repeated error terminations!!!
+Job TS_opt_conf for C3H8O_H4_conf38_TS with job id 12788141 is running.
+!!! Dropping molecule conformer C3H8O_H4_conf38_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf131_TS due to repeated error terminations!!!
+Log files of the 74 conformers have been checked. Checking every 731 seconds. Attempt: 10/100
+Job TS_opt_conf for C3H8O_H4_conf121_TS with job id 12790334 is running.
+!!! Dropping molecule conformer C3H8O_H4_conf121_TS due to repeated error terminations!!!
+
+*******************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt_conf. ******
+*******************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 73 conformers to 6 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12806463 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+Waiting 500 seconds before first check
+Job 12806463_1 is pending in the queue.
+Job 12806463_2 is pending in the queue.
+Job 12806463_3 is pending in the queue.
+Job 12806463_4 is pending in the queue.
+Job 12806463_5 is pending in the queue.
+Job 12806463_6 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Error termination was found in C3H8O_H4_conf49_DLPNO. Resubmitting
+submitted file C3H8O_H4_conf49_DLPNO.inp with job type: DLPNO and job id 12808366 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+Error termination was found in C3H8O_H4_conf67_DLPNO. Resubmitting
+submitted file C3H8O_H4_conf67_DLPNO.inp with job type: DLPNO and job id 12808377 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+Error termination was found in C3H8O_H4_conf54_DLPNO. Resubmitting
+submitted file C3H8O_H4_conf54_DLPNO.inp with job type: DLPNO and job id 12808382 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+Job DLPNO for C3H8O_H4_conf115_DLPNO with job id 12806463_4 is running.
+Job DLPNO for C3H8O_H4_conf125_DLPNO with job id 12806463_5 is running.
+Error termination was found in C3H8O_H4_conf100_DLPNO. Resubmitting
+submitted file C3H8O_H4_conf100_DLPNO.inp with job type: DLPNO and job id 12808547 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/C3H8O_H4
+Log files of the 6 conformers have been checked. Checking every 482 seconds. Attempt: 1/100
+Job 12808366 is pending in the queue.
+Job 12808377 is pending in the queue.
+Job 12808382 is pending in the queue.
+***C3H8O_H4_conf115_DLPNO converged***
+***C3H8O_H4_conf125_DLPNO converged***
+Job 12808547 is pending in the queue.
+!!! Dropping molecule conformer C3H8O_H4_conf54_DLPNO due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf49_DLPNO due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf67_DLPNO due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H4_conf100_DLPNO due to repeated error terminations!!!
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H4.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/products/Final_products_C3H8O_H4.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/wB97XD/CCCO/reactants/Final_reactants_C3H8O.pkl

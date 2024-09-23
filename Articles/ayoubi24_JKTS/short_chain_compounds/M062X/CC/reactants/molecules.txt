@@ -1,0 +1,54 @@
+Molecule: C2H6_reactant_conf1_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CC/reactants
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CC/reactants/C2H6_reactant_conf1_DLPNO.out
+Program: ORCA
+Reactant: True
+Product: False
+Multiplicity: 1
+Charge: 0
+Dipole Moment: 0.0
+Workflow: ['crest_sampling', 'optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -79.679695622433
+Zero Point Correction: 0.075266
+Gibbs free energy: -79.728178
+Partition Function: 43172879244.00473
+Vibrational Frequencies: [311.3357, 822.9791, 824.1231, 1023.7602, 1218.7925, 1219.2328, 1405.4155, 1436.2251, 1512.7366, 1512.821, 1513.0793, 1513.1564, 3071.8385, 3072.4071, 3133.6215, 3134.3865, 3155.7099, 3156.4395]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  C  -0.763774  0.000000 -0.000002
+  C   0.763774  0.000000  0.000002
+  H  -1.159885 -0.954151 -0.358783
+  H  -1.159890  0.166353  1.005707
+  H  -1.159894  0.787792 -0.646916
+  H   1.159894 -0.787791  0.646917
+  H   1.159886  0.954152  0.358781
+  H   1.159890 -0.166354 -1.005707
+-----------------------------------------------------------------------
+Molecule: OH_DLPNO
+Method: DLPNO-CCSD(T)
+File Path: None
+Directory: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CC/reactants
+Log File Path: /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/CC/reactants/OH_DLPNO.out
+Program: ORCA
+Reactant: True
+Product: False
+Multiplicity: 2
+Charge: 0
+Dipole Moment: 1.8802
+Workflow: ['optimization', 'DLPNO']
+Constrained Indexes: {}
+Electronic Energy: -75.645452307868
+Zero Point Correction: 0.008609
+Gibbs free energy: -75.710171
+Partition Function: 93564335.51635917
+Vibrational Frequencies: [3778.8629]
+Current Step: DLPNO
+Next Step: None
+Atoms and Coordinates:
+  O   0.000000  0.000000  0.108433
+  H   0.000000  0.000000 -0.867461
+-----------------------------------------------------------------------

@@ -1,0 +1,56 @@
+Job to be performed: crest_sampling
+Submitting file C3H8_reactant_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCC/reactants with job id 12763475
+Waiting 2000 seconds before first check
+Job 12763475 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+
+******************************************************
+****** 2 conformers generated for C3H8_reactant ******
+******************************************************
+
+CREST conformers generated. Proceeding with next step: optimization
+Job to be performed: optimization
+Submitted SLURM array job with job id 12765852 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCC/reactants
+Waiting 2000 seconds before first check
+***C3H8_reactant_conf1 converged***
+***C3H8_reactant_conf2 converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 2 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitting file C3H8_reactant_conf2_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCC/reactants with job id 12766654
+Waiting 2000 seconds before first check
+***C3H8_reactant_conf2_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Submitting file OH.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCC/reactants with job id 12768038
+Waiting 2000 seconds before first check
+Job 12768038 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***OH converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 1 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitting file OH_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/MP2/CCC/reactants with job id 12776354
+Waiting 2000 seconds before first check
+Job 12776354 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***OH_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for reactants is done. Logging molecules to Final_reactants_C3H8.pkl

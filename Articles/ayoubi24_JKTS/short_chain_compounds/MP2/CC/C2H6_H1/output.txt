@@ -1,0 +1,6 @@
+COMMAND: JKTS C2H6_H1_conf1_TS.log -test
+COMMAND: JKTS C2H6_H1_conf1_TS.log -test
+COMMAND: JKTS C2H6_H1_conf1_TS.log -test
+COMMAND: JKTS C2H6_H1_TS.log -restart -method MP2 -F12 -basis_set aug-cc-pVTZ
+COMMAND: JKTS C2H6_H1_TS.log -test
+COMMAND: JKTS C2H6_H1_TS.log -test

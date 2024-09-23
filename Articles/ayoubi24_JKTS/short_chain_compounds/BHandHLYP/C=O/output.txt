@@ -1,0 +1,11 @@
+COMMAND: JKTS -smiles C=O -OH -time 48:00:00 -method BHandHLYP -initial_delay 500
+COMMAND: JKTS -smiles C=O -OH -num_molecules 1 -products false -reactants false -method BHandHLYP -time 96:00:00
+COMMAND: JKTS -smiles C=O -OH -method BHandHLYP -time 72:00:00 -transition_states false
+COMMAND: JKTS -smiles C=O -OH -method BHandHLYP -time 72:00:00 -TS false -reactants false
+JKTS -smiles C=O -OH -num_molecules 1 -products false -reactants false -method BHandHLYP -time 24:00:00 -cpu 16
+JKTS -smiles C=O -OH -num_molecules 1 -products false -reactants false -method BHandHLYP -time 24:00:00 -cpu 16
+JKTS -smiles C=O -OH -num_molecules 1 -products false -reactants false -method BHandHLYP -time 24:00:00 -cpu 16
+JKTS Final_*
+JKTS Final_* -loc
+File type  is not supported
+JKTS MC-TST_Eckart.txt

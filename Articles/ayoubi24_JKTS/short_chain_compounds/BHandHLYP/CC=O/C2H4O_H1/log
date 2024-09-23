@@ -1,0 +1,241 @@
+Job to be performed: opt_constrain
+Submitting file C2H4O_H1.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/C2H4O_H1 with job id 12763678
+Waiting 500 seconds before first check
+Job 12763678 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***C2H4O_H1 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C2H4O_H1_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/C2H4O_H1 with job id 12767311
+Waiting 500 seconds before first check
+
+****************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_TS with imaginary frequency: -1784.3384 ******
+****************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file C2H4O_H1_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/C2H4O_H1 with job id 12769267
+Waiting 500 seconds before first check
+Job 12769267 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+
+**************************************************
+****** 24 conformers generated for C2H4O_H1 ******
+**************************************************
+
+CREST conformers generated. Proceeding with next step: opt_constrain_conf
+Job to be performed: opt_constrain_conf
+Filtering molecules using ArbAlign algorithm
+Filtered 24 conformers to 17 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12777617 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/C2H4O_H1
+Waiting 500 seconds before first check
+Job 12777617_1 is pending in the queue.
+Job 12777617_2 is pending in the queue.
+Job 12777617_3 is pending in the queue.
+Job 12777617_4 is pending in the queue.
+Job 12777617_5 is pending in the queue.
+Job 12777617_6 is pending in the queue.
+Job 12777617_7 is pending in the queue.
+Job 12777617_8 is pending in the queue.
+Job 12777617_9 is pending in the queue.
+Job 12777617_10 is pending in the queue.
+Job 12777617_11 is pending in the queue.
+Job 12777617_12 is pending in the queue.
+Job 12777617_13 is pending in the queue.
+Job 12777617_14 is pending in the queue.
+Job 12777617_15 is pending in the queue.
+Job 12777617_16 is pending in the queue.
+Job 12777617_17 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+Job opt_constrain_conf for C2H4O_H1_conf1 with job id 12777617_1 is running.
+Job opt_constrain_conf for C2H4O_H1_conf2 with job id 12777617_2 is running.
+Job opt_constrain_conf for C2H4O_H1_conf4 with job id 12777617_3 is running.
+Job opt_constrain_conf for C2H4O_H1_conf6 with job id 12777617_4 is running.
+Job opt_constrain_conf for C2H4O_H1_conf7 with job id 12777617_5 is running.
+Job opt_constrain_conf for C2H4O_H1_conf8 with job id 12777617_6 is running.
+Job opt_constrain_conf for C2H4O_H1_conf9 with job id 12777617_7 is running.
+Job opt_constrain_conf for C2H4O_H1_conf11 with job id 12777617_8 is running.
+Log files of the 17 conformers have been checked. Checking every 461 seconds. Attempt: 1/100
+***C2H4O_H1_conf1 converged***
+***C2H4O_H1_conf2 converged***
+***C2H4O_H1_conf4 converged***
+***C2H4O_H1_conf6 converged***
+***C2H4O_H1_conf7 converged***
+***C2H4O_H1_conf8 converged***
+***C2H4O_H1_conf9 converged***
+***C2H4O_H1_conf11 converged***
+***C2H4O_H1_conf12 converged***
+***C2H4O_H1_conf14 converged***
+***C2H4O_H1_conf16 converged***
+***C2H4O_H1_conf18 converged***
+***C2H4O_H1_conf19 converged***
+***C2H4O_H1_conf20 converged***
+***C2H4O_H1_conf21 converged***
+***C2H4O_H1_conf23 converged***
+***C2H4O_H1_conf24 converged***
+
+**************************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain_conf. ******
+**************************************************************************************
+
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 12789824 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/C2H4O_H1
+Waiting 500 seconds before first check
+Job 12789824_1 is pending in the queue.
+Job 12789824_2 is pending in the queue.
+Job 12789824_3 is pending in the queue.
+Job 12789824_4 is pending in the queue.
+Job 12789824_5 is pending in the queue.
+Job 12789824_6 is pending in the queue.
+Job 12789824_7 is pending in the queue.
+Job 12789824_8 is pending in the queue.
+Job 12789824_9 is pending in the queue.
+Job 12789824_10 is pending in the queue.
+Job 12789824_11 is pending in the queue.
+Job 12789824_12 is pending in the queue.
+Job 12789824_13 is pending in the queue.
+Job 12789824_14 is pending in the queue.
+Job 12789824_15 is pending in the queue.
+Job 12789824_16 is pending in the queue.
+Job 12789824_17 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf1_TS with imaginary frequency: -1784.3282 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf2_TS with imaginary frequency: -1784.3375 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf4_TS with imaginary frequency: -1784.3403 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf6_TS with imaginary frequency: -1784.3337 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf7_TS with imaginary frequency: -1784.3418 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf8_TS with imaginary frequency: -1784.3382 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf9_TS with imaginary frequency: -1784.3289 ******
+**********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf11_TS with imaginary frequency: -1784.3354 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf12_TS with imaginary frequency: -1784.3411 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf14_TS with imaginary frequency: -1784.3375 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf16_TS with imaginary frequency: -1784.3377 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf18_TS with imaginary frequency: -1784.3073 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf19_TS with imaginary frequency: -1784.3161 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf20_TS with imaginary frequency: -1784.3182 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf21_TS with imaginary frequency: -1784.3078 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf23_TS with imaginary frequency: -1784.3219 ******
+***********************************************************************************************************************
+
+
+***********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C2H4O_H1_conf24_TS with imaginary frequency: -1784.3228 ******
+***********************************************************************************************************************
+
+
+*******************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt_conf. ******
+*******************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 17 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitting file C2H4O_H1_conf24_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/C2H4O_H1 with job id 12806262
+Waiting 500 seconds before first check
+Job 12806262 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***C2H4O_H1_conf24_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C2H4O_H1.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/products/Final_products_C2H4O_H1.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/BHandHLYP/CC=O/reactants/Final_reactants_C2H4O.pkl

@@ -1,0 +1,10 @@
+C-H: 1.1669899855761403   H-O: 1.4161242155831526    C-O: 2.558157142551255   CHO_angle: 163.98284280226912
+Error when generating input molecules. Could not create list from given input
+Traceback (most recent call last):
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1972, in <module>
+    main()
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1954, in main
+    k, kappa = rate_constant(global_molecules, final_reactants, final_products)
+  File "/home/danayo/JKCS2.1/TOOLS/MANIPULATE/../../JKTS//DATS.py", line 1526, in rate_constant
+    lowest_product = min(product_molecules, key=lambda molecule: molecule.zero_point_corrected)
+TypeError: '<' not supported between instances of 'NoneType' and 'NoneType'

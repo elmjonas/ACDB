@@ -1,0 +1,6 @@
+COMMAND: JKTS -smiles CCC=O -OH -time 48:00:00 -method BHandHLYP -initial_delay 500
+COMMAND: JKTS -smiles CCC=O -OH -method BHandHLYP -time 72:00:00 -transition_states false
+COMMAND: JKTS -smiles CCC=O -OH -method BHandHLYP -time 72:00:00 -TS false -reactants false
+JKTS Final_*
+JKTS Final_* -loc
+File type  is not supported

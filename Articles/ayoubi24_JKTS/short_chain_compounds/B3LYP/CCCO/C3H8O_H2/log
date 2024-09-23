@@ -1,0 +1,352 @@
+Job to be performed: opt_constrain
+Submitting file C3H8O_H2.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2 with job id 12878714
+Waiting 877 seconds before first check
+Job opt_constrain for C3H8O_H2 with job id 12878714 is running.
+Log files of the 1 conformers have been checked. Checking every 438 seconds. Attempt: 1/100
+***C3H8O_H2 converged***
+
+*********************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain. ******
+*********************************************************************************
+
+Job to be performed: TS_opt
+Submitting file C3H8O_H2_TS.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2 with job id 12878800
+Waiting 1170 seconds before first check
+Job TS_opt for C3H8O_H2_TS with job id 12878800 is running.
+Log files of the 1 conformers have been checked. Checking every 585 seconds. Attempt: 1/100
+
+***************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_TS with imaginary frequency: -816.9382 ******
+***************************************************************************************************************
+
+
+**************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt. ******
+**************************************************************************
+
+Job to be performed: crest_sampling
+Submitting file C3H8O_H2_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2 with job id 12879123
+Waiting 246 seconds before first check
+Not all files found. Retrying every 123 seconds.
+
+**************************************************
+****** 51 conformers generated for C3H8O_H2 ******
+**************************************************
+
+CREST conformers generated. Proceeding with next step: opt_constrain_conf
+Job to be performed: opt_constrain_conf
+Filtering molecules using ArbAlign algorithm
+Filtered 51 conformers to 42 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12879382 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Waiting 1463 seconds before first check
+***C3H8O_H2_conf1 converged***
+***C3H8O_H2_conf2 converged***
+***C3H8O_H2_conf3 converged***
+***C3H8O_H2_conf4 converged***
+***C3H8O_H2_conf5 converged***
+***C3H8O_H2_conf6 converged***
+***C3H8O_H2_conf7 converged***
+***C3H8O_H2_conf8 converged***
+***C3H8O_H2_conf9 converged***
+***C3H8O_H2_conf10 converged***
+***C3H8O_H2_conf11 converged***
+***C3H8O_H2_conf12 converged***
+***C3H8O_H2_conf13 converged***
+***C3H8O_H2_conf14 converged***
+***C3H8O_H2_conf15 converged***
+***C3H8O_H2_conf16 converged***
+***C3H8O_H2_conf17 converged***
+***C3H8O_H2_conf18 converged***
+***C3H8O_H2_conf19 converged***
+***C3H8O_H2_conf20 converged***
+***C3H8O_H2_conf22 converged***
+***C3H8O_H2_conf24 converged***
+***C3H8O_H2_conf25 converged***
+***C3H8O_H2_conf26 converged***
+***C3H8O_H2_conf27 converged***
+***C3H8O_H2_conf29 converged***
+***C3H8O_H2_conf30 converged***
+***C3H8O_H2_conf31 converged***
+***C3H8O_H2_conf33 converged***
+***C3H8O_H2_conf34 converged***
+***C3H8O_H2_conf35 converged***
+***C3H8O_H2_conf36 converged***
+***C3H8O_H2_conf37 converged***
+***C3H8O_H2_conf38 converged***
+***C3H8O_H2_conf39 converged***
+***C3H8O_H2_conf40 converged***
+***C3H8O_H2_conf42 converged***
+***C3H8O_H2_conf44 converged***
+***C3H8O_H2_conf45 converged***
+***C3H8O_H2_conf46 converged***
+***C3H8O_H2_conf49 converged***
+***C3H8O_H2_conf51 converged***
+
+**************************************************************************************
+****** Yay! All conformer jobs have converged for job type: opt_constrain_conf. ******
+**************************************************************************************
+
+Job to be performed: TS_opt_conf
+Submitted SLURM array job with job id 12880000 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Waiting 1463 seconds before first check
+Job TS_opt_conf for C3H8O_H2_conf1_TS with job id 12880000_1 is running.
+Job TS_opt_conf for C3H8O_H2_conf2_TS with job id 12880000_2 is running.
+Job TS_opt_conf for C3H8O_H2_conf3_TS with job id 12880000_3 is running.
+Job TS_opt_conf for C3H8O_H2_conf4_TS with job id 12880000_4 is running.
+Job TS_opt_conf for C3H8O_H2_conf5_TS with job id 12880000_5 is running.
+Job TS_opt_conf for C3H8O_H2_conf6_TS with job id 12880000_6 is running.
+Job TS_opt_conf for C3H8O_H2_conf7_TS with job id 12880000_7 is running.
+Job TS_opt_conf for C3H8O_H2_conf8_TS with job id 12880000_8 is running.
+Job TS_opt_conf for C3H8O_H2_conf9_TS with job id 12880000_9 is running.
+Job TS_opt_conf for C3H8O_H2_conf10_TS with job id 12880000_10 is running.
+Job TS_opt_conf for C3H8O_H2_conf11_TS with job id 12880000_11 is running.
+Job TS_opt_conf for C3H8O_H2_conf12_TS with job id 12880000_12 is running.
+Job TS_opt_conf for C3H8O_H2_conf13_TS with job id 12880000_13 is running.
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf14_TS with imaginary frequency: -816.9345 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf15_TS with imaginary frequency: -816.9291 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf16_TS with imaginary frequency: -816.9483 ******
+**********************************************************************************************************************
+
+Job TS_opt_conf for C3H8O_H2_conf17_TS with job id 12880000_17 is running.
+Job TS_opt_conf for C3H8O_H2_conf18_TS with job id 12880000_18 is running.
+Job TS_opt_conf for C3H8O_H2_conf19_TS with job id 12880000_19 is running.
+Job TS_opt_conf for C3H8O_H2_conf20_TS with job id 12880000_20 is running.
+Job TS_opt_conf for C3H8O_H2_conf22_TS with job id 12880000_21 is running.
+Job TS_opt_conf for C3H8O_H2_conf24_TS with job id 12880000_22 is running.
+Job TS_opt_conf for C3H8O_H2_conf25_TS with job id 12880000_23 is running.
+Job TS_opt_conf for C3H8O_H2_conf26_TS with job id 12880000_24 is running.
+Job TS_opt_conf for C3H8O_H2_conf27_TS with job id 12880000_25 is running.
+Job TS_opt_conf for C3H8O_H2_conf29_TS with job id 12880000_26 is running.
+Job TS_opt_conf for C3H8O_H2_conf30_TS with job id 12880000_27 is running.
+Job TS_opt_conf for C3H8O_H2_conf31_TS with job id 12880000_28 is running.
+Job TS_opt_conf for C3H8O_H2_conf33_TS with job id 12880000_29 is running.
+Job TS_opt_conf for C3H8O_H2_conf34_TS with job id 12880000_30 is running.
+Job TS_opt_conf for C3H8O_H2_conf35_TS with job id 12880000_31 is running.
+Job TS_opt_conf for C3H8O_H2_conf36_TS with job id 12880000_32 is running.
+Job TS_opt_conf for C3H8O_H2_conf37_TS with job id 12880000_33 is running.
+Job TS_opt_conf for C3H8O_H2_conf38_TS with job id 12880000_34 is running.
+Job TS_opt_conf for C3H8O_H2_conf39_TS with job id 12880000_35 is running.
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf40_TS with imaginary frequency: -787.1184 ******
+**********************************************************************************************************************
+
+Job TS_opt_conf for C3H8O_H2_conf42_TS with job id 12880000_37 is running.
+Job TS_opt_conf for C3H8O_H2_conf44_TS with job id 12880000_38 is running.
+Job TS_opt_conf for C3H8O_H2_conf45_TS with job id 12880000_39 is running.
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf46_TS with imaginary frequency: -787.1296 ******
+**********************************************************************************************************************
+
+Job TS_opt_conf for C3H8O_H2_conf49_TS with job id 12880000_41 is running.
+Job TS_opt_conf for C3H8O_H2_conf51_TS with job id 12880000_42 is running.
+Log files of the 42 conformers have been checked. Checking every 731 seconds. Attempt: 1/100
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf24_TS with imaginary frequency: -791.7824 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf26_TS with imaginary frequency: -182.9408 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf27_TS with imaginary frequency: -791.7538 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf30_TS with imaginary frequency: -203.2507 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf34_TS with imaginary frequency: -791.7709 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf35_TS with imaginary frequency: -240.9224 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf37_TS with imaginary frequency: -240.9293 ******
+**********************************************************************************************************************
+
+Error termination found in C3H8O_H2_conf3_TS. Trying to resubmit
+submitted file C3H8O_H2_conf3_TS.com with job type: TS_opt_conf and job id 12880485 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf4_TS. Trying to resubmit
+submitted file C3H8O_H2_conf4_TS.com with job type: TS_opt_conf and job id 12880486 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf17_TS. Trying to resubmit
+submitted file C3H8O_H2_conf17_TS.com with job type: TS_opt_conf and job id 12880488 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf18_TS. Trying to resubmit
+submitted file C3H8O_H2_conf18_TS.com with job type: TS_opt_conf and job id 12880489 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf19_TS with imaginary frequency: -171.6347 ******
+**********************************************************************************************************************
+
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf31_TS with imaginary frequency: -203.2558 ******
+**********************************************************************************************************************
+
+Error termination found in C3H8O_H2_conf38_TS. Trying to resubmit
+submitted file C3H8O_H2_conf38_TS.com with job type: TS_opt_conf and job id 12880491 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf39_TS. Trying to resubmit
+submitted file C3H8O_H2_conf39_TS.com with job type: TS_opt_conf and job id 12880492 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+
+**********************************************************************************************************************
+****** Yay! Normal mode analysis indicate correct TS for C3H8O_H2_conf42_TS with imaginary frequency: -233.2151 ******
+**********************************************************************************************************************
+
+Error termination found in C3H8O_H2_conf44_TS. Trying to resubmit
+submitted file C3H8O_H2_conf44_TS.com with job type: TS_opt_conf and job id 12880494 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf45_TS. Trying to resubmit
+submitted file C3H8O_H2_conf45_TS.com with job type: TS_opt_conf and job id 12880497 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf51_TS. Trying to resubmit
+submitted file C3H8O_H2_conf51_TS.com with job type: TS_opt_conf and job id 12880500 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf6_TS. Trying to resubmit
+submitted file C3H8O_H2_conf6_TS.com with job type: TS_opt_conf and job id 12880533 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf7_TS. Trying to resubmit
+submitted file C3H8O_H2_conf7_TS.com with job type: TS_opt_conf and job id 12880536 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf8_TS. Trying to resubmit
+submitted file C3H8O_H2_conf8_TS.com with job type: TS_opt_conf and job id 12880537 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf9_TS. Trying to resubmit
+submitted file C3H8O_H2_conf9_TS.com with job type: TS_opt_conf and job id 12880539 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf10_TS. Trying to resubmit
+submitted file C3H8O_H2_conf10_TS.com with job type: TS_opt_conf and job id 12880541 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf11_TS. Trying to resubmit
+submitted file C3H8O_H2_conf11_TS.com with job type: TS_opt_conf and job id 12880542 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf12_TS. Trying to resubmit
+submitted file C3H8O_H2_conf12_TS.com with job type: TS_opt_conf and job id 12880543 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf13_TS. Trying to resubmit
+submitted file C3H8O_H2_conf13_TS.com with job type: TS_opt_conf and job id 12880544 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Job TS_opt_conf for C3H8O_H2_conf17_TS with job id 12880488 is running.
+Job TS_opt_conf for C3H8O_H2_conf18_TS with job id 12880489 is running.
+Error termination found in C3H8O_H2_conf22_TS. Trying to resubmit
+submitted file C3H8O_H2_conf22_TS.com with job type: TS_opt_conf and job id 12880545 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Convergence error 'l9999' termination found in C3H8O_H2_conf25_TS
+Trying to resubmit job for C3H8O_H2_conf25_TS due to error termination
+submitted file C3H8O_H2_conf25_TS.com with job type: TS_opt_conf and job id 12880547 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Convergence error 'l9999' termination found in C3H8O_H2_conf29_TS
+Trying to resubmit job for C3H8O_H2_conf29_TS due to error termination
+submitted file C3H8O_H2_conf29_TS.com with job type: TS_opt_conf and job id 12880549 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf33_TS. Trying to resubmit
+submitted file C3H8O_H2_conf33_TS.com with job type: TS_opt_conf and job id 12880552 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Error termination found in C3H8O_H2_conf36_TS. Trying to resubmit
+submitted file C3H8O_H2_conf36_TS.com with job type: TS_opt_conf and job id 12880554 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Job TS_opt_conf for C3H8O_H2_conf44_TS with job id 12880494 is running.
+Job TS_opt_conf for C3H8O_H2_conf45_TS with job id 12880497 is running.
+Error termination found in C3H8O_H2_conf49_TS. Trying to resubmit
+submitted file C3H8O_H2_conf49_TS.com with job type: TS_opt_conf and job id 12880557 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+!!! Dropping molecule conformer C3H8O_H2_conf3_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf4_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf38_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf39_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf44_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf45_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf51_TS due to repeated error terminations!!!
+Error termination found in C3H8O_H2_conf1_TS. Trying to resubmit
+submitted file C3H8O_H2_conf1_TS.com with job type: TS_opt_conf and job id 12880615 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Convergence error 'l9999' termination found in C3H8O_H2_conf2_TS
+Trying to resubmit job for C3H8O_H2_conf2_TS due to error termination
+submitted file C3H8O_H2_conf2_TS.com with job type: TS_opt_conf and job id 12880616 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Convergence error 'l9999' termination found in C3H8O_H2_conf5_TS
+Trying to resubmit job for C3H8O_H2_conf5_TS due to error termination
+submitted file C3H8O_H2_conf5_TS.com with job type: TS_opt_conf and job id 12880617 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Convergence error 'l9999' termination found in C3H8O_H2_conf20_TS
+Trying to resubmit job for C3H8O_H2_conf20_TS due to error termination
+submitted file C3H8O_H2_conf20_TS.com with job type: TS_opt_conf and job id 12880618 in directory /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Job TS_opt_conf for C3H8O_H2_conf22_TS with job id 12880545 is running.
+Job TS_opt_conf for C3H8O_H2_conf25_TS with job id 12880547 is running.
+Job TS_opt_conf for C3H8O_H2_conf29_TS with job id 12880549 is running.
+!!! Dropping molecule conformer C3H8O_H2_conf6_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf7_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf8_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf9_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf10_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf11_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf12_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf13_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf33_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf36_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf49_TS due to repeated error terminations!!!
+Job TS_opt_conf for C3H8O_H2_conf2_TS with job id 12880616 is running.
+!!! Dropping molecule conformer C3H8O_H2_conf1_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf5_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf17_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf18_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf20_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf22_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf29_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf2_TS due to repeated error terminations!!!
+!!! Dropping molecule conformer C3H8O_H2_conf25_TS due to repeated error terminations!!!
+
+*******************************************************************************
+****** Yay! All conformer jobs have converged for job type: TS_opt_conf. ******
+*******************************************************************************
+
+Job to be performed: DLPNO
+Filtering molecules using ArbAlign algorithm
+Filtered 15 conformers to 8 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitted SLURM array job with job id 12880909 for conformers in /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2
+Waiting 965 seconds before first check
+Job DLPNO for C3H8O_H2_conf15_DLPNO with job id 12880909_1 is running.
+Job DLPNO for C3H8O_H2_conf19_DLPNO with job id 12880909_2 is running.
+Job DLPNO for C3H8O_H2_conf34_DLPNO with job id 12880909_3 is running.
+Job DLPNO for C3H8O_H2_conf26_DLPNO with job id 12880909_4 is running.
+Job DLPNO for C3H8O_H2_conf31_DLPNO with job id 12880909_5 is running.
+Job DLPNO for C3H8O_H2_conf37_DLPNO with job id 12880909_6 is running.
+Job DLPNO for C3H8O_H2_conf46_DLPNO with job id 12880909_7 is running.
+Job DLPNO for C3H8O_H2_conf42_DLPNO with job id 12880909_8 is running.
+Log files of the 8 conformers have been checked. Checking every 482 seconds. Attempt: 1/100
+***C3H8O_H2_conf15_DLPNO converged***
+***C3H8O_H2_conf19_DLPNO converged***
+***C3H8O_H2_conf34_DLPNO converged***
+***C3H8O_H2_conf26_DLPNO converged***
+***C3H8O_H2_conf31_DLPNO converged***
+***C3H8O_H2_conf37_DLPNO converged***
+***C3H8O_H2_conf46_DLPNO converged***
+***C3H8O_H2_conf42_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products/Final_products_C3H8O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/reactants/Final_reactants_C3H8O.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/products/Final_products_C3H8O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/reactants/Final_reactants_C3H8O.pkl
+Could not find pickle files in path: C3H8O_H2 and /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/C3H8O_H2/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products/Final_products_C3H8O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products/Final_products_C3H8O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products/Final_products_C3H8O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products/Final_products_C3H8O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products/Final_products_C3H8O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products/Final_products_C3H8O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products/Final_products_C3H8O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products/Final_products_C3H8O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/reactants/Final_reactants_C3H8O.pkl
+Final DLPNO calculations for transition state molecules is done. Logging properties to Final_TS_C3H8O_H2.pkl
+/home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/products/Final_products_C3H8O_H2.pkl, /home/danayo/JKCS2.1/JKTS/database/small_systems/B3LYP/CCCO/reactants/Final_reactants_C3H8O.pkl

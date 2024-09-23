@@ -1,0 +1,51 @@
+Job to be performed: crest_sampling
+Submitting file CH4_product_H1_CREST.xyz for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C/products with job id 12747495
+Waiting 500 seconds before first check
+
+*******************************************************
+****** 1 conformers generated for CH4_product_H1 ******
+*******************************************************
+
+CREST conformers generated. Proceeding with next step: optimization
+Job to be performed: optimization
+Submitting file CH4_product_H1_conf1.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C/products with job id 12748070
+Waiting 500 seconds before first check
+***CH4_product_H1_conf1 converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Filtering product molecules for H1 using ArbAlign alogrithm
+Filtered 1 conformers to 1 conformers using RMSD threshold: 0.34, Energy difference threshold: 0.0001 Hartree, and Dipole moment difference threshold: 0.1 Debye
+Submitting file CH4_product_H1_conf1_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C/products with job id 12748979
+Waiting 500 seconds before first check
+Job 12748979 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***CH4_product_H1_conf1_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Submitting file H2O.com for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C/products with job id 12767327
+Waiting 500 seconds before first check
+***H2O converged***
+
+********************************************************************************
+****** Yay! All conformer jobs have converged for job type: optimization. ******
+********************************************************************************
+
+Job to be performed: DLPNO
+Submitting file H2O_DLPNO.inp for calculation in path /home/danayo/JKCS2.1/JKTS/database/small_systems/M062X/C/products with job id 12769269
+Waiting 500 seconds before first check
+Job 12769269 is pending in the queue.
+All the submitted jobs are pending. Sleeping for now.
+***H2O_DLPNO converged***
+
+*************************************************************************
+****** Yay! All conformer jobs have converged for job type: DLPNO. ******
+*************************************************************************
+
+Final DLPNO calculations for products are done. Logging properties to Final_products_CH4_H1.pkl
