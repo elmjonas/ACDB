@@ -1,6 +1,9 @@
 This is supplementary material for the work of Ayoubi et el. 2024.
 All the data store are rather side product, eventually useful for future ML techniques, which was produced in during the construction and test excecution of the JKTS part, Jammy Key for Transition States, within the JK framework. 
 
+Within this paper the OH radical substracting hydrogen from organics was studied using full automated code, e.g.:
+ JKTS CH4.xyz -OH ....
+
 Several systems were studied:
  C  CC  CCC  CCCO  CCC=O  CCO  CC=O  CO  C=O  CC(=O)C1CC(CC=O)C1(C)C
  -the last one is pinonaldehyde
