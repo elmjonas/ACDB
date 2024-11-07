@@ -1,5 +1,5 @@
 Supporting data for the work:
-"Modeling Local Aerosol Surface Environments: Clustering of Organic Acids, Water, and Ions".
+"Modeling Local Aerosol Surface Environments: Clustering of Pyruvic Acid Analogs, Water, and Na+, Cl- Ions".
 
 The systems for which the data was obtained follows the notation:
 w = water
