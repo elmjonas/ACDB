@@ -1,11 +1,20 @@
 # LOG #
-          program                        method
-0      ORCA_5.0.4  !_anfreq_b97-3c_opt_tightscf
-553    ORCA_5.0.0  !_anfreq_b97-3c_opt_tightscf
-1314   ORCA_5.0.0                     ! B97-3c 
-1318   ORCA_4.2.1                     ! B97-3c 
-1386   ORCA_5.0.3                     ! B97-3c 
-2011   ORCA_5.0.0                           NaN
-9857   ORCA_5.0.3                      !_b97-3c
-16575  ORCA_4.2.1                      !_b97-3c
+          program                            method
+0      ORCA_5.0.4                   !_B97-3c_ENGRAD
+2226   ORCA_5.0.4      !_B97-3c_opt_TightSCF_Anfreq
+3886   ORCA_5.0.4  !_B97-3c_opt_VeryTightSCF_Anfreq
+4174   ORCA_5.0.4          !_B97-3c_TightSCF_Anfreq
+15953  ORCA_5.0.4      !_anfreq_b97-3c_opt_tightscf
+17355  ORCA_5.0.3                   !_B97-3c_ENGRAD
+26401  ORCA_5.0.4      !_b97-3c_opt_TightSCF_Anfreq
+26409  ORCA_4.2.1                          !_b97-3c
+26410  ORCA_5.0.3                          !_b97-3c
+34882  ORCA_4.2.1                         ! B97-3c 
+34982  ORCA_5.0.0                         ! B97-3c 
+39135  ORCA_5.0.3                         ! B97-3c 
+44949  ORCA_5.0.4          !_b97-3c_TightSCF_Anfreq
+45323  ORCA_5.0.4          !_B97-3c_TightSCF_AnFreq
+49875  ORCA_5.0.0      !_anfreq_b97-3c_opt_tightscf
+55857  ORCA_5.0.0                               NaN
+59177  ORCA_5.0.4  !_b97-3c_opt_VeryTightSCF_Anfreq
 #######
