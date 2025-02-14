@@ -8,10 +8,27 @@ Please cite:
   - and the associated original literature if any of the structures or thermochemical properties from the database are used in your published research.
 
 README content:
+ - How to download only specific subfolder!
  - Subfolders (i.e. methods that were used to obtain the clusters)
  - Type of files (i.e. what is saved in each file)
- - How to download only specific subfolder!
  - Using the pickles files (i.e. how to utilize JKQC or manipulate with databases)
+
+## DOWNLOADING FROM ACDB
+
+It does not make sense for you to download whole ACDB. If you can use the printed properties, then just copy those values.
+
+If you want to download e.g. pickle (pkl), GitHub does allow to use svn (svn checkout) anymore. 
+But you can still use wget. For instance, find the pickle file you want, click on it, and with right click on theRaw button copoy the link to the address. You can then:
+
+  wget https://github.com/elmjonas/ACDB/raw/refs/heads/master/Articles/besel19_sa_am_chrg/database1DFT.pkl 
+
+Another option is to just download the pickle file to your computer with by clicking on the Download raw file button.
+
+## USING THE PICKLED FILES
+
+In order to use any database, you can:
+* use JKQC (see https://jkcs.readthedocs.io/en/latest/) or see below
+* use your own python script (see below)
 
 ## Subfolders
 
@@ -119,19 +136,6 @@ TO BE DONE
   - located only in the most outside folder
   - binding_properties3DFT.txt and binding_properties1DLPNO.txt
     - 1 lowest (DFT or DLPNO//DFT) Gibbs free energies of formation from database3DFT.pkl and database1DLPNO.pkl, respectively
-
-## DOWNLOADING FROM ACDB
-
-If you are interested in e.g. this folder: https://github.com/elmjonas/ACDB/master/tree/database_v2/Articles/kubecka19_sa_gd
-then you must replace *master/tree* with *trunk* and use svn to downlaod the folder:
-
-  svn checkout https://github.com/elmjonas/ACDB/trunk/database_v2/Articles/kubecka19_sa_gd
-
-## USING THE PICKLED FILES
-
-In order to use any database, you can:
-* use JKQC (see https://jkcs.readthedocs.io/en/latest/) or see below
-* use your own python script (see below)
 
 ### USING JKQC
 
