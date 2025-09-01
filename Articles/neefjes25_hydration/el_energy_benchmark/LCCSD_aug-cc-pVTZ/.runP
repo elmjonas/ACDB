@@ -1,0 +1,1 @@
+sbatch  -J 'NEQ' -p qany --time 24:00:00 -N 1 --mem-per-cpu 4000mb --cpus-per-task 1 --ntasks-per-node=1 -n 1 /home/kubeckaj/Applications/JKCS2.1/JKCSx/../TOOLS/SCRIPTS/JKsend 'tail -n 1 commands_TODO.txt | head -n 1 | sh'

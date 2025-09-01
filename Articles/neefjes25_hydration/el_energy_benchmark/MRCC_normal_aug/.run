@@ -1,0 +1,1 @@
+sbatch --array=1-458 -J 'NEQ' -p q64,q48,q28 --time 4-00:00:00 -N 1 --mem-per-cpu 8GB --cpus-per-task 1 --ntasks-per-node=8 -n 8 JKsend 'head -n 458 commands_TODO.txt | tail -n ${SLURM_ARRAY_TASK_ID} | head -n 1 | sh'
