@@ -1,0 +1,91 @@
+#!/bin/bash
+
+# --- Controls ---
+v_min=50
+v_max=800
+v_step=50
+
+b_min=0.0
+b_step=1.0
+
+distance=30
+
+indexrange1=10000
+indexrange2=10000
+dump_interval=100
+repeat_count=100
+jpt_base=100         # keep original here
+partition="qany"
+cpu=1
+mem="1GB"
+
+# --- b_max mapping ---
+get_bmax() {
+    local v=$1
+    if   (( v >= 50  && v <= 100 )); then echo 20
+    elif (( v >= 150 && v <= 200 )); then echo 16
+    elif (( v >= 250 && v <= 300 )); then echo 14
+    elif (( v >= 350 && v <= 400 )); then echo 12
+    elif (( v >= 450 && v <= 600 )); then echo 11
+    elif (( v >= 650 && v <= 800 )); then echo 10
+    else echo 12
+    fi
+}
+
+# --- Baseline ---
+baseline_hours=240
+baseline_steps=$(awk -v dist="$distance" 'BEGIN { printf "%.6f", (dist+20)*1e5/50 }')
+
+max_minutes=$((240 * 60))  # 48 hours
+
+for (( v=v_min; v<=v_max; v+=v_step )); do
+    b_max=$(get_bmax "$v")
+
+    # num_steps = ceil( (distance + b_max) * 1e5 / v )
+    num_steps=$(awk -v dist="$distance" -v bmax="$b_max" -v vel="$v" \
+        'BEGIN { val = (dist+bmax)*1e5/vel; printf "%d", (val == int(val) ? val : int(val)+1) }')
+
+    # scale factor for stime
+    scale=$(awk -v dist="$distance" -v bmax="$b_max" -v vel="$v" -v base="$baseline_steps" \
+        'BEGIN { val = ((dist+bmax)*1e5/vel) / base; printf "%.6f", val }')
+
+    # stime in hours, round up to next whole minute
+    total_minutes=$(awk -v baseh="$baseline_hours" -v sc="$scale" \
+        'BEGIN { m = baseh*60*sc; print int(m + 0.9999) }')
+
+    # start with base jpt
+    jpt=$jpt_base
+
+    # if more than 48h, shrink jpt and clamp time
+    if (( total_minutes > max_minutes )); then
+        # factor = ceil(total_minutes / max_minutes)
+        factor=$(( (total_minutes + max_minutes - 1) / max_minutes ))
+        # new jpt = ceil(jpt_base / factor), at least 1
+        jpt=$(( (jpt_base + factor - 1) / factor ))
+        if (( jpt < 1 )); then
+            jpt=1
+        fi
+        total_minutes=$max_minutes
+    fi
+
+    hours=$(( total_minutes / 60 ))
+    minutes=$(( total_minutes % 60 ))
+    stime=$(printf "%d:%02d:00" "$hours" "$minutes")
+
+    velocity_half_afs=$(awk -v vel="$v" 'BEGIN { printf "%.5f", (vel * 1e-5) / 2 }')
+
+    nf_param="v_${v}"
+    move1="[-$((distance/2)),0,$b_min--$b_step--$b_max]"
+    move2="[$((distance/2)),0,0]"
+    vel1="[$velocity_half_afs,0,0]"
+    vel2="[-$velocity_half_afs,0,0]"
+
+    echo "Submitting job: v=$v, b_max=$b_max, num_steps=$num_steps, stime=$stime, jpt=$jpt"
+
+    JKMD -indexrange $indexrange1 1sa_eq.pkl -moveto $move1 -setvel 0 -vel $vel1 \
+         -indexrange $indexrange2 1sa_eq.pkl -moveto $move2 -setvel 0 -vel $vel2 \
+         -vv -ns $num_steps -dump $dump_interval -distout -repeat $repeat_count \
+         -aimnet model.pkl -dt 1 -char 0 \
+         -jpt $jpt -nf $nf_param -par $partition -time $stime -cpu $cpu -mem $mem
+done
+

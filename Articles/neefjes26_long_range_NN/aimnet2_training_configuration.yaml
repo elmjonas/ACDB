@@ -1,0 +1,130 @@
+checkpoint:
+  dirname: checkpoints
+  filename_prefix: 1sa_1sa_WB97X3C1
+  kwargs:
+    n_saved: 1
+    require_empty: false
+data:
+  datasets:
+    train:
+      class: aimnet.data.SizeGroupedDataset
+      kwargs: {}
+    val:
+      class: aimnet.data.SizeGroupedDataset
+      kwargs: {}
+  ddp_load_full_dataset: false
+  loaders:
+    train:
+      num_workers: 0
+      pin_memory: true
+    val:
+      num_workers: 0
+      pin_memory: true
+  sae:
+    energy:
+      file: 1sa_1sa_20K_WB97X3C_training_sae.yaml
+      mode: linreg
+  samplers:
+    train:
+      class: aimnet.data.SizeGroupedSampler
+      kwargs:
+        batch_mode: molecules
+        batch_size: 16
+        batches_per_epoch: 4000
+        shuffle: true
+    val:
+      class: aimnet.data.SizeGroupedSampler
+      kwargs:
+        batch_mode: molecules
+        batch_size: 16
+        batches_per_epoch: -1
+        shuffle: false
+  separate_val: true
+  train: 1sa_1sa_20K_WB97X3C_training.h5
+  val:
+  val_fraction: 0.1
+  x:
+  - coord
+  - numbers
+  - charge
+  y:
+  - energy
+  - forces
+  - charges
+loss:
+  class: aimnet.train.loss.MTLoss
+  kwargs:
+    components:
+      charges:
+        fn: aimnet.train.loss.peratom_loss_fn
+        kwargs:
+          key_pred: charges
+          key_true: charges
+        weight: 0.01
+      energy:
+        fn: aimnet.train.loss.energy_loss_fn
+        weight: 0.1
+      forces:
+        fn: aimnet.train.loss.peratom_loss_fn
+        kwargs:
+          key_pred: forces
+          key_true: forces
+        weight: 1.0
+metrics:
+  class: aimnet.train.metrics.RegMultiMetric
+  kwargs:
+    cfg:
+      charges:
+        abbr: q
+        peratom: true
+      dipole:
+        abbr: D
+        mult: 3
+        scale: 1.0
+      energy:
+        abbr: E
+        scale: 23.06
+      forces:
+        abbr: F
+        mult: 3
+        peratom: true
+        scale: 23.06
+      quadrupole:
+        abbr: Q
+        mult: 6
+        scale: 1.0
+      volumes:
+        abbr: V
+        peratom: true
+optimizer:
+  class: torch.optim.RAdam
+  force_no_train: []
+  force_train: []
+  kwargs:
+    lr: 0.0004
+    weight_decay: 1.0e-08
+  param_groups:
+    shifts:
+      re: .*.atomic_shift.shifts.weight$
+      weight_decay: 0.0
+run_name: grid_search
+scheduler:
+  class: ignite.handlers.param_scheduler.ReduceLROnPlateauScheduler
+  kwargs:
+    factor: 0.75
+    metric_name: loss
+    patience: 12
+  terminate_on_low_lr: 1.0e-06
+trainer:
+  epochs: 1000
+  evaluator: aimnet.train.utils.default_evaluator
+  trainer: aimnet.train.utils.default_trainer
+wandb:
+  init:
+    mode: offline
+    entity: ivo-neefjes
+    project: aimnet2_project
+  watch_model:
+    log: all
+    log_freq: 1000
+    log_graph: true
