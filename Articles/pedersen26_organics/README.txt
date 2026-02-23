@@ -4,3 +4,6 @@ properties_1lowestG.txt <-- Contains the free energy, enthalpy and entropy for t
 bindingproperties_1lowestG.txt <--- Contains the binding values (in kcal/mol) of the free energy, enthalpy and entropy for the global free energy minimum. All values are quasi-harmonic with a threshold of 100 cm^-1.
 database_1lowestG.pkl <-- The data of the global free energy minimum stored in the JKQC pickled format.
 The inorganic monomer data can be found in the main database.
+
+
+NOTE: we are curretly having some problems uploading the output files, these will come later.
